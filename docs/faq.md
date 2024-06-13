@@ -97,7 +97,7 @@ The <a href="https://expand.iu.edu/browse/sice/cns/courses/hubmap-visible-human-
 
 <details><summary><b>How can I start using the portal?</b> </summary>
 
-<p>Here's a link to the <a href="https://portal.hubmapconsortium.org/">HuBMAP Data Portal</a>. HuBMAP Data Portal (and related) documentation can be found on the <a href="https://software.docs.hubmapconsortium.org/technical">HuBMAP Documentation</a> page and also the <a href="https://software.docs.hubmapconsortium.org/faq">HuBMAP FAQ</a> - <em>this</em> page.</p>
+<p>Here's a link to the <a href="https://portal.hubmapconsortium.org/">HuBMAP Data Portal</a>. HuBMAP Data Portal (and related) documentation can be found on the <a href="https://docs.hubmapconsortium.org/technical">HuBMAP Documentation</a> page and also the <a href="https://docs.hubmapconsortium.org/faq">HuBMAP FAQ</a> - <em>this</em> page.</p>
  
 </details>
 
@@ -258,7 +258,7 @@ Access to data on <a href="https://portal.hubmapconsortium.org/">HuBMAP's Data P
 
 <ul>
    <li>HuBMAP accepts donor, sample (block, section, or suspension), and assay metadata.</li>
-   <li>See this HuBMAP <a href="https://software.docs.hubmapconsortium.org/metadata">metadata resource</a> for more information.</li>
+   <li>See this HuBMAP <a href="https://docs.hubmapconsortium.org/metadata">metadata resource</a> for more information.</li>
    <li>In future releases, metadata will be linked to various ontologies to make integration more efficient.</li>
 </ul>
 
@@ -372,7 +372,7 @@ The HuBMAP-produced <a href="https://humanatlas.io/">HRA</a> provides a comprehe
     <li><b>HRA via SPARQL:</b> The HRA is published as an RDF knowledge graph and may be queried using a multitude of available libraries. It is published at biomedical ontology websites including OLS and BioPortal.</li>
 </ul>
 
-For more information about HuBMAP and HRA  APIs see this <a href="https://software.docs.hubmapconsortium.org/apis">HuBMAP APIs resource</a>.
+For more information about HuBMAP and HRA  APIs see this <a href="https://docs.hubmapconsortium.org/apis">HuBMAP APIs resource</a>.
 <p> </p>
     
 </details>
