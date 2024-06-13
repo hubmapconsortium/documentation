@@ -1,7 +1,7 @@
 {
   "name": "hubmapdocs",
   "version": "0.1.0",
-  "homepage": "https://software.docs.hubmapconsortium.org/",
+  "homepage": "https://docs.hubmapconsortium.org/",
   "private": true,
   "devDependencies": {
     "@babel/cli": "^7.19.3",

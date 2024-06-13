@@ -36,7 +36,7 @@ After uploading the tsv file, the file will be validated to verify that every re
 Donor entities will be registered, followed by sample entities organ and then block. If a value is given for the block_sections field, a corresponding number of section entities will be registered. If validation fails, the user will be given details of the rows that failed so that they can correct the issues and submit again. 
 
 ### Donor metadata submission
-After donors have been registered documents need to be provided to the HIVE so additional "Donor Metadata" can be extracted.  See a description on the [Donor MetadataPage](https://software.docs.hubmapconsortium.org/donor.html).
+After donors have been registered documents need to be provided to the HIVE so additional "Donor Metadata" can be extracted.  See a description on the [Donor MetadataPage](https://docs.hubmapconsortium.org/donor.html).
 
 ### Sample Metadata Submission
 After samples have been registered sample metadata must be provided to the HuBMAP data curators.  Please contact help@hubmapconsortium.org to initiate this process.  See a description on the sample metadata, submitted as .tsv files on the  [Sample Metadata TSV Page](https://hubmapconsortium.github.io/ingest-validation-tools/sample/).

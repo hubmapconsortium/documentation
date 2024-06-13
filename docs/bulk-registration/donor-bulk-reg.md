@@ -18,4 +18,4 @@ On the donor bulk registration page you'll be asked to upload a .tsv file contai
 
 
 ### Donor metadata submission
-After donors have been registered documents need to be provided to the HIVE so additional "Donor Metadata" can be extracted.  See a description on the [Donor MetadataPage](https://software.docs.hubmapconsortium.org/donor.html)
+After donors have been registered documents need to be provided to the HIVE so additional "Donor Metadata" can be extracted.  See a description on the [Donor MetadataPage](https://docs.hubmapconsortium.org/donor.html)

@@ -1,7 +1,7 @@
 /**
  * hubmapdocs - 
  * @version v0.1.0
- * @link https://software.docs.hubmapconsortium.org/
+ * @link https://docs.hubmapconsortium.org/
  * @date Wed May 15 2024 15:17:09 GMT-0400 (Eastern Daylight Time)
  */
 var _this10 = this;
