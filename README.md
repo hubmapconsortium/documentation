@@ -1,8 +1,5 @@
-# This repo has MOVED!
-The repository has been replaced by the new [HuBMAP Documentation Repository](https://github.com/hubmapconsortium/documentation/) please use this repository instead.
-
 # HuBMAP Software Documentation
-This repository contains the documentation hosted via GitHub Pages at https://software.docs.hubmapconsortium.org.
+This repository contains the documentation hosted via GitHub Pages at https://docs.hubmapconsortium.org.
 
 ## Contents
 - `/src/`- Any source code used to generate the hosted documents (not directly published)
