@@ -6,13 +6,10 @@ layout: page
 
 All Globus downloads via the HuBMAP-CLT will be performed relative to the default Globus directory or "Home Folder".
 This may not necessarily be your usual Home directory. On Windows for example, your current Documents directory is 
-usually chosen by Globus as the Home Folder. This can be complicated further with One Drive. For example: if your Globus Home 
+often chosen by Globus as the Home Folder. This can be complicated further with One Drive. For example: if your Globus Home 
 Folder is "User\OneDrive\Documents" and, using the HuBMAP-CLT \[--destination] option, you set your download location to be
 "Desktop", you'll find your downloads have been placed in "User\OneDrive\Documents\Desktop" rather than your actual 
-desktop directory.For this reason it is recommended that you change the Globus Home Folder following the instructions in [Using the HuBMAP CLT](using-hubmap-clt.html).
-
-Whether or not you chose to change the default download directory used by Globus, it is useful to be able to find what
-that directory is. This process will be slightly different if depending on your operating system. 
+desktop directory.For this reason it is recommended that you confirm the location of the Globus Home Folder following the instructions in [Using the HuBMAP CLT](using-hubmap-clt.html). This process will be slightly different if depending on your operating system. 
 
 <details>
 <summary>Windows Tutorial</summary>
@@ -24,7 +21,7 @@ that directory is. This process will be slightly different if depending on your 
 <img src="../images/globusoptions.PNG" alt="GCP Windows Context Menu" width="500"/>
 <div>The options menu should open in the access tab. In this screen, you can  view the folders that are accessible by the GCP. Navigate to the general tab.</div>
 <img src="../images/globususername.PNG" alt="Globus Home Folder" width="500"/>
-<div>From this screen we can see the currently selected Home Folder. It is recommended to set this as your home directory.</div>
+<div>From this screen we can see the Home Folder being used by Globus.</div>
 
 
 </details>
@@ -47,7 +44,11 @@ that directory is. This process will be slightly different if depending on your 
 <summary>Linux Tutorial</summary>
 
 
-<div>Unlike Windows and Mac, Linux does not have a persistent taskbar icon. Typically, the Globus Connect Personal endpoint is launched manually from the command line. It is possible to launch GCP in the background and without a Graphical User Interface, however in this case we want to launch the GUI. Launch the GUI by running the following command in the terminal from whichever directory the GCP was initially installed:</div>
+<div>Unlike Windows and Mac, Linux does not have a persistent taskbar icon. Typically, the Globus Connect Personal endpoint is launched manually from the command line. It is possible to launch GCP in the background and without a Graphical User Interface, however in this case we want to launch the GUI. 
+
+**Note** Because it is possible to use GCP without the graphical interface on linux, it is possible you don't have the necessary depenencies to launch the application with the GUI. Consult the GCP <a href="https://docs.globus.org/globus-connect-personal/install/linux/">installation</a> instructions for more information on installing those dependencies.
+
+Launch the GUI by running the following command in the terminal from whichever directory the GCP was initially installed:</div>
 
 
 <code>$ ./globusconnectpersonal-{version-number}/globusconnectpersonal</code>
@@ -63,7 +64,7 @@ that directory is. This process will be slightly different if depending on your 
 <img src="../images/gcpgui.PNG" alt="GCP GUI" width="500"/>
 <div>From the file drop-down menu, click Preferences.</div>
 <img src="../images/gcppreferencesbutton.PNG" alt="GCP Preferences Button" width="500"/>
-<div>Finally, you should arrive at the Access Path Configuration screen. Displayed inside the text-box will be the current GCP Home Folder. You can also conveniently change the Home Folder by modifying the value in the text-box if you wish.</div>
+<div>Finally, you should arrive at the Access Path Configuration screen. Displayed inside the text-box will be the current GCP Home Folder.</div>
 <img src="../images/gcppreferences.PNG" alt="GCP Preferences" width="500"/>
 
 
