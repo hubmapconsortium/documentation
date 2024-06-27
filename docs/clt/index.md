@@ -13,6 +13,7 @@ usage: hubmap-clt [-h &#124; --help &#124; -v &#124; --version] [transfer manife
 
 Commands: One of the following commands is required:
 
+```
    transfer manifest-file   Transfer files specified in manifest-file (see
                             below for example) using Globus Transfer.
 			                The transfered files will be stored in the
@@ -40,6 +41,7 @@ Commands: One of the following commands is required:
 -v or --version        Displays the version of the currently installed 
                        hubmap-sdk package
 
+```
 
 #### Manifest Files
 
