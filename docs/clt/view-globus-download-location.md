@@ -7,9 +7,9 @@ layout: page
 All Globus downloads via the HuBMAP-CLT will be performed relative to the default Globus directory or "Home Folder".
 This may not necessarily be your usual Home directory. On Windows for example, your current Documents directory is 
 often chosen by Globus as the Home Folder. This can be complicated further with One Drive. For example: if your Globus Home 
-Folder is "User\OneDrive\Documents" and, using the HuBMAP-CLT \[--destination] option, you set your download location to be
+Folder is "User\OneDrive\Documents" and, using the ```HuBMAP-CLT \[--destination]``` option, you set your download location to be
 "Desktop", you'll find your downloads have been placed in "User\OneDrive\Documents\Desktop" rather than your actual 
-desktop directory.For this reason it is recommended that you confirm the location of the Globus Home Folder following the instructions in [Using the HuBMAP CLT](using-hubmap-clt.html). This process will be slightly different if depending on your operating system. 
+desktop directory. For this reason it is recommended that you confirm the location of the Globus Home Folder following the instructions in [Using the HuBMAP CLT](using-hubmap-clt.html). This process will be slightly different if depending on your operating system. 
 
 <details>
 <summary>Windows Tutorial</summary>

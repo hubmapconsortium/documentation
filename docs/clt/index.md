@@ -9,7 +9,8 @@ The HuBMAP Command Line Transfer utility provides the functionality to download 
 This document covers usage of the HuBMAP CLT. Detailed instructions for installing hubmap-clt as well as other first 
 time setup can be found [here](install-hubmap-clt.html). A [tutorial](view-globus-download-location.html) on how to view the current GCP download directory is also available.
 
-usage: hubmap-clt [-h &#124; --help &#124; -v &#124; --version] [transfer manifest-file &#124; login &#124; logout &#124; whoami]
+<pre>   usage: hubmap-clt [-h &#124; --help &#124; -v &#124; --version] [transfer manifest-file &#124;  
+   login &#124; logout &#124; whoami]</pre>
 
 Commands: One of the following commands is required:
 
@@ -29,17 +30,17 @@ Commands: One of the following commands is required:
                             a message will be displayed prompting the user
 			                to log in.
 
--h or --help  Show this help message.
+  -h or --help              Show this help message.
 
--d or --destination	Manually select a download location within the user's
-                        home direcotry. For example:
-                          'hubmap-clt transfer manifest-file -d Desktop'
-            			will download to the user's Desktop directory. The 
-			            directory will be created under the user home directory
-			            if it doesn't already exist.
+  -d or --destination	    Manually select a download location within the 
+                            user's home direcotry. For example:
+                            'hubmap-clt transfer manifest-file -d Desktop'
+            			    will download to the user's Desktop directory. The 
+			                directory will be created under the user home 
+                            directory if it doesn't already exist.
 
--v or --version        Displays the version of the currently installed 
-                       hubmap-sdk package
+  -v or --version           Displays the version of the currently installed 
+                            hubmap-sdk package
 
 ```
 
