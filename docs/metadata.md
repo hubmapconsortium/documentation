@@ -66,6 +66,8 @@ See section 10 of the Guide for details on transferring metadata to the HIVE.
 - [MALDI-IMS (neg and pos modes - Matrix Assisted Laser Desorption Ionization Imaging Mass Spectrometry)](/assays/maldi-ims)
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/maldi/current/)
   - Contact: [Jeffrey Spraggins](mailto:jeff.spraggins@vanderbilt.edu)
+- MERFISH
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/merfish/current/)
 - Molecular Cartography
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/mc/current/)
 - MIBI
