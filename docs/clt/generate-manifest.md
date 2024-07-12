@@ -21,7 +21,7 @@ The following endpoints support generating a manifest file:
 * ```/param-search/<entity_type>```
 
 To geneate a manifest, append the argument `?produce-clt-manifest=true` to the URL. So for ```/search``` for example, using the base SearchAPI URL
-"https://search.api.hubmapconsortium.org", we get "https://search.api.hubmapconsortium.org/search?produce-clt-manifest=true". 
+"https://search.api.hubmapconsortium.org/v3/", we get "https://search.api.hubmapconsortium.org/v3/search?produce-clt-manifest=true". 
 
 #### Limitations
 
@@ -33,7 +33,7 @@ denoted by the "/" in the manifest.
 
 The following is an example of a query,the URL given to generate a manifest, and the manifest to be generated:
 
-https://search.api.org/hubmapconsortium.org/search?produce-clt-manifest=true"
+https://search.api.hubmapconsortium.org/v3/search?produce-clt-manifest=true"
 
 Request body: 
 
@@ -51,7 +51,7 @@ Request body:
       "filter": [
         {
           "match": {
-            "entity_type.keyword": "Sample"
+            "entity_type.keyword": "Dataset"
           }
         }
       ]
