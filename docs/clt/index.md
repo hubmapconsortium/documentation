@@ -56,8 +56,8 @@ HBM378.HDGT.837 /extras         #download the extras directory from dataset HBM3
 ```
 See below for more examples of [manifest files](#manfiles).
 
-Manifest files can be automatically generated from a SearchAPI query by using certain optional arguments. More information on this
-can be foud [here](generate-manifest.md.html)
+In addition to creating manifest files manually as described above, they can be automatically generated from a SearchAPI query by using certain optional arguments. More information on this
+can be found [here](generate-manifest.md.html)
 
 #### Login
 

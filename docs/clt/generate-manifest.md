@@ -37,6 +37,8 @@ https://search.api.hubmapconsortium.org/v3/search?produce-clt-manifest=true"
 
 Request body: 
 
+<a name="query"></a>
+
 ```
 {
   "query": {
@@ -74,11 +76,27 @@ HBM223.JQLM.452 /
 HBM524.KHPH.599 /
 ```
 
+#### Using the Generated Manifest
 
+The generated manifest is returned as plain text. In order to use it with the HuBMAP-CLT, it must be made into a file. 
+For the following example, we'll be using the utility `curl` to interact with the SearchAPI and generate a manifest. For 
+more information on using or installing curl, consult the curl <a href="https://curl.se/">Documentation</a>
 
+Example: 
 
+Using the example query [above](#query), say we wish to generate a manifest containing datasets with ancestor donors containing `group_name` of `Vanderbilt TMC`.
+Our url will be `https://search.api.hubmapconsortium.org/v3/search?produce-clt-manifest=true`. Curl allows us to download our text as a file with any name desired by 
+using the optional flag -O followed by the desired file name. So our complete curl command would look like:
 
+```bash
+curl -X POST "https://search.api.hubmapconsortium.org/v3/search?produce-clt-manifest=true" -H "Authorization: Bearer <token>" -H "Content-Type: application/json" -d '{"query": {"bool": {"must": [{"match_phrase": {"donor.group_name": "Vanderbilt TMC"}}], "filter": [{"match": {"entity_type.keyword": "Dataset"}}]}}}' -o manifest.txt
+```
 
+Where `<token>` is your `Globus Groups` token. This will download a manifest file with the desired name and location which can now be used with the HuBMAP-CLT. 
+Example: 
 
+```bash
+hubmap-clt transfer manifest.txt
+```
 
-
+More information about using the HuBMAP-CLT can be found [here](index.html).
