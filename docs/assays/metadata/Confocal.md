@@ -1,0 +1,29 @@
+# Confocal
+
+## Current Metadata Attributes
+
+| Attribute | Type      | Description              | Allowable Values |
+| ----------- | ----------- | -------------------------- | ------------------ |
+|Parent sample ID | type |Unique HuBMAP or SenNet identifier of the sample (i.e., block, section or suspension) used to perform this assay. For example, for a RNAseq assay, the parent would be the suspension, whereas, for one of the imaging assays, the parent would be the tissue section. If an assay comes from multiple parent samples then this should be a comma separated list. Example: HBM386.ZGKG.235, HBM672.MKPK.442 or SNT232.UBHJ.322, SNT329.ALSK.102 | value |
+|Lab ID | type |An internal field labs can use it to add whatever ID(s) they want or need for dataset validation and tracking. This could be a single ID (e.g., "Visium_9OLC_A4_S1") or a delimited list of IDs (e.g., “9OL; 9OLC.A2; Visium_9OLC_A4_S1”). This field will not be accessible to anyone outside of the consortium and no effort will be made to check if IDs provided by one data provider are also used by another. | value |
+|Preparation protocol DOI | type |DOI for the protocols.io page that describes the assay or sample procurment and preparation. For example for an imaging assay, the protocol might include staining of a section through the creation of an OME-TIFF file. In this case the protocol would include any image processing steps required to create the OME-TIFF file. Example: https://dx.doi.org/10.17504/protocols.io.eq2lyno9qvx9/v1 | value |
+|Dataset type | type |The specific type of dataset being produced. | value |
+|Analyte class | type |Analytes are the target molecules being measured with the assay. | value |
+|Is targeted? | type |Specifies whether or not a specific molecule(s) is/are targeted for detection/measurement by the assay ("Yes" or "No"). The CODEX analyte is protein. | value |
+|Acquisition instrument vendor | type |An acquisition instrument is the device that contains the signal detection hardware and signal processing software. Assays generate signals such as light of various intensities or color or signals representing the molecular mass. | value |
+|Acquisition instrument model | type |Manufacturers of an acquisition instrument may offer various versions (models) of that instrument with different features or sensitivities. Differences in features or sensitivities may be relevant to processing or interpretation of the data. | value |
+|Source storage duration value | type |How long was the source material (parent) stored, prior to this sample being processed. | value |
+|Source storage duration unit | type |The time duration unit of measurement | value |
+|Time since acquisition instrument calibration value | type |The amount of time since the acqusition instrument was last serviced by the vendor. This provides a metric for assessing drift in data capture. | value |
+|Time since acquisition instrument calibration unit | type |The time unit of measurement | value |
+|Contributors path | type |The path to the file with the ORCID IDs for all contributors of this dataset (e.g., "extras/contributors.tsv" or "./contributors.tsv"). This is an internal metadata field that is just used for ingest. | value |
+|Data path | type |The top level directory containing the raw and/or processed data. For a single dataset upload this might be "." where as for a data upload containing multiple datasets, this would be the directory name for the respective dataset. For instance, if the data is within a directory called "TEST001-RK" use syntax "/TEST001-RK/" for this field. If there are multiple directory levels, use the format "/TEST001-RK/Run1/Pass2" in which "Pass2" is the subdirectory where the single dataset's data is stored. This is an internal metadata field that is just used for ingest. | value |
+|Antibodies path | type |This is the location of the antibodies.tsv file relative to the root of the top level of the upload directory structure. This path should begin with "." and would likely be something like "./extras/antibodies.tsv". | value |
+|Is image preprocessing required? | type |Depending on if the acquisition instrument was a microscope, slide scanner, etc. will indicate whether or not any level of preprocessing was required to assemble the image (e.g., fusing image tiles) . | value |
+|Slide ID | type |A unique ID denoting the slide used. This allows users the ability to determine which tissue sections were processed together on the same slide. It is recommended that data providers prefix the ID with the center name, to prevent values overlapping across centers. | value |
+|Tile configuration | type |This is how the tiles are configured for stitching. | value |
+|Scan direction | type |This is the direction of imaging, which is required for stitching. | value |
+|Tiled image columns | type |This is how many columns used in stitching. This is sometimes referred to as the grid size x. | value |
+|Tiled image count | type |This is the total number of raw (tiled) images captured, that are to be stitched together. | value |
+|Intended tile overlap percentage | type |The amount of overlap between tiled images. This is the set point, where as during image acquisition there will be slight variations due to stage registration. | value |
+|Metadata schema ID | type |The string that serves as the definitive identifier for the metadata schema version and is readily interpretable by computers for data validation and processing. Example: 22bc762a-5020-419d-b170-24253ed9e8d9 | value | | value |
