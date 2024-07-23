@@ -26,4 +26,4 @@
 |Ablation frequency value | type | Frequency value of laser ablation| value |
 |Ablation frequency unit | type | Frequency unit of laser ablation| value |
 |Antibodies path | type | This is the location of the antibodies.tsv file relative to the root of the top level of the upload directory structure. This path should begin with "." and would likely be something like "./extras/antibodies.tsv".| value |
-|Metadata schema ID | type | The string that serves as the definitive identifier for the metadata schema version and is readily interpretable by computers for data validation and processing. Example: 22bc762a-5020-419d-b170-24253ed9e8d9 | value | | value |
+|Metadata schema ID | type | The string that serves as the definitive identifier for the metadata schema version and is readily interpretable by computers for data validation and processing. Example: 22bc762a-5020-419d-b170-24253ed9e8d9 | value | 

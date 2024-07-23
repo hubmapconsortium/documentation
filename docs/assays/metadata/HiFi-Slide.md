@@ -38,4 +38,4 @@
 |ROI label | type | A label for the region of interest (ROI). For Xenium, Resolve and CosMx, this is the field of view (FOV) label. For GeoMx this can be found in the "Initial Dataset" spreadsheet (download from within Data Analysis Suite).| value |
 |Anatomical structure label | type | The overarching anatomical structure.| value |
 |Anatomical structure ID | type | The ontology ID for the parent structure. Typically this would be an UBERON ID.| value |
-|Metadata schema ID | type | The string that serves as the definitive identifier for the metadata schema version and is readily interpretable by computers for data validation and processing. Example: 22bc762a-5020-419d-b170-24253ed9e8d9 | value | | value |
+|Metadata schema ID | type | The string that serves as the definitive identifier for the metadata schema version and is readily interpretable by computers for data validation and processing. Example: 22bc762a-5020-419d-b170-24253ed9e8d9 | value | 

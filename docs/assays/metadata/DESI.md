@@ -34,4 +34,4 @@
 |Desorption solvent flow rate value | type |The rate of flow of the solvent into a spray. | value |
 |Desorption solvent flow rate unit | type |Units of the rate of solvent flow. | value |
 |Analysis protocol DOI | type |A DOI to a protocols.io protocol describing the software and database(s) used to process the raw data. Example: https://dx.doi.org/10.17504/protocols.io.bsu5ney6 | value |
-|Metadata schema ID | type |
+|Metadata schema ID | type | The string that serves as the definitive identifier for the metadata schema version and is readily interpretable by computers for data validation and processing. Example: 22bc762a-5020-419d-b170-24253ed9e8d9 | value |
