@@ -56,6 +56,9 @@ HBM378.HDGT.837 /extras         #download the extras directory from dataset HBM3
 ```
 See below for more examples of [manifest files](#manfiles).
 
+In addition to creating manifest files manually as described above, they can be automatically generated from a SearchAPI query by using certain optional arguments. More information on this
+can be found [here](generate-manifest.md.html)
+
 #### Login
 
 A one-time login is required for any download session.  For any non-public data, you must login with your HuBMAP authorized account, for publicly available data you can log in with any account accepted on the login form (Google and OrCID accepted) as well.  To login issue the following command on the command line:
