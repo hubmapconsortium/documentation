@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # Confocal
 
 ## Current Metadata Attributes

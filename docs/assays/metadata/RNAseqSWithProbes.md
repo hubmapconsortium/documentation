@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # RNAseq (with probes)
 ## Current Metadata Att ributes
 | Attribute | Type      | Description              | Allowable Values |

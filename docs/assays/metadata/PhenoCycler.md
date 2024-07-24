@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # PhenoCycler
 
 ## Current Metadata Attributes

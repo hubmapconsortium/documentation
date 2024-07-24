@@ -1,5 +1,10 @@
+---
+layout: page
+---
+
 # RNAseq
 ## Current Metadata Attributes
+
 | Attribute | Type      | Description              | Allowable Values |
 | ----------- | ----------- | -------------------------- | ------------------ |
 |Parent sample ID | type | Unique HuBMAP or SenNet identifier of the sample (i.e., block, section or suspension) used to perform this assay. For example, for a RNAseq assay, the parent would be the suspension, whereas, for one of the imaging assays, the parent would be the tissue section. If an assay comes from multiple parent samples then this should be a comma separated list. Example: HBM386.ZGKG.235, HBM672.MKPK.442 or SNT232.UBHJ.322, SNT329.ALSK.102| value |

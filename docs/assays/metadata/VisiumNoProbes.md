@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # Visium (with probes)
 ## Current Metadata Attributes
 

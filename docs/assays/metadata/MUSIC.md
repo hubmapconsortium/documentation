@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # MUSIC
 
 ## Current Metadata Attributes
