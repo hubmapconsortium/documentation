@@ -13,9 +13,10 @@
 #### HuMAP Tools and documentation links
 - HRA Tools:
   - <a href="https://humanatlas.io">Human Reference Atlas (HRA)</a>: a comprehensive, high-resolution, three-dimensional atlas of all the cells in a healthy human body.
-    - Watch a short <a href="https://www.youtube.com/watch?v=DDmP_7vDy-o">video introduction</a> to the HRA.
+    - Watch a short <a href="https://www.youtube.com/watch?v=DDmP_7vDy-o">video introduction</a> or check out the <a href="https://humanatlas.io/release-notes/v2.1">latest release notes</a> for the HRA.
     - Additional Tools available from the HRA:
-      - Anatomical Structures, Cell Types and Biomarkers <a href="https://humanatlas.io/asctb-reporter">(ASCT+B) Reporter</a>
+      - Anatomical Structures, Cell Types and Biomarkers <a href="https://humanatlas.io/asctb-reporter">(ASCT+B) Reporter</a>.
+        - Watch a <a href="https://youtu.be/pzUFmDhQEO8">tutorial video</a> for the ASCT+B Reporter
       - <a href="https://humanatlas.io/cell-population-graphs">Cell Population Graphs</a>
       - <a href="https://humanatlas.io/registration-user-interface">Registration User Interface (RUI)</a>: Register and annotate organs
       - <a href="https://humanatlas.io/exploration-user-interface">Exploration User Interface (EUI)</a>: Interact with registered organs
