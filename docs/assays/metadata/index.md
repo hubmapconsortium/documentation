@@ -18,7 +18,7 @@ This document details data levels, metadata fields, file structure, QA/QC thresh
 | Enhanced SRS | [attributes](EnhancedSRS)  | |
 | HiFi | [attributes](HiFi-Slide)  | |
 | Histology | [attributes](Histology)  | |
-| [2D IMC (Imaging Mass Cytometry)](https://docs.hubmapconsortium.org/assays/imc) | [attributes](IMC2D)  |Combines standard immunohistochemistry with CyTOF mass cytometry to resolve the cellular localization of up to 40 proteins in a tissue sample. |
+| [2D IMC (Imaging Mass Cytometry)](https://docs.hubmapconsortium.org/assays/imc) | [attributes](IMC-2D)  |Combines standard immunohistochemistry with CyTOF mass cytometry to resolve the cellular localization of up to 40 proteins in a tissue sample. |
 | [3D IMC  (Imaging Mass Cytometry)](https://docs.hubmapconsortium.org/assays/imc)| attributes*  |Combines standard immunohistochemistry with CyTOF mass cytometry to resolve the cellular localization of up to 40 proteins in a tissue sample. |
 | [LC-MS](https://docs.hubmapconsortium.org/assays/lcms) | [attributes](LC-MS)  |  Coupling of liquid chromatography (LC) to mass spectrometry (MS) |
 | Light Sheet | [attributes](LightSheet)  | |
