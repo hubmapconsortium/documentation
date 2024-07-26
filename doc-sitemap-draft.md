@@ -19,6 +19,7 @@
         - Watch a <a href="https://youtu.be/pzUFmDhQEO8">tutorial video</a> for the ASCT+B Reporter
       - <a href="https://humanatlas.io/cell-population-graphs">Cell Population Graphs</a>
       - <a href="https://humanatlas.io/registration-user-interface">Registration User Interface (RUI)</a>: Register and annotate organs
+        - Link to the <a href="https://zenodo.org/records/6628366"> RUI SOP</a>
       - <a href="https://humanatlas.io/exploration-user-interface">Exploration User Interface (EUI)</a>: Interact with registered organs
       - <a href="https://humanatlas.io/organ-gallery-in-vr">VR Organ Gallery</a>: Immersive experience for exploring organs
       - <a href="https://humanatlas.io/millitome">Millitome</a>: 3D-printed tool for organ sectioning
