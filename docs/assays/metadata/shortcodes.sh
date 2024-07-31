@@ -8,10 +8,10 @@ for file in *.md; do
   # Read the file line by line
   while IFS= read -r line; do
     # Check if the line starts with "|"
-    if [[ $line == \|* ]]; then
+    if `````` $line == \|* ``````; then
       # Extract the content between the first and second "|"
       before=$(echo "$line" | cut -d'|' -f1)
-      middle=$(echo "$line" | cut -d'|' -f2 | tr '[:upper:]' '[:lower:]' | tr ' ' '_' | tr -d '?')
+      middle=$(echo "$line" | cut -d'|' -f2 | tr '```:upper:```' '```:lower:```' | tr ' ' '_' | tr -d '?')
       after=$(echo "$line" | cut -d'|' -f3-)
       
       # Reconstruct the line with the modified middle part

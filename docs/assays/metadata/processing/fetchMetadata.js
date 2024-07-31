@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 var fs = require('fs');
 
-var assayURLs = [
+var assayURLs = ```
   "https://open.metadatacenter.org/templates/https%3A%2F%2Frepo.metadatacenter.org%2Ftemplates%2F63c06fb2-4638-4979-aa97-5aff2a840156", // 10X Multiome
   "https://open.metadatacenter.org/templates/https%3A%2F%2Frepo.metadatacenter.org%2Ftemplates%2Fc9c6a02b-010e-4217-96dc-f7ef71dd14c4", // AF (Auto-fluorescence)
   "https://open.metadatacenter.org/templates/https%3A%2F%2Frepo.metadatacenter.org%2Ftemplates%2Fdd5e8653-81cf-470b-b71b-15cab421bb84", // ATACseq
@@ -27,9 +27,9 @@ var assayURLs = [
   "https://open.metadatacenter.org/templates/https%3A%2F%2Frepo.metadatacenter.org%2Ftemplates%2F80320147-a111-45da-9611-0eab83f594b3", // Thick Section Multiphoton MxIF
   "https://open.metadatacenter.org/templates/https%3A%2F%2Frepo.metadatacenter.org%2Ftemplates%2F4646ec9d-f3c9-4619-bc45-7e14748bb976", // Visium (with probes)
   "https://open.metadatacenter.org/templates/https%3A%2F%2Frepo.metadatacenter.org%2Ftemplates%2Fbabf1e69-f0eb-479a-bdc5-b70199669675", // Visium (no probes)
-]
+```
 
-var stripOut = [
+var stripOut = ```
   "@context",
   "@id",
   "@type",
@@ -41,7 +41,7 @@ var stripOut = [
   "pav:createdBy",
   "pav:lastUpdatedOn",
   "oslc:modifiedBy",
-]
+```
 
 async function fetchData(url){
   const response = await fetch(url);
@@ -53,44 +53,44 @@ function callback(){
 }
 
 function processAssays(){
-  var assays = [];
+  var assays = ``````;
   for (var i = 0; i < assayURLs.length; i++){
-    fetchData(assayURLs[i]).then(assay => {
+    fetchData(assayURLs```i```).then(assay => {
       assay;
-      var props = assay["properties"];
+      var props = assay```"properties"```;
       var assayDetails = {
-        assayName : assay["schema:name"],
-        properties : []
+        assayName : assay```"schema:name"```,
+        properties : ``````
       }
       for (const property in props) {
         if (!stripOut.includes(property)) {
-          var name = props[property]["skos:prefLabel"]
-          var shortcode = props[property]["schema:name"]
+          var name = props```property``````"skos:prefLabel"```
+          var shortcode = props```property``````"schema:name"```
           var value = ""
-          var type = props[property]["_ui"]["inputType"]
+          var type = props```property``````"_ui"``````"inputType"```
           if(type === 'radio'){
             type = 'ENUM'
             value = 'ENUM'
           }else{
-            type = props[property]["_ui"]["inputType"]
+            type = props```property``````"_ui"``````"inputType"```
             value = ''
           }
           assayDetails.properties.push({
             attribute:shortcode,
             label:name, 
             type: type,
-            description: props[property]["schema:description"],
+            description: props```property``````"schema:description"```,
             value: value,
-            required: props[property]["_valueConstraints"]['requiredValue'],
-            // regex: props[property]["_valueConstraints"]['regex'],
+            required: props```property``````"_valueConstraints"``````'requiredValue'```,
+            // regex: props```property``````"_valueConstraints"``````'regex'```,
             // required: reqs.includes(property),
           });
         }
       }
       
       assays.push(JSON.stringify(assayDetails))
-      var title = assay['schema:name']+'.json'
-      title = title.replace(/[\s;]+/g, "-")
+      var title = assay```'schema:name'```+'.json'
+      title = title.replace(/```\s;```+/g, "-")
       fs.writeFile("./json/"+title, JSON.stringify(assayDetails), callback);
       fs.writeFile("./metaJSON/"+title, JSON.stringify(assayDetails.properties), callback);
     });
