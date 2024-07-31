@@ -1,5 +1,5 @@
 ## External viewers
-### Access HuBMAP Data
+### HuBMAP Data
 - For Developers:
   - Programmatic access to data / metadata via APIs or Tools
     - APIs to find metadata / data
@@ -9,8 +9,7 @@
 - For Non-developers:
   - View / Access / Download data (via the Portal)
 
-### Access HuBMAP Tools
-#### HuBMAP Tools and documentation links
+### HuBMAP Tools and documentation links
 - HRA Tools:
   - <a href="https://humanatlas.io">Human Reference Atlas (HRA)</a>: a comprehensive, high-resolution, three-dimensional atlas of all the cells in a healthy human body.
     - Watch a short <a href="https://www.youtube.com/watch?v=DDmP_7vDy-o">video introduction</a> or check out the <a href="https://humanatlas.io/release-notes/v2.1">latest release notes</a> for the HRA.
@@ -25,6 +24,11 @@
         <li><a href="https://humanatlas.io/millitome">Millitome</a>: 3D-printed tool for organ sectioning. Read an overview of millitomes, see images of 3-D printed millitomes, and browse the latest millitome gallery.</li>
         <li><a href="https://humanatlas.io/api">APIs</a> for querying and interacting with the HRA.</li>
      </ul></details>
+- Azimuth
+- FUSION
+- <a href="https://vitessce.io/">Vitessce</a>: Visual integration tool for exploration of spatial single cell experiments.
+  - <a href="https://vitessce.io/docs/">Vitessce Documentation</a>
+  - <a href="https://vitessce.io/docs/tutorials/">Vitessce Tutorials</a>
 - Intro / primer for HuBMAP data analysis tools 
   - examples
 - Reproducing HuBMAP workflows (Y3 effort)
