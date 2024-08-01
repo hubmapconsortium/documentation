@@ -35,7 +35,7 @@
 - Reproducing HuBMAP workflows (Y3 effort)
   - Using APIs to get information about workflows
 - <a href="https://portal.hubmapconsortium.org/workspaces">HuBMAP (Data Portal) Workspaces</a>: Explore public HuBMAP data and user-provided data using Python and R in a Jupyter Lab environment.
-  - <a href="https://portal.hubmapconsortium.org/tutorials/workspaces">Workspaces Tutorials</a>: Learn how to interactively analyze HuBMAP datasets by uploading datasets in a JupyterLab environment.
+  - <a href="https://portal.hubmapconsortium.org/tutorials/workspaces">Workspaces Tutorials</a>: Learn how to interactively analyze HuBMAP datasets by uploading them in a JupyterLab environment.
 
 ### HuBMAP APIs 
 - Documented in Smart APIs 
@@ -52,8 +52,11 @@
   - <a href="https://docs.google.com/forms/d/14tBFAfMy82qQGAR1ECIljCJDaHxQUS-o6z0526jpUuQ/edit?ts=662feb8b">HuBMAP Microscope Metadata entry form</a>: Submit Microscopy Metadata in compliance with the NBO-Q metadata model.
     - <a href="https://docs.google.com/spreadsheets/d/1Ju1_mvqTk1B8I8Ot6EKFKZuQbwkJy4NwzVgwoITWWYw/edit?gid=0#gid=0">HuBMAP Microscope Hardware Collection</a>: List of Microscopy Metadata collected to date.
 - General Consortium members 
-  - HuBMAP Member Portal link
-  - SOPs
-  - Governance
-  - Google Drive navigation
-  - HuBMAP Calendar and other Resources
+  - <a href="https://hubmapconsortium.org/member-portal/">HuBMAP Member Portal</a>: Find information about how to navigate the consortium, including the calendar, member directory, etc. 
+    - SOPs
+    - <a href="https://hubmapconsortium.org/working-groups/">Governance</a>: The HuBMAP Steering Committee and Working Groups.
+    - <a href="https://drive.google.com/drive/folders/1jbgzo_MpA7lVv9rmmgxP1Zfuegwis31E">HuBMAP Consortium Google Drive</a>: A shared resource.
+      - <a href="https://hubmapconsortium.org/guide-doc-management">Document Management Guide</a>: For the HuBMAP Consortium Google Drive.
+    - <a href="https://hubmapconsortium.org/hubmap-calendar/">HuBMAP Calendar</a>: A web calendar that combines all shared, internal Consortium events.
+      - <a href="https://docs.google.com/document/d/e/2PACX-1vRyir3ozru4TB3SU79b-_psN3BFxr6BsWORnUFP53_jU1vQAAQe1feRSgXTWqHfrLfqo1NgOHNvgS78/pub">Using Google Groups with Google Calendar</a>
+    - other Resources
