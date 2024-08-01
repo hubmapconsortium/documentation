@@ -48,7 +48,9 @@
 - Data submitters
   - <a href="https://docs.hubmapconsortium.org/data-submission/">Data Submission Guide</a>: Documents the key steps for TMCs, Assay teams, and others who upload data to the HuBMAP.
   - <a href="https://docs.hubmapconsortium.org/metadata">Metadata/data schemas</a>: HuBMAP metadata documentation and submission specifications.
-    -  See the <a href="https://hubmapconsortium.github.io/ingest-validation-tools/">HuBMAP Data Upload Guidelines</a> for the latest assay metadata options and specifications. 
+    -  See the <a href="https://hubmapconsortium.github.io/ingest-validation-tools/">HuBMAP Data Upload Guidelines</a> for the latest assay metadata options and specifications.
+  - <a href="https://docs.google.com/forms/d/14tBFAfMy82qQGAR1ECIljCJDaHxQUS-o6z0526jpUuQ/edit?ts=662feb8b">HuBMAP Microscope Metadata entry form</a>: Submit Microscopy Metadata in compliance with the NBO-Q metadata model.
+    - <a href="https://docs.google.com/spreadsheets/d/1Ju1_mvqTk1B8I8Ot6EKFKZuQbwkJy4NwzVgwoITWWYw/edit?gid=0#gid=0">HuBMAP Microscope Hardware Collection</a>: List of Microscopy Metadata collected to date.
 - General Consortium members 
   - HuBMAP Member Portal link
   - SOPs
