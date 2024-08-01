@@ -29,11 +29,13 @@
 - FUSION: An interactive interface to view spatial transcriptomics data integrated with histopathology, driven by artificial intelligence (AI).
 - <a href="https://vitessce.io/">Vitessce</a>: Visual integration tool for exploration of spatial single cell experiments.
   - <a href="https://vitessce.io/docs/">Vitessce Documentation</a>
-  - <a href="https://vitessce.io/docs/tutorials/">Vitessce Tutorials</a>l
+  - <a href="https://vitessce.io/docs/tutorials/">Vitessce Tutorials</a>
+- Intro/primer to using HuBMAP data analysis tools
   - examples
 - Reproducing HuBMAP workflows (Y3 effort)
   - Using APIs to get information about workflows
-- HuBMAP (Data Portal) Workspaces doc
+- <a href="https://portal.hubmapconsortium.org/workspaces">HuBMAP (Data Portal) Workspaces</a>: Explore public HuBMAP data and user-provided data using Python and R in a Jupyter Lab environment.
+  - <a href="https://portal.hubmapconsortium.org/tutorials/workspaces">Workspaces Tutorials</a>: Learn how to interactively analyze HuBMAP datasets by uploading datasets in a JupyterLab environment.
 
 ### HuBMAP APIs 
 - Documented in Smart APIs 
