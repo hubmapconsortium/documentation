@@ -46,8 +46,9 @@
   - (documented in Smart APIs - lower priority) ????
   - HuBMAP Application-specific APIs (not meant to be used externally)
 - Data submitters
-  - Data Submission Guide
-  - Metadata/data schemas
+  - <a href="https://docs.hubmapconsortium.org/data-submission/">Data Submission Guide</a>: Documents the key steps for TMCs, Assay teams, and others who upload data to the HuBMAP.
+  - <a href="https://docs.hubmapconsortium.org/metadata">Metadata/data schemas</a>: HuBMAP metadata documentation and submission specifications.
+    -  See the <a href="https://hubmapconsortium.github.io/ingest-validation-tools/">HuBMAP Data Upload Guidelines</a> for the latest assay metadata options and specifications. 
 - General Consortium members 
   - HuBMAP Member Portal link
   - SOPs
