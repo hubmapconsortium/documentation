@@ -1,13 +1,15 @@
 ## External viewers
 ### HuBMAP Data
-- For Developers:
+- Developers:
   - Programmatic access to data / metadata via APIs or Tools
     - APIs to find metadata / data
     - Tools to get data without going to the Portal
-      - Data and metadata structures (Link to Jes W.’s stuff?)
+      - Data and metadata structures (Link to Jes W.’s Cohesive [Metadata] Doc stuff?)
       - Examples: docs, commands, (Jupyter notebooks) 
-- For Non-developers:
+- Other Stakeholders:
   - View / Access / Download data (via the Portal)
+  - <a href="https://docs.hubmapconsortium.org/faq">HuBMAP FAQ</a>: Frequently Asked Questions about HuBMAP Data, Tools, and related topics.
+  - <a href=" ">About HuBMAP</a>: Policies & Procedures, DUA, Protected Data & Access, Citing HuBMAP Data, Funding & Contact info.
 
 ### HuBMAP Tools and documentation links
 - HRA Tools:
@@ -26,7 +28,7 @@
      </ul></details>
 - <a href="https://azimuth.hubmapconsortium.org/?_gl=1*w6lgc7*_ga*MjAwNDc0MTM0OC4xNzE0NzUzMTY4*_ga_N77K0HBGRV*MTcyMjQ4NDIwNi4zMzkuMC4xNzIyNDg0MjA2LjAuMC4w">Azimuth</a>: A web application that uses an annotated reference dataset to automate the processing, analysis, and interpretation of new single-cell sequencing experiments.
   - This page provides Query references, a general workflow, FAQ, and tips for Preprocessing, Mapping, and other topics.
-- FUSION: An interactive interface to view spatial transcriptomics data integrated with histopathology, driven by artificial intelligence (AI).
+- <a href="http://fusion.hubmapconsortium.org/">FUSION</a>: Functional Unit State Identification and Navigation with WSI - An interactive interface to view spatial transcriptomics data integrated with histopathology, driven by AI. This site contains multiple tutorials and other helpful features.
 - <a href="https://vitessce.io/">Vitessce</a>: Visual integration tool for exploration of spatial single cell experiments.
   - <a href="https://vitessce.io/docs/">Vitessce Documentation</a>
   - <a href="https://vitessce.io/docs/tutorials/">Vitessce Tutorials</a>
