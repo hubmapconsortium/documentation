@@ -24,16 +24,18 @@
         <li><a href="https://humanatlas.io/millitome">Millitome</a>: 3D-printed tool for organ sectioning. Read an overview of millitomes, see images of 3-D printed millitomes, and browse the latest millitome gallery.</li>
         <li><a href="https://humanatlas.io/api">APIs</a> for querying and interacting with the HRA.</li>
      </ul></details>
-- Azimuth
-- FUSION
+- <a href="https://azimuth.hubmapconsortium.org/?_gl=1*w6lgc7*_ga*MjAwNDc0MTM0OC4xNzE0NzUzMTY4*_ga_N77K0HBGRV*MTcyMjQ4NDIwNi4zMzkuMC4xNzIyNDg0MjA2LjAuMC4w">Azimuth</a>: A web application that uses an annotated reference dataset to automate the processing, analysis, and interpretation of new single-cell sequencing experiments.
+  - This page provides Query references, a general workflow, FAQ, and tips for Preprocessing, Mapping, and other topics.
+- FUSION: An interactive interface to view spatial transcriptomics data integrated with histopathology, driven by artificial intelligence (AI).
 - <a href="https://vitessce.io/">Vitessce</a>: Visual integration tool for exploration of spatial single cell experiments.
   - <a href="https://vitessce.io/docs/">Vitessce Documentation</a>
   - <a href="https://vitessce.io/docs/tutorials/">Vitessce Tutorials</a>
-- Intro / primer for HuBMAP data analysis tools 
+- Intro/primer to using HuBMAP data analysis tools
   - examples
 - Reproducing HuBMAP workflows (Y3 effort)
   - Using APIs to get information about workflows
-- HuBMAP (Data Portal) Workspaces doc
+- <a href="https://portal.hubmapconsortium.org/workspaces">HuBMAP (Data Portal) Workspaces</a>: Explore public HuBMAP data and user-provided data using Python and R in a Jupyter Lab environment.
+  - <a href="https://portal.hubmapconsortium.org/tutorials/workspaces">Workspaces Tutorials</a>: Learn how to interactively analyze HuBMAP datasets by uploading them in a JupyterLab environment.
 
 ### HuBMAP APIs 
 - Documented in Smart APIs 
@@ -44,11 +46,17 @@
   - (documented in Smart APIs - lower priority) ????
   - HuBMAP Application-specific APIs (not meant to be used externally)
 - Data submitters
-  - Data Submission Guide
-  - Metadata/data schemas
+  - <a href="https://docs.hubmapconsortium.org/data-submission/">Data Submission Guide</a>: Documents the key steps for TMCs, Assay teams, and others who upload data to the HuBMAP.
+  - <a href="https://docs.hubmapconsortium.org/metadata">Metadata/data schemas</a>: HuBMAP metadata documentation and submission specifications.
+    -  See the <a href="https://hubmapconsortium.github.io/ingest-validation-tools/">HuBMAP Data Upload Guidelines</a> for the latest assay metadata options and specifications.
+  - <a href="https://docs.google.com/forms/d/14tBFAfMy82qQGAR1ECIljCJDaHxQUS-o6z0526jpUuQ/edit?ts=662feb8b">HuBMAP Microscope Metadata entry form</a>: Submit Microscopy Metadata in compliance with the NBO-Q metadata model.
+    - <a href="https://docs.google.com/spreadsheets/d/1Ju1_mvqTk1B8I8Ot6EKFKZuQbwkJy4NwzVgwoITWWYw/edit?gid=0#gid=0">HuBMAP Microscope Hardware Collection</a>: List of Microscopy Metadata collected to date.
 - General Consortium members 
-  - HuBMAP Member Portal link
-  - SOPs
-  - Governance
-  - Google Drive navigation
-  - HuBMAP Calendar and other Resources
+  - <a href="https://hubmapconsortium.org/member-portal/">HuBMAP Member Portal</a>: Find information about how to navigate the consortium, including the calendar, member directory, etc. 
+    - SOPs
+    - <a href="https://hubmapconsortium.org/working-groups/">Governance</a>: The HuBMAP Steering Committee and Working Groups.
+    - <a href="https://drive.google.com/drive/folders/1jbgzo_MpA7lVv9rmmgxP1Zfuegwis31E">HuBMAP Consortium Google Drive</a>: A shared resource.
+      - <a href="https://hubmapconsortium.org/guide-doc-management">Document Management Guide</a>: For the HuBMAP Consortium Google Drive.
+    - <a href="https://hubmapconsortium.org/hubmap-calendar/">HuBMAP Calendar</a>: A web calendar that combines all shared, internal Consortium events.
+      - <a href="https://docs.google.com/document/d/e/2PACX-1vRyir3ozru4TB3SU79b-_psN3BFxr6BsWORnUFP53_jU1vQAAQe1feRSgXTWqHfrLfqo1NgOHNvgS78/pub">Using Google Groups with Google Calendar</a>
+    - other Resources
