@@ -40,7 +40,8 @@
   - <a href="https://portal.hubmapconsortium.org/tutorials/workspaces">Workspaces Tutorials</a>: Learn how to interactively analyze HuBMAP datasets by uploading them in a JupyterLab environment.
 
 ### HuBMAP APIs 
-- Documented in Smart APIs 
+- <a href="https://docs.hubmapconsortium.org/apis.html">HuBMAP APIs</a>: Available as RESTful web services, these APIs support data ingest, querying, and delivery of metadata.
+- <a href="https://smart-api.info/registry?q=hubmap">Documentation</a> for HuBMAP APIs at Smart APIs. Click the Details button for more information and documentation.
 - Links to use-case-specific API usage (e.g. using data and tools) linked to Data and Tools pages.
 
 ## Internal viewers
