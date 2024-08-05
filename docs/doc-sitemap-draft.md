@@ -2,7 +2,12 @@
 ### HuBMAP Data
 - Developers:
   - Programmatic access to data / metadata via APIs or Tools
-    - APIs to find metadata / data
+    - APIs to find metadata / data:
+      - <a href="https://smart-api.info/ui/7aaf02b838022d564da776b03f357158">Search API</a>: The HuBMAP Search API is a thin wrapper of the Elasticsearch API.
+        - It handles data indexing and reindexing into the backend Elasticsearch.
+        - It accepts the search query and passes through to the Elasticsearch with data access security check.
+      - <a href="https://smart-api.info/ui/0065e419668f3336a40d1f5ab89c6ba3">Entity API</a>: The Entity API returns information about HuBMAP data entities.
+        - Generally, a donor and organ are _required_ in the provenance hierarchy where tissue samples (such as blocks and samples) can be organized based on several different tissue sample types.
     - Tools to get data without going to the Portal
       - Data and metadata structures (Link to Jes W.’s Cohesive [Metadata] Doc stuff?)
       - Examples: docs, commands, (Jupyter notebooks) 
@@ -41,7 +46,7 @@
 
 ### HuBMAP APIs 
 - <a href="https://docs.hubmapconsortium.org/apis.html">HuBMAP APIs</a>: Available as RESTful web services, these APIs support data ingest, querying, and delivery of metadata.
-- <a href="https://smart-api.info/registry?q=hubmap">Documentation</a> for HuBMAP APIs at Smart APIs. Click the Details button for more information and documentation.
+- <a href="https://smart-api.info/registry?q=hubmap">Documentation for HuBMAP APIs</a> at Smart APIs. Click the Details button for more information and documentation.
 - Links to use-case-specific API usage (e.g. using data and tools) linked to Data and Tools pages.
 
 ## Internal viewers
