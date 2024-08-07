@@ -1,7 +1,7 @@
 --- 
 layout: page 
 ---
-# SnareSeq2 
+# seqFISH 
 
 ## Current Metadata Attributes (Version 1 (no longer accepting data))
 
