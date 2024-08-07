@@ -53,7 +53,10 @@
 ## Internal viewers
 - Internal developers 
   - (documented in Smart APIs - lower priority) ????
-  - HuBMAP Application-specific APIs (not meant to be used externally)
+  - HuBMAP Application-specific APIs (_Not intended for use by external developers or other external users_):
+    - <a href="https://smart-api.info/ui/5a6bea1158d2652743c7a201fdb1c44d">Ingest API</a>: Supports writing data and metadata to HuBMAP, used by both TMCs and the HIVE.
+    - <a href=" ">UUID API</a>:
+    - <a href=" ">Ontology (a.k.a. UKBG) API</a>:
 - Data submitters
   - <a href="https://docs.hubmapconsortium.org/data-submission/">Data Submission Guide</a>: Documents the key steps for TMCs, Assay teams, and others who upload data to the HuBMAP.
   - <a href="https://docs.hubmapconsortium.org/metadata">Metadata/data schemas</a>: HuBMAP metadata documentation and submission specifications.
