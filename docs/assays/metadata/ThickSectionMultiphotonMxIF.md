@@ -2,6 +2,8 @@
 layout: page 
 ---
 # Thick-Section-Multiphoton-MxIF 
+<details>
+<summary><b> Current Metadata Attributes </b></summary>
 
 ## Current Metadata Attributes 
 
@@ -30,3 +32,5 @@ layout: page
 | is_targeted                                        | Assigned Value      | Specifies whether or not a specific molecule(s) is/are targeted for detection/measurement by the assay ("Yes" or "No"). The CODEX analyte is protein.                                                                                                                                                                                                                                                                                                                                                                                                                                | ```Yes``` ```No```                                                            | True       |
 | antibodies_path                                     | textfield | This is the location of the antibodies.tsv file relative to the root of the top level of the upload directory structure. This path should begin with "." and would likely be something like "./extras/antibodies.tsv".                                                                                                                                                                                                                                                                                                                                                               |                                                                | True       |
 | parent_sample_id                                    | textfield | Unique HuBMAP or SenNet identifier of the sample (i.e., block, section or suspension) used to perform this assay. For example, for a RNAseq assay, the parent would be the suspension, whereas, for one of the imaging assays, the parent would be the tissue section. If an assay comes from multiple parent samples then this should be a comma separated list. Example: HBM386.ZGKG.235, HBM672.MKPK.442 or SNT232.UBHJ.322, SNT329.ALSK.102                                                                                                                                      |                                                                | True       |
+
+</details>

@@ -2,6 +2,8 @@
 layout: page 
 ---
 # Visium-(with-probes) 
+<details>
+<summary><b> Current Metadata Attributes </b></summary>
 
 ## Current Metadata Attributes 
 
@@ -26,3 +28,5 @@ layout: page
 | parent_sample_id              | textfield | Unique HuBMAP or SenNet identifier of the sample (i.e., block, section or suspension) used to perform this assay. For example, for a RNAseq assay, the parent would be the suspension, whereas, for one of the imaging assays, the parent would be the tissue section. If an assay comes from multiple parent samples then this should be a comma separated list. Example: HBM386.ZGKG.235, HBM672.MKPK.442 or SNT232.UBHJ.322, SNT329.ALSK.102                                                                                                                                       |                                                                | True       |
 | preparation_instrument_vendor | Assigned Value      | The manufacturer of the instrument used to prepare (staining/processing) the sample for the assay. If an automatic slide staining method was indicated this field should list the manufacturer of the instrument.                                                                                                                                                                                                                                                                                                                                                                     | ```10x Genomics``` ```Hamamatsu``` ```HTX Technologies``` ```In-House``` ```Leica Biosystems``` ```Not applicable``` ```Roche Diagnostics``` ```SunChrom``` ```Thermo Fisher Scientific``` | True       |
 | preparation_instrument_model  | Assigned Value      | Manufacturers of a staining system instrument may offer various versions (models) of that instrument with different features. Differences in features or sensitivities may be relevant to processing or interpretation of the data.                                                                                                                                                                                                                                                                                                                                                   | ```AutoStainer XL``` ```Chromium Connect``` ```Chromium Controller``` ```Chromium iX``` ```Chromium X``` ```Discovery Ultra``` ```EVOS M7000``` ```M3+ Sprayer``` ```M5 Sprayer``` ```NanoZoomer S210``` ```NanoZoomer S360``` ```NanoZoomer S60``` ```Not applicable``` ```ST5020 Multistainer``` ```Sublimator``` ```SunCollect Sprayer``` ```TM-Sprayer``` ```Visium CytAssist ```| True       |
+
+</details>

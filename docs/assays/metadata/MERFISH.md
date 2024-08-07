@@ -2,6 +2,8 @@
 layout: page 
 ---
 # MERFISH 
+<details>
+<summary><b> Current Metadata Attributes </b></summary>
 
 ## Current Metadata Attributes 
 
@@ -43,3 +45,5 @@ layout: page
 | non_global_files                                    | textfield | A semicolon separated list of non-shared files to be included in the dataset. The path assumes the files are located in the "TOP/non-global/" directory. For example, for the file is TOP/non-global/lab_processed/images/1-tissue-boundary.geojson the value of this field would be "./lab_processed/images/1-tissue-boundary.geojson". After ingest, these files will be copied to the appropriate locations within the respective dataset directory tree. This field is used for internal HuBMAP processing. Examples for GeoMx and PhenoCycler are provided in the File Locations documentation: https://docs.google.com/document/d/1n2McSs9geA9Eli4QWQaB3c9R3wo5d5U1Xd57DWQfN5Q/edit#heading=h.1u82i4axggee |                                                                | False      |
 | number_of_additional_stains                         | Numeric   | This would be minimally 2 (always include DAPI and polyT) and can include 6 more.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |                                                                | True       |
 | metadata_schema_id                                  | textfield | The string that serves as the definitive identifier for the metadata schema version and is readily interpretable by computers for data validation and processing. Example: 22bc762a-5020-419d-b170-24253ed9e8d9                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |                                                                | True       |
+
+</details>

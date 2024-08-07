@@ -3,6 +3,9 @@ layout: page
 ---
 # LC-MS 
 
+<details>
+<summary><b>Current Metadata Attributes (version 4)</b></summary>
+
 ## Current Metadata Attributes (version 4)
 
 | Attribute                                           | Type      | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | Allowable Values                                                          | Required   |
@@ -54,6 +57,10 @@ layout: page
 | spatial_sampling_type                               | Assigned Value      | Specifies whether or not the analysis was performed in a spatially targeted manner. Spatial profiling experiments target specific tissue foci but do not necessarily generate images. Spatial imaging expriments collect data from a regular array (pixels) that can be visualized as heat maps of ion intensity at each location (molecular images). Leave blank if data are derived from bulk analysis.                                                                                                                                                                             | ```Imaging``` ```Profiling``` | False      |
 | parent_sample_id                                    | Textfield | Unique HuBMAP or SenNet identifier of the sample (i.e., block, section or suspension) used to perform this assay. For example, for a RNAseq assay, the parent would be the suspension, whereas, for one of the imaging assays, the parent would be the tissue section. If an assay comes from multiple parent samples then this should be a comma separated list. Example: HBM386.ZGKG.235, HBM672.MKPK.442 or SNT232.UBHJ.322, SNT329.ALSK.102                                                                                                                                       |                                                                | True       |
 
+</details>
+
+<details>
+<summary><b>Deprecated Metadata Attributes (Version 3)</b></summary>
 
 ## Deprecated Metadata Attributes (Version 3)
 
@@ -117,6 +124,10 @@ layout: page
 | contributors_path             | Textfield | Relative path to file with ORCID IDs for contributors for this dataset.                                                                                                                                                                                                                                                                                                                              |                                                                                     | True       |
 | data_path                     | Textfield | Relative path to file or directory with instrument data. Downstreamprocessing will depend on filename extension conventions.                                                                                                                                                                                                                                                                         |                                                                                     | True       |
 
+</details>
+
+<details>
+<summary><b>Deprecated Metadata Attributes (Version 2)</b></summary>
 
 ## Deprecated Metadata Attributes (Version 2)
 
@@ -178,6 +189,10 @@ layout: page
 | contributors_path             | Textfield | Relative path to file with ORCID IDs for contributors for this dataset.                                                                                                                                                                                                                                                                                                                              |                                                                                     | True       |
 | data_path                     | Textfield | Relative path to file or directory with instrument data. Downstreamprocessing will depend on filename extension conventions.                                                                                                                                                                                                                                                                         |                                                                                     | True       |
 
+</details>
+
+<details>
+<summary><b>Deprecated Metadata Attributes (Version 1)</b></summary>
 
 ## Deprecated Metadata Attributes (Version 1)
 
@@ -229,6 +244,10 @@ layout: page
 | contributors_path             | Textfield | Relative path to file with ORCID IDs for contributors for this dataset.                                                                                                                                                                                                                          |                                                                                         | True       |
 | data_path                     | Textfield | Relative path to file or directory with instrument data. Downstreamprocessing will depend on filename extension conventions.                                                                                                                                                                     |                                                                                         | True       |
 
+</details>
+
+<details>
+<summary><b>Deprecated Metadata Attributes (Version 0)</b></summary>
 
 ## Deprecated Metadata Attributes (Version 0)
 
@@ -277,3 +296,5 @@ layout: page
 | overall_protocols_io_doi      | string    | DOI for protocols.io for the overall process for this assay.                                                                                                                                                                                                                                     |                                                                                         | False      |
 | contributors_path             | Textfield | Relative path to file with ORCID IDs for contributors for this dataset.                                                                                                                                                                                                                          |                                                                                         | True       |
 | data_path                     | Textfield | Relative path to file or directory with instrument data. Downstreamprocessing will depend on filename extension conventions.                                                                                                                                                                     |                                                                                         | True       |
+
+</details>
