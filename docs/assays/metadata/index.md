@@ -19,7 +19,7 @@ This is a list of available dataset types (data types from multiple supported as
 | [IMC](https://docs.hubmapconsortium.org/assays/imc) | [attributes](IMC)  |Combines standard immunohistochemistry with CyTOF mass cytometry to resolve the cellular localization of up to 40 proteins in a tissue sample. |
 | [LC-MS](https://docs.hubmapconsortium.org/assays/lcms) | [attributes](LC-MS)  |  Coupling of liquid chromatography (LC) to mass spectrometry (MS) |
 | Light Sheet | [attributes](LightSheet)  | |
-| [MALDI-IMS](https://docs.hubmapconsortium.org/metadata/Assay_Types.html#MALDI-Imaging) | [attributes](MALDI)  |  Matrix-assisted laser desorption/ionization (MALDI) imaging mass spectrometry (IMS) combines the sensitivity and molecular specificity of MS with the spatial fidelity of classical microscopy. |
+| [MALDI-IMS](https://docs.hubmapconsortium.org/assays/maldi-ims) | [attributes](MALDI)  |  Matrix-assisted laser desorption/ionization (MALDI) imaging mass spectrometry (IMS) combines the sensitivity and molecular specificity of MS with the spatial fidelity of classical microscopy. |
 | MIBI | [attributes](MIBI)  |  |
 | MERFISH | [attributes](MERFISH)  |  |
 | MUSIC | [attributes](MUSIC)  | |
