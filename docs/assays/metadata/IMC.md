@@ -3,7 +3,7 @@ layout: page
 ---
 # IMC-2D 
 
-<details>
+<details markdown="1">
     <summary><b>Current Metadata Attributes (2D IMC Version 2 (Latest))</b></summary>
 
 ## Current Metadata Attributes (2D IMC Version 2 (Latest))
@@ -38,7 +38,7 @@ layout: page
 
 </details>
 
-<details>
+<details markdown="1">
     <summary><b>Deprecated Metadata Attributes  (2D IMC Version 1)</b></summary>
 
 ## Deprecated Metadata Attributes  (2D IMC Version 1)
@@ -89,7 +89,7 @@ layout: page
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><b>Deprecated Metadata Attributes  (2D IMC Version 0) </b></summary>
 
 ## Deprecated Metadata Attributes  (2D IMC Version 0) 
@@ -139,7 +139,7 @@ layout: page
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><b>Deprecated Metadata Attributes  (3D IMC Version 1 (no longer accepting data))</b></summary>
 
 ## Deprecated Metadata Attributes  (3D IMC Version 1 (no longer accepting data))
@@ -189,7 +189,7 @@ layout: page
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><b>Deprecated Metadata Attributes  (3D IMC Version 0)</b></summary>
 
 ## Deprecated Metadata Attributes  (3D IMC Version 0)

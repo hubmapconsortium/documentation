@@ -3,7 +3,7 @@ layout: page
 ---
 # GeoMx-(no-probes) 
 
-<details>
+<details markdown="1">
 <summary><b>Current Metadata Attributes  (NGS Version 2 (current))</b></summary>
 
 ## Current Metadata Attributes  (NGS Version 2 (current))
@@ -48,7 +48,7 @@ layout: page
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><b>Current Metadata Attributes  (nCounter Version 2 (current))</b></summary>
 
 ## Current Metadata Attributes  (nCounter Version 2 (current))  

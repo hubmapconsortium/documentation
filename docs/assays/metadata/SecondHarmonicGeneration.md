@@ -2,7 +2,7 @@
 layout: page 
 ---
 # Second-Harmonic-Generation 
-<details>
+<details markdown="1">
 <summary><b> Current Metadata Attributes </b></summary>
 
 ## Current Metadata Attributes 

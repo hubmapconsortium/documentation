@@ -2,7 +2,7 @@
 layout: page 
 ---
 # MALDI 
-<details>
+<details markdown="1">
 <summary><b> Current Metadata Attributes </b></summary>
 
 ## Current Metadata Attributes 
@@ -40,7 +40,7 @@ layout: page
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><b>Deprecated Metadata Attributes (IMS Version 2)</b></summary>
 
 ## Deprecated Metadata Attributes (IMS Version 2)
@@ -90,7 +90,7 @@ layout: page
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><b>Deprecated Metadata Attributes (IMS Version 1)</b></summary>
 
 ## Deprecated Metadata Attributes (IMS Version 1)
@@ -132,7 +132,7 @@ layout: page
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><b>Deprecated Metadata Attributes (IMS Version 0)</b></summary>
 
 ## Deprecated Metadata Attributes (IMS Version 0)

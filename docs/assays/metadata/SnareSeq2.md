@@ -2,7 +2,7 @@
 layout: page 
 ---
 # SnareSeq2 
-<details>
+<details markdown="1">
 <summary><b> Current Metadata Attributes </b></summary>
 
 ## Current Metadata Attributes 

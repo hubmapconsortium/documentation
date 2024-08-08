@@ -2,7 +2,7 @@
 layout: page 
 ---
 # Visium-(no-probes) 
-<details>
+<details markdown="1">
 <summary><b> Current Metadata Attributes </b></summary>
 
 ## Current Metadata Attributes  (Version 3)
@@ -31,7 +31,7 @@ layout: page
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><b> Deprecated Metadata Attributes (Version2)</b></summary>
 
 ## Deprecated Metadata Attributes (Version2)

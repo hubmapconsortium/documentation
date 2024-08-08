@@ -3,7 +3,7 @@ layout: page
 ---
 # Auto-fluorescence 
 
-<details>
+<details markdown="1">
 <summary><b>Current Metadata Attributes</b></summary
 
 ## Current Metadata Attributes 
@@ -36,7 +36,7 @@ layout: page
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><b>Deprecated Metadata Attributes (Version 1)</b></summary>
 
 ## Deprecated Metadata Attributes (Version 1)
@@ -72,7 +72,7 @@ layout: page
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><b>Deprecated Metadata Attributes (Version 0)</b></summary>
 
 ## Deprecated Metadata Attributes (Version 0)

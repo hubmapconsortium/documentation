@@ -3,7 +3,7 @@ layout: page
 ---
 # LC-MS 
 
-<details>
+<details markdown="1">
 <summary><b>Current Metadata Attributes (version 4)</b></summary>
 
 ## Current Metadata Attributes (version 4)
@@ -59,7 +59,7 @@ layout: page
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><b>Deprecated Metadata Attributes (Version 3)</b></summary>
 
 ## Deprecated Metadata Attributes (Version 3)
@@ -126,7 +126,7 @@ layout: page
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><b>Deprecated Metadata Attributes (Version 2)</b></summary>
 
 ## Deprecated Metadata Attributes (Version 2)
@@ -191,7 +191,7 @@ layout: page
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><b>Deprecated Metadata Attributes (Version 1)</b></summary>
 
 ## Deprecated Metadata Attributes (Version 1)
@@ -246,7 +246,7 @@ layout: page
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><b>Deprecated Metadata Attributes (Version 0)</b></summary>
 
 ## Deprecated Metadata Attributes (Version 0)

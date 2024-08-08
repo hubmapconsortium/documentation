@@ -2,7 +2,7 @@
 layout: page 
 ---
 # RNAseq 
-<details>
+<details markdown="1">
 <summary><b> Current Metadata Attributes </b></summary>
 
 ## Current Metadata Attributes (Version 5)
@@ -60,7 +60,7 @@ layout: page
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><b>Deprecated Metadata Attributes (Version 2)</b></summary>
 
 ## Deprecated Metadata Attributes (Version 2)
@@ -118,7 +118,7 @@ layout: page
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><b>Deprecated Metadata Attributes (bulk-RNA Version 1)</b></summary>
 
 ## Deprecated Metadata Attributes (bulk-RNA Version 1)
@@ -169,7 +169,7 @@ layout: page
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><b>Deprecated Metadata Attributes (bulk-RNA Version 0)</b></summary>
 
 ## Deprecated Metadata Attributes (bulk-RNA Version 0)
@@ -213,7 +213,7 @@ layout: page
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><b>Deprecated Metadata Attributes (scRNAseq Version 3)</b></summary>
 
 ## Deprecated Metadata Attributes (scRNAseq Version 3)
@@ -270,7 +270,7 @@ layout: page
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><b>Deprecated Metadata Attributes (scRNAseq Version 2)</b></summary>
 
 ## Deprecated Metadata Attributes (scRNAseq Version 2)
@@ -324,7 +324,7 @@ layout: page
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><b>Deprecated Metadata Attributes (scRNAseq Version 1)</b></summary>
 
 ## Deprecated Metadata Attributes (scRNAseq Version 1)
@@ -377,7 +377,7 @@ layout: page
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><b>Deprecated Metadata Attributes (scRNAseq Version 0)</b></summary>
 
 ## Deprecated Metadata Attributes (scRNAseq Version 0)

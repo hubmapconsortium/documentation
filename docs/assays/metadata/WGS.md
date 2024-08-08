@@ -2,7 +2,7 @@
 layout: page 
 ---
 # WGS 
-<details>
+<details markdown="1">
 <summary><b> Current Metadata Attributes (Version 1 (no longer accepting data)) </b></summary>
 
 ## Current Metadata Attributes (Version 1 (no longer accepting data))
@@ -44,7 +44,7 @@ layout: page
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><b>Deprecated Metadata Attributes (Version 0)</b></summary>
 
 ## Deprecated Metadata Attributes (Version 0)
