@@ -2,7 +2,7 @@
 layout: page 
 ---
 # seqFISH 
-<details markdown="1"><summary> Current Metadata Attributes (Version 1 (no longer accepting data)) </summary>
+<details markdown="1"><summary> Version 1 (no longer accepting data) </summary>
 
 ## Version 1 (no longer accepting data)
 
