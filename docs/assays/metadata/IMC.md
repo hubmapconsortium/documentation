@@ -3,10 +3,9 @@ layout: page
 ---
 # IMC-2D 
 
-<details markdown="1">
-    <summary><b>Current Metadata Attributes (2D IMC Version 2 (Latest))</b></summary>
+<details markdown="1"><summary>2D IMC Version 2 (Latest)</summary>
 
-## Current Metadata Attributes (2D IMC Version 2 (Latest))
+## 2D IMC Version 2 (Latest)
 
 | Attribute                                           | Type      | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | Allowable Values                                                          | Required   |
 |-----------------------------------------------------|-----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|------------|
@@ -38,12 +37,11 @@ layout: page
 
 </details>
 
-<details markdown="1">
-    <summary><b>Deprecated Metadata Attributes  (2D IMC Version 1)</b></summary>
+<details markdown="1"><summary>2D IMC Version 1</summary>
 
-## Deprecated Metadata Attributes  (2D IMC Version 1)
+## 2D IMC Version 1
 
-| Attribute                               | Type      | Description                                                                                                                                                                                                                                                                                         | AllowableValues                                  | Required   |
+| Attribute                               | Type      | Description                                                                                                                                                                                                                                                                                         | Allowable Values                                  | Required   |
 |-----------------------------------------|-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|------------|
 | version                                 | Allowable Value | Version of the schema to use when validating this metadata.                                                                                                                                                                                                                                         | ['1']                                            | True       |
 | description                             | Textfield | Free-text description of this assay.                                                                                                                                                                                                                                                                |                                                  | True       |
@@ -89,12 +87,11 @@ layout: page
 
 </details>
 
-<details markdown="1">
-<summary><b>Deprecated Metadata Attributes  (2D IMC Version 0) </b></summary>
+<details markdown="1"><summary>2D IMC Version 0 </summary>
 
-## Deprecated Metadata Attributes  (2D IMC Version 0) 
+## 2D IMC Version 0
 
-| Attribute                               | Type      | Description                                                                                                                                                                                                                                                                                         | AllowableValues                                  | Required   |
+| Attribute                               | Type      | Description                                                                                                                                                                                                                                                                                         | Allowable Values                                  | Required   |
 |-----------------------------------------|-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|------------|
 | donor_id                                | Textfield | HuBMAP Display ID of the donor of the assayed tissue.                                                                                                                                                                                                                                               |                                                  | True       |
 | tissue_id                               | Textfield | HuBMAP Display ID of the assayed tissue.                                                                                                                                                                                                                                                            |                                                  | True       |
@@ -139,12 +136,11 @@ layout: page
 
 </details>
 
-<details markdown="1">
-<summary><b>Deprecated Metadata Attributes  (3D IMC Version 1 (no longer accepting data))</b></summary>
+<details markdown="1"><summary>3D IMC Version 1 (no longer accepting data)</summary>
 
-## Deprecated Metadata Attributes  (3D IMC Version 1 (no longer accepting data))
+## 3D IMC Version 1 (no longer accepting data)
 
-| Attribute                               | Type      | Description                                                                                                                                                                                                                                                                                         | AllowableValues                                  | Required   |
+| Attribute                               | Type      | Description                                                                                                                                                                                                                                                                                         | Allowable Values                                  | Required   |
 |-----------------------------------------|-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|------------|
 | version                                 | Allowable Value | Version of the schema to use when validating this metadata.                                                                                                                                                                                                                                         | ['1']                                            | True       |
 | description                             | Textfield | Free-text description of this assay.                                                                                                                                                                                                                                                                |                                                  | True       |
@@ -189,12 +185,11 @@ layout: page
 
 </details>
 
-<details markdown="1">
-<summary><b>Deprecated Metadata Attributes  (3D IMC Version 0)</b></summary>
+<details markdown="1"><summary>3D IMC Version 0</summary>
 
-## Deprecated Metadata Attributes  (3D IMC Version 0)
+## 3D IMC Version 0
 
-| Attribute                               | Type      | Description                                                                                                                                                                                                                                                                                         | AllowableValues                                  | Required   |
+| Attribute                               | Type      | Description                                                                                                                                                                                                                                                                                         | Allowable Values                                  | Required   |
 |-----------------------------------------|-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|------------|
 | donor_id                                | Textfield | HuBMAP Display ID of the donor of the assayed tissue.                                                                                                                                                                                                                                               |                                                  | True       |
 | tissue_id                               | Textfield | HuBMAP Display ID of the assayed tissue.                                                                                                                                                                                                                                                            |                                                  | True       |

@@ -6,7 +6,7 @@ layout: page
 This is a list of available dataset types (data types from multiple supported assays), with links to the valid metadata attributes for each dataset type.  The linked assay pages list all attributes as they have occurred across any versions of the metadata specification for the given dataset type with the most current, valid set of attributes listed first on the page.
 
 
-| Assay | Attributes | Description |
+| Datsaset Type | Attributes | Description |
 |-------|------------|-------------|
 | [AF (Autofluorescence)](https://docs.hubmapconsortium.org/assays/af) | [attributes](AutoFluorescence)  |   Exploits endogenous fluorescence in a biological tissue to capture an image. The image can then be used to integrate other images from multiple modalities and to align tissues within a 3D experiment. |
 | [ATACseq](atacseq) | [attributes](ATACseq)  |  Identifies accessible DNA regions by probing open chromatin with hyperactive mutant Tn5 Transposase that inserts sequencing adapters into open regions of the genome. |

@@ -3,10 +3,9 @@ layout: page
 ---
 # LC-MS 
 
-<details markdown="1">
-<summary><b>Current Metadata Attributes (version 4)</b></summary>
+<details markdown="1"><summary>Version 4 (Latest)</summary>
 
-## Current Metadata Attributes (version 4)
+## Version 4 (Latest)
 
 | Attribute                                           | Type      | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | Allowable Values                                                          | Required   |
 |-----------------------------------------------------|-----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|------------|
@@ -59,12 +58,11 @@ layout: page
 
 </details>
 
-<details markdown="1">
-<summary><b>Deprecated Metadata Attributes (Version 3)</b></summary>
+<details markdown="1"><summary>Version 3</summary>
 
-## Deprecated Metadata Attributes (Version 3)
+## Version 3
 
-| Attribute                     | Type      | Description                                                                                                                                                                                                                                                                                                                                                                                          | AllowableValues                                                                     | Required   |
+| Attribute                     | Type      | Description                                                                                                                                                                                                                                                                                                                                                                                          | Allowable Values                                                                     | Required   |
 |-------------------------------|-----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|------------|
 | version                       | Allowable Value | Version of the schema to use when validating this metadata.                                                                                                                                                                                                                                                                                                                                          | ['3']                                                                               | True       |
 | description                   | Textfield | Free-text description of this assay.                                                                                                                                                                                                                                                                                                                                                                 |                                                                                     | True       |
@@ -126,12 +124,11 @@ layout: page
 
 </details>
 
-<details markdown="1">
-<summary><b>Deprecated Metadata Attributes (Version 2)</b></summary>
+<details markdown="1"><summary>Version 2</summary>
 
-## Deprecated Metadata Attributes (Version 2)
+## Version 2
 
-| Attribute                     | Type      | Description                                                                                                                                                                                                                                                                                                                                                                                          | AllowableValues                                                                     | Required   |
+| Attribute                     | Type      | Description                                                                                                                                                                                                                                                                                                                                                                                          | Allowable Values                                                                     | Required   |
 |-------------------------------|-----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|------------|
 | version                       | Allowable Value | Version of the schema to use when validating this metadata.                                                                                                                                                                                                                                                                                                                                          | ['2']                                                                               | True       |
 | description                   | Textfield | Free-text description of this assay.                                                                                                                                                                                                                                                                                                                                                                 |                                                                                     | True       |
@@ -191,12 +188,11 @@ layout: page
 
 </details>
 
-<details markdown="1">
-<summary><b>Deprecated Metadata Attributes (Version 1)</b></summary>
+<details markdown="1"><summary>Version 1</summary>
 
-## Deprecated Metadata Attributes (Version 1)
+## Version 1
 
-| Attribute                     | Type      | Description                                                                                                                                                                                                                                                                                      | AllowableValues                                                                         | Required   |
+| Attribute                     | Type      | Description                                                                                                                                                                                                                                                                                      | Allowable Values                                                                         | Required   |
 |-------------------------------|-----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|------------|
 | version                       | Allowable Value | Version of the schema to use when validating this metadata.                                                                                                                                                                                                                                      | ['1']                                                                                   | True       |
 | description                   | Textfield | Free-text description of this assay.                                                                                                                                                                                                                                                             |                                                                                         | True       |
@@ -246,12 +242,11 @@ layout: page
 
 </details>
 
-<details markdown="1">
-<summary><b>Deprecated Metadata Attributes (Version 0)</b></summary>
+<details markdown="1"><summary>Version 0</summary>
 
-## Deprecated Metadata Attributes (Version 0)
+## Version 0
 
-| Attribute                     | Type      | Description                                                                                                                                                                                                                                                                                      | AllowableValues                                                                         | Required   |
+| Attribute                     | Type      | Description                                                                                                                                                                                                                                                                                      | Allowable Values                                                                         | Required   |
 |-------------------------------|-----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|------------|
 | donor_id                      | Textfield | HuBMAP Display ID of the donor of the assayed tissue.                                                                                                                                                                                                                                            |                                                                                         | True       |
 | tissue_id                     | Textfield | HuBMAP Display ID of the assayed tissue.                                                                                                                                                                                                                                                         |                                                                                         | True       |

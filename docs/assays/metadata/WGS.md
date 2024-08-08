@@ -2,12 +2,11 @@
 layout: page 
 ---
 # WGS 
-<details markdown="1">
-<summary><b> Current Metadata Attributes (Version 1 (no longer accepting data)) </b></summary>
+<details markdown="1"><summary> Current Metadata Attributes (Version 1 (no longer accepting data)) </summary>
 
-## Current Metadata Attributes (Version 1 (no longer accepting data))
+## Version 1 (no longer accepting data)
 
-| Attribute                             | Type      | Description                                                                                                                                                                                                                                                                                         | AllowableValues              | Required   |
+| Attribute                             | Type      | Description                                                                                                                                                                                                                                                                                         | Allowable Values              | Required   |
 |---------------------------------------|-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------|------------|
 | version                               | Allowable Value | Version of the schema to use when validating this metadata.                                                                                                                                                                                                                                         | ['1']                        | True       |
 | description                           | Textfield | Free-text description of this assay.                                                                                                                                                                                                                                                                |                              | True       |
@@ -44,12 +43,11 @@ layout: page
 
 </details>
 
-<details markdown="1">
-<summary><b>Deprecated Metadata Attributes (Version 0)</b></summary>
+<details markdown="1"><summary>Version 0</summary>
 
-## Deprecated Metadata Attributes (Version 0)
+## Version 0
 
-| Attribute                             | Type      | Description                                                                                                                                                                                                                                                                                         | AllowableValues              | Required   |
+| Attribute                             | Type      | Description                                                                                                                                                                                                                                                                                         | Allowable Values              | Required   |
 |---------------------------------------|-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------|------------|
 | donor_id                              | Textfield | HuBMAP Display ID of the donor of the assayed tissue.                                                                                                                                                                                                                                               |                              | True       |
 | tissue_id                             | Textfield | HuBMAP Display ID of the assayed tissue.                                                                                                                                                                                                                                                            |                              | True       |

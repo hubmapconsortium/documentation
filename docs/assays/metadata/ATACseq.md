@@ -4,11 +4,7 @@ layout: page
 # ATACseq 
 
 
-
-## Current Metadata Attributes (Version 3)
-
-<details markdown="1">
-<summary><b>Current Metadata Attributes (Version 3)</b><summary>
+<details markdown="1"><summary>Version 3 (Latest)</summary>
 
 | Attribute                                           | Type      | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | Allowable Values                                                          | Required   |
 |-----------------------------------------------------|-----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|------------|
@@ -61,12 +57,9 @@ layout: page
 
 </details>
 
+<details markdown="1"><summary>SNARE-seq2 / sciATACseq / snATACseq Version 1</summary>
 
-## Deprecated Metadata Attributes (SNARE-seq2 / sciATACseq / snATACseq Version 1)
-
-<details markdown="1"><summary><b>Deprecated Metadata Attributes (SNARE-seq2 / sciATACseq / snATACseq Version 1)</b><summary>
-
-| Attribute                             | Type      | Description                                                                                                                                                                                                                                                                                         | AllowableValues                                                                     | Required   |
+| Attribute                             | Type      | Description                                                                                                                                                                                                                                                                                         | Allowable Values                                                                     | Required   |
 |---------------------------------------|-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|------------|
 | version                               | Allowable Value | Version of the schema to use when validating this metadata.                                                                                                                                                                                                                                         | ['1']                                                                               | True       |
 | description                           | Textfield | Free-text description of this assay.                                                                                                                                                                                                                                                                |                                                                                     | True       |
@@ -116,11 +109,9 @@ layout: page
 
 </details>
 
-## Deprecated Metadata Attributes (SNARE-seq2 / sciATACseq / snATACseq Version 0)
+<details markdown="1"><summary>SNARE-seq2 / sciATACseq / snATACseq Version 0</summary>
 
-<details markdown="1"><summary><b>Deprecated Metadata Attributes (SNARE-seq2 / sciATACseq / snATACseq Version 0)</b><summary>
-
-| Attribute                             | Type      | Description                                                                                                                                                                                                                                                                                         | AllowableValues                                                                                                                      | Required   |
+| Attribute                             | Type      | Description                                                                                                                                                                                                                                                                                         | Allowable Values                                                                                                                      | Required   |
 |---------------------------------------|-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|------------|
 | donor_id                              | Textfield | HuBMAP Display ID of the donor of the assayed tissue.                                                                                                                                                                                                                                               |                                                                                                                                      | True       |
 | tissue_id                             | Textfield | HuBMAP Display ID of the assayed tissue.                                                                                                                                                                                                                                                            |                                                                                                                                      | True       |
@@ -163,14 +154,12 @@ layout: page
 | sequencing_phix_percent               | Numeric   | Percent PhiX loaded to the run                                                                                                                                                                                                                                                                      |                                                                                                                                      | True       |
 | contributors_path                     | Textfield | Relative path to file with ORCID IDs for contributors for this dataset.                                                                                                                                                                                                                             |                                                                                                                                      | True       |
 | data_path                             | Textfield | Relative path to file or directory with instrument data. Downstream processing will depend on filename extension conventions.                                                                                                                                                                       |                                                                                                                                      | True       |
+
 </details>
 
+<details markdown="1"><summary>bulkATACseq Version 1</summary>
 
-## Deprecated Metadata Attributes (bulkATACseq Version 1)
-
-<details markdown="1"><summary><b>Deprecated Metadata Attributes (bulkATACseq Version 1)</b><summary>
-
-| Attribute                                 | Type      | Description                                                                                                                                                                                                                                                                                         | AllowableValues              | Required   |
+| Attribute                                 | Type      | Description                                                                                                                                                                                                                                                                                         | Allowable Values              | Required   |
 |-------------------------------------------|-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------|------------|
 | version                                   | Allowable Value | Version of the schema to use when validating this metadata.                                                                                                                                                                                                                                         | ['1']                        | True       |
 | description                               | Textfield | Free-text description of this assay.                                                                                                                                                                                                                                                                |                              | True       |
@@ -217,11 +206,10 @@ layout: page
 </details>
 
 
-## Deprecated Metadata Attributes (bulkATACseq 0)
 
-<details markdown="1"><summary><b>Deprecated Metadata Attributes (bulkATACseq 0)</b><summary>
+<details markdown="1"><summary>bulkATACseq 0</summary>
 
-| Attribute                                 | Type      | Description                                                                                                                                                                                                                                                                                         | AllowableValues              | Required   |
+| Attribute                                 | Type      | Description                                                                                                                                                                                                                                                                                         | Allowable Values              | Required   |
 |-------------------------------------------|-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------|------------|
 | version                                   | Allowable Value | Version of the schema to use when validating this metadata.                                                                                                                                                                                                                                         | ['1']                        | True       |
 | description                               | Textfield | Free-text description of this assay.                                                                                                                                                                                                                                                                |                              | True       |
