@@ -1,9 +1,10 @@
 --- 
 layout: page 
 ---
-# Auto-fluorescence 
+# Auto-fluorescence
 
-<details markdown="1"><summary>Version 2(Latest)</b></summary
+
+<details markdown="1"><summary>Version 2(Latest)</summary>
 
 ## Version 2 (Latest)
 
@@ -39,7 +40,7 @@ layout: page
 
 ## Version 1
 
-| Attribute                     | Type      | Description                                                                                                                                                                                                                                                                                         | Allowable Values    | Required   |
+| Attribute                     | Type      | Description                                                                                                                                                                                                                                                                                         | AllowableValues    | Required   |
 |-------------------------------|-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|------------|
 | version                       | Allowable Value | Version of the schema to use when validating this metadata.                                                                                                                                                                                                                                         | ['1']              | True       |
 | description                   | Textfield | Free-text description of this assay.                                                                                                                                                                                                                                                                |                    | True       |
@@ -74,7 +75,7 @@ layout: page
 
 ## Version 0
 
-| Attribute                     | Type      | Description                                                                                                                                                                                                                                                                                         | Allowable Values    | Required   |
+| Attribute                     | Type      | Description                                                                                                                                                                                                                                                                                         | AllowableValues    | Required   |
 |-------------------------------|-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|------------|
 | donor_id                      | Textfield | HuBMAP Display ID of the donor of the assayed tissue.                                                                                                                                                                                                                                               |                    | True       |
 | tissue_id                     | Textfield | HuBMAP Display ID of the assayed tissue.                                                                                                                                                                                                                                                            |                    | True       |
