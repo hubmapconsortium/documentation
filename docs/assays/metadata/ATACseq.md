@@ -6,7 +6,8 @@ layout: page
 
 <details>
 <summary><b>Current Metadata Attributes (Version 3)</b></summary>
-
+<details>
+<summary><b>ATT</b></summary>
 ## Current Metadata Attributes (Version 3)
 
 | Attribute                                           | Type      | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | Allowable Values                                                          | Required   |
@@ -64,7 +65,8 @@ layout: page
 
 <details>
     <summary><b>Deprecated Metadata Attributes (SNARE-seq2 / sciATACseq / snATACseq Version 1)</b></summary>
-
+<details>
+<summary><b>ATT</b></summary>
 ## Deprecated Metadata Attributes (SNARE-seq2 / sciATACseq / snATACseq Version 1)
 
 | Attribute                             | Type      | Description                                                                                                                                                                                                                                                                                         | AllowableValues                                                                     | Required   |
@@ -120,7 +122,8 @@ layout: page
 
 <details>
     <summary><b>Deprecated Metadata Attributes (SNARE-seq2 / sciATACseq / snATACseq Version 0)</b></summary>
-
+<details>
+<summary><b>ATT</b></summary>
 ## Deprecated Metadata Attributes (SNARE-seq2 / sciATACseq / snATACseq Version 0)
 
 | Attribute                             | Type      | Description                                                                                                                                                                                                                                                                                         | AllowableValues                                                                                                                      | Required   |
@@ -172,7 +175,8 @@ layout: page
 
 <details>
     <summary><b>Deprecated Metadata Attributes (bulkATACseq Version 1)</b></summary>
-
+<details>
+<summary><b>ATT</b></summary>
 ## Deprecated Metadata Attributes (bulkATACseq Version 1)
 
 | Attribute                                 | Type      | Description                                                                                                                                                                                                                                                                                         | AllowableValues              | Required   |
@@ -224,7 +228,8 @@ layout: page
 
 <details>
     <summary><b>Deprecated Metadata Attributes (bulkATACseq 0)</b></summary>
-
+<details>
+<summary><b>ATT</b></summary>
 ## Deprecated Metadata Attributes (bulkATACseq 0)
 
 | Attribute                                 | Type      | Description                                                                                                                                                                                                                                                                                         | AllowableValues              | Required   |
