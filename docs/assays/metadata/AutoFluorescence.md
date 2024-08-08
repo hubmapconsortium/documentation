@@ -4,7 +4,7 @@ layout: page
 # Auto-fluorescence
 
 
-<details markdown="1"><summary>Version 2(Latest)</summary>
+<details markdown="1"><summary>Version 2 (Latest)</summary>
 
 ## Version 2 (Latest)
 
