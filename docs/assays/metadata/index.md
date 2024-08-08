@@ -1,8 +1,10 @@
 ---
 layout: page
 ---
-## Overview
-This document details data levels, metadata fields, file structure, QA/QC thresholds, and data processing for bulk and single-cell ATAC sequencing assays.
+## HuBMAP Metadata Attributes by Dataset Type
+
+This is a list of available dataset types (data types from multiple supported assays), with links to the valid metadata attributes for each dataset type.  The linked assay pages list all attributes as they have occurred across any versions of the metadata specification for the given dataset type with the most current, valid set of attributes listed first on the page.
+
 
 | Assay | Attributes | Description |
 |-------|------------|-------------|
@@ -14,7 +16,7 @@ This document details data levels, metadata fields, file structure, QA/QC thresh
 | GeoMx | [attributes](GeoMx)  | |
 | HiFi | [attributes](HiFi-Slide)  | |
 | Histology | [attributes](Histology)  | |
-| [IMC](https://docs.hubmapconsortium.org/assays/imc) | [attributes](IMC-2D)  |Combines standard immunohistochemistry with CyTOF mass cytometry to resolve the cellular localization of up to 40 proteins in a tissue sample. |
+| [IMC](https://docs.hubmapconsortium.org/assays/imc) | [attributes](IMC)  |Combines standard immunohistochemistry with CyTOF mass cytometry to resolve the cellular localization of up to 40 proteins in a tissue sample. |
 | [LC-MS](https://docs.hubmapconsortium.org/assays/lcms) | [attributes](LC-MS)  |  Coupling of liquid chromatography (LC) to mass spectrometry (MS) |
 | Light Sheet | [attributes](LightSheet)  | |
 | [MALDI-IMS (neg and pos modes - Matrix Assisted Laser Desorption Ionization Imaging Mass Spectrometry)](https://docs.hubmapconsortium.org/metadata/Assay_Types.html#MALDI-Imaging) | [attributes](MALDI)  |  Matrix-assisted laser desorption/ionization (MALDI) imaging mass spectrometry (IMS) combines the sensitivity and molecular specificity of MS with the spatial fidelity of classical microscopy. |
