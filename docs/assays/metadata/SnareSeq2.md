@@ -2,6 +2,8 @@
 layout: page 
 ---
 # SnareSeq2 
+<details>
+<summary><b> Current Metadata Attributes </b></summary>
 
 ## Current Metadata Attributes 
 
@@ -15,3 +17,5 @@ layout: page
 | metadata_schema_id                     | Textfield | The string that serves as the definitive identifier for the metadata schema version and is readily interpretable by computers for data validation and processing. Example: 22bc762a-5020-419d-b170-24253ed9e8d9                                                                                                                                                                                                                                                                                                                                                                       |                                                                | True       |
 | preparation_protocol_doi               | Textfield      | DOI for the protocols.io page that describes the assay or sample procurment and preparation. For example for an imaging assay, the protocol might include staining of a section through the creation of an OME-TIFF file. In this case the protocol would include any image processing steps required to create the OME-TIFF file. Example: https://dx.doi.org/10.17504/protocols.io.eq2lyno9qvx9/v1                                                                                                                                                                                  |                                                                | True       |
 | parent_sample_id                       | Textfield | Unique HuBMAP or SenNet identifier of the sample (i.e., block, section or suspension) used to perform this assay. For example, for a RNAseq assay, the parent would be the suspension, whereas, for one of the imaging assays, the parent would be the tissue section. If an assay comes from multiple parent samples then this should be a comma separated list. Example: HBM386.ZGKG.235, HBM672.MKPK.442 or SNT232.UBHJ.322, SNT329.ALSK.102                                                                                                                                       |                                                                | True       |
+
+</details>

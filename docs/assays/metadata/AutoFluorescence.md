@@ -3,6 +3,9 @@ layout: page
 ---
 # Auto-fluorescence 
 
+<details>
+<summary><b>Current Metadata Attributes</b></summary
+
 ## Current Metadata Attributes 
 
 | Attribute                                           | Type      | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | Allowable Values                                                          | Required   |
@@ -31,6 +34,10 @@ layout: page
 | antibodies_path                                     | Textfield | This is the location of the antibodies.tsv file relative to the root of the top level of the upload directory structure. This path should begin with "." and would likely be something like "./extras/antibodies.tsv".                                                                                                                                                                                                                                                                                                                                                               |                                                                | True       |
 | parent_sample_id                                    | Textfield | Unique HuBMAP or SenNet identifier of the sample (i.e., block, section or suspension) used to perform this assay. For example, for a RNAseq assay, the parent would be the suspension, whereas, for one of the imaging assays, the parent would be the tissue section. If an assay comes from multiple parent samples then this should be a comma separated list. Example: HBM386.ZGKG.235, HBM672.MKPK.442 or SNT232.UBHJ.322, SNT329.ALSK.102                                                                                                                                      |                                                                | True       |
 
+</details>
+
+<details>
+<summary><b>Deprecated Metadata Attributes (Version 1)</b></summary>
 
 ## Deprecated Metadata Attributes (Version 1)
 
@@ -63,6 +70,10 @@ layout: page
 | contributors_path             | Textfield | Relative path to file with ORCID IDs for contributors for this dataset.                                                                                                                                                                                                                             |                    | True       |
 | data_path                     | Textfield | Relative path to file or directory with instrument data. Downstream processing will depend on filename extension conventions.                                                                                                                                                                       |                    | True       |
 
+</details>
+
+<details>
+<summary><b>Deprecated Metadata Attributes (Version 0)</b></summary>
 
 ## Deprecated Metadata Attributes (Version 0)
 
@@ -92,3 +103,5 @@ layout: page
 | overall_protocols_io_doi      | Textfield | DOI for protocols.io referring to the overall protocol for the assay.                                                                                                                                                                                                                               |                    | True       |
 | contributors_path             | Textfield | Relative path to file with ORCID IDs for contributors for this dataset.                                                                                                                                                                                                                             |                    | True       |
 | data_path                     | Textfield | Relative path to file or directory with instrument data. Downstream processing will depend on filename extension conventions.                                                                                                                                                                       |                    | True       |
+
+</details>

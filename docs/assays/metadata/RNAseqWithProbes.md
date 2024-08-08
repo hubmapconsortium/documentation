@@ -2,6 +2,8 @@
 layout: page 
 ---
 # RNAseq-(with-probes) 
+<details>
+<summary><b> Current Metadata Attributes </b></summary>
 
 ## Current Metadata Attributes 
 
@@ -59,3 +61,5 @@ layout: page
 | is_custom_probes_used                              | Allowable Value  | State ("Yes" or "No") whether custom RNA or antibody probes were used. If custom probes were used, they must be listed in the "custom_probe_set.csv" file.                                                                                                                                                                                                                                                                                                                                                                                                                            | ```Yes``` ```No```                                                     | True       |
 | dataset_type                                        | Allowable Value      | The specific type of dataset being produced.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | ```10X Multiome``` ```2D Imaging Mass Cytometry``` ```ATACseq``` ```Auto-fluorescence``` ```Cell DIVE``` ```CODEX``` ```Confocal``` ```CosMx``` ```CyCIF``` ```DBiT``` ```DESI``` ```Enhanced Stimulated Raman Spectroscopy (SRS)``` ```GeoMx (nCounter)``` ```GeoMx (NGS)``` ```HiFi-Slide``` ```Histology``` ```LC-MS``` ```Light Sheet``` ```MALDI``` ```MERFISH``` ```MIBI``` ```Molecular Cartography``` ```MUSIC``` ```nanoSPLITS``` ```PhenoCycler``` ```Resolve``` ```RNAseq``` ```RNAseq (with probes)``` ```Second Harmonic Generation (SHG)``` ```SIMS``` ```SNARE-seq2``` ```Stereo-seq``` ```Thick section Multiphoton MxIF``` ```Visium (no probes)``` ```Visium (with probes)``` ```Xenium```| True       |
 | amount_of_input_analyte_unit                        | Allowable Value      | Units of amount of entity input to assay value                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | ```ug``` ```ng``` | False      |
+
+</details>

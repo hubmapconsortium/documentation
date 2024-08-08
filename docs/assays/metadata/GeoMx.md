@@ -3,6 +3,9 @@ layout: page
 ---
 # GeoMx-(no-probes) 
 
+<details>
+<summary><b>Current Metadata Attributes  (NGS Version 2 (current))</b></summary>
+
 ## Current Metadata Attributes  (NGS Version 2 (current))
 
 | attribute                                           | type           | description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | value      | required   |
@@ -43,6 +46,10 @@ layout: page
 | metadata_schema_id                                  | Textfield      | The string that serves as the definitive identifier for the metadata schema version and is readily interpretable by computers for data validation and processing. Example: 22bc762a-5020-419d-b170-24253ed9e8d9                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |            | True       |
 | non_global_files                                    | Textfield      | A semicolon separated list of non-shared files to be included in the dataset. The path assumes the files are located in the "TOP/non-global/" directory. For example, for the file is TOP/non-global/lab_processed/images/1-tissue-boundary.geojson the value of this field would be "./lab_processed/images/1-tissue-boundary.geojson". After ingest, these files will be copied to the appropriate locations within the respective dataset directory tree. This field is used for internal HuBMAP processing. Examples for GeoMx and PhenoCycler are provided in the File Locations documentation: https://docs.google.com/document/d/1n2McSs9geA9Eli4QWQaB3c9R3wo5d5U1Xd57DWQfN5Q/edit#heading=h.1u82i4axggee |            | True       |
 
+</details>
+
+<details>
+<summary><b>Current Metadata Attributes  (nCounter Version 2 (current))</b></summary>
 
 ## Current Metadata Attributes  (nCounter Version 2 (current))  
 
@@ -88,3 +95,5 @@ layout: page
 | oligo_probe_panel                                   | Textfield      | This is the probe panel used to target genes and/or proteins. In cases where there is a core panel and add-on modules, the core panel should be selected here. If additional panels are used, then they must be included in the "additional_panels_used.csv" file that's uploaded with the dataset.                                                                                                                                                                                                                                                                                                                                                                                                              |            | True       |
 | is_custom_probes_used                               | Allowable Value | State ("Yes" or "No") whether custom RNA or antibody probes were used. If custom probes were used, they must be listed in the "custom_probe_set.csv" file.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | ['Yes', 'No'] | True       |
 | non_global_files                                    | Textfield      | A semicolon separated list of non-shared files to be included in the dataset. The path assumes the files are located in the "TOP/non-global/" directory. For example, for the file is TOP/non-global/lab_processed/images/1-tissue-boundary.geojson the value of this field would be "./lab_processed/images/1-tissue-boundary.geojson". After ingest, these files will be copied to the appropriate locations within the respective dataset directory tree. This field is used for internal HuBMAP processing. Examples for GeoMx and PhenoCycler are provided in the File Locations documentation: https://docs.google.com/document/d/1n2McSs9geA9Eli4QWQaB3c9R3wo5d5U1Xd57DWQfN5Q/edit#heading=h.1u82i4axggee |            | True       |
+
+</details>

@@ -4,7 +4,10 @@ layout: page
 # ATACseq 
 
 
-
+<details>
+<summary><b>Current Metadata Attributes (Version 3)</b></summary>
+<details>
+<summary><b>ATT</b></summary>
 ## Current Metadata Attributes (Version 3)
 
 | Attribute                                           | Type      | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | Allowable Values                                                          | Required   |
@@ -46,9 +49,13 @@ d| barcode_offset                                      | Allowable Value  | Posi
 | umi_offset                                          | Allowable Value  | Position in the read at which the UMI barcode starts. This should be included when constructing sequencing libraries with a non-commercial kit.                                                                                                                                                                                                                                                                                                                                                                                                                                       | ```0``` ```16``` ```36``` ```Not applicable```                                 | True       |
 | dataset_type                                        | Allowable Value      | The specific type of dataset being produced.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | ```10X Multiome``` ```2D Imaging Mass Cytometry``` ```ATACseq``` ```Auto-fluorescence``` ```Cell DIVE``` ```CODEX``` ```Confocal``` ```CosMx``` ```CyCIF``` ```DBiT``` ```DESI``` ```Enhanced Stimulated Raman Spectroscopy (SRS)``` ```GeoMx (nCounter)``` ```GeoMx (NGS)``` ```HiFi-Slide``` ```Histology``` ```LC-MS``` ```Light Sheet``` ```MALDI``` ```MERFISH``` ```MIBI``` ```Molecular Cartography``` ```MUSIC``` ```nanoSPLITS``` ```PhenoCycler``` ```Resolve``` ```RNAseq``` ```RNAseq (with probes)``` ```Second Harmonic Generation (SHG)``` ```SIMS``` ```SNARE-seq2``` ```Stereo-seq``` ```Thick section Multiphoton MxIF``` ```Visium (no probes)``` ```Visium (with probes)``` ```Xenium```| True       |
 
+</details>
 
 
-
+<details>
+    <summary><b>Deprecated Metadata Attributes (SNARE-seq2 / sciATACseq / snATACseq Version 1)</b></summary>
+<details>
+<summary><b>ATT</b></summary>
 ## Deprecated Metadata Attributes (SNARE-seq2 / sciATACseq / snATACseq Version 1)
 
 | Attribute                             | Type      | Description                                                                                                                                                                                                                                                                                         | AllowableValues                                                                     | Required   |
@@ -101,6 +108,10 @@ d| barcode_offset                                      | Allowable Value  | Posi
 
 
 
+<details>
+    <summary><b>Deprecated Metadata Attributes (SNARE-seq2 / sciATACseq / snATACseq Version 0)</b></summary>
+<details>
+<summary><b>ATT</b></summary>
 ## Deprecated Metadata Attributes (SNARE-seq2 / sciATACseq / snATACseq Version 0)
 
 | Attribute                             | Type      | Description                                                                                                                                                                                                                                                                                         | AllowableValues                                                                                                                      | Required   |
@@ -149,6 +160,10 @@ d| barcode_offset                                      | Allowable Value  | Posi
 
 
 
+<details>
+    <summary><b>Deprecated Metadata Attributes (bulkATACseq Version 1)</b></summary>
+<details>
+<summary><b>ATT</b></summary>
 ## Deprecated Metadata Attributes (bulkATACseq Version 1)
 
 | Attribute                                 | Type      | Description                                                                                                                                                                                                                                                                                         | AllowableValues              | Required   |
@@ -197,8 +212,12 @@ d| barcode_offset                                      | Allowable Value  | Posi
 
 
 
-
+<details>
+    <summary><b>Deprecated Metadata Attributes (bulkATACseq 0)</b></summary>
+<details>
+<summary><b>ATT</b></summary>
 ## Deprecated Metadata Attributes (bulkATACseq 0)
+
 | Attribute                                 | Type      | Description                                                                                                                                                                                                                                                                                         | AllowableValues              | Required   |
 |-------------------------------------------|-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------|------------|
 | version                                   | Allowable Value | Version of the schema to use when validating this metadata.                                                                                                                                                                                                                                         | ['1']                        | True       |
@@ -243,4 +262,4 @@ d| barcode_offset                                      | Allowable Value  | Posi
 | contributors_path                         | Textfield | Relative path to file with ORCID IDs for contributors for this dataset.                                                                                                                                                                                                                             |                              | True       |
 | data_path                                 | Textfield | Relative path to file or directory with instrument data. Downstream processing will depend on filename extension conventions.                                                                                                                                                                       |                              | True       |
 
-
+</details>

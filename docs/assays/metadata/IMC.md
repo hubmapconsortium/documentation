@@ -3,6 +3,9 @@ layout: page
 ---
 # IMC-2D 
 
+<details>
+    <summary><b>Current Metadata Attributes (2D IMC Version 2 (Latest))</b></summary>
+
 ## Current Metadata Attributes (2D IMC Version 2 (Latest))
 
 | Attribute                                           | Type      | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | Allowable Values                                                          | Required   |
@@ -32,7 +35,12 @@ layout: page
 | antibodies_path                                     | Textfield | This is the location of the antibodies.tsv file relative to the root of the top level of the upload directory structure. This path should begin with "." and would likely be something like "./extras/antibodies.tsv".                                                                                                                                                                                                                                                                                                                                                                |                                                                | True       |
 | metadata_schema_id                                  | Textfield | The string that serves as the definitive identifier for the metadata schema version and is readily interpretable by computers for data validation and processing. Example: 22bc762a-5020-419d-b170-24253ed9e8d9                                                                                                                                                                                                                                                                                                                                                                       |                                                                | True       |
 
- 
+
+</details>
+
+<details>
+    <summary><b>Deprecated Metadata Attributes  (2D IMC Version 1)</b></summary>
+
 ## Deprecated Metadata Attributes  (2D IMC Version 1)
 
 | Attribute                               | Type      | Description                                                                                                                                                                                                                                                                                         | AllowableValues                                  | Required   |
@@ -79,6 +87,10 @@ layout: page
 | contributors_path                       | Textfield | Relative path to file with ORCID IDs for contributors for this dataset.                                                                                                                                                                                                                             |                                                  | True       |
 | data_path                               | Textfield | Relative path to file or directory with instrument data. Downstream processing will depend on filename extension conventions.                                                                                                                                                                       |                                                  | True       |
 
+</details>
+
+<details>
+<summary><b>Deprecated Metadata Attributes  (2D IMC Version 0) </b></summary>
 
 ## Deprecated Metadata Attributes  (2D IMC Version 0) 
 
@@ -125,6 +137,10 @@ layout: page
 | contributors_path                       | Textfield | Relative path to file with ORCID IDs for contributors for this dataset.                                                                                                                                                                                                                             |                                                  | True       |
 | data_path                               | Textfield | Relative path to file or directory with instrument data. Downstream processing will depend on filename extension conventions.                                                                                                                                                                       |                                                  | True       |
 
+</details>
+
+<details>
+<summary><b>Deprecated Metadata Attributes  (3D IMC Version 1 (no longer accepting data))</b></summary>
 
 ## Deprecated Metadata Attributes  (3D IMC Version 1 (no longer accepting data))
 
@@ -171,6 +187,10 @@ layout: page
 | contributors_path                       | Textfield | Relative path to file with ORCID IDs for contributors for this dataset.                                                                                                                                                                                                                             |                                                  | True       |
 | data_path                               | Textfield | Relative path to file or directory with instrument data. Downstream processing will depend on filename extension conventions.                                                                                                                                                                       |                                                  | True       |
 
+</details>
+
+<details>
+<summary><b>Deprecated Metadata Attributes  (3D IMC Version 0)</b></summary>
 
 ## Deprecated Metadata Attributes  (3D IMC Version 0)
 
@@ -214,3 +234,5 @@ layout: page
 | antibodies_path                         | Textfield | Relative path to file with antibody information for this dataset.                                                                                                                                                                                                                                   |                                                  | True       |
 | contributors_path                       | Textfield | Relative path to file with ORCID IDs for contributors for this dataset.                                                                                                                                                                                                                             |                                                  | True       |
 | data_path                               | Textfield | Relative path to file or directory with instrument data. Downstream processing will depend on filename extension conventions.                                                                                                                                                                       |                                                  | True       |
+
+</details>

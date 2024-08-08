@@ -2,6 +2,8 @@
 layout: page 
 ---
 # CODEX 
+<details>
+<summary><b>Current Metadata Attributes (Version 2)</b></summary>
 
 ## Current Metadata Attributes (Version 2)
 
@@ -33,6 +35,10 @@ layout: page
 | preparation_instrument_model                        | Allowable Value      | Manufacturers of a staining system instrument may offer various versions (models) of that instrument with different features. Differences in features or sensitivities may be relevant to processing or interpretation of the data.                                                                                                                                                                                                                                                                                                                                                  | ```AutoStainer XL``` ```Chromium Connect``` ```Chromium Controller``` ```Chromium iX``` ```Chromium X``` ```Discovery Ultra``` ```EVOS M7000``` ```M3+ Sprayer``` ```M5 Sprayer``` ```NanoZoomer S210``` ```NanoZoomer S360``` ```NanoZoomer S60``` ```Not applicable``` ```ST5020 Multistainer``` ```Sublimator``` ```SunCollect Sprayer``` ```TM-Sprayer``` ```Visium CytAssist ```| True       |
 | parent_sample_id                                    | Textfield | Unique HuBMAP or SenNet identifier of the sample (i.e., block, section or suspension) used to perform this assay. For example, for a RNAseq assay, the parent would be the suspension, whereas, for one of the imaging assays, the parent would be the tissue section. If an assay comes from multiple parent samples then this should be a comma separated list. Example: HBM386.ZGKG.235, HBM672.MKPK.442 or SNT232.UBHJ.322, SNT329.ALSK.102                                                                                                                                      |                                                                | True       |
 
+</details>
+
+<details>
+<summary><b>Deprecated Metadata Attributes (Version 1)</b></summary>
 
 ## Deprecated Metadata Attributes (Version 1)
 
@@ -71,6 +77,10 @@ layout: page
 | contributors_path             | Textfield | Relative path to file with ORCID IDs for contributors for this dataset.                                                                                                                                                                                                                                                                                                                                                        |                                                             | True       |
 | data_path                     | Textfield | Relative path to file or directory with instrument data. Downstreamprocessing will depend on filename extension conventions.                                                                                                                                                                                                                                                                                                   |                                                             | True       |
 
+</details>
+
+<details>
+<summary><b>Deprecated Metadata Attributes (Version 0)</b></summary>
 
 ## Deprecated Metadata Attributes (Version 0)
 
@@ -108,3 +118,4 @@ layout: page
 | contributors_path             | Textfield | Relative path to file with ORCID IDs for contributors for this dataset.                                                                                                                                                                                                                                                                                                                                                        |                                                             | True       |
 | data_path                     | Textfield | Relative path to file or directory with instrument data. Downstreamprocessing will depend on filename extension conventions.                                                                                                                                                                                                                                                                                                   |                                                             | True       |
 
+</details>

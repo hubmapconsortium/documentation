@@ -2,6 +2,8 @@
 layout: page 
 ---
 # seqFISH 
+<details>
+<summary><b> Current Metadata Attributes (Version 1 (no longer accepting data)) </b></summary>
 
 ## Current Metadata Attributes (Version 1 (no longer accepting data))
 
@@ -42,6 +44,10 @@ layout: page
 | contributors_path                           | Textfield | Relative path to file with ORCID IDs for contributors for this dataset.                                                                                                                                                                                                                                                                                                                                                             |                    | True       |
 | data_path                                   | Textfield | Relative path to file or directory with instrument data. Downstream processing will depend on filename extension conventions.                                                                                                                                                                                                                                                                                                       |                    | True       |
 
+</details>
+
+<details>
+<summary><b>Deprecated Metadata Attributes (Version 0)</b></summary>
 
 ## Deprecated Metadata Attributes (Version 0)
 
@@ -79,3 +85,5 @@ layout: page
 | reagent_prep_protocols_io_doi               | Textfield | DOI for protocols.io referring to the protocol for preparing reagents for the assay.                                                                                                                                                                                                                                                                                                                                                |                    | True       |
 | contributors_path                           | Textfield | Relative path to file with ORCID IDs for contributors for this dataset.                                                                                                                                                                                                                                                                                                                                                             |                    | True       |
 | data_path                                   | Textfield | Relative path to file or directory with instrument data. Downstream processing will depend on filename extension conventions.                                                                                                                                                                                                                                                                                                       |                    | True       |
+
+</details>

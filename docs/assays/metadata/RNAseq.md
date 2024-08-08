@@ -2,6 +2,8 @@
 layout: page 
 ---
 # RNAseq 
+<details>
+<summary><b> Current Metadata Attributes </b></summary>
 
 ## Current Metadata Attributes (Version 5)
 
@@ -56,6 +58,10 @@ layout: page
 | barcode_offset                                      | Allowable Value  | Positions in the read at which the cell or capture spot barcodes start. Cell and capture spot barcodes are, for example, 3 x 8 bp sequences that are spaced by constant sequences (the offsets). First barcode at position 0, then 38, then 76. This should be included when constructing sequencing libraries with a non-commercial kit.                                                                                                                                                                                                                                             | ```0``` ```8``` ```20``` ```1,27``` ```0,38,76``` ```10,48,78``` ```10,48,86``` ```Not applicable``` | True       |
 | amount_of_input_analyte_unit                        | Allowable Value      | Units of amount of entity input to assay value                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | ```ug``` ```ng``` | False      |
 
+</details>
+
+<details>
+<summary><b>Deprecated Metadata Attributes (Version 2)</b></summary>
 
 ## Deprecated Metadata Attributes (Version 2)
 
@@ -110,6 +116,10 @@ layout: page
 | umi_offset                                          | Allowable Value  | Position in the read at which the UMI barcode starts. This should be included when constructing sequencing libraries with a non-commercial kit.                                                                                                                                                                                                                                                                                                                                                                                                                                       | ```0``` ```16``` ```36``` ```Not applicable```                                       | True       |
 | dataset_type                                        | Allowable Value      | The specific type of dataset being produced.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | ```10X Multiome``` ```2D Imaging Mass Cytometry``` ```ATACseq (bulk)``` ```Auto-fluorescence``` ```Cell DIVE``` ```CODEX``` ```Confocal``` ```CosMx``` ```CyCIF``` ```DBiT``` ```DESI``` ```Enhanced Stimulated Raman Spectroscopy (SRS)``` ```GeoMx (nCounter)``` ```GeoMx (NGS)``` ```HiFi-Slide``` ```Histology``` ```LC-MS``` ```Light Sheet``` ```MALDI``` ```MERFISH``` ```MIBI``` ```Molecular Cartography``` ```PhenoCycler``` ```RNAseq (bulk)``` ```scATACseq``` ```scRNAseq``` ```Second Harmonic Generation (SHG)``` ```SIMS``` ```SNARE-seq2``` ```snATACseq``` ```snRNAseq``` ```Thick section Multiphoton MxIF``` ```Visium``` ```Xenium``` | True       |
 
+</details>
+
+<details>
+<summary><b>Deprecated Metadata Attributes (bulk-RNA Version 1)</b></summary>
 
 ## Deprecated Metadata Attributes (bulk-RNA Version 1)
 
@@ -157,6 +167,10 @@ layout: page
 | contributors_path                         | Textfield | Relative path to file with ORCID IDs for contributors for this dataset.                                                                                                                                                                                                                             |                              | True       |
 | data_path                                 | Textfield | Relative path to file or directory with instrument data. Downstream processing will depend on filename extension conventions.                                                                                                                                                                       |                              | True       |
 
+</details>
+
+<details>
+<summary><b>Deprecated Metadata Attributes (bulk-RNA Version 0)</b></summary>
 
 ## Deprecated Metadata Attributes (bulk-RNA Version 0)
 
@@ -197,6 +211,10 @@ layout: page
 | contributors_path                       | Textfield | Relative path to file with ORCID IDs for contributors for this dataset.                                                                                                                                                                                                                             |                              | True       |
 | data_path                               | Textfield | Relative path to file or directory with instrument data. Downstream processing will depend on filename extension conventions.                                                                                                                                                                       |                              | True       |
 
+</details>
+
+<details>
+<summary><b>Deprecated Metadata Attributes (scRNAseq Version 3)</b></summary>
 
 ## Deprecated Metadata Attributes (scRNAseq Version 3)
 
@@ -250,6 +268,10 @@ layout: page
 | contributors_path                     | Textfield | Relative path to file with ORCID IDs for contributors for this dataset.                                                                                                                                                                                                                             |                                                                                                                                                                    | True       |
 | data_path                             | Textfield | Relative path to file or directory with instrument data. Downstream processing will depend on filename extension conventions.                                                                                                                                                                       |                                                                                                                                                                    | True       |
 
+</details>
+
+<details>
+<summary><b>Deprecated Metadata Attributes (scRNAseq Version 2)</b></summary>
 
 ## Deprecated Metadata Attributes (scRNAseq Version 2)
 
@@ -300,6 +322,10 @@ layout: page
 | contributors_path                     | Textfield | Relative path to file with ORCID IDs for contributors for this dataset.                                                                                                                                                                                                                             |                                                                                                                                                                    | True       |
 | data_path                             | Textfield | Relative path to file or directory with instrument data. Downstream processing will depend on filename extension conventions.                                                                                                                                                                       |                                                                                                                                                                    | True       |
 
+</details>
+
+<details>
+<summary><b>Deprecated Metadata Attributes (scRNAseq Version 1)</b></summary>
 
 ## Deprecated Metadata Attributes (scRNAseq Version 1)
 
@@ -349,6 +375,10 @@ layout: page
 | contributors_path                     | Textfield | Relative path to file with ORCID IDs for contributors for this dataset.                                                                                                                                                                                                                             |                                                                                                                                      | True       |
 | data_path                             | Textfield | Relative path to file or directory with instrument data. Downstream processing will depend on filename extension conventions.                                                                                                                                                                       |                                                                                                                                      | True       |
 
+</details>
+
+<details>
+<summary><b>Deprecated Metadata Attributes (scRNAseq Version 0)</b></summary>
 
 ## Deprecated Metadata Attributes (scRNAseq Version 0)
 
@@ -398,3 +428,5 @@ layout: page
 | sequencing_phix_percent               | Numeric   | Percent PhiX loaded to the run                                                                                                                                                                                                                                                                      |                                                                                                                                                                    | True       |
 | contributors_path                     | Textfield | Relative path to file with ORCID IDs for contributors for this dataset.                                                                                                                                                                                                                             |                                                                                                                                                                    | True       |
 | data_path                             | Textfield | Relative path to file or directory with instrument data. Downstream processing will depend on filename extension conventions.                                                                                                                                                                       |                                                                                                                                                                    | True       |
+
+</details>
