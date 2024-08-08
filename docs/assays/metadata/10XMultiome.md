@@ -2,8 +2,6 @@
 layout: page 
 ---
 # 10X-Multiome
-<details>
-<summary><b>Current Metadata Attributes</b></summary>
 
 ## Current Metadata Attributes
 

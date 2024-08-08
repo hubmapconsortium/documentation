@@ -2,8 +2,6 @@
 layout: page 
 ---
 # WGS 
-<details>
-<summary><b> Current Metadata Attributes (Version 1 (no longer accepting data)) </b></summary>
 
 ## Current Metadata Attributes (Version 1 (no longer accepting data))
 
@@ -42,10 +40,6 @@ layout: page
 | contributors_path                     | Textfield | Relative path to file with ORCID IDs for contributors for this dataset.                                                                                                                                                                                                                             |                              | True       |
 | data_path                             | Textfield | Relative path to file or directory with instrument data. Downstream processing will depend on filename extension conventions.                                                                                                                                                                       |                              | True       |
 
-</details>
-
-<details>
-<summary><b>Deprecated Metadata Attributes (Version 0)</b></summary>
 
 ## Deprecated Metadata Attributes (Version 0)
 
@@ -81,5 +75,3 @@ layout: page
 | sequencing_phix_percent               | Numeric   | Percent PhiX loaded to the run                                                                                                                                                                                                                                                                      |                              | True       |
 | contributors_path                     | Textfield | Relative path to file with ORCID IDs for contributors for this dataset.                                                                                                                                                                                                                             |                              | True       |
 | data_path                             | Textfield | Relative path to file or directory with instrument data. Downstream processing will depend on filename extension conventions.                                                                                                                                                                       |                              | True       |
-
-</details>

@@ -4,10 +4,8 @@ layout: page
 # ATACseq 
 
 
-<details>
-<summary><b>Current Metadata Attributes (Version 3)</b></summary>
-<details>
-<summary><b>ATT</b></summary>
+<details markdown="1" open="false"><summary><b>Current Metadata Attributes (Version 3)</b></summary>
+
 ## Current Metadata Attributes (Version 3)
 
 | Attribute                                           | Type      | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | Allowable Values                                                          | Required   |
@@ -63,10 +61,8 @@ layout: page
 </details>
 
 
-<details>
-    <summary><b>Deprecated Metadata Attributes (SNARE-seq2 / sciATACseq / snATACseq Version 1)</b></summary>
-<details>
-<summary><b>ATT</b></summary>
+<details markdown="1" open="false"><summary><b>Deprecated Metadata Attributes (SNARE-seq2 / sciATACseq / snATACseq Version 1)</b></summary>
+
 ## Deprecated Metadata Attributes (SNARE-seq2 / sciATACseq / snATACseq Version 1)
 
 | Attribute                             | Type      | Description                                                                                                                                                                                                                                                                                         | AllowableValues                                                                     | Required   |
@@ -120,10 +116,8 @@ layout: page
 </details>
 
 
-<details>
-    <summary><b>Deprecated Metadata Attributes (SNARE-seq2 / sciATACseq / snATACseq Version 0)</b></summary>
-<details>
-<summary><b>ATT</b></summary>
+<details markdown="1" open="false"><summary><b>Deprecated Metadata Attributes (SNARE-seq2 / sciATACseq / snATACseq Version 0)</b></summary>
+
 ## Deprecated Metadata Attributes (SNARE-seq2 / sciATACseq / snATACseq Version 0)
 
 | Attribute                             | Type      | Description                                                                                                                                                                                                                                                                                         | AllowableValues                                                                                                                      | Required   |
@@ -172,11 +166,8 @@ layout: page
 
 </details>
 
+<details markdown="1" open="false"><summary><b>Deprecated Metadata Attributes (bulkATACseq Version 1)</b></summary>
 
-<details>
-    <summary><b>Deprecated Metadata Attributes (bulkATACseq Version 1)</b></summary>
-<details>
-<summary><b>ATT</b></summary>
 ## Deprecated Metadata Attributes (bulkATACseq Version 1)
 
 | Attribute                                 | Type      | Description                                                                                                                                                                                                                                                                                         | AllowableValues              | Required   |
@@ -226,12 +217,9 @@ layout: page
 </details>
 
 
-<details>
-    <summary><b>Deprecated Metadata Attributes (bulkATACseq 0)</b></summary>
-<details>
-<summary><b>ATT</b></summary>
-## Deprecated Metadata Attributes (bulkATACseq 0)
+<details markdown="1" open="false"><summary><b>Deprecated Metadata Attributes (bulkATACseq 0)</b></summary>
 
+## Deprecated Metadata Attributes (bulkATACseq 0)
 | Attribute                                 | Type      | Description                                                                                                                                                                                                                                                                                         | AllowableValues              | Required   |
 |-------------------------------------------|-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------|------------|
 | version                                   | Textfield | Version of the schema to use when validating this metadata.                                                                                                                                                                                                                                         | ['1']                        | True       |
@@ -276,4 +264,4 @@ layout: page
 | contributors_path                         | Textfield | Relative path to file with ORCID IDs for contributors for this dataset.                                                                                                                                                                                                                             |                              | True       |
 | data_path                                 | Textfield | Relative path to file or directory with instrument data. Downstream processing will depend on filename extension conventions.                                                                                                                                                                       |                              | True       |
 
-</details>
+

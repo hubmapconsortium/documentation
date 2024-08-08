@@ -2,8 +2,6 @@
 layout: page 
 ---
 # SIMS 
-<details>
-<summary><b> Current Metadata Attributes </b></summary>
 
 ## Current Metadata Attributes 
 
@@ -36,5 +34,3 @@ layout: page
 | ms_ionization_technique                             | Assigned Value      | The ionization approach (i.e., sample probing method) for performing imaging mass spectrometry.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | ```DESI``` ```ESI``` ```HESI``` ```LA``` ```LDI``` ```MALDI``` ```MALDI-2``` ```nanoDESI``` ```SIMS-C60``` ```SIMS-H20 ```| True       |
 | ms_scan_mode                                        | Assigned Value      | MS (mass spectrometry) scan mode refers to the number of steps in the separation of fragments.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | ```MS1``` ```MS2``` ```MS3``` | True       |
 | parent_sample_id                                    | textfield | Unique HuBMAP or SenNet identifier of the sample (i.e., block, section or suspension) used to perform this assay. For example, for a RNAseq assay, the parent would be the suspension, whereas, for one of the imaging assays, the parent would be the tissue section. If an assay comes from multiple parent samples then this should be a comma separated list. Example: HBM386.ZGKG.235, HBM672.MKPK.442 or SNT232.UBHJ.322, SNT329.ALSK.102                                                                                                                                       |                                                                | True       |
-
-</details>

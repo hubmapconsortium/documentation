@@ -2,8 +2,6 @@
 layout: page 
 ---
 # MALDI 
-<details>
-<summary><b> Current Metadata Attributes </b></summary>
 
 ## Current Metadata Attributes 
 
@@ -38,10 +36,7 @@ layout: page
 | ms_scan_mode                                        | Assigned Value      | MS (mass spectrometry) scan mode refers to the number of steps in the separation of fragments.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | ```MS1``` ```MS2``` ```MS3``` | True       |
 | parent_sample_id                                    | textfield | Unique HuBMAP or SenNet identifier of the sample (i.e., block, section or suspension) used to perform this assay. For example, for a RNAseq assay, the parent would be the suspension, whereas, for one of the imaging assays, the parent would be the tissue section. If an assay comes from multiple parent samples then this should be a comma separated list. Example: HBM386.ZGKG.235, HBM672.MKPK.442 or SNT232.UBHJ.322, SNT329.ALSK.102                                                                                                                                       |                                                                | True       |
 
-</details>
 
-<details>
-<summary><b>Deprecated Metadata Attributes (IMS Version 2)</b></summary>
 
 ## Deprecated Metadata Attributes (IMS Version 2)
 
@@ -88,10 +83,6 @@ layout: page
 | contributors_path             | Textfield | Relative path to file with ORCID IDs for contributors for this dataset.                                                                                                                                                                                                                                                                                                                               |                                                                                | True       |
 | data_path                     | Textfield | Relative path to file or directory with instrument data. Downstream processing will depend on filename extension conventions.                                                                                                                                                                                                                                                                         |                                                                                | True       |
 
-</details>
-
-<details>
-<summary><b>Deprecated Metadata Attributes (IMS Version 1)</b></summary>
 
 ## Deprecated Metadata Attributes (IMS Version 1)
 
@@ -130,10 +121,6 @@ layout: page
 | contributors_path             | Textfield | Relative path to file with ORCID IDs for contributors for this dataset.                                                                                                                                                                                                                             |                                                                              | True       |
 | data_path                     | Textfield | Relative path to file or directory with instrument data. Downstream processing will depend on filename extension conventions.                                                                                                                                                                       |                                                                              | True       |
 
-</details>
-
-<details>
-<summary><b>Deprecated Metadata Attributes (IMS Version 0)</b></summary>
 
 ## Deprecated Metadata Attributes (IMS Version 0)
 
@@ -169,5 +156,3 @@ layout: page
 | overall_protocols_io_doi      | Textfield | DOI for protocols.io for the overall process.                                                                                                                                                                                                                                                       |                                                                              | True       |
 | contributors_path             | Textfield | Relative path to file with ORCID IDs for contributors for this dataset.                                                                                                                                                                                                                             |                                                                              | True       |
 | data_path                     | Textfield | Relative path to file or directory with instrument data. Downstream processing will depend on filename extension conventions.                                                                                                                                                                       |                                                                              | True       |
-
-</details>
