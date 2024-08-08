@@ -15,6 +15,10 @@
   - View / Access / Download data (via the Portal)
   - <a href="https://docs.hubmapconsortium.org/faq">HuBMAP FAQ</a>: Frequently Asked Questions about HuBMAP Data, Tools, and related topics.
   - <a href="https://docs.hubmapconsortium.org/about">About HuBMAP</a>: Policies & Procedures, DUA, Protected Data & Access, Citing HuBMAP Data, Funding & Contact info.
+  - **Training Materials:** Biomedical technologies such as single-cell and spatial approaches are not common at all institutions of higher education. Significant barriers towards making effective use of such data include the lack of available training.
+    - HuBMAP has created several self-paced training modules to fill this gap. These modules...
+    - Focus on introducing HuBMAP, including technologies & assays used by HuBMAP, HuBMAP metadata, and example use cases.
+    - Demonstrate how to include HuBMAP data in research projects, graduate student theses, and classroom teaching.
   - <a href="https://hubmapconsortium.org/featured-publications/">HuBMAP Publications</a>: See more than 330 featured publications to learn how HuBMAP tools and data are advancing discovery.
 
 ### HuBMAP Tools and documentation links
@@ -52,7 +56,7 @@
 
 ## Internal viewers
 - Internal developers 
-  - HuBMAP Application-specific APIs (*Not intended for use by external developers or other external users*):
+  - HuBMAP Application-specific APIs (**Not intended for use by external developers or other external users**):
     - <a href="https://smart-api.info/ui/5a6bea1158d2652743c7a201fdb1c44d">Ingest API</a>: Supports writing data and metadata to HuBMAP, used by both TMCs and the HIVE. Links to the SmartAPI site where this API is registered as well as documentation for the API.
     - <a href="https://github.com/hubmapconsortium/uuid-api">UUID API</a>: Supports donor and tissue sample registration, data submission, and collection of provenance information via the Ingest UI. Links to GitHub documentation for this API.
     - <a href="https://smart-api.info/ui/96e5b5c0b0efeef5b93ea98ac2794837">Ontology (UBKG) API</a>: Accesses an instance of a [neo4j] Unified Biomedical Knowledge Graph (UBKG).
