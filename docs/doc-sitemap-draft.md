@@ -52,11 +52,13 @@
 
 ## Internal viewers
 - Internal developers 
-  - (documented in Smart APIs - lower priority) ????
-  - HuBMAP Application-specific APIs (_Not intended for use by external developers or other external users_):
-    - <a href="https://smart-api.info/ui/5a6bea1158d2652743c7a201fdb1c44d">Ingest API</a>: Supports writing data and metadata to HuBMAP, used by both TMCs and the HIVE.
-    - <a href=" ">UUID API</a>:
-    - <a href=" ">Ontology (a.k.a. UKBG) API</a>:
+  - HuBMAP Application-specific APIs (*Not intended for use by external developers or other external users*):
+    - <a href="https://smart-api.info/ui/5a6bea1158d2652743c7a201fdb1c44d">Ingest API</a>: Supports writing data and metadata to HuBMAP, used by both TMCs and the HIVE. Links to the SmartAPI site where this API is registered as well as documentation for the API.
+    - <a href="https://github.com/hubmapconsortium/uuid-api">UUID API</a>: Supports donor and tissue sample registration, data submission, and collection of provenance information via the Ingest UI. Links to GitHub documentation for this API.
+    - <a href="https://smart-api.info/ui/96e5b5c0b0efeef5b93ea98ac2794837">Ontology (UBKG) API</a>: Accesses an instance of a [neo4j] Unified Biomedical Knowledge Graph (UBKG).
+      - This UBKG links infomation from a variety of biomedical vocabulary systems.
+      - The HuBMAP UBKG instance includes HuBMAP’s application ontology that represents the HuBMAP operational model.
+      - Links to the SmartAPI site where this API is registered as well as documentation for the API.
 - Data submitters
   - <a href="https://docs.hubmapconsortium.org/data-submission/">Data Submission Guide</a>: Documents the key steps for TMCs, Assay teams, and others who upload data to the HuBMAP.
   - <a href="https://docs.hubmapconsortium.org/metadata">Metadata/data schemas</a>: HuBMAP metadata documentation and submission specifications.
