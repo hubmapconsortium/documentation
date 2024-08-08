@@ -24,7 +24,7 @@ This document details data levels, metadata fields, file structure, QA/QC thresh
 | [RNAseq](https://docs.hubmapconsortium.org/assays/rnaseq) | [attributes](RNAseq)  | While bulk RNAseq elucidates the average gene expression profile in cells comprising a tissue sample, single-cell RNAseq, employs per-cell and per-molecule barcoding to enable single-cell resolution of the gene expression profile.|
 | RNAseq With Probes | [attributes](RNAseqWithProbes)  | |
 | Second Harmonic Generation | [attributes](SecondHarmonicGeneration)  | |
-| [SeqFISH](https://docs.hubmapconsortium.org/assays/seqfish) | attributes  |  seqFISH technology allows in situ imaging of multiple mRNAs using barcoding and fluorophore-labelled barcode readout-probes.  |
+| [SeqFISH](https://docs.hubmapconsortium.org/assays/seqfish) | [attributes](seqFISH)  |  seqFISH technology allows in situ imaging of multiple mRNAs using barcoding and fluorophore-labelled barcode readout-probes.  |
 | SIMS | [attributes](SIMS)  | |
 | Slide-seq | [attributes](Slide-seq)  | |
 | SnareSeq2 | [attributes](SnareSeq2)  | |
