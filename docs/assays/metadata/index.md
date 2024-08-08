@@ -8,9 +8,9 @@ This is a list of available dataset types (data types from multiple supported as
 
 | Datsaset Type | Attributes | Description |
 |-------|------------|-------------|
-| [AF (Autofluorescence)](https://docs.hubmapconsortium.org/assays/af) | [attributes](AutoFluorescence)  |   Exploits endogenous fluorescence in a biological tissue to capture an image. The image can then be used to integrate other images from multiple modalities and to align tissues within a 3D experiment. |
+| [Autofluorescence](https://docs.hubmapconsortium.org/assays/af) | [attributes](AutoFluorescence)  |   Exploits endogenous fluorescence in a biological tissue to capture an image. The image can then be used to integrate other images from multiple modalities and to align tissues within a 3D experiment. |
 | [ATACseq](atacseq) | [attributes](ATACseq)  |  Identifies accessible DNA regions by probing open chromatin with hyperactive mutant Tn5 Transposase that inserts sequencing adapters into open regions of the genome. |
-| [CODEX (Not PhenoCycler)](https://docs.hubmapconsortium.org/assays/codex) | [attributes](CODEX)  |  Strategy for generating highly multiplexed images of fluorescently-labeled antigens. |
+| [CODEX](https://docs.hubmapconsortium.org/assays/codex) | [attributes](CODEX)  |  Strategy for generating highly multiplexed images of fluorescently-labeled antigens. |
 | DESI | [attributes](DESI)  | |
 | Enhanced SRS | [attributes](EnhancedSRS)  | |
 | GeoMx | [attributes](GeoMx)  | |
@@ -19,7 +19,7 @@ This is a list of available dataset types (data types from multiple supported as
 | [IMC](https://docs.hubmapconsortium.org/assays/imc) | [attributes](IMC)  |Combines standard immunohistochemistry with CyTOF mass cytometry to resolve the cellular localization of up to 40 proteins in a tissue sample. |
 | [LC-MS](https://docs.hubmapconsortium.org/assays/lcms) | [attributes](LC-MS)  |  Coupling of liquid chromatography (LC) to mass spectrometry (MS) |
 | Light Sheet | [attributes](LightSheet)  | |
-| [MALDI-IMS (neg and pos modes - Matrix Assisted Laser Desorption Ionization Imaging Mass Spectrometry)](https://docs.hubmapconsortium.org/metadata/Assay_Types.html#MALDI-Imaging) | [attributes](MALDI)  |  Matrix-assisted laser desorption/ionization (MALDI) imaging mass spectrometry (IMS) combines the sensitivity and molecular specificity of MS with the spatial fidelity of classical microscopy. |
+| [MALDI-IMS](https://docs.hubmapconsortium.org/metadata/Assay_Types.html#MALDI-Imaging) | [attributes](MALDI)  |  Matrix-assisted laser desorption/ionization (MALDI) imaging mass spectrometry (IMS) combines the sensitivity and molecular specificity of MS with the spatial fidelity of classical microscopy. |
 | MIBI | [attributes](MIBI)  |  |
 | MERFISH | [attributes](MERFISH)  |  |
 | MUSIC | [attributes](MUSIC)  | |
