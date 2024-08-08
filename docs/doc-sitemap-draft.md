@@ -66,7 +66,15 @@
 - Links to use-case-specific API usage (e.g. using data and tools) linked to Data and Tools pages.
 
 ## Internal viewers
-- Internal developers 
+- Internal developers
+  - <a href="https://hubmapconsortium.org/member-portal/developer-information/">Developer Tools</a>: Linked from the HuBMAP Consortium website:
+    - HIVE Infrastructure accounts
+    - Access to HuBMAP AWS
+    - DockerHub
+    - Access to HuBMAP Folders via Globus
+    - HuBMAP workspace in GitHub
+    - HuBMAP workspace in protocols.io
+    - Data Authentication
   - HuBMAP Application-specific APIs (**Not intended for use by external developers or other external users**):
     - <a href="https://smart-api.info/ui/5a6bea1158d2652743c7a201fdb1c44d">Ingest API</a>: Supports writing data and metadata to HuBMAP, used by both TMCs and the HIVE. Links to the SmartAPI site where this API is registered as well as documentation for the API.
     - <a href="https://github.com/hubmapconsortium/uuid-api">UUID API</a>: Supports donor and tissue sample registration, data submission, and collection of provenance information via the Ingest UI. Links to GitHub documentation for this API.
