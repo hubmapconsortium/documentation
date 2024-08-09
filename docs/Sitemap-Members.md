@@ -42,9 +42,10 @@
   - <a href="https://docs.google.com/forms/d/14tBFAfMy82qQGAR1ECIljCJDaHxQUS-o6z0526jpUuQ/edit?ts=662feb8b">HuBMAP Microscope Metadata entry form</a>: Submit Microscopy Metadata in compliance with the NBO-Q metadata model.
     - <a href="https://docs.google.com/spreadsheets/d/1Ju1_mvqTk1B8I8Ot6EKFKZuQbwkJy4NwzVgwoITWWYw/edit?gid=0#gid=0">HuBMAP Microscope Hardware Collection</a>: List of Microscopy Metadata collected to date.
       
-consortium.org/member-portal/">HuBMAP Member Portal</a>: Find information about how to navigate the consortium, including the calendar, member directory, etc. 
+# Consortium Members 
+  - <a href="https://hubmapconsortium.org/member-portal/">HuBMAP Member Portal</a>: Find information about how to navigate the consortium, including the calendar, member directory, etc.
     - SOPs
-    - <a href="h# General Consortium Members 
+    - <a href="
   - <a href="https://hubmapttps://hubmapconsortium.org/working-groups/">Governance</a>: The HuBMAP Steering Committee and Working Groups.
     - <a href="https://drive.google.com/drive/folders/1jbgzo_MpA7lVv9rmmgxP1Zfuegwis31E">HuBMAP Consortium Google Drive</a>: A shared resource.
       - <a href="https://hubmapconsortium.org/guide-doc-management">Document Management Guide</a>: For the HuBMAP Consortium Google Drive.
