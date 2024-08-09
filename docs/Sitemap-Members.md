@@ -1,4 +1,4 @@
-<div id="mySidenav" class="sidenav">
+<div id="HuBMAP-Docs-Sidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <a href="#">Developers</a>
   <a href="#">Data Submitters</a>
@@ -45,10 +45,9 @@
 # Consortium Members 
   - <a href="https://hubmapconsortium.org/member-portal/">HuBMAP Member Portal</a>: Find information about how to navigate the consortium, including the calendar, member directory, etc.
     - SOPs
-    - <a href="
-  - <a href="https://hubmapttps://hubmapconsortium.org/working-groups/">Governance</a>: The HuBMAP Steering Committee and Working Groups.
+    - <a href="https://hubmapttps://hubmapconsortium.org/working-groups/">Governance</a>: The HuBMAP Steering Committee and Working Groups.
     - <a href="https://drive.google.com/drive/folders/1jbgzo_MpA7lVv9rmmgxP1Zfuegwis31E">HuBMAP Consortium Google Drive</a>: A shared resource.
-      - <a href="https://hubmapconsortium.org/guide-doc-management">Document Management Guide</a>: For the HuBMAP Consortium Google Drive.
+      - <a h ref="https://hubmapconsortium.org/guide-doc-management">Document Management Guide</a>: For the HuBMAP Consortium Google Drive.
     - <a href="https://hubmapconsortium.org/hubmap-calendar/">HuBMAP Calendar</a>: A web calendar that combines all shared, internal Consortium events.
       - <a href="https://docs.google.com/document/d/e/2PACX-1vRyir3ozru4TB3SU79b-_psN3BFxr6BsWORnUFP53_jU1vQAAQe1feRSgXTWqHfrLfqo1NgOHNvgS78/pub">Using Google Groups with Google Calendar</a>
     - other Resources
