@@ -16,6 +16,8 @@ The UUID API supports donor and tissue sample registration, submission of data, 
 
 ### Search & Index API
 The Search & Index API supports searching and reindexing of HuBMAP metadata and data. The /search endpoint returns sets of data entities matching specified queries for Donors, Tissue Samples, and Datasets. The /reindex endpoint is used internally to index new and changed entities, this endpoint is not accessible externally, but only from other APIs that create, update, or delete entities.
+<br/><br/>
+<span style="background-color:#f7f065;">For a quick guide to query and data download access via the APIs please see the [Data Query and Download example](/param-search/data-query-download-example.html) and the detailed guide to using the [Search API Parameter Search feature](/param-search).</span>
 - [GitHub](https://github.com/hubmapconsortium/search-api)
 - [Smart API](https://smart-api.info/ui/7aaf02b838022d564da776b03f357158)
 
