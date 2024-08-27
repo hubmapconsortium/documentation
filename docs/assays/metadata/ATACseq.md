@@ -3,7 +3,7 @@ layout: page
 ---
 # ATACseq 
 
-**NOTE**: Several versions of this metadata schema have been created over time.  The latest (current) version contains most attributes, but there may be some deprecated attributes in the older versions for which data has been collected.  HuBMAP is in the process of creating a reference which combines all of these versions into a single view.  That reference will be available here once completed.
+<span style="color:#ba3030"><b>NOTE</b>: Several versions of this metadata schema have been created over time.  The (Latest) version contains most attributes, but there may be some deprecated attributes in the older versions for which data has been collected.  HuBMAP is in the process of creating a reference which combines all of these versions into a single view.  That reference will be available here once completed.</span>
 
 
 <details markdown="1"><summary>Version 3 (Latest)</summary>
