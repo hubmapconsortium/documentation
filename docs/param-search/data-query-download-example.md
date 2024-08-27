@@ -44,7 +44,7 @@ To use the HuBMAP CLT tool to download the data from these datasets:
 
   - Install the Globus Connect Personal client and the HuBMAP CLT per the [HuBMAP CLT Setup Instructions](../clt/install-hubmap-clt.html)
     - Python 3.9 or greater is required for the HuBMAP CLT, install from the [Python Downloads page](https://www.python.org/downloads/)
-    - Setup Note: A common issue arrises between the configuration of the GCP client and HuBMAP CLT.  By default HuBMAP CLT stores files in the user's home directory under a directory called `hubmap-downloads`, so make sure to configure the GCP client by goint to "Preferences"-->"Access" and adding the `hubmap-downloads` directory in the user's home like (Example shown is Mac OS X):
+    - Setup Note: A common issue arrises between the configuration of the GCP client and HuBMAP CLT.  By default HuBMAP CLT stores files in the user's home directory under a directory called `hubmap-downloads`, so make sure to configure the GCP client by goint to "Preferences"-->"Access" and adding the `hubmap-downloads` directory in the user's home like (Example shown is Mac OS X):<br/>
     <img src="/images/globus-properties.png" alt="HuBMAP Provenance" width="400"/>
   - On the command line log into the HuBMAP Globus server using:
   ```
