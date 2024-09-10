@@ -4,7 +4,7 @@ layout: page
 # HuBMAP Parameterized Search
 
 ## Overview:
-The HuBMAP parameterized search endpoints provide an option for a simpler programatic search mechanism vs using the full search-api `/search` endpoints. Both the `/param-search` and `/search` endpoints are backed by Elasticsearch indices, but the parameterized search facility follows a simple RESTful parameter scheme vs the complicated Elasticsearch json query syntax used by the full `/search` mechanism. The `/param-search` endpoint only allows for searching specific values of "allowable value" attributes "anded" together vs the full logic and attribute types available in the [Elasticsearch supported queries](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html) available in the full `/search` endpoint.
+The HuBMAP parameterized search endpoints provide an option for a simpler programmatic search mechanism vs using the full search-api `/search` endpoints. Both the `/param-search` and `/search` endpoints are backed by Elasticsearch indices, but the parameterized search facility follows a simple RESTful parameter scheme vs the complicated Elasticsearch json query syntax used by the full `/search` mechanism. The `/param-search` endpoint only allows for searching specific values of "allowable value" attributes "anded" together vs the full logic and attribute types available in the [Elasticsearch supported queries](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html) available in the full `/search` endpoint.
 
 This page documents the public usage of the `/param-search` endpoint and its variants vs the fully documented [HuBMAP Search API](https://smart-api.info/ui/7aaf02b838022d564da776b03f357158), which includes less detail of the `/param-search` endpoint, but also detail of the more capable, but more complicated `/search` endpoint.
 
@@ -20,7 +20,7 @@ For an example of how to use the `produce-clt-manifest` option (described below)
    - `datasets` See the [Dataset Schema](schema-dataset.html) for the list of queryable Dataset parameters.
  - attribute value pairs as query parameters i.e `attribute-name=value`, at least one pair is required with the upper limit based on maximum URL length.  An attribute name can only be included once in the attribute value pairs.
 Example call: `/param-search/datasets?dataset_type=CODEX&status=Published` will return all datasets of type CODEX that are published.
- - optional query parameter `produce-clt-manifest=true`, that will produce, instead of a list of matching entities, a list of unique datasets ids for each dataset matching the query in the format of a mainifest that is directly usable by the [HuBMAP Command Line Transfer Tool](../clt/index.html] to download the full datasets via the HuBMAP Globus Endpoint.
+ - optional query parameter `produce-clt-manifest=true`, that will produce, instead of a list of matching entities, a list of unique datasets ids for each dataset matching the query in the format of a manifest that is directly usable by the [HuBMAP Command Line Transfer Tool](../clt/index.html] to download the full datasets via the HuBMAP Globus Endpoint.
 
 The parameter names can be top level attributes from any of the entities or they can be nested attributes, for example `/param-search/datasets?dataset_type=CODEX` queries the top level Dataset attribute `dataset_type`, whereas `/param-search/datasets?metadata.is_targeted=Yes` queries the `is_targeted` attribute that is nested under metadata.
 
