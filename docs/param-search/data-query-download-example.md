@@ -51,7 +51,7 @@ To use the HuBMAP CLT tool to download the data from these datasets:
   hubmap-clt login
   ```
   Globus login screen will open in your default web browser.  Follow the instructions to log in.  For publicly available HuBMAP data any login will work (your institution, Google, GitHub, etc..).
-  - Download the data using the manifest file genrated above:
+  - Download the data using the manifest file generated above:
   ```
   hubmap-clt transfer dataset-manifest-for-download.out
   ```
