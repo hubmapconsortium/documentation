@@ -64,7 +64,7 @@ To run the same query finding all ATACseq datasets, but produce a manifest file 
  GET https://search.api.hubmapconsortium.org/v3/param-search/datasets?origin_samples.organ=RL&dataset_type=ATACseq&produce-clt-manifest=true
 ```
 
-This will produce a list of dataset ids in a format usable by the [HuBMAP Command Line Transfer Tool](../clt/index.html) to download the data.  A Linix/MAC command line example of how to produce a manifest file:
+This will produce a list of dataset ids in a format usable by the [HuBMAP Command Line Transfer Tool](../clt/index.html) to download the data.  A Linux/MAC command line example of how to produce a manifest file:
 
 ```
 curl "https://search.api.hubmapconsortium.org/v3/param-search/datasets?origin_samples.organ=RL&dataset_type=ATACseq&produce-clt-manifest=true" > manifest.out
