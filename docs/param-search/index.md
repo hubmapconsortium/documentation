@@ -4,14 +4,14 @@ layout: page
 # HuBMAP Parameterized Search
 
 ## Overview:
-The HuBMAP parameterized search endpoints provide an option for a simpler programatic search mechanism vs using the full search-api `/search` endpoints. Both the `/param-search` and `/search` endpoints are backed by Elasticsearch indices, but the parameterized search facility follows a simple RESTful parameter scheme vs the complicated Elasticsearch json query syntax used by the full `/search` mechanism. The `/param-search` endpoint only allows for searching specific values of "allowable value" attributes "anded" together vs the full logic and attribute types available in the [Elasticsearch supported queries](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html) available in the full `/search` endpoint.
+The HuBMAP parameterized search endpoints provide an option for a simpler programmatic search mechanism vs using the full search-api `/search` endpoints. Both the `/param-search` and `/search` endpoints are backed by Elasticsearch indices, but the parameterized search facility follows a simple RESTful parameter scheme vs the complicated Elasticsearch json query syntax used by the full `/search` mechanism. The `/param-search` endpoint only allows for searching specific values of "allowable value" attributes "anded" together vs the full logic and attribute types available in the [Elasticsearch supported queries](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html) available in the full `/search` endpoint.
 
-This page documents the public usage of the `/param-search` endpoint and its varients vs the fully documented [HuBMAP Search API](https://smart-api.info/ui/7aaf02b838022d564da776b03f357158), which includes less detail of the `/param-search` endpoint, but also detail of the more capable, but more complicated `/search` endpoint.
+This page documents the public usage of the `/param-search` endpoint and its variants vs the fully documented [HuBMAP Search API](https://smart-api.info/ui/7aaf02b838022d564da776b03f357158), which includes less detail of the `/param-search` endpoint, but also detail of the more capable, but more complicated `/search` endpoint.
 
 ## Description: 
 The `/param-search/<entity-type>` endpoint of the [HuBMAP Search API service](https://smart-api.info/ui/7aaf02b838022d564da776b03f357158) is a RESTful search interface allowing simple attribute matching by providing attribute value pairs as query parameters at the end of the RESTful URL call.  Multiple query parameters can be provided, which will be "ANDed" together in the query logic, for example the URL `https://searchapi.service.endpoint/entity-type?param1=value1&param2=value2&param3=value3` will find all entities of type "entity-type" where entity.param1 equals "value1" and entity.param2 equals "value2" and entity.param3 equals "value3"
 
-For an example of how to used the `produce-clt-manifest` option (described below), see the [Example Query and Download page](data-query-download-example.html)
+For an example of how to use the `produce-clt-manifest` option (described below), see the [Example Query and Download page](data-query-download-example.html)
 
 ### Inputs
  - <entity-type> The type of entity to search for provided as an in-URL resource parameter after the `/param-search/` endpoint name, where valid entity types are:
@@ -64,7 +64,7 @@ To run the same query finding all ATACseq datasets, but produce a manifest file 
  GET https://search.api.hubmapconsortium.org/v3/param-search/datasets?origin_samples.organ=RL&dataset_type=ATACseq&produce-clt-manifest=true
 ```
 
-This will produce a list of dataset ids in a format usable by the [HuBMAP Command Line Transfer Tool](../clt/index.html) to download the data.  A Linix/MAC command line example of how to produce a manifest file:
+This will produce a list of dataset ids in a format usable by the [HuBMAP Command Line Transfer Tool](../clt/index.html) to download the data.  A Linux/MAC command line example of how to produce a manifest file:
 
 ```
 curl "https://search.api.hubmapconsortium.org/v3/param-search/datasets?origin_samples.organ=RL&dataset_type=ATACseq&produce-clt-manifest=true" > manifest.out
