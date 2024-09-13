@@ -9922,6 +9922,7 @@ var Sidebar = /*#__PURE__*/function (_App5) {
         traverse(node, el, i);
       });
       App.log('The generated Table of Contents:', root);
+      console.log('The generated Table of Contents:', root);
       if (root.c.length) {
         this.renderList(root);
       }

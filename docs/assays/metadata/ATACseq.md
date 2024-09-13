@@ -1,5 +1,5 @@
 --- 
-layout: page 
+layout: external_with_toc
 ---
 # ATACseq 
 

@@ -137,3 +137,27 @@ body {
     text-decoration: underline;
     text-decoration-thickness: 2px;    
 }
+
+
+.bottomFooter{
+  padding-top: 250px;
+  position: inherit;
+}
+#modifiedDate{
+  max-width: 1000px;
+}
+.sidebarDetails{
+  padding: .5em;
+  margin:0px;
+}
+.sidebarDetails summary{
+  margin-bottom:5px;
+}
+.sidebarDetails p{
+  padding: .5em 0;
+  border-top: solid 1px #eee;
+}
+.sidebarDetails h2{
+  margin-right: 5px;
+  display: inline;
+}
