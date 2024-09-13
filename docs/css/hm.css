@@ -142,6 +142,7 @@ body {
 .bottomFooter{
   padding-top: 250px;
   position: inherit;
+  pointer-events: none;
 }
 #modifiedDate{
   max-width: 1000px;
