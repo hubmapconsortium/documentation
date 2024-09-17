@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+  <head>
+    <script src="/js/jquery-3.6.2.min.js"></script>
+    <script src="/js/markdown.min.js"></script>
+    <script src="/js/main.js"></script>
+    <link rel="stylesheet" href="/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="/css/main.css"/>
+    <link rel="stylesheet" href="/css/hm.css"/>
+    
+    {% seo %}
+  </head>
+  <body>
+    <!-- This is for a more detailed internal view  -->
+    <header class="c-header js-app--header" role="navigation">
+      <div class="c-header__main">
+        <div class="c-header__menu js-header__menu">
+          <ul>
+            <li class="c-header__logo"><a href="/"><img src="/logo192.png" alt="HuBMAP Documentation"></a></li>
+            <li><a  href="/data-submission/">Data Submission</a></li>
+            <li><a href="/assays">Assays</a></li>
+            <li><a href="/apis">APIs</a></li>
+            <li><a href="/sdk/hubmapsdk">SDK</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <div class="c-sidebar" role="navigation" aria-label="Table of Contents">     
+        <div class="c-sidebar__wrap ">
+            <div class="c-sidebar__main ">
+            <div class="c-sidebar__list ">
+              <details open markdown="1" class="sidebarDetails"><summary><h2>Table of Contents</h2></summary> 
+<!-- Sadly These need to remain untabbed and spaced as such for the markdown to render properly -->
+
+[Auto Fluorescence](AutoFluorescence)
+
+[ATACseq](ATACseq)
+
+[CODEX](CODEX)
+
+[DESI](DESI)
+
+[EnhancedSRS](EnhancedSRS)
+
+[GeoMx](GeoMx)
+
+[HiFi-Slide](HiFi-Slide)
+
+[Histology](Histology)
+
+[IMC](IMC)
+
+[LC-MS](LC-MS)
+
+[LightSheet](LightSheet)
+
+[MALDI](MALDI)
+
+[MIBI](MIBI)
+
+[MERFISH](MERFISH)
+
+[MUSIC](MUSIC)
+
+[RNAseq](RNAseq)
+
+[RNAseq With Probes](RNAseqWithProbes)
+
+[Second Harmonic Generation](SecondHarmonicGeneration)
+
+[seqFISH](seqFISH)
+
+[SIMS](SIMS)
+
+[Slide-seq](Slide-seq)
+
+[SnareSeq2](SnareSeq2)
+
+[Thick Section Multiphoton MxIF](ThickSectionMultiphotonMxIF)
+
+[WGS](WGS)
+
+[Visium No Probes](VisiumNoProbes)
+
+[Visium With Probes](VisiumWithProb)
+
+              </details>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-container" role="main">
+      <div class="c-breadcrumbs js-app--breadcrumbs" role="navigation" aria-label="Breadcrumbs">
+        <div class="c-breadcrumbs__main js-breadcrumbs__main"></div>
+      </div>
+      <div class="c-documentation">{{ content }}</div>
+      <div class="c-footer__meta" id="modifiedDate">
+        <div class="c-fileMeta js-app--fileMeta"><span class="c-fileMeta__label js-fileMeta__label">Last Modified: </span>&nbsp;<span class="js-fileMeta__date"></span></div>
+      </div>
+    </div>
+    <footer class="bottomFooter">
+      <div class="c-footer__main">
+        <div class="c-footer__wrap">Copyright &copy;&nbsp;<span class="c-footer__date js-footer__date"></span>&nbsp;<span class="c-footer__name">HuBMAP</span></div>
+      </div>
+    </footer>
+  </body>
+</html>
