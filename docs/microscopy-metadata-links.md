@@ -18,3 +18,5 @@ The table below is a subset of the [HuBMAP Microscope Hardware Collection Roll C
 |![down arrow](down-arrow1.gif)|Leica DM6-B microscope|[JSON](https://drive.google.com/file/d/11hp8a0mztmimGPG8eZb1N9HkX5uPaXV6/view?usp=drive_link) <br />Incomplete|
 |![down arrow](down-arrow1.gif)|10x Genomics Visium CytAssist|[JSON](https://drive.google.com/file/d/15Y5l2CCg0JSWdaZQQpZdHaegByS4DhWZ/view?usp=drive_link)|
 |![down arrow](down-arrow1.gif)|nanoString GeoMx Digital Spatial Profiler| |
+|TMC-UPenn|Zeiss Axio Observer 7 microscope|[JSON](https://drive.google.com/file/d/1Gn0L0IvnD7M9AKhb7hP1oKeMmPFl1Ewh/view?usp=drive_link)|
+|![down arrow](down-arrow1.gif)|Akoya - Phenocycler-Fusion 2.0|[JSON](https://drive.google.com/file/d/1rXNz1KhheY2seF7ssOlR-QGd8oFRpjlH/view?usp=drive_link)|
