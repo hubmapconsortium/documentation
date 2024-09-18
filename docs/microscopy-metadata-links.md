@@ -20,3 +20,5 @@ The table below is a subset of the [HuBMAP Microscope Hardware Collection Roll C
 |![down arrow](down-arrow1.gif)|nanoString GeoMx Digital Spatial Profiler|GeoMx (NGS)| |
 |TMC-UPenn|Zeiss Axio Observer 7 microscope|VISIUM & Stained <br />Microscopy|[JSON](https://drive.google.com/file/d/1Gn0L0IvnD7M9AKhb7hP1oKeMmPFl1Ewh/view?usp=drive_link)|
 |![down arrow](down-arrow1.gif)|Akoya - Phenocycler-Fusion 2.0|CODEX|[JSON](https://drive.google.com/file/d/1rXNz1KhheY2seF7ssOlR-QGd8oFRpjlH/view?usp=drive_link)|
+|TMC-BIDMC|Akoya - Phenocycler-Fusion 1.0 (v2.0.0 software)|CODEX|[JSON](https://drive.google.com/file/d/1cLA5mHMm-SDqLLqYsFD0bYk32N-8tNMF/view?usp=drive_link)|
+|![down arrow](down-arrow1.gif)|![down arrow](down-arrow1.gif)|![down arrow](down-arrow1.gif)|[JSON](https://drive.google.com/file/d/1GAe8e0bss1lMx1aluh7EIjQUlkMcfxZa/view?usp=drive_link)|
