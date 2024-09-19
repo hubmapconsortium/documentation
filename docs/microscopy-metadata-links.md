@@ -1,5 +1,5 @@
 ## Microscopy Metadata Captured to date... (as of 11-06-2023)
-The table below is a subset of the [HuBMAP Microscope Hardware Collection Roll Call](https://docs.google.com/spreadsheets/d/1Ju1_mvqTk1B8I8Ot6EKFKZuQbwkJy4NwzVgwoITWWYw/edit?gid=0#gid=0) sheet.
+The table below is a much smaller subset of the [HuBMAP Microscope Hardware Collection Roll Call](https://docs.google.com/spreadsheets/d/1Ju1_mvqTk1B8I8Ot6EKFKZuQbwkJy4NwzVgwoITWWYw/edit?gid=0#gid=0) sheet. <br />See that linked sheet for more detailed information about each instrument and other related details.
 
 |Group  | Instrument |Assay Category| JSON File? |
 | :---: |------------|   :------:   |  :------:  |
@@ -22,6 +22,13 @@ The table below is a subset of the [HuBMAP Microscope Hardware Collection Roll C
 |![down arrow](down-arrow1.gif)|Akoya - Phenocycler-Fusion 2.0|CODEX|[JSON](https://drive.google.com/file/d/1rXNz1KhheY2seF7ssOlR-QGd8oFRpjlH/view?usp=drive_link)|
 |TMC-BIDMC|Akoya - Phenocycler-Fusion 1.0 (v2.0.0 software)|CODEX|[JSON](https://drive.google.com/file/d/1cLA5mHMm-SDqLLqYsFD0bYk32N-8tNMF/view?usp=drive_link)|
 |![down arrow](down-arrow1.gif)|![down arrow](down-arrow1.gif)|![down arrow](down-arrow1.gif)|[JSON](https://drive.google.com/file/d/1GAe8e0bss1lMx1aluh7EIjQUlkMcfxZa/view?usp=drive_link)|
+|TMC-CHOP Heart|Akoya - Phenocycler-Fusion 1.0|CODEX|[JSON](https://drive.google.com/file/d/1dT-LSvuW6mpX4csVyDPZDz3_EKK3XPc_/view?usp=drive_link)|
+|RTI-GEscd|GE Healthcare IN Cell Analyzer 2200|MxIF|[JSON](https://drive.google.com/file/d/1UUbxWYAapHiongJ6CZtrdBlA5NXHtiEk/view?usp=drive_link)  <br />Incomplete|
+|TMC-URMC|Akoya - Phenocycler-Fusion 1.0|CODEX|[JSON](https://drive.google.com/file/d/1iU5h_VcCSNoCS5aEIkaBc1fD9ykA_urW/view?usp=drive_link)|
+|HIVE-TC-CMU|No Instrument; only Example Image Metadata|NA|[Example Only](https://drive.google.com/open?id=1lQPSgxcmibwf0-jdV1YvMmb2T3_8q1bn&usp=drive_fs)|
+|NA|Akoya CODEX 1st Generation - Keyence BZ-800 based|CODEX|[Template](https://drive.google.com/file/d/1yT56JLJ2Lzah_nVS7AnVa4OO5ppQma4w/view?usp=drive_link)|
+|![down arrow](down-arrow1.gif)|Akoya CODEX 1st Generation - Zeiss Axio Observer 7 based|CODEX|[Template](https://drive.google.com/file/d/1DX4RD6o1yS0MIgqP6XeKiCl2FwhyZ0ep/view?usp=drive_link)|
+
 
 ### How to Use this Table (above...)
 - Find an instrument in the table similar (closest) to what you are using
@@ -33,5 +40,5 @@ The table below is a subset of the [HuBMAP Microscope Hardware Collection Roll C
 - [Micro-Meta BETA](https://data.4dnucleome.org/tools/micro-meta-app) from 4D Nucleom
 - [Micro-Meta App](https://wu-bimac.github.io/MicroMetaApp.github.io/) on GitHub
 - Read the [paper](https://www.nature.com/articles/s41592-021-01315-z) about the Micro Meta app in _Nature_.
-- 4DN-BINA-OME (NBO) [Microscopy Metadata Specifications](https://fairsharing.org/4747)
+- 4DN-BINA-OME [(NBO) Microscopy Metadata Specifications](https://fairsharing.org/4747)
 - [NBO Microscopy Metadata Specifications](https://github.com/WU-BIMAC/NBOMicroscopyMetadataSpecs) on GitHub
