@@ -1,4 +1,4 @@
-## Microscopy Metadata Captured to date (As of 11-06-2023)
+## Microscopy Metadata Captured to date... (as of 11-06-2023)
 The table below is a subset of the [HuBMAP Microscope Hardware Collection Roll Call](https://docs.google.com/spreadsheets/d/1Ju1_mvqTk1B8I8Ot6EKFKZuQbwkJy4NwzVgwoITWWYw/edit?gid=0#gid=0) sheet.
 
 |Group  | Instrument |Assay Category| JSON File? |
@@ -22,3 +22,16 @@ The table below is a subset of the [HuBMAP Microscope Hardware Collection Roll C
 |![down arrow](down-arrow1.gif)|Akoya - Phenocycler-Fusion 2.0|CODEX|[JSON](https://drive.google.com/file/d/1rXNz1KhheY2seF7ssOlR-QGd8oFRpjlH/view?usp=drive_link)|
 |TMC-BIDMC|Akoya - Phenocycler-Fusion 1.0 (v2.0.0 software)|CODEX|[JSON](https://drive.google.com/file/d/1cLA5mHMm-SDqLLqYsFD0bYk32N-8tNMF/view?usp=drive_link)|
 |![down arrow](down-arrow1.gif)|![down arrow](down-arrow1.gif)|![down arrow](down-arrow1.gif)|[JSON](https://drive.google.com/file/d/1GAe8e0bss1lMx1aluh7EIjQUlkMcfxZa/view?usp=drive_link)|
+
+### How to Use this Table (above...)
+- Find an instrument in the table similar (closest) to what you are using
+- Download the JSON file from the table above for that instrument
+- Use the downloaded JSON as a template, filling out the specifics for your instrument
+- Upload the updated JSON file to HuBMAP along with your other Metadata
+
+### Some Helpful Links related to Microscopy Metadata
+- [Micro-Meta BETA](https://data.4dnucleome.org/tools/micro-meta-app) from 4D Nucleom
+- [Micro-Meta App](https://wu-bimac.github.io/MicroMetaApp.github.io/) on GitHub
+- Read the [paper](https://www.nature.com/articles/s41592-021-01315-z) about the Micro Meta app in _Nature_.
+- 4DN-BINA-OME (NBO) [Microscopy Metadata Specifications](https://fairsharing.org/4747)
+- [NBO Microscopy Metadata Specifications](https://github.com/WU-BIMAC/NBOMicroscopyMetadataSpecs) on GitHub
