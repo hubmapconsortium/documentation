@@ -25,10 +25,14 @@ The table below is a much smaller subset of the [HuBMAP Microscope Hardware Coll
 |TMC-CHOP Heart|Akoya - Phenocycler-Fusion 1.0|CODEX|[JSON](https://drive.google.com/file/d/1dT-LSvuW6mpX4csVyDPZDz3_EKK3XPc_/view?usp=drive_link)|
 |RTI-GEscd|GE Healthcare IN Cell Analyzer 2200|MxIF|[JSON](https://drive.google.com/file/d/1UUbxWYAapHiongJ6CZtrdBlA5NXHtiEk/view?usp=drive_link)  <br />Incomplete|
 |TMC-URMC|Akoya - Phenocycler-Fusion 1.0|CODEX|[JSON](https://drive.google.com/file/d/1iU5h_VcCSNoCS5aEIkaBc1fD9ykA_urW/view?usp=drive_link)|
-|HIVE-TC-CMU|No Instrument; only Example Image Metadata|NA|[Example Only](https://drive.google.com/open?id=1lQPSgxcmibwf0-jdV1YvMmb2T3_8q1bn&usp=drive_fs)|
+|HIVE-TC-CMU|No Instrument - Example Image Metadata only|NA|[Example Only](https://drive.google.com/open?id=1lQPSgxcmibwf0-jdV1YvMmb2T3_8q1bn&usp=drive_fs)|
 |NA|Akoya CODEX 1st Generation - Keyence BZ-800 based|CODEX|[Template](https://drive.google.com/file/d/1yT56JLJ2Lzah_nVS7AnVa4OO5ppQma4w/view?usp=drive_link)|
 |![down arrow](down-arrow1.gif)|Akoya CODEX 1st Generation - Zeiss Axio Observer 7 based|CODEX|[Template](https://drive.google.com/file/d/1DX4RD6o1yS0MIgqP6XeKiCl2FwhyZ0ep/view?usp=drive_link)|
-
+|TMC-DUSM SenNet|Zeiss_Axio-Scan.Z1 microscope|VISIUM & Stained <br />Microscopy|[JSON](https://drive.google.com/file/d/1O35LEFM7Xj6upY6BeNM0IHr2eiqMaHT6/view?usp=drive_link)|
+|![down arrow](down-arrow1.gif)|10x Genomics Visium CytAssist|VISIUM|[JSON](https://drive.google.com/file/d/174RxJRDxLDE7Oos5Nxirkv4575KLdP5m/view?usp=drive_link) <br />Placeholder|
+|TMC-UF|nanoString GeoMx Digital Spatial Profiler|GeoMx (NGS)|[JSON](https://drive.google.com/file/d/1l84P4l0OFykvLnpZMFk8AdySvKj0lsVh/view?usp=drive_link) <br />Placeholder|
+|TMC-Vanderbilt <br />Kidney|![down arrow](down-arrow1.gif)|![down arrow](down-arrow1.gif)|[JSON](https://drive.google.com/file/d/1Q9AhAPGx8Rfj3B53F7eXG5GNcUN3Y-C2/view?usp=drive_link) <br />Placeholder|
+|![down arrow](down-arrow1.gif)|Zeiss_Axio-Scan.Z1 microscope|Autofluorescence <br />Microscopy (AF)|[JSON](https://drive.google.com/file/d/1x4MoX_iFAra0W7PIgMHMeV1i0KEqXsKe/view?usp=drive_link)|
 
 ### How to Use this Table (above...)
 - Find an instrument in the table similar (closest) to what you are using
