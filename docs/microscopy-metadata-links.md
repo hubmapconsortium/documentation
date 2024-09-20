@@ -22,17 +22,20 @@ The table below is a much smaller subset of the [HuBMAP Microscope Hardware Coll
 |&xdtri;|Akoya - Phenocycler-Fusion 2.0|CODEX|[JSON](https://drive.google.com/file/d/1rXNz1KhheY2seF7ssOlR-QGd8oFRpjlH/view?usp=drive_link)|
 |TMC-BIDMC|Akoya - Phenocycler-Fusion 1.0 (v2.0.0 software)| &xdtri;|[JSON](https://drive.google.com/file/d/1cLA5mHMm-SDqLLqYsFD0bYk32N-8tNMF/view?usp=drive_link)|
 |&xdtri;| &nbsp; &nbsp; &xdtri;|&xdtri;|[JSON](https://drive.google.com/file/d/1GAe8e0bss1lMx1aluh7EIjQUlkMcfxZa/view?usp=drive_link)|
-|TMC-CHOP Heart|Akoya - Phenocycler-Fusion 1.0|&xdtri;|[JSON](https://drive.google.com/file/d/1dT-LSvuW6mpX4csVyDPZDz3_EKK3XPc_/view?usp=drive_link)|
+|TMC-CHOP (Heart)|Akoya - Phenocycler-Fusion 1.0|&xdtri;|[JSON](https://drive.google.com/file/d/1dT-LSvuW6mpX4csVyDPZDz3_EKK3XPc_/view?usp=drive_link)|
 |RTI-GEscd|GE Healthcare IN Cell Analyzer 2200|MxIF|[JSON](https://drive.google.com/file/d/1UUbxWYAapHiongJ6CZtrdBlA5NXHtiEk/view?usp=drive_link)  <br />Incomplete|
 |TMC-URMC|Akoya - Phenocycler-Fusion 1.0|CODEX|[JSON](https://drive.google.com/file/d/1iU5h_VcCSNoCS5aEIkaBc1fD9ykA_urW/view?usp=drive_link)|
 |HIVE-TC-CMU|No Instrument - Example Image Metadata only|NA|[Example Only](https://drive.google.com/open?id=1lQPSgxcmibwf0-jdV1YvMmb2T3_8q1bn&usp=drive_fs)|
 |NA|Akoya CODEX 1st Generation (Keyence BZ-800)|CODEX|[Template](https://drive.google.com/file/d/1yT56JLJ2Lzah_nVS7AnVa4OO5ppQma4w/view?usp=drive_link)|
-|&xdtri;|Akoya CODEX 1st Generation (Zeiss Axio Observer 7)|CODEX|[Template](https://drive.google.com/file/d/1DX4RD6o1yS0MIgqP6XeKiCl2FwhyZ0ep/view?usp=drive_link)|
-|TMC-DUSM SenNet|Zeiss_Axio-Scan.Z1 microscope|VISIUM & Stained <br />Microscopy|[JSON](https://drive.google.com/file/d/1O35LEFM7Xj6upY6BeNM0IHr2eiqMaHT6/view?usp=drive_link)|
+|&xdtri;|Akoya CODEX 1st Generation (Zeiss Axio Observer 7)|&xdtri;|[Template](https://drive.google.com/file/d/1DX4RD6o1yS0MIgqP6XeKiCl2FwhyZ0ep/view?usp=drive_link)|
+|TMC-DUSM (SenNet)|Zeiss_Axio-Scan.Z1 microscope|VISIUM & Stained <br />Microscopy|[JSON](https://drive.google.com/file/d/1O35LEFM7Xj6upY6BeNM0IHr2eiqMaHT6/view?usp=drive_link)|
 |&xdtri;|10x Genomics Visium CytAssist|VISIUM|[JSON](https://drive.google.com/file/d/174RxJRDxLDE7Oos5Nxirkv4575KLdP5m/view?usp=drive_link) <br />Placeholder|
 |TMC-UF|nanoString GeoMx Digital Spatial Profiler|GeoMx (NGS)|[JSON](https://drive.google.com/file/d/1l84P4l0OFykvLnpZMFk8AdySvKj0lsVh/view?usp=drive_link) <br />Placeholder|
-|TMC-Vanderbilt <br />Kidney|&nbsp; &nbsp; &xdtri;|&xdtri;|[JSON](https://drive.google.com/file/d/1Q9AhAPGx8Rfj3B53F7eXG5GNcUN3Y-C2/view?usp=drive_link) <br />Placeholder|
+|TMC-Vanderbilt (Kidney)|&nbsp; &nbsp; &xdtri;|&xdtri;|[JSON](https://drive.google.com/file/d/1Q9AhAPGx8Rfj3B53F7eXG5GNcUN3Y-C2/view?usp=drive_link) <br />Placeholder|
 |&xdtri;|Zeiss_Axio-Scan.Z1 microscope|Autofluorescence <br />Microscopy (AF)|[JSON](https://drive.google.com/file/d/1x4MoX_iFAra0W7PIgMHMeV1i0KEqXsKe/view?usp=drive_link)|
+|TMC-Stanford (Intestine)|CODEX 1st Generation (Keyence BZ-X700)|Histology + CODEX|[JSON](https://drive.google.com/file/d/15cDk2Pgts8vaT_6hwoI2KSlmXu4HIyqK/view?usp=drive_link)|
+|&xdtri;|Akoya - Phenocycler-Fusion 2.0|CODEX|[JSON](https://drive.google.com/file/d/1uYyH2vMEuuC_GrF_9Mi49C4dIZ-g-0hq/view?usp=drive_link)|
+|&xdtri;|10x Genomics Xenium Analyzer|XENIUM|[JSON](https://drive.google.com/file/d/10mnpTWG6Ji9VUQ-PrN4EZbKdKC9YqtFn/view?usp=drive_link) <br />Placeholder|
 
 &nbsp; &nbsp; ( &xdtri; - Indicates that the item in the cell _immediately_ above is repeated in the current cell. )
 
