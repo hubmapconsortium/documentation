@@ -47,7 +47,7 @@ The table below is a much smaller subset of the [HuBMAP Microscope Hardware Coll
 - Upload the updated JSON file to HuBMAP along with your other Metadata
 
 ### Some Helpful Links related to Microscopy Metadata
-- [Micro-Meta BETA](https://data.4dnucleome.org/tools/micro-meta-app) from 4D Nucleom
+- [Micro-Meta BETA](https://data.4dnucleome.org/tools/micro-meta-app) from 4D Nucleome
 - [Micro-Meta App](https://wu-bimac.github.io/MicroMetaApp.github.io/) on GitHub
 - Read the [paper](https://www.nature.com/articles/s41592-021-01315-z) about the Micro Meta app in _Nature_.
 - 4DN-BINA-OME [(NBO) Microscopy Metadata Specifications](https://fairsharing.org/4747)
