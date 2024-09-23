@@ -1,3 +1,6 @@
+---
+layout: page
+---
 ## Microscopy Metadata Captured to date... (as of 11-06-2023)
 The table below is a much smaller subset of the [HuBMAP Microscope Hardware Collection Roll Call](https://docs.google.com/spreadsheets/d/1Ju1_mvqTk1B8I8Ot6EKFKZuQbwkJy4NwzVgwoITWWYw/edit?gid=0#gid=0) sheet. <br />See that linked sheet for more detailed information about each instrument and other related details.
 
