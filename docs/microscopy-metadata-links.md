@@ -1,7 +1,7 @@
 ---
 layout: page
 ---
-## Microscopy Metadata Captured to date... (as of 11-06-2023)
+# Microscopy Metadata Captured to date... (as of 11-06-2023)
 The table below is a much smaller subset of the [HuBMAP Microscope Hardware Collection Roll Call](https://docs.google.com/spreadsheets/d/1Ju1_mvqTk1B8I8Ot6EKFKZuQbwkJy4NwzVgwoITWWYw/edit?gid=0#gid=0) sheet. <br />See that linked sheet for more detailed information about each instrument and other related details.
 
 |Group  | Instrument |Assay Category| JSON File? |
@@ -42,14 +42,14 @@ The table below is a much smaller subset of the [HuBMAP Microscope Hardware Coll
 
 &nbsp; &nbsp; ( &xdtri; - Indicates that the item in the cell _immediately_ above is repeated in the current cell. )
 
-### How to Use this Table (above...)
+## How to Use this Table (above...)
 - Find an instrument in the table similar (closest) to what you are using
 - Download the JSON file from the table above for that instrument
 - JSON files that are _placeholders_ or _incomplete_ are noted. JSON files without a notation can be considered _complete_.
 - Use the downloaded JSON as a template, filling out the specifics for your instrument
 - Upload the updated JSON file to HuBMAP along with your other Metadata
 
-### Some Helpful Links related to Microscopy Metadata
+## Some Helpful Links related to Microscopy Metadata
 - [Micro-Meta BETA](https://data.4dnucleome.org/tools/micro-meta-app) from 4D Nucleome
 - [Micro-Meta App](https://wu-bimac.github.io/MicroMetaApp.github.io/) on GitHub
 - Read the [paper](https://www.nature.com/articles/s41592-021-01315-z) about the Micro Meta app in _Nature_.
