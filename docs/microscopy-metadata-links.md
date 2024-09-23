@@ -8,8 +8,8 @@ The table below is a much smaller subset of the [HuBMAP Microscope Hardware Coll
 | :---: |------------|   :------:   |  :------:  |
 | TMC-JHU |Hamamatsu NanoZoomer S210 slide scanner|Stained <br />Microscopy|[JSON](https://drive.google.com/file/d/1rH2biY_14COZDmphW_Iz1kR3NrIjPOZA/view?usp=drive_link) <br />Placeholder|
 |TMC-WUSTL|Akoya - Phenocycler-Fusion 1.0 (v1.0.5 software)|CODEX|[JSON](https://drive.google.com/file/d/1FcrwZLAgWLyIJ0jd0VtD1ZYLvnpOlkF3/view?usp=share_link)|
-|&#x25BD;|Akoya - Phenocycler-Fusion 1.0 (v1.0.8 software)|&xdtri;|[JSON](https://drive.google.com/file/d/1yE4yz7cH_-PNkoeQzY6AmjNdmKWHIqeJ/view?usp=share_link)|
-|&xdtri;|Akoya - Phenocycler-Fusion 1.0 (v2beta software)|&xdtri;|[JSON](https://drive.google.com/file/d/1Sn0KJzkNP56sWtKNuGI61BpfNh467-HL/view?usp=share_link)|
+|&#x25BC;|Akoya - Phenocycler-Fusion 1.0 (v1.0.8 software)|&xdtri;|[JSON](https://drive.google.com/file/d/1yE4yz7cH_-PNkoeQzY6AmjNdmKWHIqeJ/view?usp=share_link)|
+|&#x25BC;|Akoya - Phenocycler-Fusion 1.0 (v2beta software)|&xdtri;|[JSON](https://drive.google.com/file/d/1Sn0KJzkNP56sWtKNuGI61BpfNh467-HL/view?usp=share_link)|
 |&xdtri;|Akoya - Phenocycler-Fusion 1.0 (v2.1.0 software)|&xdtri;|[JSON](https://drive.google.com/file/d/1ZG0FGfX0vHNW-nzsXnVUYKp0-xmChUe4/view?usp=share_link)|
 |&xdtri;|Keyence BZ-X800 microscope|VISIUM <br />(workflow 1 + 2)|[JSON](https://drive.google.com/file/d/1jZ7LK7CkbVeSTbzrwtuQpL1ZhqJWLBYv/view?usp=drive_link) <br />Incomplete|
 |&xdtri;|10x Genomics Visium CytAssist|VISIUM <br />(workflow 2)|[JSON](https://drive.google.com/file/d/1A5FBLffTfdq9PXyE_5p855mbk7TZU1mz/view?usp=drive_link) <br />Placeholder|
