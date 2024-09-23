@@ -86,10 +86,29 @@ async function getData(url = '') {
 // above line was to direclty reference a csv file. now an api call is made to entity-api to retrieve a json with the data
 async function generate_sankey(){
   const data = await getData('https://entity.api.hubmapconsortium.org/datasets/sankey_data');
+  const dataCategories = await getData('https://ontology-api.dev.hubmapconsortium.org/assayclasses?application_context=HUBMAP');
+  const organs = await getData('https://ontology-api.dev.hubmapconsortium.org/organs?application_context=HUBMAP');
+
+  const organsDict = {}
+  for (let o of organs) {
+   organsDict[o.term.trim().toLowerCase()] = o.category?.term.trim() || o.term.trim()
+  }
+
+  const catDict = {}
+  for (let d of dataCategories) {
+    catDict[d.value.dataset_type.dataset_type] = d.value.dataset_type.fig2.modality
+  }
+
+for (let d of data) {
+    d['data_category'] = catDict[d.dataset_dataset_type] || "unknown"
+    d.organ_type = organsDict[d.organ_type.trim().toLowerCase()]
+  }
   graph = {"nodes":[],"links":[]};
 
   // JCS: this section accumulates the sankey graph without error checking - each column header and item in the csv might need to be filled in without nulls
-  // columnnames = Object.keys(data[0]);
+
+  //this columnnames array will add the data_category as calculated above, but is too tight horizontally on a small screen when added
+  //columnnames = ["dataset_group_name", "data_category", "organ_type", "dataset_status"];
   columnnames = ["dataset_group_name", "dataset_dataset_type", "organ_type", "dataset_status"];
   data.forEach(function (row, rowIndex){
       columnnames.forEach(function (columnName, columnIndex){
