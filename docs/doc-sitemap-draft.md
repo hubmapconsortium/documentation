@@ -12,11 +12,12 @@ APIs to find metadata / data:
        
  - <a href="https://smart-api.info/ui/0065e419668f3336a40d1f5ab89c6ba3">Entity API</a>: The Entity API returns information about HuBMAP data entities.
    - Generally, a donor and organ are _required_ in the provenance hierarchy where tissue samples (such as blocks and samples) can be organized based on several different tissue sample types.
-   
-    - Tools to get data without going to the Portal
-      - Data and metadata structures (Link to Jes W.’s Cohesive [Metadata] Doc stuff?)
-      - Examples: docs, commands, (Jupyter notebooks) 
-- Other Stakeholders:
+#### Getting Data
+Tools to get data without going to the Portal:
+- <a href="https://docs.hubmapconsortium.org/assays/metadata/">Metadata Attributes by Dataset Type</a> - A list of available dataset types with links to the valid metadata attributes.
+- Link to a <a href="https://github.com/hubmapconsortium/search-api/blob/main/examples/Parameter%20Search%20and%20Download%20Tutorial.ipynb">Parameterized Search tutorial</a> on GitHub.
+
+### Other Stakeholders
   - View / Access / Download data (via the Portal)
   - <a href="https://docs.hubmapconsortium.org/faq">HuBMAP FAQ</a>: Frequently Asked Questions about HuBMAP Data, Tools, and related topics.
   - <a href="https://docs.hubmapconsortium.org/about">About HuBMAP</a>: Policies & Procedures, DUA, Protected Data & Access, Citing HuBMAP Data, Funding & Contact info.
@@ -37,7 +38,7 @@ APIs to find metadata / data:
    
   - <a href="https://hubmapconsortium.org/featured-publications/">HuBMAP Publications</a>: See more than 330 featured publications to learn how HuBMAP tools and data are advancing discovery.
 
-### HuBMAP Tools and documentation links
+## HuBMAP Tools
 - HRA Tools:
   - <a href="https://humanatlas.io">Human Reference Atlas (HRA)</a>: a comprehensive, high-resolution, three-dimensional atlas of all the cells in a healthy human body.
     - Watch a short <a href="https://www.youtube.com/watch?v=DDmP_7vDy-o">video introduction</a> or check out the <a href="https://humanatlas.io/release-notes/v2.1">latest release notes</a> for the HRA.
@@ -52,16 +53,16 @@ APIs to find metadata / data:
         <li><a href="https://humanatlas.io/millitome">Millitome</a>: 3D-printed tool for organ sectioning. Read an overview of millitomes, see images of 3-D printed millitomes, and browse the latest millitome gallery.</li>
         <li><a href="https://humanatlas.io/api">APIs</a> for querying and interacting with the HRA.</li>
      </ul></details>
-- <a href="https://azimuth.hubmapconsortium.org/?_gl=1*w6lgc7*_ga*MjAwNDc0MTM0OC4xNzE0NzUzMTY4*_ga_N77K0HBGRV*MTcyMjQ4NDIwNi4zMzkuMC4xNzIyNDg0MjA2LjAuMC4w">Azimuth</a>: A web application that uses an annotated reference dataset to automate the processing, analysis, and interpretation of new single-cell sequencing experiments.
+- <a href="https://azimuth.hubmapconsortium.org/?_gl=1*w6lgc7*_ga*MjAwNDc0MTM0OC4xNzE0NzUzMTY4*_ga_N77K0HBGRV*MTcyMjQ4NDIwNi4zMzkuMC4xNzIyNDg0MjA2LjAuMC4w">Azimuth</a>: A web application that automates the processing, analysis, and interpretation of new single-cell sequencing experiments.
   - This page provides Query references, a general workflow, FAQ, and tips for Preprocessing, Mapping, and other topics.
 - <a href="http://fusion.hubmapconsortium.org/">FUSION</a>: Functional Unit State Identification and Navigation with WSI - An interactive interface to view spatial transcriptomics data integrated with histopathology, driven by AI. This site contains multiple tutorials and other helpful features.
+- <a href="https://snap.stanford.edu/stellar/">STELLAR</a>: A geometric deep learning method for cell type discovery and identification in single-cell datasets.
 - <a href="https://vitessce.io/">Vitessce</a>: Visual integration tool for exploration of spatial single cell experiments.
   - <a href="https://vitessce.io/docs/">Vitessce Documentation</a>
   - <a href="https://vitessce.io/docs/tutorials/">Vitessce Tutorials</a>
-- Intro/primer to using HuBMAP data analysis tools
-  - examples
-- Reproducing HuBMAP workflows (Y3 effort)
-  - Using APIs to get information about workflows
+- <a href="http://hubmap.scs.cmu.edu/documentation/">HuBMAP pipelines</a> and related documentation. Includes pipelines for CODEX, SPRM, Single-cell ATAC-seq, and Single-cell RNA-seq
+- <mark>Reproducing HuBMAP workflows (Y3 effort)</mark>- Note, still in development, more details to follow. 
+- <mark>Using APIs to get information about workflows</mark>
 - <a href="https://portal.hubmapconsortium.org/workspaces">HuBMAP (Data Portal) Workspaces</a>: Explore public HuBMAP data and user-provided data using Python and R in a Jupyter Lab environment.
   - <a href="https://portal.hubmapconsortium.org/tutorials/workspaces">Workspaces Tutorials</a>: Learn how to interactively analyze HuBMAP datasets by uploading them in a JupyterLab environment.
 
