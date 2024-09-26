@@ -29,6 +29,7 @@ Tools to get data without going to the Portal:
     - HuBMAP has created several self-paced training modules to fill this gap. These modules...
     - Focus on introducing HuBMAP, including technologies & assays used by HuBMAP, HuBMAP metadata, and example use cases.
     - Demonstrate how to include HuBMAP data in research projects, graduate student theses, and classroom teaching.
+      
       <details>
       <summary>See <b>Self-paced Training Modules</b></summary>
       <ul>
@@ -38,7 +39,7 @@ Tools to get data without going to the Portal:
           <li><a href="https://github.com/hubmapconsortium/hubmap-data-exploration-workshop/blob/main/HuBMAP_String_Database_protein_protein_interaction_networks_version_03_HBM538_PHSC_677.ipynb">Protein-Protein Interaction Networks</a>: Generate these networks from a list of marker genes with Python's stringdb library.</li>
           <li><a href="https://github.com/hubmapconsortium/hubmap-data-exploration-workshop/blob/main/HuBMAP_Gene_Ontology_Enrichment_Analysis_(GOEA)_with_goatools_HBM538_PHSC_677.ipynb">Gene Ontology Enrichment Analysis</a>: Use the Python goatools library for gene ontology enrichment analysis.</li>
     </ul>
-   </details>
+    </details>
    
   - <a href="https://hubmapconsortium.org/featured-publications/">HuBMAP Publications</a>: See more than 330 featured publications to learn how HuBMAP tools and data are advancing discovery.
 
@@ -46,6 +47,7 @@ Tools to get data without going to the Portal:
 - HRA Tools:
   - <a href="https://humanatlas.io">Human Reference Atlas (HRA)</a>: a comprehensive, high-resolution, three-dimensional atlas of all the cells in a healthy human body.
     - Watch a short <a href="https://www.youtube.com/watch?v=DDmP_7vDy-o">video introduction</a> or check out the <a href="https://humanatlas.io/release-notes/v2.1">latest release notes</a> for the HRA.
+      
       <details>
       <summary>See additional Tools available from the HRA... </summary>
       <ul>
@@ -56,7 +58,9 @@ Tools to get data without going to the Portal:
         <li><a href="https://humanatlas.io/organ-gallery-in-vr">VR Organ Gallery</a>: Immersive experience for exploring organs. Includes an overview of the Organ Gallery, an opportunity to provide feedback, and documentation. See also the <a href="https://github.com/cns-iu/hra-organ-gallery-in-vr/blob/main/README.md">README</a> for the VR Organ Gallery.</li>
         <li><a href="https://humanatlas.io/millitome">Millitome</a>: 3D-printed tool for organ sectioning. Read an overview of millitomes, see images of 3-D printed millitomes, and browse the latest millitome gallery.</li>
         <li><a href="https://humanatlas.io/api">APIs</a> for querying and interacting with the HRA.</li>
-     </ul></details>
+     </ul>
+     </details>
+     
 - <a href="https://azimuth.hubmapconsortium.org/?_gl=1*w6lgc7*_ga*MjAwNDc0MTM0OC4xNzE0NzUzMTY4*_ga_N77K0HBGRV*MTcyMjQ4NDIwNi4zMzkuMC4xNzIyNDg0MjA2LjAuMC4w">Azimuth</a>: A web application that automates the processing, analysis, and interpretation of new single-cell sequencing experiments.
   - This page provides Query references, a general workflow, FAQ, and tips for Preprocessing, Mapping, and other topics.
 - <a href="http://fusion.hubmapconsortium.org/">FUSION</a>: Functional Unit State Identification and Navigation with WSI - An interactive interface to view spatial transcriptomics data integrated with histopathology, driven by AI. This site contains multiple tutorials and other helpful features.
