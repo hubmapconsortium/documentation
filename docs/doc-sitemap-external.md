@@ -3,9 +3,12 @@ layout: page
 ---
 
 # HuBMAP Documentation
+
 ## HuBMAP Data
+
 ### Developers
 Programmatic access to data / metadata via APIs or Tools
+
 #### Search APIs
 APIs to find metadata / data:
 - <a href="https://smart-api.info/ui/7aaf02b838022d564da776b03f357158">Search API</a>: The HuBMAP Search API is a thin wrapper of the Elasticsearch API.
@@ -16,6 +19,7 @@ APIs to find metadata / data:
        
  - <a href="https://smart-api.info/ui/0065e419668f3336a40d1f5ab89c6ba3">Entity API</a>: The Entity API returns information about HuBMAP data entities.
    - Generally, a donor and organ are _required_ in the provenance hierarchy where tissue samples (such as blocks and samples) can be organized based on several different tissue sample types.
+     
 #### Getting Data
 Tools to get data without going to the Portal:
 - <a href="https://docs.hubmapconsortium.org/assays/metadata/">Metadata Attributes by Dataset Type</a> - A list of available dataset types with links to the valid metadata attributes.
