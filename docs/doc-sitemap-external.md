@@ -27,7 +27,7 @@ Tools to get data without going to the Portal:
 - Link to a <a href="https://github.com/hubmapconsortium/search-api/blob/main/examples/Parameter%20Search%20and%20Download%20Tutorial.ipynb">Parameterized Search tutorial</a> on GitHub.
 
 ### Other Stakeholders
-  - View / Access / Download data (via the Portal)
+  - <a href="https://docs.hubmapconsortium.org/how-to-access-data">View / Access / Download data</a> (via the Portal)
   - <a href="https://docs.hubmapconsortium.org/faq">HuBMAP FAQ</a>: Frequently Asked Questions about HuBMAP Data, Tools, and related topics.
   - <a href="https://docs.hubmapconsortium.org/about">About HuBMAP</a>: Policies & Procedures, DUA, Protected Data & Access, Citing HuBMAP Data, Funding & Contact info.
   - **Training Materials:** Biomedical technologies (e.g., single-cell and spatial approaches) are not common at all institutions of higher education.
