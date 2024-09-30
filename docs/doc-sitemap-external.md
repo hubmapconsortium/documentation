@@ -36,15 +36,13 @@ Tools to get data without going to the Portal:
       
       <details>
       <summary>See <b>Self-paced Training Modules</b></summary>
-      <ul>
-          <li> <a href="https://expand.iu.edu/browse/sice/cns/courses/hubmap-visible-human-mooc">Visible Human MOOC</a>: An overview of HuBMAP and introduction to data acquisition, analysis, and visualization.</li>
-          <li> <a href="https://github.com/hubmapconsortium/hubmap-data-exploration-workshop/blob/main/HuBMAP_scRNAseq_HBM538_PHSC_677_Bridges2_Jupyter_Notebook_version_02.ipynb">Intro to Single-Cell RNA-Seq Data Analysis</a>: Become proficient in single cell RNA-seq data analysis from HuBMAP.</li>
-          <li><a href="https://github.com/hubmapconsortium/hubmap-data-exploration-workshop/blob/main/HuBMAP_Gene_Ontology_Enrichment_Analysis_(GOEA)_with_goatools_HBM538_PHSC_677.ipynb">Venn Diagrams for Comparing Marker Genes </a>: Generate Venn & Super Venn Diagrams to compare marker genes.</li>
-          <li><a href="https://github.com/hubmapconsortium/hubmap-data-exploration-workshop/blob/main/HuBMAP_String_Database_protein_protein_interaction_networks_version_03_HBM538_PHSC_677.ipynb">Protein-Protein Interaction Networks</a>: Generate these networks from a list of marker genes with Python's stringdb library.</li>
-          <li><a href="https://github.com/hubmapconsortium/hubmap-data-exploration-workshop/blob/main/HuBMAP_Gene_Ontology_Enrichment_Analysis_(GOEA)_with_goatools_HBM538_PHSC_677.ipynb">Gene Ontology Enrichment Analysis</a>: Use the Python goatools library for gene ontology enrichment analysis.</li>
-          
-     </ul>
-     
+               <ul>
+                  <li> <a href="https://expand.iu.edu/browse/sice/cns/courses/hubmap-visible-human-mooc">Visible Human MOOC</a>: An overview of HuBMAP and introduction to data acquisition, analysis, and visualization.</li>
+                  <li> <a href="https://github.com/hubmapconsortium/hubmap-data-exploration-workshop/blob/main/HuBMAP_scRNAseq_HBM538_PHSC_677_Bridges2_Jupyter_Notebook_version_02.ipynb">Intro to Single-Cell RNA-Seq Data Analysis</a>: Become proficient in single cell RNA-seq data analysis from HuBMAP.</li>
+                  <li><a href="https://github.com/hubmapconsortium/hubmap-data-exploration-workshop/blob/main/HuBMAP_Gene_Ontology_Enrichment_Analysis_(GOEA)_with_goatools_HBM538_PHSC_677.ipynb">Venn Diagrams for Comparing Marker Genes </a>: Generate Venn & Super Venn Diagrams to compare marker genes.</li>
+                  <li><a href="https://github.com/hubmapconsortium/hubmap-data-exploration-workshop/blob/main/HuBMAP_String_Database_protein_protein_interaction_networks_version_03_HBM538_PHSC_677.ipynb">Protein-Protein Interaction Networks</a>: Generate these networks from a list of marker genes with Python's stringdb library.</li>
+                  <li><a href="https://github.com/hubmapconsortium/hubmap-data-exploration-workshop/blob/main/HuBMAP_Gene_Ontology_Enrichment_Analysis_(GOEA)_with_goatools_HBM538_PHSC_677.ipynb">Gene Ontology Enrichment Analysis</a>: Use the Python goatools library for gene ontology enrichment analysis.</li>
+                </ul>
      </details>
    
   - <a href="https://hubmapconsortium.org/featured-publications/">HuBMAP Publications</a>: See more than 330 featured publications to learn how HuBMAP tools and data are advancing discovery.
