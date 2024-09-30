@@ -18,7 +18,8 @@ APIs to find metadata / data:
      - Link to a <a href="https://github.com/hubmapconsortium/search-api/blob/main/examples/Parameter%20Search%20and%20Download%20Tutorial.ipynb">Parameterized Search tutorial</a> on GitHub.
        
  - <a href="https://smart-api.info/ui/0065e419668f3336a40d1f5ab89c6ba3">Entity API</a>: The Entity API returns information about HuBMAP data entities.
-   - Generally, a donor and organ are _required_ in the provenance hierarchy where tissue samples (such as blocks and samples) can be organized based on several different tissue sample types.
+   - Generally, a donor and organ are _required_ in the provenance hierarchy
+   - Tissue samples (such as blocks and samples) can be organized based on several different tissue sample types
      
 #### Getting Data
 Tools to get data without going to the Portal:
@@ -29,10 +30,12 @@ Tools to get data without going to the Portal:
   - View / Access / Download data (via the Portal)
   - <a href="https://docs.hubmapconsortium.org/faq">HuBMAP FAQ</a>: Frequently Asked Questions about HuBMAP Data, Tools, and related topics.
   - <a href="https://docs.hubmapconsortium.org/about">About HuBMAP</a>: Policies & Procedures, DUA, Protected Data & Access, Citing HuBMAP Data, Funding & Contact info.
-  - **Training Materials:** Biomedical technologies such as single-cell and spatial approaches are not common at all institutions of higher education. Significant barriers towards making effective use of such data include the lack of available training.
-    - HuBMAP has created several self-paced training modules to fill this gap. These modules...
-    - Focus on introducing HuBMAP, including technologies & assays used by HuBMAP, HuBMAP metadata, and example use cases.
-    - Demonstrate how to include HuBMAP data in research projects, graduate student theses, and classroom teaching.
+  - **Training Materials:** Biomedical technologies such as single-cell and spatial approaches are not common at all institutions of higher education.
+    - Significant barriers towards making effective use of such data include the lack of available training.
+    - HuBMAP has created several self-paced training modules to fill this gap. These modules focus on...
+      - Introducing HuBMAP, including technologies & assays used by HuBMAP
+      - HuBMAP metadata and example use cases
+      - Demonstrate how to include HuBMAP data in research projects, graduate student theses, and classroom teaching. <p />
       
       <details>
       <summary>See <b>Self-paced Training Modules</b></summary>
@@ -54,16 +57,16 @@ Tools to get data without going to the Portal:
       
       <details>
       <summary>See additional Tools available from the HRA... </summary>
-      <ul>
-        <li><a href="https://humanatlas.io/asctb-reporter">(ASCT+B) Reporter</a>: Compare Anatomical Structures, Cell Types, and Biomarker Tables with this visualization tool. Watch a <a href="https://youtu.be/pzUFmDhQEO8">tutorial video</a> for the ASCT+B Reporter.</li>
-        <li><a href="https://humanatlas.io/cell-population-graphs">Cell Population Graphs</a>: An interactive tool for exploring and comparing cell populations.</li>
-        <li><a href="https://humanatlas.io/registration-user-interface">Registration User Interface (RUI)</a>: Register and annotate organs. Includes an overview of the interface, basic steps for using the RUI, a short video tutorial, and a link to the RUI. Link to the <a href="https://zenodo.org/records/6628366"> RUI SOP</a>.</li>
-        <li><a href="https://humanatlas.io/exploration-user-interface">Exploration User Interface (EUI)</a>: Interact with registered organs. Includes an overview of the interface, basic steps for using the EUI, short video tutorials, and a link to the EUI.</li>
-        <li><a href="https://humanatlas.io/organ-gallery-in-vr">VR Organ Gallery</a>: Immersive experience for exploring organs. Includes an overview of the Organ Gallery, an opportunity to provide feedback, and documentation. See also the <a href="https://github.com/cns-iu/hra-organ-gallery-in-vr/blob/main/README.md">README</a> for the VR Organ Gallery.</li>
-        <li><a href="https://humanatlas.io/millitome">Millitome</a>: 3D-printed tool for organ sectioning. Read an overview of millitomes, see images of 3-D printed millitomes, and browse the latest millitome gallery.</li>
-        <li><a href="https://humanatlas.io/api">APIs</a> for querying and interacting with the HRA.</li>
-     </ul>
-     </details>
+               <ul>
+                  <li><a href="https://humanatlas.io/asctb-reporter">(ASCT+B) Reporter</a>: Compare Anatomical Structures, Cell Types, and Biomarker Tables with this visualization tool. Watch a <a href="https://youtu.be/pzUFmDhQEO8">tutorial video</a> for the ASCT+B Reporter.</li>
+                  <li><a href="https://humanatlas.io/cell-population-graphs">Cell Population Graphs</a>: An interactive tool for exploring and comparing cell populations.</li>
+                  <li><a href="https://humanatlas.io/registration-user-interface">Registration User Interface (RUI)</a>: Register and annotate organs. Includes an overview of the interface, basic steps for using the RUI, a short video tutorial, and a link to the RUI. Link to the <a href="https://zenodo.org/records/6628366"> RUI SOP</a>.</li>
+                  <li><a href="https://humanatlas.io/exploration-user-interface">Exploration User Interface (EUI)</a>: Interact with registered organs. Includes an overview of the interface, basic steps for using the EUI, short video tutorials, and a link to the EUI.</li>
+                  <li><a href="https://humanatlas.io/organ-gallery-in-vr">VR Organ Gallery</a>: Immersive experience for exploring organs. Includes an overview of the Organ Gallery, an opportunity to provide feedback, and documentation. See also the <a href="https://github.com/cns-iu/hra-organ-gallery-in-vr/blob/main/README.md">README</a> for the VR Organ Gallery.</li>
+                  <li><a href="https://humanatlas.io/millitome">Millitome</a>: 3D-printed tool for organ sectioning. Read an overview of millitomes, see images of 3-D printed millitomes, and browse the latest millitome gallery.</li>
+                   <li><a href="https://humanatlas.io/api">APIs</a> for querying and interacting with the HRA.</li>
+               </ul>
+      </details>
      
 - <a href="https://azimuth.hubmapconsortium.org/?_gl=1*w6lgc7*_ga*MjAwNDc0MTM0OC4xNzE0NzUzMTY4*_ga_N77K0HBGRV*MTcyMjQ4NDIwNi4zMzkuMC4xNzIyNDg0MjA2LjAuMC4w">Azimuth</a>: A web application that automates the processing, analysis, and interpretation of new single-cell sequencing experiments.
   - This page provides Query references, a general workflow, FAQ, and tips for Preprocessing, Mapping, and other topics.
