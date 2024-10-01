@@ -77,7 +77,7 @@ Tools to get data without going to the Portal:
   - <a href="https://vitessce.io/docs/">Vitessce Documentation</a>
   - <a href="https://vitessce.io/docs/tutorials/">Vitessce Tutorials</a>
 - <a href="http://hubmap.scs.cmu.edu/documentation/">HuBMAP pipelines</a> documentation: Includes CODEX, SPRM, Single-cell ATAC-seq, and Single-cell RNA-seq.
-- <mark>Reproducing HuBMAP workflows (Y3 effort)</mark>- Note, still in development, more details to follow. 
+- <mark>Reproducing HuBMAP workflows (Y3 effort)</mark> - Note, still in development, more details to follow. 
 - <mark>Using APIs to get information about workflows</mark>
-- <a href="https://portal.hubmapconsortium.org/workspaces">HuBMAP (Data Portal) Workspaces</a>: Explore public HuBMAP data and user data using Python & R in a Jupyter Lab environment.
-  - <a href="https://portal.hubmapconsortium.org/tutorials/workspaces">Workspaces Tutorials</a>: Interactively analyze HuBMAP datasets by uploading them to a Jupyter Lab.
+- <a href="https://portal.hubmapconsortium.org/workspaces">HuBMAP (Data Portal) Workspaces</a>: Explore public HuBMAP data and user data with Python & R via Jupyter Lab.
+  - <a href="https://portal.hubmapconsortium.org/tutorials/workspaces">Workspaces Tutorials</a>: Interactively analyze HuBMAP datasets by uploading them to Jupyter Lab.
