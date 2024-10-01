@@ -54,7 +54,7 @@ Tools to get data without going to the Portal:
 ## HuBMAP Tools
 - HRA Tools:
   - <a href="https://humanatlas.io">Human Reference Atlas (HRA)</a>: a high-resolution, 3D atlas of all the cells in a healthy human body.
-    - Watch a short <a href="https://www.youtube.com/watch?v=DDmP_7vDy-o">video introduction</a> or check out the <a href="https://humanatlas.io/release-notes/v2.1">latest HRA release notes</a>.
+  - Watch a short <a href="https://www.youtube.com/watch?v=DDmP_7vDy-o">video introduction</a> or check out the <a href="https://humanatlas.io/release-notes/v2.1">latest HRA release notes</a>.
       
       <details>
       <summary>See additional Tools available from the HRA... </summary>
@@ -69,15 +69,15 @@ Tools to get data without going to the Portal:
                </ul>
       </details>
      
-- <a href="https://azimuth.hubmapconsortium.org/?_gl=1*w6lgc7*_ga*MjAwNDc0MTM0OC4xNzE0NzUzMTY4*_ga_N77K0HBGRV*MTcyMjQ4NDIwNi4zMzkuMC4xNzIyNDg0MjA2LjAuMC4w">Azimuth</a>: A web application that automates processing, analysis, and interpretation of new single-cell sequencing experiments.
+- <a href="https://azimuth.hubmapconsortium.org/?_gl=1*w6lgc7*_ga*MjAwNDc0MTM0OC4xNzE0NzUzMTY4*_ga_N77K0HBGRV*MTcyMjQ4NDIwNi4zMzkuMC4xNzIyNDg0MjA2LjAuMC4w">Azimuth</a>: Automates processing, analysis, and interpretation of new single-cell sequencing experiments.
   - Provides Query references, a general workflow, FAQ, and tips for Preprocessing, Mapping, and other topics.
 - <a href="http://fusion.hubmapconsortium.org/">FUSION</a>: Functional Unit State Identification and Navigation with WSI - An interactive interface to view spatial transcriptomics data integrated with histopathology, driven by AI. Includes multiple tutorials and other helpful features.
 - <a href="https://snap.stanford.edu/stellar/">STELLAR</a>: A geometric deep learning method for cell type discovery and identification in single-cell datasets.
 - <a href="https://vitessce.io/">Vitessce</a>: Visual integration tool for exploration of spatial single cell experiments.
   - <a href="https://vitessce.io/docs/">Vitessce Documentation</a>
   - <a href="https://vitessce.io/docs/tutorials/">Vitessce Tutorials</a>
-- <a href="http://hubmap.scs.cmu.edu/documentation/">HuBMAP pipelines</a> and related documentation. Includes CODEX, SPRM, Single-cell ATAC-seq, and Single-cell RNA-seq
+- <a href="http://hubmap.scs.cmu.edu/documentation/">HuBMAP pipelines</a> documentation: Includes CODEX, SPRM, Single-cell ATAC-seq, and Single-cell RNA-seq.
 - <mark>Reproducing HuBMAP workflows (Y3 effort)</mark>- Note, still in development, more details to follow. 
 - <mark>Using APIs to get information about workflows</mark>
-- <a href="https://portal.hubmapconsortium.org/workspaces">HuBMAP (Data Portal) Workspaces</a>: Explore public HuBMAP data and user-provided data using Python and R in a Jupyter Lab environment.
-  - <a href="https://portal.hubmapconsortium.org/tutorials/workspaces">Workspaces Tutorials</a>: Learn how to interactively analyze HuBMAP datasets by uploading them to a Jupyter Lab.
+- <a href="https://portal.hubmapconsortium.org/workspaces">HuBMAP (Data Portal) Workspaces</a>: Explore public HuBMAP data and user data using Python & R in a Jupyter Lab environment.
+  - <a href="https://portal.hubmapconsortium.org/tutorials/workspaces">Workspaces Tutorials</a>: Interactively analyze HuBMAP datasets by uploading them to a Jupyter Lab.
