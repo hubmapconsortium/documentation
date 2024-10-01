@@ -69,8 +69,6 @@ The following search sdk methods each correspond with an endpoint inside the sea
 * [Status](#status)
 * [Reindex](#reindex)
 * [Reindex All](#reindex-all)
-* [Assay Type](#assay-type)
-* [Assay Name](#assay-name)
 
 ---
 
@@ -270,49 +268,4 @@ Example:
 
 ```python
 reindex_result = searchsdk_instance.reindex_all()
-```
-
-
----
-
-
-### Assay Type
-
-<table>
-
-<tr><td>Description</td><td colspan="2">Returns all the dataset data or assay types information (code, description, etc.) defined from the <a href="https://github.com/hubmapconsortium/search-api/blob/test-release/src/search-schema/data/definitions/enums/assay_types.yaml">Assay Types Yaml</a>  </td></tr>
-<tr><td rowspan="2">Arguments</td><td rowspan="2">key</td><td>Optional: No</td></tr><tr><td> Type: String</td></tr>
-<tr><td>Outputs</td><td colspan="2">This method outputs a dictionary with the assay type information.</td></tr>
-<tr><td>Error Handling</td><td colspan="2">If the response code from Search Api is greater than 299, an exception will be raised. The exception message will be the response from the Search API. The assay type method will return this response from the API, so if this exception is handled individually, this information can be used. If the request to the Search Api fails, an exception will be raise as well</td></tr>
-<tr><td>Authorization</td><td colspan="2">No token is required for this method. If a token is provided, however, it must be valid.</td></tr>
-
-</table>
-
-Example:
-
-```python
-key = 'simple'
-assaytype_result = searchsdk_instance.assaytype(key)
-```
-
-
----
-
-### Assay Name
-
-<table>
-
-<tr><td>Description</td><td colspan="2">Returns the dataset data or assay type information of a given assay name</td></tr>
-<tr><td rowspan="2">Arguments</td><td rowspan="2">name</td><td>Optional: No</td></tr><tr><td> Type: String</td></tr>
-<tr><td>Outputs</td><td colspan="2">This method outputs a dictionary with the information for the given assay name.</td></tr>
-<tr><td>Error Handling</td><td colspan="2">If the response code from Search Api is greater than 299, an exception will be raised. The exception message will be the response from the Search API. The assay name method will return this response from the API, so if this exception is handled individually, this information can be used. If the request to the Search Api fails, an exception will be raise as well</td></tr>
-<tr><td>Authorization</td><td colspan="2">No token is required for this method. If a token is provided, however, it must be valid.</td></tr>
-
-</table>
-
-Example:
-
-```python
-name = 'AF_pyramid'
-assayname_result = searchsdk_instance.assayname(name)
 ```
