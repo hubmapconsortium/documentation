@@ -1,5 +1,5 @@
 ---
-layout: external_with_toc
+layout: external-TOC2
 ---
 
 # HuBMAP Documentation
