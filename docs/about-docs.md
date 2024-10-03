@@ -1,4 +1,4 @@
-<img src="https://docs.hubmapcosortium.org/images/HuBMAP_with_text.jpg" height="250">
+<img src="https://github.com/hubmapconsortium/documentation/blob/10bb5494488f2354470beaf5fc3d9a8c88367d8d/docs/images/HuBMAP_with_text.jpg" height="250">
 
 # HuBMAP - The Human BioMolecular Atlas Program 
 
