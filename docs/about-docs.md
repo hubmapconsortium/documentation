@@ -1,4 +1,8 @@
-<img src="https://github.com/hubmapconsortium/documentation/blob/10bb5494488f2354470beaf5fc3d9a8c88367d8d/docs/images/HuBMAP_with_text.jpg" height="250">
+---
+layout: external-TOC2
+---
+
+<img src="https://docs.hubmapconsortium.org/images/HuBMAP_with_text.jpg" height="250">
 
 # HuBMAP - The Human BioMolecular Atlas Program 
 
@@ -11,4 +15,3 @@ HuBMAP is a consortium composed of diverse research teams funded by the Common F
 
 This site documents for internal and external stakeholders ways to interact with HuBMAP's data and tools.
 - <a href="https://docs.hubmapconsortium.org/doc-sitemap-external">Links for External Stakeholders</a>
-- <a href="https://docs.hubmapconsortium.org/doc-sitemap-internal">Links for Internal Stakeholders</a>
