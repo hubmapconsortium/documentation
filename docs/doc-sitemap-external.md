@@ -62,9 +62,9 @@ HRA Tools:
    </ul>   
   
    <details>
-   <summary>See additional Tools available from the HRA... </summary>
+   <summary>See <b>Additional Tools</b> available from the HRA... </summary>
                <ul>
-                  <li><a href="https://humanatlas.io/asctb-reporter">(ASCT+B) Reporter</a>: Compare Anatomical Structures, Cell Types, and Biomarker Tables with this tool. Watch a <a href="https://youtu.be/pzUFmDhQEO8">tutorial video</a>.</li>
+                  <li><a href="https://humanatlas.io/asctb-reporter">(ASCT+B) Reporter</a>: Compare anatomical structures, cell types, and biomarker tables with this visualization tool. Watch a <a href="https://youtu.be/pzUFmDhQEO8">tutorial video</a>.</li>
                   <li><a href="https://humanatlas.io/cell-population-graphs">Cell Population Graphs</a>: An interactive tool for exploring and comparing cell populations.</li>
                   <li><a href="https://humanatlas.io/registration-user-interface">Registration User Interface (RUI)</a>: Register and annotate organs. Includes an overview of the interface, basic steps for using the RUI, a short video tutorial, and a link to the RUI. Link to the <a href="https://zenodo.org/records/6628366"> RUI SOP</a>.</li>
                   <li><a href="https://humanatlas.io/exploration-user-interface">Exploration User Interface (EUI)</a>: Interact with registered organs. Includes an overview of the interface, basic steps for using the EUI, short video tutorials, and a link to the EUI.</li>
@@ -74,7 +74,9 @@ HRA Tools:
                </ul>
                <hr />
     </details>
-     
+    
+<p />     
+  
 - <a href="https://azimuth.hubmapconsortium.org/?_gl=1*w6lgc7*_ga*MjAwNDc0MTM0OC4xNzE0NzUzMTY4*_ga_N77K0HBGRV*MTcyMjQ4NDIwNi4zMzkuMC4xNzIyNDg0MjA2LjAuMC4w">Azimuth</a>: Automates processing, analysis, and interpretation of new single-cell sequencing experiments.
   - Provides Query references, a general workflow, FAQ, and tips for Preprocessing, Mapping, and other topics.
 - <a href="http://fusion.hubmapconsortium.org/">FUSION</a>: Functional Unit State Identification and Navigation with WSI - An interactive interface to view spatial transcriptomics data integrated with histopathology, driven by AI. Includes multiple tutorials and other helpful features.
