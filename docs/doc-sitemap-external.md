@@ -71,6 +71,7 @@ HRA Tools:
                   <li><a href="https://humanatlas.io/millitome">Millitome</a>: 3D-printed tool for organ sectioning. Read an overview of millitomes, see images of 3-D printed millitomes, and browse the latest millitome gallery.</li>
                    <li><a href="https://humanatlas.io/api">APIs</a> for querying and interacting with the HRA.</li>
                </ul>
+      <hr />
       </details>
      
 - <a href="https://azimuth.hubmapconsortium.org/?_gl=1*w6lgc7*_ga*MjAwNDc0MTM0OC4xNzE0NzUzMTY4*_ga_N77K0HBGRV*MTcyMjQ4NDIwNi4zMzkuMC4xNzIyNDg0MjA2LjAuMC4w">Azimuth</a>: Automates processing, analysis, and interpretation of new single-cell sequencing experiments.
