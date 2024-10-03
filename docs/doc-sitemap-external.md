@@ -59,20 +59,21 @@ HRA Tools:
            <li>Watch a short <a href="https://www.youtube.com/watch?v=DDmP_7vDy-o">video introduction</a></li> 
            <li>Check out the <a href="https://humanatlas.io/release-notes/v2.1">latest HRA release notes</a></li>
         </ul>
-  </ul>   
-      <details>
+   </ul>   
+  
+   <details>
       <summary>See additional Tools available from the HRA... </summary>
                <ul>
-                  <li><a href="https://humanatlas.io/asctb-reporter">(ASCT+B) Reporter</a>: Compare Anatomical Structures, Cell Types, and Biomarker Tables with this visualization tool. Watch a <a href="https://youtu.be/pzUFmDhQEO8">tutorial video</a> for the ASCT+B Reporter.</li>
+                  <li><a href="https://humanatlas.io/asctb-reporter">(ASCT+B) Reporter</a>: Compare Anatomical Structures, Cell Types, and Biomarker Tables with this tool. Watch a <a href="https://youtu.be/pzUFmDhQEO8">tutorial video</a>.</li>
                   <li><a href="https://humanatlas.io/cell-population-graphs">Cell Population Graphs</a>: An interactive tool for exploring and comparing cell populations.</li>
                   <li><a href="https://humanatlas.io/registration-user-interface">Registration User Interface (RUI)</a>: Register and annotate organs. Includes an overview of the interface, basic steps for using the RUI, a short video tutorial, and a link to the RUI. Link to the <a href="https://zenodo.org/records/6628366"> RUI SOP</a>.</li>
                   <li><a href="https://humanatlas.io/exploration-user-interface">Exploration User Interface (EUI)</a>: Interact with registered organs. Includes an overview of the interface, basic steps for using the EUI, short video tutorials, and a link to the EUI.</li>
                   <li><a href="https://humanatlas.io/organ-gallery-in-vr">VR Organ Gallery</a>: Immersive experience for exploring organs. Includes an overview of the Organ Gallery, an opportunity to provide feedback, and documentation. See also the <a href="https://github.com/cns-iu/hra-organ-gallery-in-vr/blob/main/README.md">README</a> for the VR Organ Gallery.</li>
                   <li><a href="https://humanatlas.io/millitome">Millitome</a>: 3D-printed tool for organ sectioning. Read an overview of millitomes, see images of 3-D printed millitomes, and browse the latest millitome gallery.</li>
-                   <li><a href="https://humanatlas.io/api">APIs</a> for querying and interacting with the HRA.</li>
+                  <li><a href="https://humanatlas.io/api">APIs</a> for querying and interacting with the HRA.</li>
                </ul>
-      <hr />
-      </details>
+               <hr />
+    </details>
      
 - <a href="https://azimuth.hubmapconsortium.org/?_gl=1*w6lgc7*_ga*MjAwNDc0MTM0OC4xNzE0NzUzMTY4*_ga_N77K0HBGRV*MTcyMjQ4NDIwNi4zMzkuMC4xNzIyNDg0MjA2LjAuMC4w">Azimuth</a>: Automates processing, analysis, and interpretation of new single-cell sequencing experiments.
   - Provides Query references, a general workflow, FAQ, and tips for Preprocessing, Mapping, and other topics.
