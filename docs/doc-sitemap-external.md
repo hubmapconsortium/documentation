@@ -59,8 +59,9 @@ HRA Tools:
            <li>Watch a short <a href="https://www.youtube.com/watch?v=DDmP_7vDy-o">video introduction</a></li> 
            <li>Check out the <a href="https://humanatlas.io/release-notes/v2.1">latest HRA release notes</a></li>
         </ul>
-  </ul>   
-      <details>
+   </ul>   
+   
+   <details>
       <summary>See additional Tools available from the HRA... </summary>
                <ul>
                   <li><a href="https://humanatlas.io/asctb-reporter">(ASCT+B) Reporter</a>: Compare Anatomical Structures, Cell Types, and Biomarker Tables with this visualization tool. Watch a <a href="https://youtu.be/pzUFmDhQEO8">tutorial video</a> for the ASCT+B Reporter.</li>
