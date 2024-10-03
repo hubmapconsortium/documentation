@@ -52,10 +52,14 @@ Tools to get data without going to the Portal:
     - Learn how HuBMAP tools and data are advancing discovery.
 
 ## HuBMAP Tools
-- HRA Tools:
-  - <a href="https://humanatlas.io">Human Reference Atlas (HRA)</a>: a high-resolution, 3D atlas of all the cells in a healthy human body.
-    - Watch a short <a href="https://www.youtube.com/watch?v=DDmP_7vDy-o">video introduction</a> or check out the <a href="https://humanatlas.io/release-notes/v2.1">latest HRA release notes</a>.
-      
+HRA Tools:
+  <ul>
+     <li><a href="https://humanatlas.io">Human Reference Atlas (HRA)</a>: a high-resolution, 3D atlas of all the cells in a healthy human body.</li>
+        <ul>
+           <li>Watch a short <a href="https://www.youtube.com/watch?v=DDmP_7vDy-o">video introduction</a></li> 
+           <li>Check out the <a href="https://humanatlas.io/release-notes/v2.1">latest HRA release notes</a></li>
+        </ul>
+  </ul>   
       <details>
       <summary>See additional Tools available from the HRA... </summary>
                <ul>
