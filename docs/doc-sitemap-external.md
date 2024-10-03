@@ -62,7 +62,7 @@ HRA Tools:
    </ul>   
   
    <details>
-      <summary>See additional Tools available from the HRA... </summary>
+   <summary>See additional Tools available from the HRA... </summary>
                <ul>
                   <li><a href="https://humanatlas.io/asctb-reporter">(ASCT+B) Reporter</a>: Compare Anatomical Structures, Cell Types, and Biomarker Tables with this tool. Watch a <a href="https://youtu.be/pzUFmDhQEO8">tutorial video</a>.</li>
                   <li><a href="https://humanatlas.io/cell-population-graphs">Cell Population Graphs</a>: An interactive tool for exploring and comparing cell populations.</li>
