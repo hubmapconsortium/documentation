@@ -87,7 +87,7 @@ async function getData(url = '') {
 async function generate_sankey(){
   const data = await getData('https://entity.api.hubmapconsortium.org/datasets/sankey_data');
   const dataCategories = await getData('https://ontology-api.dev.hubmapconsortium.org/assayclasses?application_context=HUBMAP');
-  const organs = await getData('https://ontology-api.dev.hubmapconsortium.org/organs?application_context=HUBMAP');
+  const organs = await getData('https://ontology.api.hubmapconsortium.org/organs?application_context=HUBMAP');
 
   const organsDict = {}
   for (let o of organs) {
