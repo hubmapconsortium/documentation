@@ -86,8 +86,8 @@ async function getData(url = '') {
 // above line was to direclty reference a csv file. now an api call is made to entity-api to retrieve a json with the data
 async function generate_sankey(){
   const data = await getData('https://entity.api.hubmapconsortium.org/datasets/sankey_data');
-  const dataCategories = await getData('https://ontology-api.dev.hubmapconsortium.org/assayclasses?application_context=HUBMAP');
-  const organs = await getData('https://ontology-api.dev.hubmapconsortium.org/organs?application_context=HUBMAP');
+  const dataCategories = await getData('https://ontology.api.hubmapconsortium.org/assayclasses?application_context=HUBMAP');
+  const organs = await getData('https://ontology.api.hubmapconsortium.org/organs?application_context=HUBMAP');
 
   const organsDict = {}
   for (let o of organs) {
