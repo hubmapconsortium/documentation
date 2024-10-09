@@ -54,11 +54,11 @@ The table below is a much smaller subset of the [HuBMAP Microscope Hardware Coll
   - Read the <a href="https://doi.org/10.1038/s41592-021-01327-9">paper</a> describing the specifications developed by 4DNucleome and BioImaging North America to expand the OME-Data Model 4DN-BINA-OME <a href="https://fairsharing.org/4747">(NBO) Microscopy Metadata Specifications</a>.
   - Get more details about <a href="https://github.com/WU-BIMAC/NBOMicroscopyMetadataSpecs">NBO Microscopy Metadata Specifications on GitHub</a>.
   
-  &nbsp; &nbsp; &nbsp; <a href="https://github.com/WU-BIMAC/MicroMetaApp-Electron/releases/latest"><img src="https://docs.hubmapconsortium.org/images/Micro-Meta%20App_icon.png" width="400"></a>
+  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="https://github.com/WU-BIMAC/MicroMetaApp-Electron/releases/latest"><img src="https://docs.hubmapconsortium.org/images/Micro-Meta%20App_icon.png" width="400"></a>
   
-  - Read the <a href="https://www.nature.com/articles/s41592-021-01315-z">paper</a> about the Micro-Meta App in <i>Nature</i>.</li>
-  - Get more details about the Micro-Meta App <a href="https://wu-bimac.github.io/MicroMetaApp.github.io/">here</a>.</li>
-  - <a href="https://github.com/WU-BIMAC/MicroMetaApp-Electron/releases/latest">Download from GitHub</a> the latest version of the Micro-Meta App.</li>
-  - See how the Micro-Meta App has been embedded in the <a href="https://data.4dnucleome.org/tools/micro-meta-app">4D Nucleome Data Portal</a>.</li>
-  - FAIRsharing record for <a href="https://fairsharing.org/4747">4DN-BINA-OME (NBO) Microscopy Metadata Specifications</a>.</li>
+  - Read the <a href="https://www.nature.com/articles/s41592-021-01315-z">paper</a> about the Micro-Meta App in <i>Nature</i>.
+  - Get more details about the Micro-Meta App <a href="https://wu-bimac.github.io/MicroMetaApp.github.io/">here</a>.
+  - <a href="https://github.com/WU-BIMAC/MicroMetaApp-Electron/releases/latest">Download from GitHub</a> the latest version of the Micro-Meta App.
+  - See how the Micro-Meta App has been embedded in the <a href="https://data.4dnucleome.org/tools/micro-meta-app">4D Nucleome Data Portal</a>.
+  - FAIRsharing record for <a href="https://fairsharing.org/4747">4DN-BINA-OME (NBO) Microscopy Metadata Specifications</a>.
     
