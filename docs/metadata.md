@@ -48,6 +48,8 @@ See section 10 of the Guide for details on transferring metadata to the HIVE.
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/desi/current/)
 - Enhanced SRS
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/enhanced-srs/current/)
+- GeoMx (NGS)
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/geomx-ngs/current/)
 - HiFi
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/hifi-slide/current/)
 - Histology
