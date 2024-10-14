@@ -116,6 +116,8 @@ See section 10 of the Guide for details on transferring metadata to the HIVE.
     - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/visium-with-probes/current/)
   - No Probes
     - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/visium-no-probes/current/)
+- Xenium
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/xenium/current/)
 
 ## Other
 - Antibodies
