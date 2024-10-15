@@ -119,6 +119,10 @@ See section 10 of the Guide for details on transferring metadata to the HIVE.
 - Xenium
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/xenium/current/)
 
+## EPICs
+- Segmentation Mask
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/segmentation-mask/current/)
+
 ## Other
 - Antibodies
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/antibodies/current/)
