@@ -87,5 +87,3 @@ HRA Tools:
 - <a href="http://hubmap.scs.cmu.edu/documentation/">HuBMAP pipelines</a> documentation: Includes CODEX, SPRM, Single-cell ATAC-seq, and Single-cell RNA-seq.
 - <mark>Reproducing HuBMAP workflows (Y3 effort)</mark> - Note, still in development, more details to follow. 
 - <mark>Using APIs to get information about workflows</mark>
-- <a href="https://portal.hubmapconsortium.org/workspaces">HuBMAP (Data Portal) Workspaces</a>: Explore public HuBMAP data and user data with Python & R via Jupyter Lab.
-  - <a href="https://portal.hubmapconsortium.org/tutorials/workspaces">Workspaces Tutorials</a>: Interactively analyze HuBMAP datasets by uploading them to Jupyter Lab.
