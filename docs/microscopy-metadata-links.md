@@ -60,3 +60,4 @@ layout: page
   - Read the <a href="https://doi.org/10.1038/s41592-021-01327-9">paper</a> describing the specifications developed by 4DNucleome and BioImaging North America to expand the OME-Data Model 4DN-BINA-OME <a href="https://fairsharing.org/4747">(NBO) Microscopy Metadata Specifications</a>.
   - Get more details about <a href="https://github.com/WU-BIMAC/NBOMicroscopyMetadataSpecs">NBO Microscopy Metadata Specifications on GitHub</a>.
   - FAIRsharing record for <a href="https://fairsharing.org/4747">4DN-BINA-OME (NBO) Microscopy Metadata Specifications</a>.
+  - See [suggested wording](https://docs.hubmapconsortium.org/microscopy-manufacturer-credit) for acknowledging manufacturers in compliance with the N-BOQ standard.
