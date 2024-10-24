@@ -15,6 +15,8 @@ HuBMAP is a consortium composed of diverse research teams funded by the Common F
 
 This site documents for internal and external stakeholders ways to interact with HuBMAP's data and tools.
 
+<hr />
+
 [Image of the Week Gallery](https://hubmapconsortium.org/image-of-the-week/) - Every week we feature an image from one of HuBMAP's funded research groups.
 
 [HuBMAP Data Portal](https://portal.hubmapconsortium.org/) - An open platform to discover, visualize, and download healthy single-cell tissue data.
