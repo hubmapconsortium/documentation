@@ -14,4 +14,11 @@ It takes trillions of cells to build a human adult, and how those cells interact
 HuBMAP is a consortium composed of diverse research teams funded by the Common Fund at the National Institutes of Health. HuBMAP values secure, open sharing, and collaboration with other consortia and the wider research community.
 
 This site documents for internal and external stakeholders ways to interact with HuBMAP's data and tools.
-- <a href="https://docs.hubmapconsortium.org/doc-sitemap-external">Links for External Stakeholders</a>
+
+[Image of the Week Gallery](https://hubmapconsortium.org/image-of-the-week/) - Every week we feature an image from one of HuBMAP's funded research groups.
+
+[HuBMAP Data Portal](https://portal.hubmapconsortium.org/) - An open platform to discover, visualize, and download healthy single-cell tissue data.
+
+[HuBMAP Funded Research](https://hubmapconsortium.org/group-pages-index/) - These funded groups that carry out the work of HuBMAP make up the HuBMAP Consortium.
+
+[Links for External Stakeholders](https://docs.hubmapconsortium.org/doc-sitemap-external) - Links to HuBMAP Data and Tools for All (including those outside the consortium).
