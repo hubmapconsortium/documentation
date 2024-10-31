@@ -7,7 +7,8 @@ You can search for these datasets, view them, and download them, without additio
 - Find data using faceted search - <a href="https://portal.hubmapconsortium.org/search?entity_type[0]=Dataset">Explore datasets</a>.
 - <a href="https://portal.hubmapconsortium.org/cells">Explore by biological entities</a> (organs, molecules, or cell types).
 - Preview and <a href="https://portal.hubmapconsortium.org/search?entity_type[0]=Dataset">Download datasets</a> via Globus.
-  - All options (above) include built-in tutorials.</li>
+  - All options (above) include built-in tutorials.
+- <a href="https://docs.hubmapconsortium.org/clt/index.html">Using the HuBMAP CLT</a> - [Command Line Transfer] tool to download a Manifest file (individual files and directories across multiple datasets) in a single file.
 
 <b>*Note:</b> An <i>exception</i> to this is raw genetic data. Downloading this type of HuBMAP data requires NIH approval.
 
