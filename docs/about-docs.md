@@ -1,5 +1,5 @@
 ---
-layout: external-TOC2
+layout: home
 ---
 
 <img src="https://docs.hubmapconsortium.org/images/HuBMAP_with_text.jpg" height="250">
