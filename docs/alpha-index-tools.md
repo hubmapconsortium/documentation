@@ -2,10 +2,10 @@
 
 | Resource       | Description            | Link   |
 | -------------- | ---------------------- |------------------------------------|
-| ASTC+B Reporter | Add a description here |https://humanatlas.io/asctb-reporter|
-| Antibody Validation Reports (AVRs) | Add a description here |https://avr.hubmapconsortium.org/|
-| Azimuth |  Add a description here |https://azimuth.hubmapconsortium.org/|
-| CCF.OWL v2.3.0 | Add a description here |https://lod.humanatlas.io/graph/ccf|
+| ASTC+B Reporter | Explore and compare Anatomical Structures, Cell Types, and Biomarkers  |https://humanatlas.io/asctb-reporter|
+| Antibody Validation Reports (AVRs) | Information about individual antibodies for multiplexed antibody imaging assays. |https://avr.hubmapconsortium.org/|
+| Azimuth | Automates the processing and analysis of sequenced data using an annotated refence set. | https://azimuth.hubmapconsortium.org/|
+| CCF.OWL v2.3.0 | The graphical representation of the CCF.OWL dataset. |https://lod.humanatlas.io/graph/ccf|
 | CellTypist | Add a description here | https://www.celltypist.org/models|
 | FTU Human Intestine Paper | "Organization of the Human Intestine at Single-cell Resolution." | [Link to Human Intestine Paper](https://portal.hubmapconsortium.org/browse/publication/77ab35880329b5932380104aa58795a4) |
 | FTU Training Data | 2021 "Hacking the Kidney" Kaggle Dataset (Training data for FTU Segmentation). | https://doi.org/10.35079/hbm925.sgxl.596 |
