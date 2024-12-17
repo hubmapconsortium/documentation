@@ -2,7 +2,7 @@
 
 | Resource       | Description            | Link   |
 | -------------- | ---------------------- |------------------------------------|
-| ASTC+B Reporter | Explore and compare Anatomical Structures, Cell Types, and Biomarkers. | https://humanatlas.io/asctb-reporter|
+| ASTC+B Reporter | Explore and compare Anatomical Structures, Cell Types, and Biomarkers. | [Link to ASTC+B Reporter](https://humanatlas.io/asctb-reporter)|
 | Antibody Validation Reports (AVRs) | Information about individual antibodies for multiplexed antibody imaging assays. | https://avr.hubmapconsortium.org/|
 | Azimuth | A web app that automates the processing and analysis of sequenced data using an annotated reference set. | https://azimuth.hubmapconsortium.org/|
 | CCF.OWL v2.3.0 | The graphical representation of the CCF.OWL dataset. | https://lod.humanatlas.io/graph/ccf|
