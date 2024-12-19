@@ -3,7 +3,7 @@
 | Linked Resource | Description                   |
 | --------------- | ----------------------------- |
 | [ASTC+B Reporter](https://humanatlas.io/asctb-reporter) | Explore and compare Anatomical Structures, Cell Types, and Biomarkers. |
-| [Antibody Validation Reports)](https://avr.hubmapconsortium.org/)| Information about individual antibodies for multiplexed antibody imaging assays. |
+| [Antibody Validation Reports](https://avr.hubmapconsortium.org/)| Information about individual antibodies for multiplexed antibody imaging assays. |
 | [Azimuth Web App](https://azimuth.hubmapconsortium.org/) | Automates the processing and analysis of sequenced data using an annotated reference set. | 
 | [CCF.OWL v2.3.0](https://lod.humanatlas.io/graph/ccf) | The graphical representation of the CCF.OWL dataset. |
 | [CellTypist](https://www.celltypist.org) | An automated cell type annotation tool for scRNA-seq datasets. |
