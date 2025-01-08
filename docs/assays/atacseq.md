@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: tabs
 ---
 # HuBMAP single cell & bulk ATAC Sequence Data
 
