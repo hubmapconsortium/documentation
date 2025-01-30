@@ -7,8 +7,7 @@ The following five APIs, available as RESTful web services, support data ingest,
 
 ### Ingest API
 The Ingest API supports writing data and metadata to HuBMAP. Tissue Mapping Centers (TMCs) use it to contribute data to HuBMAP and the HIVE uses it to deposit derived data resulting from the execution of pipelines.
-- [GitHub](https://github.com/hubmapconsortium/ingest-ui) 
-- [Smart API](https://smart-api.info/ui/5a6bea1158d2652743c7a201fdb1c44d)
+- [GitHub](https://github.com/hubmapconsortium/ingest-api) 
 
 ### UUID API
 The UUID API supports donor and tissue sample registration, submission of data, and collection of provenance information via the Ingest UI. The Ingest UI is a web user interface used by the Tissue Mapping Centers (TMCs) when contributing raw and derived data which result from the execution of pipelines.

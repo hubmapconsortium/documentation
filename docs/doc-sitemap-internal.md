@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: internal-TOC2
 ---
 
 # HuBMAP Documentation

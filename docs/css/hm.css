@@ -107,7 +107,7 @@ body {
 }
 
 #footer_wrap{
-  position:absolute;
+  /* position:absolute; */
   bottom:0;
   width:100%;
 }
@@ -138,6 +138,14 @@ body {
     text-decoration-thickness: 2px;    
 }
 
+@media (min-width: 855px) {
+  .menu-right{
+    float: right;
+  }
+}
+.menu-right .menu-item{
+  font-size:1rem;
+}
 
 .bottomFooter{
   padding-top: 250px;
