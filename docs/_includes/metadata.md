@@ -1,9 +1,4 @@
----
-layout: page
----
-<!-- Possibly moving to /docs/_includes/metadata.md-->
-
-# Metadata
+# Metadata INCLUDE
 
 HuBMAP metadata documentation and submission specifications.
 Please refer to the [HuBMAP Data Upload Guidelines](https://hubmapconsortium.github.io/ingest-validation-tools/) for the latest assay metadata options and specifications.

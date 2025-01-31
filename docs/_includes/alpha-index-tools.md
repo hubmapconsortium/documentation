@@ -1,5 +1,5 @@
-<!-- Possibly moving to /docs/_includes/alpha-index-tools.md-->
-# Alphabetical Index of HuBMAP Tools
+
+# Alphabetical Index of HuBMAP Tools INCLUDE
 
 | Linked Resource | Description                   |
 | --------------- | ----------------------------- |
@@ -27,4 +27,3 @@
 | [HuBMAP Consortium Website](https://hubmapconsortium.org/) | Homepage of the HuBMAP Consortium |
 | [HuBMAP HRA Portal](https://humanatlas.io/) | HuBMAP's Human Reference Atlas Portal |
 | [HuBMAP Technical Resources](https://docs.hubmapconsortium.org/technical) | Documentation for HuBMAP's Technical Resources. |
-
