@@ -37,7 +37,7 @@ for the different servers are as follows:
 * Dev: https://search-api.dev.hubmapconsortium.org/
 * Test: https://search-api.test.hubmapconsortium.org/
 * Stage: https://search-api.stage.hubmapconsortium.org/
-* Production: https://search.api.hubmapconsortium.org/
+* Production: https://search.api.hubmapconsortium.org/v3/
 
 If using a local instance of Search Api, by default the port used is 5005. Therefore "localhost:5005" would be used for
 service_url. 
