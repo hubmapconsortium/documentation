@@ -40,8 +40,8 @@ layout: page
 |&#x25BC;|Akoya CODEX 1st Generation (Zeiss Axio Observer 7)|&#x25BC;|[Template](https://drive.google.com/file/d/1DX4RD6o1yS0MIgqP6XeKiCl2FwhyZ0ep/view?usp=drive_link)|
 |TMC-DUSM (SenNet)|Zeiss_Axio-Scan.Z1 microscope|VISIUM & Stained <br />Microscopy|[JSON](https://drive.google.com/file/d/1O35LEFM7Xj6upY6BeNM0IHr2eiqMaHT6/view?usp=drive_link)|
 |&#x25BC;|10x Genomics Visium CytAssist|VISIUM|[JSON](https://drive.google.com/file/d/174RxJRDxLDE7Oos5Nxirkv4575KLdP5m/view?usp=drive_link) <br />Placeholder|
-|TMC-UF|nanoString GeoMx Digital Spatial Profiler|GeoMx (NGS)|[JSON](https://drive.google.com/file/d/1l84P4l0OFykvLnpZMFk8AdySvKj0lsVh/view?usp=drive_link) <br />Placeholder|
-|TMC-Vanderbilt (Kidney)|&nbsp; &nbsp; &#x25BC;|&#x25BC;|[JSON](https://drive.google.com/file/d/1Q9AhAPGx8Rfj3B53F7eXG5GNcUN3Y-C2/view?usp=drive_link) <br />Placeholder|
+|TMC-PNNL|nanoString GeoMx Digital Spatial Profiler|GeoMx (NGS)|[JSON](https://drive.google.com/file/d/1X1Fmo91NHUgrGoQKfmvw_SpL9IAe-28J/view?usp=sharing) <br />Placeholder|
+|TMC-Vanderbilt (Kidney)|&nbsp; &nbsp; &#x25BC;|&#x25BC;|[JSON](https://drive.google.com/file/d/145fj_nRUQSlD46f24lv17s08x9IYhZtd/view?usp=sharing) <br />Placeholder|
 |&#x25BC;|Zeiss_Axio-Scan.Z1 microscope|Autofluorescence <br />Microscopy (AF)|[JSON](https://drive.google.com/file/d/1x4MoX_iFAra0W7PIgMHMeV1i0KEqXsKe/view?usp=drive_link)|
 |TMC-Stanford (Intestine)|CODEX 1st Generation (Keyence BZ-X700)|Histology + CODEX|[JSON](https://drive.google.com/file/d/15cDk2Pgts8vaT_6hwoI2KSlmXu4HIyqK/view?usp=drive_link)|
 |&#x25BC;|Akoya - Phenocycler-Fusion 2.0|CODEX|[JSON](https://drive.google.com/file/d/1uYyH2vMEuuC_GrF_9Mi49C4dIZ-g-0hq/view?usp=drive_link)|
