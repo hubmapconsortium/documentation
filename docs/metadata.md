@@ -44,6 +44,8 @@ See section 10 of the Guide for details on transferring metadata to the HIVE.
   - Contact: [Vishal Venkataraaman](mailto:vgautham@stanford.edu)
 - Confocal
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/confocal/current/)
+- CyTOF
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/cytof/current/)
 - DESI
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/desi/current/)
 - Enhanced SRS
