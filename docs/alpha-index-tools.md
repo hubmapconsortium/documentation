@@ -31,7 +31,18 @@
 | [HuBMAP Ontology API](https://smart-api.info/ui/d10ff85265d8b749fbe3ad7b51d0bfoa) | HuBMAP's Ontology Application Programming Interface |
 | [HuBMAP Technical Resources](https://docs.hubmapconsortium.org/technical) | Documentation for HuBMAP's Technical Resources |
 | [HuBMAP Visible Human MOOC](https://expand.iu.edu/browse/sice/cns/courses/hubmap-visible-human-mooc) | HuBMAP Visible Human Massive Open Online Course (VHMOOC)|
-| [Pop V from YosefLab](https://github.com/YosefLab/PopV) | ADD DESCRIPTION HERE |
+| [Lung Immune Cells data](https://drive.google.com/drive/folders/1SPbN6_0C-mVWbfE5r20TVZLMxBjiEKnl?usp=sharing) | "Perivascular immune cells in lung" data |
+| [Pop V from YosefLab](https://github.com/YosefLab/PopV) | Uses cell-type transfer tools to classify query dataset cell-types based on a test dataset. |
 | [UBKG](https://docs.xconsortia.org) |Unified Biomedical Knowledge Graph|
-| [Vitessce](https://vitessce.io/) | ADD DESCRIPTION HERE |
+| [Vitessce](https://vitessce.io/) | Visual integration tool for exploration of spatial single cell experiment |
 
+## Data and Code Availability
+- All HuBMAP data is availble via the [HuBMAP Data Portal](https://portal.hubmapconsortium.org/)
+- Azimuth references can be accessed [here](https://azimuth.hubmapconsortium.org/)
+- HRA data and code are available at the [HRA Portal](https://humanatlas.io/)
+
+### Relevant GitHub Repositories
+- The [HuBMAP repository](http://github.com/hubmapconsortium) where the HRA started
+- The repository for Indiana University's [Cyberinfrastructure for Network Science Center](http://github.com/cns-iu) where initial experimental HRA code starts
+- The repository created to host [cross-consortia code](http://github.com/x-atlas-consortia), including hra-kg, hra-pop, hra-apps, and hra-api
+- [Supporting information](http://cns-iu.github.io/hra-constructiuon-usage-supporting-information)
