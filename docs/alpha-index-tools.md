@@ -24,11 +24,13 @@
 | [HRApop AEDG](https://cdn.humanatlas.io/digital-objects/graph/hra-pop/v0.10.2/assets/atlas-enriched-dataset-graph.jsonId) | HRApop Atlas Enhanced Dataset Graph |
 | [HRApop Cell Summaries](https://cdn.humanatlas.io/digital-objects/graph/hra-pop/v0.10.2/assets/atlas-as-cell-summaries.jsonId) | HRApop AS Cell Summaries | 
 | [HRA RUI](https://apps.humanatlas.io/rui) | HRA's Registration User Interface |
-| [HRA VCCF](https://humanatlas.io/vccf) | HRA's Vasculature Common Coordinate Framework | 
+| [HRA SOPs](https://zenodo.org/communities/hra) | 20 Standard Operating Procedures (SOPs) for the HRA |
+| [HRA VCCF](https://humanatlas.io/vccf) | HRA's Vascular Common Coordinate Framework | 
 | [HuBMAP Consortium Website](https://hubmapconsortium.org/) | Homepage of the HuBMAP Consortium |
 | [HuBMAP HRA Portal](https://humanatlas.io/) | HuBMAP's Human Reference Atlas Portal |
 | [HuBMAP Ontology API](https://smart-api.info/ui/d10ff85265d8b749fbe3ad7b51d0bfoa) | HuBMAP's Ontology Application Programming Interface |
 | [HuBMAP Technical Resources](https://docs.hubmapconsortium.org/technical) | Documentation for HuBMAP's Technical Resources |
+| [HuBMAP Visible Human MOOC](https://expand.iu.edu/browse/sice/cns/courses/hubmap-visible-human-mooc) | HuBMAP Visible Human Massive Open Online Course (VHMOOC)|
 | [Pop V from YosefLab](https://github.com/YosefLab/PopV) | ADD DESCRIPTION HERE |
 | [UBKG](https://docs.xconsortia.org) |Unified Biomedical Knowledge Graph|
 | [Vitessce](https://vitessce.io/) | ADD DESCRIPTION HERE |
