@@ -12,7 +12,7 @@
 | [HRA 2D References](https://humanatlas.io/2d-ftu-illustrations) | Human Reference Atlas (HRA)'s Open-source 2D reference illustrations of FTUs. |
 | [HRA 3D References](https://humanatlas.io/3d-reference-library) | HRA's Open-source 3D organs crosswalked to ASCT+B tables. |
 | [HRA API](https://humanatlas.io/api/) | Query and interact with the HRA using Python, JavaScript, SPARQL, REST, and more. |
-| [HRA ASTC+B Tables](https://humanatlas.io/asctb-tables) | Explore and compare Anatomical Structures, Cell Types, and Biomarkers. |
+| [HRA ASTC+B Tables](https://humanatlas.io/asctb-tables) | Data tables containing hierarchical anatomical structures, cell types, and biomarkers from the Cell Ontology |
 | [HRA Dashboard](https://hubmapconsortium.github.io/hra-data-dashboard) | CCF-HRA Data Dashboards |
 | [HRA EUI](https://apps.humanatlas.io/eui) | HRA's Exploration User Interface |
 | [HRA FTU Explorer](https://apps.humanatlas.io/ftu-explorer) | HRA's Interactive Functional Tissue Unit Explorer |
@@ -45,4 +45,4 @@
 - The [HuBMAP repository](http://github.com/hubmapconsortium) where the HRA started
 - The repository for Indiana University's [Cyberinfrastructure for Network Science Center](http://github.com/cns-iu) where initial experimental HRA code starts
 - The repository created to host [cross-consortia code](http://github.com/x-atlas-consortia), including hra-kg, hra-pop, hra-apps, and hra-api
-- [Supporting information](http://cns-iu.github.io/hra-constructiuon-usage-supporting-information)
+- [Supporting information](http://cns-iu.github.io/hra-construction-usage-supporting-information)
