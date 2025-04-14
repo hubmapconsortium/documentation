@@ -11,11 +11,11 @@ This page describes the Dataset attributes available for querying via the [HuBMA
 ## Description: 
 A query string is built by combining schema elements documented below with matching values.  Each "term" of the query is combined using the & character, and the entire query is attached to the base URL after a ? character, per web standards.
 
-Query terms may be composed from attributes deeper in the schema type of an attribute. The parameter names can be top level attributes from any of the entities or they can be nested attributes, for example `/param-search/datasets?dataset_type=RNAseq` queries the top level Dataset attribute `dataset_type`, whereas `/param-search/datasets?metadata.metadata.is_targeted=Yes` queries the `is_targeted` attribute that is nested under metadata.metadata. (NOTE: The dual nesting of metadata.metadata will be updated to a single level, just metadata, soon).
+Query terms may be composed from attributes deeper in the schema type of an attribute. The parameter names can be top level attributes from any of the entities or they can be nested attributes, for example `/param-search/datasets?dataset_type=RNAseq` queries the top level Dataset attribute `dataset_type`, whereas `/param-search/datasets?metadata.is_targeted=Yes` queries the `is_targeted` attribute that is nested under metadata.
 
 This example finds all Datasets of type `RNAseq` where specific molecules are not targeted for detection use this query:
 ```
- GET https://search.api.hubmapconsortium.org/v3/param-search/datasets?dataset_type=RNAseq&metadata.metadata.is_targeted=No
+ GET https://search.api.hubmapconsortium.org/v3/param-search/datasets?dataset_type=RNAseq&metadata.is_targeted=No
 ```
 
 ### Dataset Attributes
@@ -33,7 +33,7 @@ This example finds all Datasets of type `RNAseq` where specific molecules are no
 | data_access_level                | string from [`data_access_level` attribute values](#data_access_level-attribute-values) | One of the values: public, consortium.                                                                                                                                                                                                               |
 | status                           | string string from [`status` attribute values](#status-attribute-values)                | One of: NewProcessing, QA Published Error Hold Invalid                                                                                                                                                                                               |
 | antibodies                       | array of [`Antibody Schema`](./schema-antibody.html)                                    | A list of antibodies used in the assay that created the dataset                                                                                                                                                                                      |
-| metadata.metadata                | JSON-encoded string for a supported [assay type schema](#assay-type-schemas)            | The assay level metadata submitted by data providers with data. Provided as json. Metadata schemas per dataset_type are linked from the [dataset type allowable values section](#dataset_type-allowable-values). (NOTE: The dual nesting of metadata.metadata will be updated to a single level, just metadata, soon).                |
+| metadata                | JSON-encoded string for a supported [assay type schema](#assay-type-schemas)            | The assay level metadata submitted by data providers with data. Provided as json. Metadata schemas per dataset_type are linked from the [dataset type allowable values section](#dataset_type-allowable-values).                |
 | dataset_type                     | string [dataset type allowable values](#dataset_type-allowable-values)                                 |  The type of data contained in the dataset (as derived from a specific assay type |
 | donor                     | Donor Object |  The donor from which the tissue was taken for the assay.  The sub-attributes under donor are specified in the [Donor Schema](schema-donor.html) |
 | origin_samples            | Sample Object Array | The organ from which the tissue was taken for the assay.  The sub-attributes under origin_samples are specified in the [Sample Schema](schema-sample.html). This is modeled as an array because it is possible for data to be derived from multiple organs, but currently HuBMAP only has data derived from a single organ. |
@@ -55,7 +55,7 @@ The status attribute of the `Dataset Schema` is one of the values following enum
 - `Invalid`
 
 ### `dataset_type` allowable values
-The `dataset_type` attribute of the `Dataset Schema` is a value from the current, authoritative list of [dataset types](https://ontology.api.hubmapconsortium.org/dataset-types?application_context=HUBMAP). The valid dataset types, as of, 8/26/2024 are listed below.  Additionally, linked next to the dataset types are the metadata schema pages for each dataset type.  The metadata attributes listed for each dataset type are accessible below the Dataset.metadata.metadata attribute (e.g. Dataset.`metadata.metadata.preparation_instrument_model`.
+The `dataset_type` attribute of the `Dataset Schema` is a value from the current, authoritative list of [dataset types](https://ontology.api.hubmapconsortium.org/dataset-types?application_context=HUBMAP). The valid dataset types, as of, 8/26/2024 are listed below.  Additionally, linked next to the dataset types are the metadata schema pages for each dataset type.  The metadata attributes listed for each dataset type are accessible below the Dataset.metadata attribute (e.g. Dataset.`metadata.preparation_instrument_model`.
 
 - `10X Multiome`: [10X Multiome metadata](../assays/metadata/10XMultiome.html)
 - `2D Imaging Mass Cytometry`: [Imaging Mass Cytometry metadata](../assays/metadata/IMC.html)
