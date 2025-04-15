@@ -11,8 +11,8 @@
 | [HRA 2D References](https://humanatlas.io/2d-ftu-illustrations) | Human Reference Atlas (HRA)'s Open-source 2D reference illustrations of FTUs. |
 | [HRA 3D References](https://humanatlas.io/3d-reference-library) | HRA's Open-source 3D organs crosswalked to ASCT+B tables. |
 | [HRA API](https://humanatlas.io/api/) | Query and interact with the HRA using Python, JavaScript, SPARQL, REST, and more. |
-| [HRA ASTC+B Tables](https://humanatlas.io/asctb-tables) | Data tables containing hierarchical anatomical structures, cell types, and biomarkers from the Cell Ontology |
-| [HRA Dashboard](https://hubmapconsortium.github.io/hra-data-dashboard) | CCF-HRA Data Dashboards |
+| [HRA ASTC+B Tables](https://humanatlas.io/asctb-tables) | Data tables for anatomical structures, cell types, and biomarkers from the Cell Ontology |
+| [HRA Dashboards](https://hubmapconsortium.github.io/hra-data-dashboard) | CCF-HRA Data Dashboards |
 | [HRA EUI](https://apps.humanatlas.io/eui) | HRA's Exploration User Interface |
 | [HRA FTU Explorer](https://apps.humanatlas.io/ftu-explorer) | HRA's Interactive Functional Tissue Unit Explorer |
 | [HRA Knowledge Graph](https://lod.humanatlas.io/) | HRA Knowledge Graph (KG)|
@@ -30,9 +30,9 @@
 | [HuBMAP HRA Portal](https://humanatlas.io/) | HuBMAP's Human Reference Atlas Portal |
 | [HuBMAP Ontology API](https://smart-api.info/ui/96e5b5c0b0efeef5b93ea98ac2794837) | HuBMAP's Ontology Application Programming Interface |
 | [HuBMAP Technical Resources](https://docs.hubmapconsortium.org/technical) | Documentation for HuBMAP's Technical Resources |
-| [HuBMAP Visible Human MOOC](https://expand.iu.edu/browse/sice/cns/courses/hubmap-visible-human-mooc) | HuBMAP Visible Human Massive Open Online Course (VHMOOC)|
+| [HuBMAP VH MOOC](https://expand.iu.edu/browse/sice/cns/courses/hubmap-visible-human-mooc) | HuBMAP Visible Human Massive Open Online Course (VHMOOC)|
 | [Lung Immune Cells data](https://drive.google.com/drive/folders/1SPbN6_0C-mVWbfE5r2OTVZLMxBjiEKnl?usp=sharing) | "Perivascular immune cells in lung" data |
-| [Pop V from YosefLab](https://github.com/YosefLab/PopV) | Uses cell-type transfer tools to classify query dataset cell-types based on a test dataset. |
+| [Pop V from YosefLab](https://github.com/YosefLab/PopV) | Cell-type transfer tools for classifying query dataset cell-types based on a test dataset. |
 | [UBKG](https://docs.xconsortia.org) |Unified Biomedical Knowledge Graph|
 | [Vitessce](https://vitessce.io/) | Visual integration tool for exploration of spatial single cell experiment |
 
