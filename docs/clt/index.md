@@ -7,7 +7,7 @@ layout: page
 The HuBMAP Command Line Transfer utility provides the functionality to download HuBMAP data of individual files and directories across multiple datasets at one time by specifying all downloaded data files and directories in a single manifest file.
 
 This document covers usage of the HuBMAP CLT. Detailed instructions for installing hubmap-clt as well as other first 
-time setup can be found [here](install-hubmap-clt.html). A [tutorial](view-globus-download-location.html) on how to view the current GCP download directory is also available.
+time setup can be found [here](install-hubmap-clt.html). A description of where to find your downloads is available on the [local GCP download directory](view-globus-download-location.html) page.
 
 <pre>   usage: hubmap-clt [-h &#124; --help &#124; -v &#124; --version] [transfer manifest-file &#124;  
    login &#124; logout &#124; whoami]</pre>

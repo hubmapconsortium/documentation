@@ -107,7 +107,7 @@ body {
 }
 
 #footer_wrap{
-  position:absolute;
+  /* position:absolute; */
   bottom:0;
   width:100%;
 }
@@ -136,4 +136,37 @@ body {
 .menu-item:hover{
     text-decoration: underline;
     text-decoration-thickness: 2px;    
+}
+
+@media (min-width: 855px) {
+  .menu-right{
+    float: right;
+  }
+}
+.menu-right .menu-item{
+  font-size:1rem;
+}
+
+.bottomFooter{
+  padding-top: 250px;
+  position: inherit;
+  pointer-events: none;
+}
+#modifiedDate{
+  max-width: 1000px;
+}
+.sidebarDetails{
+  padding: .5em;
+  margin:0px;
+}
+.sidebarDetails summary{
+  margin-bottom:5px;
+}
+.sidebarDetails p{
+  padding: .5em 0;
+  border-top: solid 1px #eee;
+}
+.sidebarDetails h2{
+  margin-right: 5px;
+  display: inline;
 }

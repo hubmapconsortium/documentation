@@ -13,6 +13,8 @@ For an overview of HuBMAP data visit the [Data Overview](/data-sankey/index.html
 
 ### APIs
 There are several APIs which can be used to search and retrieve information about HuBMAP data.  All are linked below in the architecture diagram and on the [API Index](/apis).
+<br/><br/>
+<span style="background-color:#f7f065;">For a quick guide to query and data download access via the APIs please see the [Data Query and Download example](/param-search/data-query-download-example.html).</span>
 
 ### SDK
 The [HuBMAP SDK](/sdk/hubmapsdk.html) is a Python library to interface with the [Entity API](https://smart-api.info/ui/0065e419668f3336a40d1f5ab89c6ba3).

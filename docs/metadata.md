@@ -44,10 +44,14 @@ See section 10 of the Guide for details on transferring metadata to the HIVE.
   - Contact: [Vishal Venkataraaman](mailto:vgautham@stanford.edu)
 - Confocal
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/confocal/current/)
+- CyTOF
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/cytof/current/)
 - DESI
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/desi/current/)
 - Enhanced SRS
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/enhanced-srs/current/)
+- GeoMx (NGS)
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/geomx-ngs/current/)
 - HiFi
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/hifi-slide/current/)
 - Histology
@@ -114,6 +118,12 @@ See section 10 of the Guide for details on transferring metadata to the HIVE.
     - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/visium-with-probes/current/)
   - No Probes
     - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/visium-no-probes/current/)
+- Xenium
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/xenium/current/)
+
+## EPICs
+- Segmentation Mask
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/segmentation-mask/current/)
 
 ## Other
 - Antibodies
