@@ -3,15 +3,15 @@ layout: page
 ---
 ## HuBMAP Metadata Attributes by Dataset Type
 
-This is a list of available dataset types (data types from multiple supported assays), with links to the valid metadata attributes for each dataset type.  The linked assay pages list all attributes as they have occurred across any versions of the metadata specification for the given dataset type with the most current, valid set of attributes listed first on the page.
+A list of available dataset types (data types from multiple supported assays), with a link (&#x2637;) to the valid metadata attributes for each dataset type. The linked assay pages list all attributes as they have occurred across any versions of the metadata specification for the given dataset type with the most current, valid set of attributes listed first on the page.
 
 
-| Datsaset Type | Attributes | Description |
+| Dataset Type | Attributes | Description |
 |-------|------------|-------------|
-| [Autofluorescence](https://docs.hubmapconsortium.org/assays/af) | [attributes](AutoFluorescence)  |   Exploits endogenous fluorescence in a biological tissue to capture an image. The image can then be used to integrate other images from multiple modalities and to align tissues within a 3D experiment. |
-| [ATACseq](atacseq) | [attributes](ATACseq)  |  Identifies accessible DNA regions by probing open chromatin with hyperactive mutant Tn5 Transposase that inserts sequencing adapters into open regions of the genome. |
-| [CODEX](https://docs.hubmapconsortium.org/assays/codex) | [attributes](CODEX)  |  Strategy for generating highly multiplexed images of fluorescently-labeled antigens. |
-| DESI | [attributes](DESI)  | |
+| [Autofluorescence](https://docs.hubmapconsortium.org/assays/af) [&#x2637;](AutoFluorescence "Attribute description") | [attributes](AutoFluorescence)  |   Exploits endogenous fluorescence in a biological tissue to capture an image. The image can then be used to integrate other images from multiple modalities and to align tissues within a 3D experiment. |
+| [ATACseq](atacseq) [&#x2637;](ATACseq "Attribute description")| [attributes](ATACseq)  |  Identifies accessible DNA regions by probing open chromatin with hyperactive mutant Tn5 Transposase that inserts sequencing adapters into open regions of the genome. |
+| [CODEX](https://docs.hubmapconsortium.org/assays/codex) [&#x2637;](CODEX "Attribute description") | [attributes](CODEX)  |  Strategy for generating highly multiplexed images of fluorescently-labeled antigens. |
+| DESI [&#x2637;](DESI "Attribute description") | [attributes](DESI)  | |
 | Enhanced SRS | [attributes](EnhancedSRS)  | |
 | GeoMx | [attributes](GeoMx)  | |
 | HiFi | [attributes](HiFi-Slide)  | |
