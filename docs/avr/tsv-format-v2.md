@@ -12,22 +12,20 @@ With each submission of AVR documents associated header/metadata information mus
 |target_symbol               | This is the symbol of the protein that the antibody is targeting. Please list the UniProt protein name. This may be different from the common name for the protein. |
 |isotype                   | Describes the antibody isotype. Please write out any symbols. (e.g. IgG, IgG1, IgG1 kappa)|
 | host                     | This is the species that was used to generate the antibody (e.g. mouse, rabbit, etc). |
-|cell_line      | Specifies the cell line used in antibody validation experiments. The name of the cell line should be provided as listed in established cell line repositories. Examples include HEK 293, MDA-MB-231, and A20.|
-|cell_line_ontology_id  | Cell Line Ontology (CLO) identifier corresponding to the cell line used in validation. This ensures standardized reference across datasets. CLO identifiers can be found in publicly available ontology lookup services.|
-|clonality| This will be either Monoclonal or Polyclonal.If monoclonal provide the clone ID or identify the antibody as polyclonal. |
-|clone_id   | Unique identifier assigned to a monoclonal antibody's originating hybridoma clone.|
+|clonality| This will be either Monoclonal or Polyclonal.|
+|clone_id   | A unique identifier for a laboratory-generated antibody produced either by hybridoma cells or through recombinant DNA technology.|
 |vendor                   | This is the company that sells the antibody. |
 |catalog_number           | Provides catalog number from vendor for the source of the antibody.|
 |lot_number               | This is the lot number for the antibody that was validated. |
 |recombinant              | Simple Yes or No if the antibody was recombinant. Recombinant antibodies (rAbs) are monoclonal antibodies which are generated in vitro using synthetic genes.|
 |concentration_value      | Provides a recommended usage in standardized units (μg/mL). Numeric only (units standardized) If providing dilution instead, leave this field blank. Required field if AVR is part of an Organ Mapping Antibody Panel (OMAP). |
-|dilution_factor                 | Provides a recommended dilution factor. If providing a concentration instead, leave this field blank. 1:#### (please use colon and not a slash or backslash (e.g. 1:100, 1:50,1:2000) Required field if AVR is part of an Organ Mapping Antibody Panel (OMAP).|
+|dilution_factor                 | Provides a recommended dilution factor. If providing a concentration instead, leave this field blank. (e.g. for 1:100 dilution put "100" for the dilution factor): Required field if AVR is part of an Organ Mapping Antibody Panel (OMAP).|
 |conjugate                | Specifies addition to the antibody (e.g., fluorophore, heavy metal, oligonucleotide) enabling detection, if applicable. If no conjugate, leave blank.|
 |rrid                     | This can usually be found on the vendor’s website, but can also be found by searching at <a href="https://scicrunch.org/resources/Antibodies/search" target="_blank">https://scicrunch.org/resources/Antibodies/search</a> or <a href="https://antibodyregistry.org" target="_blank">htps://antibodyregistry.org</a>. If there is no RRID, you can create one here: <a href="https://scicrunch.org/resources/about/resource" target="_blank">https://scicrunch.org/resources/about/resource</a>. |
 |method                   | This is the downstream assay that was used (e.g. CODEX, MIBI, etc). |
 |tissue_preservation      | Preservation technique used. If fixative other than formalin, indicate the percentage of fixative indicated (e.g., 1% or 4%). Use a common abbreviation format (e.g., FFPE for formalin fixed paraffin embedded).| 
 |protocol_doi            | All validation pipelines need an accompanying protocol on protocols.io. or another open protocol repository. Details the protocol used to validate the antibody, including positive and negative controls and example images. If the validation procedure is the same for all antibodies your which lab tests, then a single protocol can be used. If validation procedures differ, then different methods will need different validation protocols. |
-|manuscript_doi | DOI for the published manuscript that details the antibody validation study.|
+|manuscript_doi | DOI for the published manuscript that details the use of the antibody and the associated OMAP.|
 | author_orcids            | This is needed for whomever is submitting the validation data. This will be used to differentiate the same antibodies being tested across different groups. Identifies the individuals who validated the antibody used in the assay; Format ####-####-####-#### (the last digit may be X) See https://info.orcid.org/researchers/ |
 | vendor_affiliation      | Identities whether the antibody validation was done by commercial entity (antibody vendor or multiplexed technology provider). Vendor name. If not applicable, please leave this field blank. (e.g. Cell Signaling Technology, Bio-Techne, Abcam, Biolegend,  Akoya Biosciences, Leica Microsystems)|
 | organ          | This is the tissue that was used to acquire the validation data. This should be the same tissue that was used in the downstream assay. |

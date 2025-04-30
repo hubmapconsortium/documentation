@@ -62,7 +62,7 @@ Please refer to an AVR by its unique AVR ID (e.g. AVR-1, AVR-2) and cite an AVR 
 ## Submitting AVRs
 
 ### How do I complete an AVR?
-Please see Table 2a and 2b in SOP: Constructing Antibody Validation Reports (AVRs) for details on how to complete metadata fields and on the [AVR header/metadata page](/avr/csv-format.html)
+Please see Table 2a and 2b in SOP: Constructing Antibody Validation Reports (AVRs) for details on how to complete metadata fields and on the [AVR header/metadata page](/avr/tsv-format-v2.html)
 
 ### How do I upload AVRs?
 If you are a HuBMAP member, you may upload AVRs using the AVR Upload Page (login required). Detailed directions for upload can be found here. If there are questions at any point of submission, please reach out to the Lead AVR Assembly Contact listed in [SOP: Constructing Antibody Validation Reports (AVRs)](https://doi.org/10.5281/zenodo.7418623) when you are ready to upload. 
