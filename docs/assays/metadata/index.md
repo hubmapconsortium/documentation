@@ -9,7 +9,7 @@ This is a list of available dataset types (data types from multiple supported as
 | Datsaset Type | Attributes | Description |
 |-------|------------|-------------|
 | [Autofluorescence](https://docs.hubmapconsortium.org/assays/af) | [attributes](AutoFluorescence)  |   Exploits endogenous fluorescence in a biological tissue to capture an image. The image can then be used to integrate other images from multiple modalities and to align tissues within a 3D experiment. |
-| [ATACseq]| [attributes](ATACseq)  |  Identifies accessible DNA regions by probing open chromatin with hyperactive mutant Tn5 Transposase that inserts sequencing adapters into open regions of the genome. |
+| [ATACseq](https://docs.hubmapconsortium.org/assays/atacseq)| [attributes](ATACseq)  |  Identifies accessible DNA regions by probing open chromatin with hyperactive mutant Tn5 Transposase that inserts sequencing adapters into open regions of the genome. |
 | [CODEX](https://docs.hubmapconsortium.org/assays/codex) | [attributes](CODEX)  |  Strategy for generating highly multiplexed images of fluorescently-labeled antigens. |
 | CyTOF | [attributes](CyTOF)  |  Strategy for generating highly multiplexed images of fluorescently-labeled antigens. |
 | DESI | [attributes](DESI)  | |
