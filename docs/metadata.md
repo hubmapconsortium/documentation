@@ -39,6 +39,8 @@ See section 10 of the Guide for details on transferring metadata to the HIVE.
       For sciATACseq, contact [Dana Jackson](mailto:danaj77@uw.edu)
 - Body CT
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/bodyct/current/)
+- Cell DIVE
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/celldive/current/)
 - [CODEX](/assays/codex) (Not PhenoCycler)
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/codex/current/)
   - Contact: [Vishal Venkataraaman](mailto:vgautham@stanford.edu)
@@ -48,6 +50,8 @@ See section 10 of the Guide for details on transferring metadata to the HIVE.
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/cosmx/current/)
 - CyTOF
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/cytof/current/)
+- DBiT-seq
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/dbit-seq/current/)
 - DESI
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/desi/current/)
 - Enhanced SRS
@@ -107,6 +111,8 @@ See section 10 of the Guide for details on transferring metadata to the HIVE.
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/second-harmonic-generation/current/)
 - SIMS
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/sims/current/)
+- Singular Genomics G4X
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/singular-genomics-g4x/current/)
 - Slide-seq
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/slideseq/)
 - SnareSeq2
@@ -132,3 +138,5 @@ See section 10 of the Guide for details on transferring metadata to the HIVE.
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/antibodies/current/)
 - Contributors
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/contributors/current/)
+- Publication
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/publication/current/)
