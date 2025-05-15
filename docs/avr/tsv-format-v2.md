@@ -1,14 +1,14 @@
 ---
 layout: page
 ---
-# HuBMAP Antibody Validation Report CSV Structure
-With each submission of AVR documents associated header/metadata information must be include for each AVR document. This information is provided as a .csv file.  It is recommended to start with the blank (header only) [template csv file](/avr/avr-template-v2.csv), use Excel or other spreadsheet to enter the data, then export as a comma separated value (csv) file.  An example [example AVR csv file](/avr/example-avrs-v2.csv) is also available. All columns in the csv file are required, with the definitions of the columns here:
+# HuBMAP Antibody Validation Report TSV Structure
+With each submission of AVR documents associated header/metadata information must be include for each AVR document. This information is provided as a .tsv file.  It is recommended to start with the blank (header only) [template tsv file](/avr/avr-template-v2.tsv), use Excel or other spreadsheet to enter the data, then export as a comma separated value (tsv) file.  An example [example AVR tsv file](/avr/example-avrs-v2.tsv) is also available. All columns in the tsv file are required, with the definitions of the columns here:
 
 
-| csv column               | description                                                                    |
+| tsv column               | description                                                                    |
 |--------------------------|--------------------------------------------------------------------------------|
 | uniprot_accession_number | This can typically be found on the vendor’s website, but can also be found by searching <a href="https://www.uniprot.org" target="_blank">UniProt.org</a> directly. Please note that different species have different UniProt accession numbers for the same protein. If your data was acquired using human tissue, be sure you are choosing the UniProt accession for the human protein. |
-|HGNC_ID                   | Gene identification number from Human Gene Ontology Nomenclature Committee (HGNC) https://www.genenames.org/ encoding the target protein. HGNC:####|
+|hgnc_id                   | Gene identification number from Human Gene Ontology Nomenclature Committee (HGNC) https://www.genenames.org/ encoding the target protein. HGNC:####|
 |target_symbol               | This is the symbol of the protein that the antibody is targeting. Please list the UniProt protein name. This may be different from the common name for the protein. |
 |isotype                   | Describes the antibody isotype. Please write out any symbols. (e.g. IgG, IgG1, IgG1 kappa)|
 | host                     | This is the species that was used to generate the antibody (e.g. mouse, rabbit, etc). |
