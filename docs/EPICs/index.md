@@ -98,7 +98,7 @@ Data providers can submit EPICs via the [HuBMAP Ingest UI](https://ingest.hubmap
    </ul>
    <li>The <i>Register an EPIC Collection</i> dialog displays (Fig 5B)</li>
   
-<br> <img src="EPICs-Fig5B.png">
+<br> <img src="EPICs-Fig5B.png" width="80%">
 <br><strong>Figure 5B:</strong> Register an EPIC Collection dialog.<br>
   
   <li>Enter a <i>title</i> and a <i>description</i> for the EPIC data upload</li>
