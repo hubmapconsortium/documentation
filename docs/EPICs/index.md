@@ -94,7 +94,6 @@ Data providers can submit EPICs via the [HuBMAP Ingest UI](https://ingest.hubmap
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Figure 5A:** Ingest UI registration options.
   
   - This method is very similar to submitting non-EPIC data
-    
 - The _Register an EPIC Collection_ dialog displays (Fig 5B)
   
   ![EPIC Collection image](EPICs-Fig5B.png)
@@ -113,7 +112,7 @@ Data providers can submit EPICs via the [HuBMAP Ingest UI](https://ingest.hubmap
   - A HuBMAP ID and Globus directory will be created for the upload.
 - For more information on registering data via the Ingest UI, see [Data Submission Guide - registering data](https://docs.hubmapconsortium.org/data-submission/Section3).
 
-  ## Minimum Upload Requirements
+## Minimum Upload Requirements
 Like non-EPIC data uploads, EPICs have file requirements for successful data submission (Fig 6):
 - An _assay metadata_ file titled "metadata.tsv" 
   - A list of currently-supported epics can be found [here](https://docs.hubmapconsortium.org/metadata).
