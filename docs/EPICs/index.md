@@ -93,7 +93,7 @@ Data providers can submit EPICs via the [HuBMAP Ingest UI](https://ingest.hubmap
   
  <br> <img src="EPICs-Fig5A2.png">
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Figure 5A:</b> Ingest UI registration options.
+<b>Figure 5A:</b> Ingest UI registration options.
 
    <ul>
        <li>This method is very similar to submitting non-EPIC data</li>
@@ -102,14 +102,14 @@ Data providers can submit EPICs via the [HuBMAP Ingest UI](https://ingest.hubmap
   
  <br> <img src="EPICs-Fig5B.png">
   
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Figure 5B:</b> Register an EPIC Collection dialog.
+  <b>Figure 5B:</b> Register an EPIC Collection dialog.
   
   <li>Enter a <i>title</i> and a <i>description</i> for the EPIC data upload</li>
   <li>Click the <b>Bulk</b> link (next to the <b>Add Member +</b> button) to display a field where you can enter multiple HuBMAP IDs or UUIDs for datasets in a comma-separated list (Fig 5C):</li>
 
   <br><img src="EPICs-Fig5B3.png">
 
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Figure 5C:</b> Close-up detail of Multiple Dataset IDs field.
+  <b>Figure 5C:</b> Close-up detail of Multiple Dataset IDs field.
    
   <ul>
       <li>These datasets will be associated with the EPIC</li>
