@@ -86,31 +86,42 @@ For Segmentation Mask EPICs, part of the ingestion process includes collection o
 
 ## Uploading EPICs
 Data providers can submit EPICs via the [HuBMAP Ingest UI](https://ingest.hubmapconsortium.org/)
-- To start the process, navigate to the Ingest UI in your browser
-- Click on the **Individual** registration drop-down menu and select **Collection - EPIC** (Fig 5A).
+<ul>
+    <li>To start the process, navigate to the Ingest UI in your browser</li>
+    <li>Click on the <b>Individual</b> registration drop-down menu and select <b>Collection - EPIC</b> (Fig 5A).</li>
+    
   
-  ![Ingest Menu image](EPICs-Fig5A2.png) 
+ <br> <img src="EPICs-Fig5A2.png">
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Figure 5A:** Ingest UI registration options.
-  
-  - This method is very similar to submitting non-EPIC data
-- The _Register an EPIC Collection_ dialog displays (Fig 5B)
-  
-  ![EPIC Collection image](EPICs-Fig5B.png)
-  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Figure 5B:** Register an EPIC Collection dialog.
-  
-- Enter a _title_ and a _description_ for the EPIC data upload
-- Click the **Bulk** link (next to the **Add Member +** button) to display a field where you can enter multiple HuBMAP IDs or UUIDs for datasets in a comma-separated list (Fig 5C):
-  
-   ![EPIC Collection image](EPICs-Fig5B3.png)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Figure 5A:</b> Ingest UI registration options.
 
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Figure 5C:** Close-up detail of Multiple Dataset IDs field.
+   <ul>
+       <li>This method is very similar to submitting non-EPIC data</li>
+   </ul>
+   <li>The <i>Register an EPIC Collection</i> dialog displays (Fig 5B)</li>
   
-  - These datasets will be associated with the EPIC
-- Click the **Submit** button (shown in Fig. 5B, above)
-  - A HuBMAP ID and Globus directory will be created for the upload.
-- For more information on registering data via the Ingest UI, see [Data Submission Guide - registering data](https://docs.hubmapconsortium.org/data-submission/Section3).
+ <br> <img src="EPICs-Fig5B.png">
+  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Figure 5B:</b> Register an EPIC Collection dialog.
+  
+  <li>Enter a <i>title</i> and a <i>description</i> for the EPIC data upload</li>
+  <li>Click the <b>Bulk</b> link (next to the <b>Add Member +</b> button) to display a field where you can enter multiple HuBMAP IDs or UUIDs for datasets in a comma-separated list (Fig 5C):</li>
+
+  <br><img src="EPICs-Fig5B3.png">
+
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Figure 5C:</b> Close-up detail of Multiple Dataset IDs field.
+   
+  <ul>
+      <li>These datasets will be associated with the EPIC</li>
+  </ul> 
+  <li>Click the <b>Submit</b> button (shown in Fig. 5B, above)</li>
+  <ul>
+     <li>A HuBMAP ID and Globus directory will be created for the upload.</li>
+  </ul>
+  </ul>
+  
+  For more information on registering data via the Ingest UI, see [Data Submission Guide - registering data](https://docs.hubmapconsortium.org/data-submission/Section3).
+  
 
 ## Minimum Upload Requirements
 Like non-EPIC data uploads, EPICs have file requirements for successful data submission (Fig 6):
