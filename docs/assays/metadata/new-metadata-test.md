@@ -37,5 +37,5 @@ A list of available dataset types (data types from multiple supported assays), w
 
 #### Commentary:
 Fellow **Documentation Team** members, this page is a "mock-up" of the _updated_ [HuBMAP Metadata by Dataset page](https://docs.hubmapconsortium.org/assays/metadata/)
-- Suggested Options for the "attributes" icon: &#x2637;, &#x269F;, &#x2348;, &#x2350;, 
+- Suggested Options for the "attributes" icon: &#x2637;, &#x269F;, &#x2348;, &#x2350;, ![info icon](info2.png), ![link icon](link2.png)
 - Anyone have any strong feelings about this choice?
