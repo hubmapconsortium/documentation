@@ -37,7 +37,5 @@ A list of available dataset types (data types from multiple supported assays), w
 
 #### Commentary:
 Fellow **Documentation Team** members, this page is a "mock-up" of the _updated_ [HuBMAP Metadata by Dataset page](https://docs.hubmapconsortium.org/assays/metadata/)
-- Suggested Options for the "attributes" icon: &#x2637;, &#x2338;, or &alpha;. My vote is **&alpha;**.
-- Suggested Options for the "directory schema" icon: &#x0064;&#x0073;, &delta;&sigmaf;, &delta;&sigma;, or &Delta;&Sigma; - These are all variations of "DS" or "delta sigma," the Greek equivalent. If we go with **&alpha;** for attributes, I like **&delta;&sigma;**.
-- We could also use a little icon (e.g. &#x2637; or &#x2338;), etc., or write out "directory schema".
+- Suggested Options for the "attributes" icon: &#x2637;, &#x269F;, &#x2348;, &#x2350;, 
 - Anyone have any strong feelings about this choice?
