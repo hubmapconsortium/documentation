@@ -22,4 +22,4 @@ If you have data that may be appropriate for publishing as a _Pass Through_, ple
 - TMC/TDA Name
 - Contact person and email
 
-[HuBMAP Helpdesk](help@hubmapconsortium.org) &nbsp; [SenNet Helpdesk](help@sennetconsortium.org)
+[HuBMAP Helpdesk](mailto:help@hubmapconsortium.org) &nbsp; [SenNet Helpdesk](mailto:help@sennetconsortium.org)
