@@ -90,22 +90,24 @@ Data providers can submit EPICs via the [HuBMAP Ingest UI](https://ingest.hubmap
     <li>To start the process, navigate to the Ingest UI in your browser</li>
     <li>Click on the <strong>Individual</strong> registration drop-down menu and select <strong>Collection - EPIC</strong> (Fig 5A).</li>
     
-<br> <img src="EPICs-Fig5A2.png" width="85%">
+<br> <img src="EPICs-Fig5A2.png" width="500">
 <br><strong>Figure 5A:</strong> Ingest UI registration options.<br>
-
+<p />
    <ul>
        <li>This method is very similar to submitting non-EPIC data</li>
    </ul>
    <li>The <i>Register an EPIC Collection</i> dialog displays (Fig 5B)</li>
   
-<br> <img src="EPICs-Fig5B.png" width="85%">
+<br> <img src="EPICs-Fig5B.png" width="700">
 <br><strong>Figure 5B:</strong> Register an EPIC Collection dialog.<br>
+<p />
   
   <li>Enter a <i>title</i> and a <i>description</i> for the EPIC data upload</li>
   <li>Click the <strong>Bulk</strong> link (next to the <strong>Add Member +</strong> button) to display a field where you can enter multiple HuBMAP IDs or UUIDs for datasets in a comma-separated list (Fig 5C):</li>
 
-<br><img src="EPICs-Fig5B3.png" width="85%">
+<br><img src="EPICs-Fig5B3.png" width="500">
 <br><b>Figure 5C:</b> Close-up detail of Multiple Dataset IDs field.<br>
+<p />
    
   <ul>
       <li>These datasets will be associated with the EPIC</li>
@@ -131,6 +133,6 @@ Like non-EPIC data uploads, EPICs have file requirements for successful data sub
   - Each EPIC dataset should have a corresponding _subdirectory_ containing all the files in the directory schema.
   - Each row of the metadata file should reference one of these subdirectories via the data_path field.
 
-<img src="EPICs-Fig6B.png" width="85%">
+<img src="EPICs-Fig6B.png" width="700">
 
 **Figure 6:** Reqired Metadata, Contributor, and Data files (and directories) for EPIC datasets.
