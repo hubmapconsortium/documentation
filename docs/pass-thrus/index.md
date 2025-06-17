@@ -17,6 +17,7 @@ Given their lack of widespread adoption, the decision was made that the consorti
 If you have data that may be appropriate for publishing as a _Pass Through_, please contact the appropriate Help Desk and provide the following information:
 - Assay Name
 - Assay Type (e.g., Spatial Transcriptomics)
+- Existing [assay metadata schema](https://hubmapconsortium.github.io/ingest-validation-tools/current) that most closely mirrors your assay
 - Anticipated number of datasets to be published
 - Needed to support publication? (Y/N)
 - TMC/TDA Name
