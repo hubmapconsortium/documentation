@@ -6,7 +6,7 @@ const initSankey = async () => {
             styleSheetPath: '/data-sankey/xac-sankey.css',
             groupByOrganCategoryKey: 'term',
             api: {
-                sankey: 'https://entity-api.dev.hubmapconsortium.org/datasets/sankey_data',
+                sankey: 'https://entity.api.hubmapconsortium.org/datasets/sankey_data',
                 context: 'hubmap'
             }
         })
