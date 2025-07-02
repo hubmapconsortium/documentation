@@ -16,7 +16,10 @@ _Who can contribute to a publication page?_ <br>
 - **Note:** The HuBMAP HIVE will _not_ be responsible for the creation of publication pages or maintenance of their content beyond regular HuBMAP Data Portal maintenance. 
 
 _What is the process of submitting a publication page?_ <br>
-To re-use existing HuBMAP infrastructure and processes, publication pages use a process that is almost identical to regular dataset submissions, see details below. Like datasets, a publication page (or “publication dataset”) can be updated at any time by the authors. Initially, publication pages will be in “QA” status and only accessible to consortium members until they have been reviewed by the authors, at which point the HuBMAP HIVE curation team will switch the status to “Published”. 
+To re-use existing HuBMAP infrastructure and processes, publication pages use a process that is very similar to regular dataset submissions, see details below. 
+- Like datasets, a publication page (or “publication dataset”) can be updated at any time by the authors.
+- Initially, publication pages will be in “QA” status and only accessible to consortium members.
+- Once they have been reviewed by the authors, the HuBMAP HIVE curation team will switch the status to “Published.”
 
 ## Prerequisites
 1. The Globus organization associated with your Globus user account must be a “Data Provider” group. If you previously submitted data to the HuBMAP Data Portal, that will be the case. If not, please contact the [HuBMAP Helpdesk](mailto:help@hubmapconsortium.org). 
