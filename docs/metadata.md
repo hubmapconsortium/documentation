@@ -47,15 +47,22 @@ See section 10 of the Guide for details on transferring metadata to the HIVE.
 - Confocal
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/confocal/current/)
 - CosMx
-  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/cosmx/current/)
+  - CosMx Proteomics
+    - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/cosmx-proteomics/current/)
+  - CosMx Transcriptomics
+    - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/cosmx-transcriptomics/current/)
 - CyTOF
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/cytof/current/)
+- CyCIF
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/cycif/current/)
 - DBiT-seq
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/dbit-seq/current/)
 - DESI
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/desi/current/)
 - Enhanced SRS
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/enhanced-srs/current/)
+- FACS
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/facs/current/)
 - GeoMx (NGS)
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/geomx-ngs/current/)
 - HiFi
@@ -92,6 +99,8 @@ See section 10 of the Guide for details on transferring metadata to the HIVE.
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/desi/current/)
 - OCT
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/oct/current/)
+- Olink
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/olink/current/)
 - PhenoCycler
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/phenocycler/current/)
 - [RNAseq](/assays/rnaseq)
@@ -109,6 +118,8 @@ See section 10 of the Guide for details on transferring metadata to the HIVE.
   - Contact: [Nico Pierson](mailto:nicogpt@caltech.edu)
 - Second Harmonic Generation
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/second-harmonic-generation/current/)
+- Seq-Scope
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/seq-scope/current/)
 - SIMS
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/sims/current/)
 - Singular Genomics G4X
