@@ -7,7 +7,6 @@ This is a list of available dataset types (data types from multiple supported as
 
 | Datsaset Type | Attributes | Description |
 |-------|------------|-------------|
-| 4i |  |  4i (iterative indirect immunofluorescence imaging) is a technique used for highly multiplexed protein analysis within cells and tissues. It involves repeated rounds of antibody staining, imaging, and antibody elution, allowing for the simultaneous detection of multiple proteins and their spatial organization within a sample. |
 | [Autofluorescence](https://docs.hubmapconsortium.org/assays/af) | [attributes](AutoFluorescence)  |   Exploits endogenous fluorescence in a biological tissue to capture an image. The image can then be used to integrate other images from multiple modalities and to align tissues within a 3D experiment. |
 | [ATACseq](https://docs.hubmapconsortium.org/assays/atacseq)| [attributes](ATACseq)  |  Identifies accessible DNA regions by probing open chromatin with hyperactive mutant Tn5 Transposase that inserts sequencing adapters into open regions of the genome. |
 | [CODEX](https://docs.hubmapconsortium.org/assays/codex) | [attributes](CODEX)  |  Strategy for generating highly multiplexed images of fluorescently-labeled antigens. |
@@ -25,10 +24,8 @@ This is a list of available dataset types (data types from multiple supported as
 | [MALDI-IMS](https://docs.hubmapconsortium.org/assays/maldi-ims) | [attributes](MALDI)  |  Matrix-assisted laser desorption/ionization (MALDI) imaging mass spectrometry (IMS) combines the sensitivity and molecular specificity of MS with the spatial fidelity of classical microscopy. |
 | MERFISH | [attributes](MERFISH)  |  |
 | MIBI | [attributes](MIBI)  |  |
-| MPLeX | |  MPLeX, or Metabolite, Protein, and Lipid Extraction, is a protocol for extracting and analyzing metabolites, proteins, and lipids from a single sample, and allows for comprehensive multi-omics measurements, integrating data from genomics, transcriptomics, proteomics, metabolomics, and lipidomics. |
 | MUSIC | [attributes](MUSIC)  | |
 | Olink | [attributes](Olink)  |Olink utilizes Proseek reagents based on PEA, a Proximity Extension Assay technology, to allow 96 oligonucleotide-labeled antibody pairs to bind to their respective protein targets in the sample. A PCR reporter sequence is formed by a proximity-dependent DNA polymerization event and is subsequently detected and quantified using real-time PCR. |
-| Pixel-seq | | Pixel-seq is a spatial transcriptomics method that utilizes polony gels to capture and sequence RNA, proteins or other molecules in tissues with high resolution. These polony gels are arrays of micron-scale DNA clusters, each containing a unique barcode, allowing for the mapping of molecules within their original spatial context in a tissue, thereby allowing researchers to study the spatial organization of cells and their gene expression profiles within tissues.|
 | [RNAseq](https://docs.hubmapconsortium.org/assays/rnaseq) | [attributes](RNAseq)  | While bulk RNAseq elucidates the average gene expression profile in cells comprising a tissue sample, single-cell RNAseq, employs per-cell and per-molecule barcoding to enable single-cell resolution of the gene expression profile.|
 | RNAseq With Probes | [attributes](RNAseqWithProbes)  | |
 | Second Harmonic Generation | [attributes](SecondHarmonicGeneration)  | |
