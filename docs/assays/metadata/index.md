@@ -5,15 +5,16 @@ layout: page
 
 This is a list of available dataset types (data types from multiple supported assays), with links to the valid metadata attributes for each dataset type.  The linked assay pages list all attributes as they have occurred across any versions of the metadata specification for the given dataset type with the most current, valid set of attributes listed first on the page.
 
-
 | Datsaset Type | Attributes | Description |
 |-------|------------|-------------|
 | [Autofluorescence](https://docs.hubmapconsortium.org/assays/af) | [attributes](AutoFluorescence)  |   Exploits endogenous fluorescence in a biological tissue to capture an image. The image can then be used to integrate other images from multiple modalities and to align tissues within a 3D experiment. |
 | [ATACseq](https://docs.hubmapconsortium.org/assays/atacseq)| [attributes](ATACseq)  |  Identifies accessible DNA regions by probing open chromatin with hyperactive mutant Tn5 Transposase that inserts sequencing adapters into open regions of the genome. |
 | [CODEX](https://docs.hubmapconsortium.org/assays/codex) | [attributes](CODEX)  |  Strategy for generating highly multiplexed images of fluorescently-labeled antigens. |
+| CyCIF | [attributes](CyCIF)  |  CyCIF, or Cyclic Immunofluorescence, is a technique used in microscopy to image multiple protein markers within a single sample. It allows for highly multiplexed immunofluorescence imaging, meaning it can detect a large number of different proteins simultaneously. |
 | CyTOF | [attributes](CyTOF)  |  A type of mass cytometry that employs antibodies labeled with heavy metal isotopes and uses time-of-flight mass spectrometry to analyze single cells. |
 | DESI | [attributes](DESI)  | |
 | Enhanced SRS | [attributes](EnhancedSRS)  | |
+| FACS | [attributes](FACS)  |  FACS (Fluorescence-Activated Cell Sorting) is a specialized type of flow cytometry used to separate cells based on their unique fluorescent properties. |
 | GeoMx | [attributes](GeoMx)  | |
 | HiFi | [attributes](HiFi-Slide)  | |
 | Histology | [attributes](Histology)  | |
@@ -21,12 +22,14 @@ This is a list of available dataset types (data types from multiple supported as
 | [LC-MS](https://docs.hubmapconsortium.org/assays/lcms) | [attributes](LC-MS)  |  Coupling of liquid chromatography (LC) to mass spectrometry (MS) |
 | Light Sheet | [attributes](LightSheet)  | |
 | [MALDI-IMS](https://docs.hubmapconsortium.org/assays/maldi-ims) | [attributes](MALDI)  |  Matrix-assisted laser desorption/ionization (MALDI) imaging mass spectrometry (IMS) combines the sensitivity and molecular specificity of MS with the spatial fidelity of classical microscopy. |
-| MIBI | [attributes](MIBI)  |  |
 | MERFISH | [attributes](MERFISH)  |  |
+| MIBI | [attributes](MIBI)  |  |
 | MUSIC | [attributes](MUSIC)  | |
+| Olink | [attributes](Olink)  |Olink utilizes Proseek reagents based on PEA, a Proximity Extension Assay technology, to allow 96 oligonucleotide-labeled antibody pairs to bind to their respective protein targets in the sample. A PCR reporter sequence is formed by a proximity-dependent DNA polymerization event and is subsequently detected and quantified using real-time PCR. |
 | [RNAseq](https://docs.hubmapconsortium.org/assays/rnaseq) | [attributes](RNAseq)  | While bulk RNAseq elucidates the average gene expression profile in cells comprising a tissue sample, single-cell RNAseq, employs per-cell and per-molecule barcoding to enable single-cell resolution of the gene expression profile.|
 | RNAseq With Probes | [attributes](RNAseqWithProbes)  | |
 | Second Harmonic Generation | [attributes](SecondHarmonicGeneration)  | |
+| Seq-Scope | [attributes](Seq-Scope)  |  Seq-Scope is a spatial barcoding technology that enables high-resolution, unbiased spatial transcriptomics analysis by repurposing the Illumina sequencing platform, thereby allowing researchers to visualize gene expression at a cellular and subcellular level. |
 | [SeqFISH](https://docs.hubmapconsortium.org/assays/seqfish) | [attributes](seqFISH)  |  seqFISH technology allows in situ imaging of multiple mRNAs using barcoding and fluorophore-labelled barcode readout-probes.  |
 | SIMS | [attributes](SIMS)  | |
 | Slide-seq | [attributes](Slide-seq)  | |
