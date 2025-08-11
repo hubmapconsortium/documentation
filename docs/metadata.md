@@ -128,6 +128,8 @@ See section 10 of the Guide for details on transferring metadata to the HIVE.
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/slideseq/)
 - SnareSeq2
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/snareseq2/current/)
+- Stereo-seq
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/stereo-seq/current/)
 - Thick Section Multiphoton MxIF
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/thick-section-multiphoton-mxif/current/)
 - Ultrasound
@@ -143,6 +145,8 @@ See section 10 of the Guide for details on transferring metadata to the HIVE.
 ## EPICs
 - Segmentation Mask
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/segmentation-mask/current/)
+- Object x Analyte
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/object-x-analyte/current/)
 
 ## Other
 - Antibodies
