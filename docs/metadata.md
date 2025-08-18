@@ -87,6 +87,8 @@ See section 10 of the Guide for details on transferring metadata to the HIVE.
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/merfish/current/)
 - Molecular Cartography
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/mc/current/)
+- MPLEx
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/mplex/current/)
 - MIBI
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/mibi/current/)
 - Micro CT
@@ -103,6 +105,8 @@ See section 10 of the Guide for details on transferring metadata to the HIVE.
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/olink/current/)
 - PhenoCycler
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/phenocycler/current/)
+- Pixel-seqV2
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/pixel-seqv2/current/)
 - [RNAseq](/assays/rnaseq)
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/rnaseq/current/)
   - scRNAseq
@@ -139,6 +143,8 @@ See section 10 of the Guide for details on transferring metadata to the HIVE.
     - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/visium-with-probes/current/)
   - No Probes
     - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/visium-no-probes/current/)
+  - HD
+    - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/visium-hd/current/)
 - Xenium
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/xenium/current/)
 
