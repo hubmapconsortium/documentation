@@ -48,3 +48,49 @@ HuBMAP single-cell RNA-seq data sets are processed using [Salmon](https://combin
 The HuBMAP Consortium uses a two-stage pipeline for scATAC-seq data sets, composed of [SnapTools](https://github.com/r3fang/SnapTools) and [MACS2](https://github.com/macs3-project/MACS) This pipeline is written in CWL, calling command-line tools encapsulated in Docker containers.
 
 - [Git Hub](https://github.com/hubmapconsortium/sc-atac-seq-pipeline)
+
+### [Multiome RNA + ATAC](https://docs.google.com/document/d/110Il6Kat09qqjmJnIEQPcIpoyCJKJYNPlrqy-bkwI7I/edit?usp=sharing)
+
+The HuBMAP pipeline for processing 10x Multiome and snareseq data uses salmon for RNA quantification, HISAT-2 for short read alignment of epigenomic data, Muon for downstream analysis, and Azimuth for cell type annotation.  This pipeline is written in CWL, calling command-line tools encapsulated in Docker containers. 
+
+- [Git Hub](https://github.com/hubmapconsortium/multiome-rna-atac-pipeline/)
+
+### [Visium w/o probes](https://docs.google.com/document/d/1t-TlkecYlp6Nq5wXKgGZrfdNWL7OiHWvlzZ3EXA1Fxs/edit?usp=sharing)
+
+The HuBMAP pipeline for processing whole-transcriptome Visium data uses salmon for quantification, scanpy and squidpy for downstream analysis including spatial analysis.  This pipeline is written in CWL, calling command-line tools encapsulated in Docker containers. 
+
+- [Git Hub](https://github.com/hubmapconsortium/salmon-rnaseq/)
+
+### [Visium w/ probes](https://docs.google.com/document/d/1VCy7fsF4F-2KMnAeQ1fpFOojRSYoWlv0hAYiWzPhe2s/edit?usp=sharing)
+
+The HuBMAP pipeline for processing probe-based Visium data uses BWA for short read alignment, scanpy and squidpy for downstream analysis including spatial analysis.  This pipeline is written in CWL, calling command-line tools encapsulated in Docker containers. 
+
+- [Git Hub](https://github.com/hubmapconsortium/visium-pipeline/)
+
+### [scRNA w/ probes](https://docs.google.com/document/d/1LE8l0LSHLpztD4xmons0zEovBhn730WjMGJye34JS3g/edit?usp=sharing)
+
+The HuBMAP pipeline for processing probe based single-cell RNAseq data uses BWA for short read alignment, scanpy for downstream analysis, and Azimuth for cell type annotation.  This pipeline is written in CWL, calling command-line tools encapsulated in Docker containers. 
+
+- [Git Hub](https://github.com/hubmapconsortium/rna-probes-pipeline/)
+
+### [Xenium/CosMx](https://docs.google.com/document/d/1Jwm5V-A3j1fynriwo9Ec9QWEODovR14zUmaaUNf1Pq0/edit?usp=sharing)
+
+The HuBMAP pipeline for processing Xenium and CosMx data uses spatialdata-io to read the vendor outputs into a standardized SpatialData format, scanpy and squidpy for downstream analysis including spatial analysis.  This pipeline is written in CWL, calling command-line tools encapsulated in Docker containers. 
+
+- [Git Hub](https://github.com/hubmapconsortium/xenium-pipeline/)
+
+### [GeoMx NGS](https://docs.google.com/document/d/1Jwm5V-A3j1fynriwo9Ec9QWEODovR14zUmaaUNf1Pq0/edit?usp=sharing)
+
+The HuBMAP pipeline for processing Xenium and CosMx data uses spatialdata-io to read the vendor outputs into a standardized SpatialData format, scanpy and squidpy for downstream analysis including spatial analysis.  This pipeline is written in CWL, calling command-line tools encapsulated in Docker containers. 
+
+- [Git Hub](https://github.com/hubmapconsortium/xenium-pipeline/)
+
+### [PhenoCycler/CellDive](https://docs.google.com/document/d/1Jwm5V-A3j1fynriwo9Ec9QWEODovR14zUmaaUNf1Pq0/edit?usp=sharing)
+
+The HuBMAP pipeline for processing PhenoCycler and CellDive data uses DeepCell for segmentation, SPRM for quantification, secondary analysis including spatial analysis, and DeepCellTypes, Stellar, and RIBCA for cell type annotation.
+- [Git Hub](https://github.com/hubmapconsortium/phenocycler-pipeline/)
+
+### [MIBI](https://docs.google.com/document/d/1Jwm5V-A3j1fynriwo9Ec9QWEODovR14zUmaaUNf1Pq0/edit?usp=sharing)
+
+The HuBMAP pipeline for processing MIBI data uses DeepCell for segmentation, SPRM for quantification, secondary analysis including spatial analysis, and DeepCellTypes, Stellar, and RIBCA for cell type annotation.
+- [Git Hub](https://github.com/hubmapconsortium/mibi-pipeline/)
