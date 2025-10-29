@@ -30,7 +30,7 @@
 | [HuBMAP Technical Resources](https://docs.hubmapconsortium.org/technical) | Documentation for HuBMAP's Technical Resources |
 | [HuBMAP VH MOOC](https://expand.iu.edu/browse/sice/cns/courses/hubmap-visible-human-mooc) | HuBMAP Visible Human Massive Open Online Course (VHMOOC)|
 | [Pop V from YosefLab](https://github.com/YosefLab/PopV) | Cell-type transfer tools for classifying query dataset cell-types based on a test dataset. |
-| [UBKG](https://ubgk.docs.xconsortia.org) |Unified Biomedical Knowledge Graph|
+| [UBKG](https://ubkg.docs.xconsortia.org) |Unified Biomedical Knowledge Graph|
 | [UBKG API](https://smart-api.info/ui/96e5b5c0b0efeef5b93ea98ac2794837) |Unified Biomedical Knowledge Graph at SmartAPI|
 | [Vitessce](https://vitessce.io/) | Visual integration tool for exploration of spatial single cell experiment |
 
