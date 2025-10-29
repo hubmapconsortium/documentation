@@ -21,19 +21,17 @@
 | [HRA OMAPs](https://humanatlas.io/omap/) | HRA Organ Mapping Antibody Panels |
 | [HRA Organ Gallery](https://github.com/cns-iu/hra-organ-gallery-in-vr) | HRA Organ Gallery in VR on GitHub. |
 | [HRApop](https://lod.humanatlas.io/graph/hra-pop/latest/) | Graphical representation of the HRApop dataset |  
-| [HRApop AEDG](https://cdn.humanatlas.io/digital-objects/graph/hra-pop/v0.10.2/assets/atlas-enriched-dataset-graph.jsonid) | HRApop Atlas Enhanced Dataset Graph |
-| [HRApop Cell Summaries](https://cdn.humanatlas.io/digital-objects/graph/hra-pop/v0.10.2/assets/atlas-as-cell-summaries.jsonid) | HRApop AS Cell Summaries | 
+| [HRApop ADG](https://apps.humanatlas.io/kg-explorer/ds-graph/hra-pop/latest) | HRApop Atlas Dataset Graph |
 | [HRA RUI](https://apps.humanatlas.io/rui) | HRA's Registration User Interface |
 | [HRA SOPs](https://zenodo.org/communities/hra) | 20 Standard Operating Procedures (SOPs) for the HRA |
 | [HRA VCCF](https://humanatlas.io/vccf) | HRA's Vascular Common Coordinate Framework | 
 | [HuBMAP Consortium Website](https://hubmapconsortium.org/) | Homepage of the HuBMAP Consortium |
 | [HuBMAP HRA Portal](https://humanatlas.io/) | HuBMAP's Human Reference Atlas Portal |
-| [HuBMAP Ontology API](https://smart-api.info/ui/96e5b5c0b0efeef5b93ea98ac2794837) | HuBMAP's Ontology Application Programming Interface |
 | [HuBMAP Technical Resources](https://docs.hubmapconsortium.org/technical) | Documentation for HuBMAP's Technical Resources |
 | [HuBMAP VH MOOC](https://expand.iu.edu/browse/sice/cns/courses/hubmap-visible-human-mooc) | HuBMAP Visible Human Massive Open Online Course (VHMOOC)|
-| [Lung Immune Cells data](https://drive.google.com/drive/folders/1SPbN6_0C-mVWbfE5r2OTVZLMxBjiEKnl?usp=sharing) | "Perivascular immune cells in lung" data |
 | [Pop V from YosefLab](https://github.com/YosefLab/PopV) | Cell-type transfer tools for classifying query dataset cell-types based on a test dataset. |
-| [UBKG](https://docs.xconsortia.org) |Unified Biomedical Knowledge Graph|
+| [UBKG](https://ubgk.docs.xconsortia.org) |Unified Biomedical Knowledge Graph|
+| [UBKG API](https://smart-api.info/ui/96e5b5c0b0efeef5b93ea98ac2794837) |Unified Biomedical Knowledge Graph at SmartAPI|
 | [Vitessce](https://vitessce.io/) | Visual integration tool for exploration of spatial single cell experiment |
 
 ## Data and Code Availability
