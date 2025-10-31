@@ -7,9 +7,11 @@ This is a list of available dataset types (data types from multiple supported as
 
 | Datsaset Type | Attributes | Description |
 |-------|------------|-------------|
+| 4i (Iterative Indirect Immunofluorescence Imaging) | [attributes](4i-(Iterative-Indirect-Immunofluorescence-Imaging)) | 4i, or Iterative Indirect Immunofluorescence Imaging, is a high-resolution technique for imaging proteins within cells and tissues. |
 | [Autofluorescence](https://docs.hubmapconsortium.org/assays/af) | [attributes](AutoFluorescence)  |   Exploits endogenous fluorescence in a biological tissue to capture an image. The image can then be used to integrate other images from multiple modalities and to align tissues within a 3D experiment. |
 | [ATACseq](https://docs.hubmapconsortium.org/assays/atacseq)| [attributes](ATACseq)  |  Identifies accessible DNA regions by probing open chromatin with hyperactive mutant Tn5 Transposase that inserts sequencing adapters into open regions of the genome. |
 | [CODEX](https://docs.hubmapconsortium.org/assays/codex) | [attributes](CODEX)  |  Strategy for generating highly multiplexed images of fluorescently-labeled antigens. |
+| CosMx-Proteomics | [attributes](CosMx-Proteomics) | CosMx Proteomics is a technology that enables the high-resolution, spatial analysis of proteins within their native tissue environment. It is part of the CosMx Spatial Molecular Imager (SMI) platform, which provides single-cell and subcellular resolution to map protein expression, cell states, and cell-cell interactions in FFPE and fresh frozen tissue samples. |
 | CyCIF | [attributes](CyCIF)  |  CyCIF, or Cyclic Immunofluorescence, is a technique used in microscopy to image multiple protein markers within a single sample. It allows for highly multiplexed immunofluorescence imaging, meaning it can detect a large number of different proteins simultaneously. |
 | CyTOF | [attributes](CyTOF)  |  A type of mass cytometry that employs antibodies labeled with heavy metal isotopes and uses time-of-flight mass spectrometry to analyze single cells. |
 | DESI | [attributes](DESI)  | |
