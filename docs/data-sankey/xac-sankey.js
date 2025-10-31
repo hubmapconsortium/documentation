@@ -1,6 +1,7 @@
 const initSankey = async () => {
     const sankeyOptions = btoa(
         JSON.stringify({
+            startUpOnOptions: false,
             useShadow: true,
             isProd: true,
             styleSheetPath: '/data-sankey/xac-sankey.css',
@@ -21,6 +22,7 @@ const initSankey = async () => {
             clearInterval(i)
             ctx.setOptions(
                 {
+                    startUpOnOptions: true,
                     onDataBuildCallback: () => {
                         adapter.onDataBuildCallback()
                     },
