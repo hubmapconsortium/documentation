@@ -2,9 +2,9 @@
  * hubmapdocs - 
  * @version v0.1.0
  * @link https://docs.hubmapconsortium.org/
- * @date Thu Nov 06 2025 14:43:49 GMT-0500 (Eastern Standard Time)
+ * @date Thu Nov 06 2025 16:40:36 GMT-0500 (Eastern Standard Time)
  */
-var _this11 = this;
+var _this9 = this;
 function _createForOfIteratorHelper(o, allowArrayLike) { var it = typeof Symbol !== "undefined" && o[Symbol.iterator] || o["@@iterator"]; if (!it) { if (Array.isArray(o) || (it = _unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") { if (it) o = it; var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e) { throw _e; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var normalCompletion = true, didErr = false, err; return { s: function s() { it = it.call(o); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e2) { didErr = true; err = _e2; }, f: function f() { try { if (!normalCompletion && it["return"] != null) it["return"](); } finally { if (didErr) throw err; } } }; }
 function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
 function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
@@ -9627,104 +9627,6 @@ var GTM = /*#__PURE__*/function (_App4) {
   }]);
   return GTM;
 }(App);
-var Header = /*#__PURE__*/function (_App5) {
-  _inherits(Header, _App5);
-  var _super5 = _createSuper(Header);
-  function Header(el, args) {
-    var _this6;
-    _classCallCheck(this, Header);
-    _this6 = _super5.call(this, el, args);
-    _this6.$ = {
-      li: _this6.el.find('.js-header__menu ul li'),
-      ul: _this6.el.find('.js-header__menu ul')
-    };
-    _this6.syncHeader();
-    _this6.events();
-    return _this6;
-  }
-  _createClass(Header, [{
-    key: "events",
-    value: function events() {
-      var _this7 = this;
-      this.$.li.find('a').on('click', function (e) {
-        e.preventDefault();
-        var link = _this7.currentTarget(e).attr('href');
-        if (window.location.pathname !== '/' || link[0] !== '#') {
-          window.location = '/' + link.slice(1);
-        } else {
-          if (link !== '/') {
-            $([document.documentElement, document.body]).animate({
-              scrollTop: $(link).offset().top
-            }, 400);
-          }
-        }
-      }.bind(this));
-    }
-  }, {
-    key: "syncHeader",
-    value: function () {
-      var _syncHeader = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee4() {
-        var x, _iterator, _step, li, $li, $nLi;
-        return _regeneratorRuntime().wrap(function _callee4$(_context4) {
-          while (1) {
-            switch (_context4.prev = _context4.next) {
-              case 0:
-                if (!(!this.msgs.menu && _typeof(this.msgs.menu) !== 'object')) {
-                  _context4.next = 2;
-                  break;
-                }
-                return _context4.abrupt("return");
-              case 2:
-                x = 1;
-                try {
-                  _iterator = _createForOfIteratorHelper(this.msgs.menu);
-                  try {
-                    for (_iterator.s(); !(_step = _iterator.n()).done;) {
-                      li = _step.value;
-                      this.log("Menu ".concat(x), li);
-                      $li = this.$.li.eq(x);
-                      if ($li.length) {
-                        $li.attr('class', li["class"]);
-                        $li.find('a').text(li.name).attr('href', li.href);
-                      } else {
-                        $nLi = this.$.li.eq(1).clone();
-                        $nLi.attr('class', li["class"] || null);
-                        $nLi.find('a').text(li.name).attr('href', li.href || '#' + this.toId(li.name));
-                        this.$.ul.append($nLi);
-                      }
-                      x++;
-                    }
-                  } catch (err) {
-                    _iterator.e(err);
-                  } finally {
-                    _iterator.f();
-                  }
-                } catch (e) {
-                  App.log('Error Building Menu: ', e, {
-                    error: true
-                  });
-                  App.log('Language file menu property should be in the format: ', [{
-                    name: 'Menu name here',
-                    href: '#url'
-                  }], {
-                    error: true
-                  });
-                }
-              case 4:
-              case "end":
-                return _context4.stop();
-            }
-          }
-        }, _callee4, this);
-      }));
-      function syncHeader() {
-        return _syncHeader.apply(this, arguments);
-      }
-      return syncHeader;
-    }()
-  }]);
-  return Header;
-}(App);
 var LocalStore = /*#__PURE__*/function () {
   function LocalStore() {
     _classCallCheck(this, LocalStore);
@@ -9750,38 +9652,38 @@ var Rest = /*#__PURE__*/function () {
   _createClass(Rest, null, [{
     key: "fetchWithTimeout",
     value: function () {
-      var _fetchWithTimeout = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee5(resource) {
+      var _fetchWithTimeout = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee4(resource) {
         var options,
           _options$timeout,
           timeout,
           abortController,
           id,
           response,
-          _args5 = arguments;
-        return _regeneratorRuntime().wrap(function _callee5$(_context5) {
+          _args4 = arguments;
+        return _regeneratorRuntime().wrap(function _callee4$(_context4) {
           while (1) {
-            switch (_context5.prev = _context5.next) {
+            switch (_context4.prev = _context4.next) {
               case 0:
-                options = _args5.length > 1 && _args5[1] !== undefined ? _args5[1] : {};
+                options = _args4.length > 1 && _args4[1] !== undefined ? _args4[1] : {};
                 _options$timeout = options.timeout, timeout = _options$timeout === void 0 ? 5000 : _options$timeout;
                 abortController = new AbortController();
                 id = setTimeout(function () {
                   return abortController.abort();
                 }, timeout);
-                _context5.next = 6;
+                _context4.next = 6;
                 return fetch(resource, _objectSpread(_objectSpread({}, options), {}, {
                   signal: abortController.signal
                 }));
               case 6:
-                response = _context5.sent;
+                response = _context4.sent;
                 clearTimeout(id);
-                return _context5.abrupt("return", response);
+                return _context4.abrupt("return", response);
               case 9:
               case "end":
-                return _context5.stop();
+                return _context4.stop();
             }
           }
-        }, _callee5);
+        }, _callee4);
       }));
       function fetchWithTimeout(_x) {
         return _fetchWithTimeout.apply(this, arguments);
@@ -9791,18 +9693,18 @@ var Rest = /*#__PURE__*/function () {
   }, {
     key: "send",
     value: function () {
-      var _send = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee6(url, method) {
+      var _send = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee5(url, method) {
         var data,
           type,
           options,
-          _args6 = arguments;
-        return _regeneratorRuntime().wrap(function _callee6$(_context6) {
+          _args5 = arguments;
+        return _regeneratorRuntime().wrap(function _callee5$(_context5) {
           while (1) {
-            switch (_context6.prev = _context6.next) {
+            switch (_context5.prev = _context5.next) {
               case 0:
-                data = _args6.length > 2 && _args6[2] !== undefined ? _args6[2] : {};
-                type = _args6.length > 3 && _args6[3] !== undefined ? _args6[3] : 'application/json';
-                _context6.prev = 2;
+                data = _args5.length > 2 && _args5[2] !== undefined ? _args5[2] : {};
+                type = _args5.length > 3 && _args5[3] !== undefined ? _args5[3] : 'application/json';
+                _context5.prev = 2;
                 options = {
                   timeout: 8000,
                   method: method,
@@ -9815,22 +9717,22 @@ var Rest = /*#__PURE__*/function () {
                     body: JSON.stringify(data)
                   });
                 }
-                _context6.next = 7;
+                _context5.next = 7;
                 return Rest.fetchWithTimeout(url, options);
               case 7:
-                return _context6.abrupt("return", _context6.sent);
+                return _context5.abrupt("return", _context5.sent);
               case 10:
-                _context6.prev = 10;
-                _context6.t0 = _context6["catch"](2);
-                console.log(_context6.t0);
+                _context5.prev = 10;
+                _context5.t0 = _context5["catch"](2);
+                console.log(_context5.t0);
               case 13:
-                return _context6.abrupt("return", null);
+                return _context5.abrupt("return", null);
               case 14:
               case "end":
-                return _context6.stop();
+                return _context5.stop();
             }
           }
-        }, _callee6, null, [[2, 10]]);
+        }, _callee5, null, [[2, 10]]);
       }));
       function send(_x2, _x3) {
         return _send.apply(this, arguments);
@@ -9840,18 +9742,18 @@ var Rest = /*#__PURE__*/function () {
   }, {
     key: "get",
     value: function () {
-      var _get = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee7(url, type) {
-        return _regeneratorRuntime().wrap(function _callee7$(_context7) {
+      var _get = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee6(url, type) {
+        return _regeneratorRuntime().wrap(function _callee6$(_context6) {
           while (1) {
-            switch (_context7.prev = _context7.next) {
+            switch (_context6.prev = _context6.next) {
               case 0:
-                return _context7.abrupt("return", Rest.send(url, 'GET', {}, type));
+                return _context6.abrupt("return", Rest.send(url, 'GET', {}, type));
               case 1:
               case "end":
-                return _context7.stop();
+                return _context6.stop();
             }
           }
-        }, _callee7);
+        }, _callee6);
       }));
       function get(_x4, _x5) {
         return _get.apply(this, arguments);
@@ -9876,30 +9778,30 @@ var Rest = /*#__PURE__*/function () {
   }]);
   return Rest;
 }();
-var Sidebar = /*#__PURE__*/function (_App6) {
-  _inherits(Sidebar, _App6);
-  var _super6 = _createSuper(Sidebar);
+var Sidebar = /*#__PURE__*/function (_App5) {
+  _inherits(Sidebar, _App5);
+  var _super5 = _createSuper(Sidebar);
   function Sidebar(el, args) {
-    var _this8;
+    var _this6;
     _classCallCheck(this, Sidebar);
-    _this8 = _super6.call(this, el, args);
-    _this8.$ = {
-      wrap: _this8.el.find('.js-sidebar__wrap'),
-      main: _this8.el.find('.js-sidebar__main'),
-      list: _this8.el.find('.js-sidebar__list'),
+    _this6 = _super5.call(this, el, args);
+    _this6.$ = {
+      wrap: _this6.el.find('.js-sidebar__wrap'),
+      main: _this6.el.find('.js-sidebar__main'),
+      list: _this6.el.find('.js-sidebar__list'),
       hs: $('.c-documentation').find('h1, h2, h3, h4, h5, h6')
     };
-    _this8.sizeSideBar();
-    _this8.pathBase = '/';
-    _this8.classNames.root = 'is-root';
-    _this8.classNames["static"] = 'is-static';
-    _this8.headerHeight = 90;
-    _this8.events();
-    _this8.determineContentBuilder();
-    _this8.sizeSideBarHeight();
-    _this8.togglePositioning();
-    _this8.addPageId();
-    return _this8;
+    _this6.sizeSideBar();
+    _this6.pathBase = '/';
+    _this6.classNames.root = 'is-root';
+    _this6.classNames["static"] = 'is-static';
+    _this6.headerHeight = 90;
+    _this6.events();
+    _this6.determineContentBuilder();
+    _this6.sizeSideBarHeight();
+    _this6.togglePositioning();
+    _this6.addPageId();
+    return _this6;
   }
   _createClass(Sidebar, [{
     key: "addPageId",
@@ -9934,18 +9836,18 @@ var Sidebar = /*#__PURE__*/function (_App6) {
   }, {
     key: "events",
     value: function events() {
-      var _this9 = this;
+      var _this7 = this;
       $(document).on('scroll', function (e) {
         var st = $(document).scrollTop();
-        if (st > _this9.headerHeight && !_this9.isMobile()) {
-          _this9.el.addClass(_this9.classNames.active);
+        if (st > _this7.headerHeight && !_this7.isMobile()) {
+          _this7.el.addClass(_this7.classNames.active);
         } else {
-          _this9.el.removeClass(_this9.classNames.active);
+          _this7.el.removeClass(_this7.classNames.active);
         }
       }.bind(this));
       $(window).on('resize', function (e) {
-        _this9.sizeSideBar();
-        _this9.togglePositioning();
+        _this7.sizeSideBar();
+        _this7.togglePositioning();
       }.bind(this));
       $('body').on('click', '.has-collapser', function (e) {
         e.stopPropagation();
@@ -9978,7 +9880,7 @@ var Sidebar = /*#__PURE__*/function (_App6) {
   }, {
     key: "buildTableOfContents",
     value: function buildTableOfContents() {
-      var _this10 = this;
+      var _this8 = this;
       var rootChildren = [];
       var root = {
         tag: 'h0',
@@ -9993,7 +9895,7 @@ var Sidebar = /*#__PURE__*/function (_App6) {
         var n1 = Number(node[1]);
         var n2 = Number(top.tag[1]);
         var label = $(el).text();
-        var id = $(el).attr('id') || _this10.toId(label);
+        var id = $(el).attr('id') || _this8.toId(label);
         var pack = {
           tag: node,
           id: id,
@@ -10071,17 +9973,17 @@ var Sidebar = /*#__PURE__*/function (_App6) {
       html += "<li class=\"".concat(classes, "\" title=\"").concat(name, "\"><a href=\"").concat(n.href ? n.href : hrefDefault, "\">").concat(name, "</a>");
       if (this.hasChildren(n)) {
         html += "<ul class='".concat(levelClass, " has-parent'>");
-        var _iterator2 = _createForOfIteratorHelper(this.getChildren(n)),
-          _step2;
+        var _iterator = _createForOfIteratorHelper(this.getChildren(n)),
+          _step;
         try {
-          for (_iterator2.s(); !(_step2 = _iterator2.n()).done;) {
-            var c = _step2.value;
+          for (_iterator.s(); !(_step = _iterator.n()).done;) {
+            var c = _step.value;
             html = this.getList(c, html, level + 1);
           }
         } catch (err) {
-          _iterator2.e(err);
+          _iterator.e(err);
         } finally {
-          _iterator2.f();
+          _iterator.f();
         }
         html += "</ul>";
       }
@@ -10110,7 +10012,6 @@ function ZIndex(source) {
     breadcrumbs: Breadcrumbs,
     footer: Footer,
     fileMeta: FileMeta,
-    header: Header,
     gtm: GTM
   };
   args = args || window.apps.init;
@@ -10138,5 +10039,5 @@ window.addEventListener('load', function (event) {
     App.loadThemeConfig().then(function () {
       ZIndex('init');
     });
-  }.bind(_this11));
+  }.bind(_this9));
 });

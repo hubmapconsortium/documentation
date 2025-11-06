@@ -62,11 +62,9 @@ function html() {
         .pipe(gulp.dest('docs/_includes/'))
 }
 
-gulp.task('html-layouts', html)
-
 function html2() {
     return gulp
-        .src(['./src/pug/*.pug'])
+        .src(['./src/pug/docs/**/*.pug'])
         .pipe(
             pug({
                 pretty: true,

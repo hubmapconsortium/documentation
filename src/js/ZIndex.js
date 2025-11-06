@@ -20,7 +20,6 @@ function ZIndex(source, args = null) {
         breadcrumbs: Breadcrumbs,
         footer: Footer,
         fileMeta: FileMeta,
-        header: Header,
         gtm: GTM
     }
 
