@@ -1,6 +1,6 @@
 include ../../mixins/container
-include ../header
-include ../../sidebar
+| {% include {{ include.page_header }} %}
+| {% include {{ include.page_sidebar }} %}
 +container
     include ../../breadcrumbs
     .c-documentation

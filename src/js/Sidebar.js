@@ -44,7 +44,7 @@ class Sidebar extends App {
             }
         }
 
-        if (!hasBuiltSidebar) {
+        if (!hasBuiltSidebar && !this.$.list.html().length) {
             this.buildTableOfContents()
         }
     }

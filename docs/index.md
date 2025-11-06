@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: test
 ---
 # HuBMAP Data Submission
 
