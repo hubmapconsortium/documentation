@@ -24,18 +24,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" href="/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="/css/main.css"/>
+    <link rel="stylesheet" href="/css/hm.css"/>
+    <link rel="stylesheet" href="/css/bootstrap.min.css"/>
+    <script src="/js/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </head>
   <body>
-    <header class="c-header js-app--header" role="navigation">
-      <div class="c-header__main">
-        <div class="c-header__menu js-header__menu">
-          <ul>
-            <li class="c-header__logo"><a href="/"><img src="/logo192.png" alt="HuBMAP Documentation"></a></li>
-            <li><a href="/data-submission">Data Submission</a></li>
-            <li><a href="/assays">Assays</a></li>
-            <li><a href="/apis">APIs</a></li>
-            <li><a href="/sdk/hubmapsdk">SDK</a></li>
-          </ul>
+    <header class="c-header navbar navbar-expand-lg" role="navigation">
+      <div class="c-header__main"><a class="c-header__logo navbar-brand" href="/"><img src="/logo192.png" alt="HuBMAP Documentation"></a>
+        <button class="navbar-toggler" aria-label="Toggle navigation" aria-expanded="false" aria-controls="js-header__menu" data-target="#js-header__menu" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+        <div class="c-header__menu collapse navbar-collapse" id="js-header__menu">
+          <ul class="navbar-nav mr-auto">{% include {{ include.content_to_render }} %}</ul>
         </div>
       </div>
     </header>
