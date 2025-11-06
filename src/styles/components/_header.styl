@@ -7,7 +7,7 @@
     +md-max()
       hide()
 
-  +lg()
+  +bs-lg()
     height 90px
 
   +md-max()
@@ -22,20 +22,20 @@
   &__sm
     margin-left 60px
     color white
-    +lg()
+    +bs-lg()
       hide()
 
   &__main
     width 90%
     margin auto
-    +lg()
+    +bs-lg()
       pos-rel()
       container()
 
   &__menu
     +md-max()
       margin-top 20px
-    +lg()
+    +bs-lg()
       pos-rel()
       margin-left 20%
 
@@ -48,7 +48,7 @@
       height 40px
       top -5px
       +md-max()
-        top 20px
+        top 15px
 
   li
     p1()
@@ -71,14 +71,14 @@
       &:hover
         color white
 
-  +lg()
+  +bs-lg()
     li
-        p1()
-        list-style none
-        display inline-block
-        margin-left 15px
-        margin-right 15px
-        color white
+      p1()
+      list-style none
+      display inline-block
+      margin-left 15px
+      margin-right 15px
+      color white
 
       a
         &:hover

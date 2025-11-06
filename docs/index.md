@@ -23,7 +23,7 @@ The [HuBMAP SDK](/sdk/hubmapsdk.html) is a Python library to interface with the 
 The [HuBMAP CLT](/clt/index.html) is a stand alone command line tool that enables bulk download of HuBMAP data by specifying the data to be downloaded in a manifest file.
 
 <h3 id="the-hubmap-microservice-architecture" style="margin-bottom: -30px;">The HuBMAP Microservice Architecture</h3>
-<iframe src="/hubmap-services-arch.html" name="HuBMAP Services Architecture" width="1000" height="675" style="border:0px; margin-left: -23px;"></iframe>
+<iframe src="/hubmap-services-arch.html" name="HuBMAP Services Architecture" width="100%" height="675" style="border:0px; margin-left: -23px;"></iframe>
 
 
 
