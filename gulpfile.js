@@ -74,7 +74,12 @@ function html2() {
         .pipe(gulp.dest('docs/'))
 }
 
-gulp.task('html-pages', html2)
+function htmlPages(){
+    html()
+    html2()
+}
+
+gulp.task('html-pages', htmlPages)
 
 function css() {
     return gulp
