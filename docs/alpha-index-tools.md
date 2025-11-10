@@ -31,7 +31,7 @@
 | [Microscope Metadata](https://docs.hubmapconsortium.org/microscopy-metadata-links) | Microscope Metadata, collected to date; JSON files for specific instruments. |
 | [Pop V from YosefLab](https://github.com/YosefLab/PopV) | Cell-type transfer tools for classifying query dataset cell-types based on a test dataset. |
 | [RIBCA - GitHub repo](https://github.com/sun-huangqingbo/multiplexed-image-annotator) | Robust Image-Based Cell Annotator. |
-| [scFind at CodeOcean](https://codeocean.com/capsule/8252531/tree/v1) | Fast searches of large collections of single cell data. |
+| [scFind - GitHub repo](https://github.com/ShaokunAn/tmp-scfind_py) | Fast searches of large collections of single cell data. |
 | [STELLAR](https://snap.stanford.edu/stellar/) | A geometric deep learning method for cell type identification in single-cell spatial datasets. |
 | [UBKG](https://ubkg.docs.xconsortia.org) |Unified Biomedical Knowledge Graph|
 | [UBKG API](https://smart-api.info/ui/96e5b5c0b0efeef5b93ea98ac2794837) |Unified Biomedical Knowledge Graph at SmartAPI|
