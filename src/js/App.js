@@ -91,17 +91,6 @@ class App {
         return this.msgs[msg] || msg
     }
 
-    autoBlobDownloader(data, filename, type = 'text/plain') {
-        const a = document.createElement('a')
-        const url = window.URL.createObjectURL(new Blob(data, {type}))
-        a.href = url
-        a.download = filename
-        document.body.append(a)
-        a.click()
-        a.remove()
-        window.URL.revokeObjectURL(url)
-    }
-
     static async loadLanguageFile() {
         try {
             if (window.apps.locale) return true
