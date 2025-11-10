@@ -6,6 +6,7 @@
 | [Antibody Validation Reports](https://avr.hubmapconsortium.org/)| Information about individual antibodies for multiplexed antibody imaging assays. |
 | [Azimuth Web App](https://azimuth.hubmapconsortium.org/) | Automates the processing and analysis of sequenced data using an annotated reference set. | 
 | [CellTypist](https://www.celltypist.org) | An automated cell type annotation tool for scRNA-seq datasets. |
+| [DeepCell](https://deepcell.org/about) | ML resources collection that facilitates development of new deep learning methods to biology.|
 | [FUSION](https://fusion.hubmapconsortium.org/) | Functional Unit State Identification in Whole Slide Images (WSIs). |
 | [HRA 2D References](https://humanatlas.io/2d-ftu-illustrations) | Human Reference Atlas (HRA)'s Open-source 2D reference illustrations of FTUs. |
 | [HRA 3D References](https://humanatlas.io/3d-reference-library) | HRA's Open-source 3D organs crosswalked to ASCT+B tables. |
@@ -25,9 +26,13 @@
 | [HuBMAP HRA Portal](https://humanatlas.io/) | HuBMAP's Human Reference Atlas Portal |
 | [HuBMAP Technical Resources](https://docs.hubmapconsortium.org/technical) | Documentation for HuBMAP's Technical Resources |
 | [HuBMAP VH MOOC](https://expand.iu.edu/browse/sice/cns/courses/hubmap-visible-human-mooc) | HuBMAP Visible Human Massive Open Online Course (VHMOOC)|
+| [HuBMAP Workspaces](https://portal.hubmapconsortium.org/workspaces) | Lets researchers easily access HuBMAP data and analysis directly within the portal.|
 | [Metadata Spreadsheet Validator](https://metadatavalidator.metadatacenter.org) | Use this tool to validate your metadata spreadsheet (template). |
 | [Microscope Metadata](https://docs.hubmapconsortium.org/microscopy-metadata-links) | Microscope Metadata, collected to date; JSON files for specific instruments. |
 | [Pop V from YosefLab](https://github.com/YosefLab/PopV) | Cell-type transfer tools for classifying query dataset cell-types based on a test dataset. |
+| [RIBCA - GitHub repo](https://github.com/sun-huangqingbo/multiplexed-image-annotator) | Robust Image-Based Cell Annotator. |
+| [scFind at CodeOcean](https://codeocean.com/capsule/8252531/tree/v1) | Fast searches of large collections of single cell data. |
+| [STELLAR](https://snap.stanford.edu/stellar/) | A geometric deep learning method for cell type identification in single-cell spatial datasets. |
 | [UBKG](https://ubkg.docs.xconsortia.org) |Unified Biomedical Knowledge Graph|
 | [UBKG API](https://smart-api.info/ui/96e5b5c0b0efeef5b93ea98ac2794837) |Unified Biomedical Knowledge Graph at SmartAPI|
 | [Vitessce](https://vitessce.io/) | Visual integration tool for exploration of spatial single cell experiment |
