@@ -6,8 +6,6 @@
 | [Antibody Validation Reports](https://avr.hubmapconsortium.org/)| Information about individual antibodies for multiplexed antibody imaging assays. |
 | [Azimuth Web App](https://azimuth.hubmapconsortium.org/) | Automates the processing and analysis of sequenced data using an annotated reference set. | 
 | [CellTypist](https://www.celltypist.org) | An automated cell type annotation tool for scRNA-seq datasets. |
-| [FTU Human Intestine Paper](https://portal.hubmapconsortium.org/browse/publication/77ab35880329b5932380104aa58795a4)| "Organization of the Human Intestine at Single-cell Resolution." |
-| [FTU Training Data](https://doi.org/10.35079/hbm925.sgxl.596) | 2021 "Hacking the Kidney" Kaggle Dataset (Training data for FTU Segmentation). |
 | [FUSION](https://fusion.hubmapconsortium.org/) | Functional Unit State Identification in Whole Slide Images (WSIs). |
 | [HRA 2D References](https://humanatlas.io/2d-ftu-illustrations) | Human Reference Atlas (HRA)'s Open-source 2D reference illustrations of FTUs. |
 | [HRA 3D References](https://humanatlas.io/3d-reference-library) | HRA's Open-source 3D organs crosswalked to ASCT+B tables. |
@@ -17,12 +15,9 @@
 | [HRA EUI](https://apps.humanatlas.io/eui) | HRA's Exploration User Interface |
 | [HRA FTU Explorer](https://apps.humanatlas.io/ftu-explorer) | HRA's Interactive Functional Tissue Unit Explorer |
 | [HRA Knowledge Graph](https://lod.humanatlas.io/) | HRA Knowledge Graph (KG)|
-| [HRA KG Versions](https://lod.humanatlas.io/graph/ccf) | The graphical representation of the CCF.OWL dataset. |
 | [HRA KG on GitHub](https://github.com/hubmapconsortium/hra-kg) | HRA Knowledge Graph on GitHub |
 | [HRA OMAPs](https://humanatlas.io/omap/) | HRA Organ Mapping Antibody Panels |
 | [HRA Organ Gallery](https://github.com/cns-iu/hra-organ-gallery-in-vr) | HRA Organ Gallery in VR on GitHub. |
-| [HRApop](https://lod.humanatlas.io/graph/hra-pop/latest/) | Graphical representation of the HRApop dataset |  
-| [HRApop ADG](https://apps.humanatlas.io/kg-explorer/ds-graph/hra-pop/latest) | HRApop Atlas Dataset Graph |
 | [HRA RUI](https://apps.humanatlas.io/rui) | HRA's Registration User Interface |
 | [HRA SOPs](https://zenodo.org/communities/hra) | 20 Standard Operating Procedures (SOPs) for the HRA |
 | [HRA VCCF](https://humanatlas.io/vccf) | HRA's Vascular Common Coordinate Framework | 
