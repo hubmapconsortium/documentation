@@ -59,6 +59,9 @@ Object x analyte are data matrices containing the measured analyte levels for a 
 
 - [Published specification](https://hubmapconsortium.github.io/ingest-validation-tools/object-x-analyte/current/)
 - [Documentation](https://docs.google.com/document/d/1TkmleE99wpynqSa0MS47Z8Q2vG1ru47fNFl-5KFJKoo/edit?tab=t.0#heading=h.1u82i4axggee)
+- [MuData Validation Jupyter Notebook](https://github.com/hubmapconsortium/mudata-validator/blob/main/validate_example.ipynb)
+  - Data providers can use this example Jupyter Notebook to validate their MuData objects.
+  - The completed notebook can be used to validate EPICs of this type.
 
 ![EPICs Figure 3](EPICs-Fig3.png)
 
