@@ -1,10 +1,19 @@
+include ./gtm
+
 mixin head(seo)
     head
+        +gtm
         script(src='/js/jquery-3.6.2.min.js')
         script(src='/js/markdown.min.js')
         script(src='/js/main.js')
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
         link(rel='stylesheet', href='/css/font-awesome.min.css')
         link(rel='stylesheet', href='/css/main.css')
+        link(rel='stylesheet', href='/css/hm.css')
+        link(rel='stylesheet', href='/css/hm-code.css')
+        link(rel='stylesheet', href='/css/bootstrap.min.css')
+        script(src="/js/popper.min.js"  crossorigin="anonymous")
+        script(src="/js/bootstrap.min.js"  crossorigin="anonymous")
         if seo
             |
             | {% seo %}

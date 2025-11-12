@@ -52,21 +52,19 @@ const locals = {
 
 function html() {
     return gulp
-        .src(['./src/pug/layouts/*.pug'])
+        .src(['./src/pug/layouts/**/*.pug'])
         .pipe(
             pug({
                 pretty: true,
                 locals
             })
         )
-        .pipe(gulp.dest('docs/_layouts/'))
+        .pipe(gulp.dest('docs/_includes/'))
 }
-
-gulp.task('html-layouts', html)
 
 function html2() {
     return gulp
-        .src(['./src/pug/*.pug'])
+        .src(['./src/pug/docs/**/*.pug'])
         .pipe(
             pug({
                 pretty: true,
@@ -76,7 +74,12 @@ function html2() {
         .pipe(gulp.dest('docs/'))
 }
 
-gulp.task('html-pages', html2)
+function htmlPages(){
+    html()
+    html2()
+}
+
+gulp.task('html-pages', htmlPages)
 
 function css() {
     return gulp

@@ -17,6 +17,13 @@ class Sidebar extends App {
         this.determineContentBuilder()
         this.sizeSideBarHeight()
         this.togglePositioning()
+        this.addPageId()
+    }
+
+    addPageId() {
+        let id = window.location.pathname.replaceAll('/', '-')
+        id = id.substring(1, id.length - 1)
+        this.el.attr('id', `c-sidebar__${this.toCamelCase(id)}`)
     }
 
     determineContentBuilder() {
@@ -37,7 +44,7 @@ class Sidebar extends App {
             }
         }
 
-        if (!hasBuiltSidebar) {
+        if (!hasBuiltSidebar && !this.$.list.html().length) {
             this.buildTableOfContents()
         }
     }
@@ -56,6 +63,11 @@ class Sidebar extends App {
             this.sizeSideBar()
             this.togglePositioning()
         }).bind(this))
+
+        $('body').on('click', '.has-collapser', (e) => {
+            e.stopPropagation()
+            $(e.currentTarget).toggleClass('is-open').find('> ul').toggleClass('is-visible')
+        })
     }
 
     togglePositioning() {
@@ -143,8 +155,8 @@ class Sidebar extends App {
         }
     }
 
-    hasChildren(n) {
-        return (n.c && n.c.length > 0) || (n.items && n.items.length > 0)
+    hasChildren(n, min = 0) {
+        return (n.c && n.c.length > min) || (n.items && n.items.length > min)
     }
 
     getList(root, html, level= 0) {
@@ -153,7 +165,10 @@ class Sidebar extends App {
         const levelClass = `c-sidebar__level--${level}`
         let classes = `${levelClass} `
         classes += `${this.hasChildren(n) ? 'has-children' : ''} ${n.className || ''}`
-
+        if (level > 1) {
+          classes += `${this.hasChildren(n, 2) ? 'has-collapser' : ''}`  
+        }
+    
         const name = n.label || n.name
         const hrefDefault = n.id ? `#${n.id}` : `${this.pathBase}${name}`
         html += `<li class="${classes}" title="${name}"><a href="${n.href ? n.href : hrefDefault}">${name}</a>`
@@ -171,4 +186,3 @@ class Sidebar extends App {
 
     }
 }
-

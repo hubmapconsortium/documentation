@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+
+<!-- This template page was auto generated, do not edit directly--><!DOCTYPE html>
 <html lang="{{ site.lang | default: 'en-US' }}">
   <head>
     <!-- Google Tag Manager-->
@@ -29,20 +30,24 @@
     <link rel="stylesheet" href="/css/bootstrap.min.css"/>
     <script src="/js/popper.min.js" crossorigin="anonymous"></script>
     <script src="/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    
+    {% seo %}
   </head>
-  <body>
-    <header class="c-header navbar navbar-expand-lg" role="navigation">
-      <div class="c-header__main"><a class="c-header__logo navbar-brand" href="/"><img src="/logo192.png" alt="HuBMAP Documentation"></a>
-        <button class="navbar-toggler" aria-label="Toggle navigation" aria-expanded="false" aria-controls="js-header__menu" data-target="#js-header__menu" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
-        <div class="c-header__menu collapse navbar-collapse" id="js-header__menu">
-          <ul class="navbar-nav mr-auto">{% include {{ include.content_to_render }} %}</ul>
+  <body data-js-gtm>
+    <!-- Google Tag Manager (noscript)-->
+    <noscript>
+      <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NNV52KVJ"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript)--> 
+    {% include {{ include.page_header }} %}
+    {% include {{ include.page_sidebar }} %}
+        <div class="c-container" role="main">{% if include.page_breadcrumbs %}
+          <div class="c-breadcrumbs js-app--breadcrumbs" role="navigation" aria-label="Breadcrumbs">
+            <div class="c-breadcrumbs__main js-breadcrumbs__main"></div>
+          </div>{% endif %}
+          <div class="c-documentation">{{ content }}</div>
         </div>
-      </div>
-    </header>
-    <div class="c-container" role="main">
-      <h1>Not Found</h1>
-      <p>The requested page could not be found.</p>
-    </div>
     <footer class="c-footer js-app--footer">
       <div class="c-footer__meta">
         <div class="c-fileMeta js-app--fileMeta"><span class="c-fileMeta__label js-fileMeta__label">Last Modified: </span>&nbsp;<span class="js-fileMeta__date"></span></div>

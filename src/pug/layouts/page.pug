@@ -1,6 +1,9 @@
+// This template page was auto generated, do not edit directly
 include ../components/mixins/head
+include ../components/mixins/gtmNoScript
 doctype html
 html(lang="{{ site.lang | default: 'en-US' }}")
     +head(true)
-    body
+    body(data-js-gtm)
+        +gtmNoScript
         include ../components/layout/template/default

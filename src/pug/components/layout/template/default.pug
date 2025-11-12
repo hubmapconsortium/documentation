@@ -1,8 +1,11 @@
 include ../../mixins/container
-include ../header
-include ../../sidebar
+| 
+| {% include {{ include.page_header }} %}
+| {% include {{ include.page_sidebar }} %}
 +container
+    | {% if include.page_breadcrumbs %}
     include ../../breadcrumbs
+    | {% endif %}
     .c-documentation
         | {{ content }}
 include ../footer

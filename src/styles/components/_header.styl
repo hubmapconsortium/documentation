@@ -3,47 +3,86 @@
   background-color $col-hm-blue
   border none
   padding-top 6px
-  height 90px
+  .lg
+    +md-max()
+      hide()
+
+  +bs-lg()
+    height 90px
+
+  +md-max()
+    padding 15px 0
+
+  > .c-header__main
+      display flex
+      flex-wrap inherit
+      align-items center
+      justify-content space-between
+
+  &__sm
+    margin-left 60px
+    color white
+    +bs-lg()
+      hide()
 
   &__main
-    pos-rel()
-    container()
+    width 90%
+    margin auto
+    +bs-lg()
+      pos-rel()
+      container()
 
   &__menu
-    pos-abs()
-    transform translateY(45%)
+    +md-max()
+      margin-top 20px
+    +bs-lg()
+      pos-rel()
+      margin-left 20%
+
+  &__logo
+    margin-right 50px
+    padding-top 0
+
+    img
+      pos-abs()
+      height 40px
+      top -5px
+      +md-max()
+        top 15px
 
   li
     p1()
-    list-style none
-    display inline-block
-    margin-left 15px
-    margin-right 15px
     color white
-    padding-top 5px
-
+    +md-max()
+      p3()
 
     &.h2
-      h2()
+      px2em(font-size, 26)
       font-weight bold
+
+    &.extra--right
+      pos-abs()
+      right 5%
+      font-size 1rem
 
     a
       color white
       text-decoration none
-      font-weight bold
-
       &:hover
-        text-decoration underline
+        color white
 
-    &:first-child
-      margin-left 0
+  +bs-lg()
+    li
+      p1()
+      list-style none
+      display inline-block
+      margin-left 15px
+      margin-right 15px
+      color white
 
-    &.c-header__logo
-      margin-right 190px
-      padding-top 0
+      a
+        &:hover
+          text-decoration underline
 
-      img
-        pos-abs()
-        top 0
-        height 40px
-
+      &:first-child
+        margin-left 0

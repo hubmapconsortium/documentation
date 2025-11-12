@@ -1,5 +1,7 @@
 .c-breadcrumbs
   margin-bottom 2em
+  +md-max()
+    margin-top 60px
 
   li
     pos-rel()
@@ -14,6 +16,8 @@
     &:last-child
       &:after
         content none
+    &:first-child 
+      margin-left 0
 
     &:after
       fa()
