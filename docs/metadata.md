@@ -97,7 +97,7 @@ See section 10 of the Guide for details on transferring metadata to the HIVE.
 - Pixel-seqV2
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/pixel-seqv2/current/)
 - [RNAseq](/assays/rnaseq)
-  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/rnaseq/current/)
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/rnaseq/current/) (includes snRNAseq, scRNAseq, and bulk RNAseq)
   - With Probes
     - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/rnaseq-with-probes/current/)
 - [SeqFISH](/assays/seqfish)
