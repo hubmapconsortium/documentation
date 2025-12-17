@@ -26,6 +26,8 @@ See section 10 of the Guide for details on transferring metadata to the HIVE.
 
 - 10x Multiome
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/10x-multiome/current/)
+- 4i
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/4i/current/)
 - [AF (Autofluorescence)](/assays/af)
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/af/current/)
 - [ATACseq](/assays/atacseq)
@@ -96,6 +98,8 @@ See section 10 of the Guide for details on transferring metadata to the HIVE.
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/phenocycler/current/)
 - Pixel-seqV2
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/pixel-seqv2/current/)
+- Raman Imaging
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/raman-imaging/current/)
 - [RNAseq](/assays/rnaseq)
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/rnaseq/current/) (includes snRNAseq, scRNAseq, and bulk RNAseq)
   - With Probes
@@ -114,6 +118,8 @@ See section 10 of the Guide for details on transferring metadata to the HIVE.
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/slideseq/)
 - SnareSeq2
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/snareseq2/current/)
+- STARmap
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/starmap/current/)
 - Stereo-seq
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/stereo-seq/current/)
 - Thick Section Multiphoton MxIF
