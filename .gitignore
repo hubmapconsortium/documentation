@@ -1,6 +1,5 @@
 **/.DS_Store
 .idea
 node_modules
-.vscode/settings.json
-.vscode/bookmarks.json
+.vscode/*
 scripts
