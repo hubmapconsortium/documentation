@@ -31,6 +31,7 @@ This is a list of available dataset types (data types from multiple supported as
 | Olink | [attributes](Olink)  | Olink utilizes Proseek reagents based on PEA, a Proximity Extension Assay technology, to allow 96 oligonucleotide-labeled antibody pairs to bind to their respective protein targets in the sample. A PCR reporter sequence is formed by a proximity-dependent DNA polymerization event and is subsequently detected and quantified using real-time PCR. |
 | [RNAseq](https://docs.hubmapconsortium.org/assays/rnaseq) | [attributes](RNAseq)  | While bulk RNAseq elucidates the average gene expression profile in cells comprising a tissue sample, single-cell RNAseq, employs per-cell and per-molecule barcoding to enable single-cell resolution of the gene expression profile.|
 | Pixel-seqV2 | [attributes](Pixel-seqV2)  |  Pixel-seqV2 is a spatial transcriptomics method that utilizes polony gels to capture and sequence RNA, proteins or other molecules in tissues with high resolution. These polony gels are arrays of micron-scale DNA clusters, each containing a unique barcode, allowing for the mapping of molecules within their original spatial context in a tissue, thereby allowing researchers to study the spatial organization of cells and their gene expression profiles within tissues. |
+| Raman-Imaging | [attributes](Raman-Imaging) | Raman Imaging is a non-invasive technique that maps the unique chemical fingerprint of biological samples (cells, tissues) by capturing Raman scattering (light interacting with molecular vibrations) at each pixel, creating detailed molecular maps showing the distribution of proteins, lipids, DNA, and water. |
 | RNAseq With Probes | [attributes](RNAseqWithProbes)  | |
 | Second Harmonic Generation | [attributes](SecondHarmonicGeneration)  | |
 | Seq-Scope | [attributes](Seq-Scope)  |  Seq-Scope is a spatial barcoding technology that enables high-resolution, unbiased spatial transcriptomics analysis by repurposing the Illumina sequencing platform, thereby allowing researchers to visualize gene expression at a cellular and subcellular level. |
@@ -38,6 +39,7 @@ This is a list of available dataset types (data types from multiple supported as
 | SIMS | [attributes](SIMS)  | |
 | Slide-seq | [attributes](Slide-seq)  | |
 | SnareSeq2 | [attributes](SnareSeq2)  | |
+| STARmap | [attributes](STARmap) | STARmap (Spatially-resolved Transcript Amplicon Readout Mapping) is a biomedical technology that enables the 3D mapping of gene expression within intact tissues at single-cell resolution. It combines hydrogel-tissue chemistry and in situ DNA sequencing to preserve a cell's location and identify which genes are active in that specific spatial context. |
 | Thick Section Multiphoton MxIF | [attributes](ThickSectionMultiphotonMxIF)  | |
 | Visium HD | [attributes](Visium-HD) |  Visium HD is a high-resolution, whole-transcriptome spatial transcriptomics platform that maps gene expression with near-single-cell resolution across an intact tissue section, unlike traditional methods that lose spatial context through tissue dissociation. |
 | Visium No Probes | [attributes](VisiumNoProbes)  | |
