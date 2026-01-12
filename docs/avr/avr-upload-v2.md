@@ -11,7 +11,7 @@ To upload antibody validation reports go to the [AVR Upload Page](https://avr.hu
 
 <img src="/avr/images/avr-upload-screen.png" alt="AVR Upload Screen" width="800"/>
 
-  1. A tsv file with one row per report to upload with required.  More detail can be found on the [AVR header/metadata page](/avr/tsv-format-v2.html).  Use the [template tsv file](/avr/avr-template-v2.tsv) to create a tsv file. See the [example AVR tsv file](/avr/example-avrs-v2.tsv). These files can be structurally validated with the [CEDAR Metadata Validator](https://doi.org/10.5281/zenodo.7418623) before uploading in the AVR System.  Further validations will occur during upload to the AVR System.
+  1. A tsv file with one row per report to upload with required.  More detail can be found on the [AVR header/metadata page](/avr/tsv-format-v2.html).  Use the [template tsv file](/avr/avr-template-v2.tsv) to create a tsv file. See the [example AVR tsv file](/avr/example-avrs-v2.tsv). These files can be structurally validated with the [CEDAR Metadata Validator](https://metadatavalidator.metadatacenter.org) before uploading in the AVR System.  Further validations will occur during upload to the AVR System.
   2. The associated antibody validation reports saved as PDFs. The AVR PDFs associated each row in the tsv file must be selected for upload together with the PDF browse dialog box. You can use the shift and ctrl (command on Mac) buttons to select multiple files in the file dialog box (as seen below).
   3. After selecting the tsv and PDFs for upload click the Submit button. An example AVR PDF document can be found <a href="/avr/example-avr-v2.pdf" target="_blank">here</a>.
 

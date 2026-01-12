@@ -65,7 +65,7 @@ Please refer to an AVR by its unique AVR ID (e.g. AVR-1, AVR-2) and cite an AVR 
 Please see Table 2a and 2b in SOP: [Constructing Antibody Validation Reports (AVRs)](https://doi.org/10.5281/zenodo.7418623) For details on how to complete metadata fields and on the [AVR Input Structure Document](/avr/tsv-format-v2.html).  Metadata input files can be structurally validated by uploading to the [CEDAR Metadata Validator](https://metadatavalidator.metadatacenter.org) (additional validations will be performed upon upload in the AVR system).
 
 ### How do I upload AVRs?
-If you are a HuBMAP member, you may upload AVRs using the AVR Upload Page (login required). Detailed directions for upload can be found here. If there are questions at any point of submission, please reach out to the Lead AVR Assembly Contact listed in [SOP: Constructing Antibody Validation Reports (AVRs)](https://doi.org/10.5281/zenodo.7418623) when you are ready to upload. 
+If you are a HuBMAP member you may upload AVRs using the AVR Upload Page (login required). Detailed directions for upload can be found on the [AVR Uploads page](/avr/avr-upload-v2.html). If there are questions at any point of submission, please reach out to the Lead AVR Assembly Contact listed in [SOP: Constructing Antibody Validation Reports (AVRs)](https://doi.org/10.5281/zenodo.7418623) when you are ready to upload. 
 
 ### Should every antibody in an OMAP have a corresponding AVR?
 Yes, beginning in 2023 all antibodies included in an OMAP should have an AVR. AVRs and OMAPs are designed to be integrated based on common fields. 
