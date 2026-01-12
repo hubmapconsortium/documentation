@@ -1,11 +1,11 @@
 ---
 layout: page
 ---
-# HuBMAP Antibody Validation Report TSV Structure
+# HuBMAP Antibody Validation Report Structure
 With each submission of AVR documents associated header/metadata information must be include for each AVR document. This information is provided as a .tsv file.  It is recommended to start with the blank (header only) [template tsv file](/avr/avr-template-v2.tsv), use Excel or other spreadsheet to enter the data, then export as a comma separated value (tsv) file.  An example [example AVR tsv file](/avr/example-avrs-v2.tsv) is also available. All columns in the tsv file are required, with the definitions of the columns here:
 
 
-| tsv column               | description                                                                    |
+| attribute (tsv column)               | description                                                                    |
 |--------------------------|--------------------------------------------------------------------------------|
 | uniprot_accession_number | This can typically be found on the vendor’s website, but can also be found by searching <a href="https://www.uniprot.org" target="_blank">UniProt.org</a> directly. Please note that different species have different UniProt accession numbers for the same protein. If your data was acquired using human tissue, be sure you are choosing the UniProt accession for the human protein. |
 |hgnc_id                   | Gene identification number from Human Gene Ontology Nomenclature Committee (HGNC) https://www.genenames.org/ encoding the target protein. HGNC:####|
