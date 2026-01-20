@@ -94,8 +94,14 @@ class App {
     static async loadLanguageFile() {
         try {
             if (window.apps.locale) return true
-            const res = await Rest.get(`/lang/${LocalStore.getLanguage()}.json`)
+            let res = await Rest.get(`/lang/${LocalStore.getLanguage()}.json`)
             window.apps.locale = await res.json()
+
+            res = await Rest.get('/js/site-search-data.json')
+            if (res.ok) {
+                window.apps.searchData = await res.json()
+                window.apps.searchData.pop()
+            }
         } catch (e) {
             console.error(e)
         }
@@ -112,27 +118,11 @@ class App {
     }
 
     static applyStyles(args) {
-        let css = ''
-        $('img').each(function( i ) {
-            let width = $(this).attr('width')
-            if (width && parseInt(width) > 0 && !$(this).hasClass('w-fixed')) {
-                let cls = `imgw--${i}`
-                $(this).addClass(`${cls}`)
-                width = parseInt(width).toString() === width ? width + 'px' : width
-                css += `.${cls} {max-width: ${width};}`
+        $('table').each(function( i ) {
+            if (!$(this).parent().hasClass('c-table--scrollable')) {
+                $(this).wrap('<div class="c-table c-table--scrollable"></div>')
             }
         })
-        if (css.length) {
-            $('body').append(`<style>${css}</style>`)
-        }
-
-        new CodeCopy(document, {app: 'codeCopy', ...args})
-
-        $('pre').each(function( i ) {
-            new Pre(this, {app: '<pre>', ...args})
-        })
-
-
     }
 
     static applyTheme() {

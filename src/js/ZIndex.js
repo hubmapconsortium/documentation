@@ -20,11 +20,13 @@ function ZIndex(source, args = null) {
         breadcrumbs: Breadcrumbs,
         footer: Footer,
         fileMeta: FileMeta,
-        gtm: GTM
+        gtm: GTM,
+        search: Search
     }
 
     args = args || window.apps.init
     try {
+        App.applyStyles(args)
         for (let app in apps) {
             document
                 .querySelectorAll(`[class*='js-app--${app}'], [data-js-${app}]`)
