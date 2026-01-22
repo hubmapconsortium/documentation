@@ -38,6 +38,8 @@ See section 10 of the Guide for details on transferring metadata to the HIVE.
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/celldive/current/)
 - [CODEX](/assays/codex) (**Not PhenoCycler**, see below for PhenoCycler)
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/codex/current/)
+- COMET
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/comet/current/)
 - Confocal
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/confocal/current/)
 - CosMx
@@ -63,6 +65,8 @@ See section 10 of the Guide for details on transferring metadata to the HIVE.
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/hifi-slide/current/)
 - Histology
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/histology/current/)
+- iCLAP
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/iclap/current/)
 - [IMC (Imaging Mass Cytometry) ](/assays/imc)
   - 2D IMC
     - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/imc-2d/current/)
