@@ -27,7 +27,7 @@ This directory contains scripts to fetch, process, and convert HuBMAP assay meta
    - JSON files: `metaJSON/`
    - Markdown files: `toMD/`
 
-   On Generation, prior files are moved to `old/` subdirectories within each folder. (This folder's included in .gitignore)
+   After Generation, processed files are moved to `old/` subdirectories within each folder. (This folder's included in .gitignore)
 
 ## Script Descriptions
 
