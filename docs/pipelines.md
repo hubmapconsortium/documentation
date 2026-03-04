@@ -85,12 +85,12 @@ The HuBMAP pipeline for processing Geomx data converts vendor pipeline outputs i
 
 - [Git Hub](https://github.com/hubmapconsortium/geomx-pipeline/)
 
-### [PhenoCycler/CellDive](https://docs.google.com/document/d/1Jwm5V-A3j1fynriwo9Ec9QWEODovR14zUmaaUNf1Pq0/edit?usp=sharing)
+### [PhenoCycler/CellDive](https://docs.google.com/document/d/1FvxPPhPffAERwxS-L3CVJh7IWzU_SqG0IpEyGacmuS0/edit?usp=sharing)
 
 The HuBMAP pipeline for processing PhenoCycler and CellDive data uses DeepCell for segmentation, SPRM for quantification, secondary analysis including spatial analysis, and DeepCellTypes, Stellar, and RIBCA for cell type annotation.
 - [Git Hub](https://github.com/hubmapconsortium/phenocycler-pipeline/)
 
-### [MIBI](https://docs.google.com/document/d/1Jwm5V-A3j1fynriwo9Ec9QWEODovR14zUmaaUNf1Pq0/edit?usp=sharing)
+### [MIBI](https://docs.google.com/document/d/1eFeFbfZmHdI4oTMhyorS7ZUT34ri2PFFtr7LTd42pnA/edit?usp=sharing)
 
 The HuBMAP pipeline for processing MIBI data uses DeepCell for segmentation, SPRM for quantification, secondary analysis including spatial analysis, and DeepCellTypes, Stellar, and RIBCA for cell type annotation.
 - [Git Hub](https://github.com/hubmapconsortium/mibi-pipeline/)
