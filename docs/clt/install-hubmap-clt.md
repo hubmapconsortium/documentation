@@ -35,37 +35,97 @@ Here we can see precisely where the globus downloads are mounted. If a specific 
 
 <img src="../images/globususername.PNG" alt="GCP Home Location" width="500"/>
 
-
 #### Installing the HuBMAP CLT
 
 The HuBMAP CLT is available as a part of a Python package called `atlas-consortia-clt`.
   - Python 3 is required to run the HuBMAP CLT, an installer for it can be downloaded [here](https://www.python.org/downloads/).
   - It is recommended that you create a new Python virtual environment first with `python3 -m venv /path/to/new/virtual/environment`, more information on Python virtual environments is available [here](https://docs.python.org/3/library/venv.html).
-  - To install the Atlast Consortia CLT run the pip command shown below after installing Python and creating and activating a new Python virtual environment.
+  - To install the HuBMAP CLT run the pip command shown below after installing Python and creating and activating a new Python virtual environment.
 
+Note: The HuBMAP CLT requires Python 3.9 or above.
+
+Note: Installation will also install other requirements needed by the the HuBMAP CLT, including the Globus [Command Line Tool](https://docs.globus.org/cli/). The Globus command line tool is a separate tool from **_Globus Connect Personal_**.
+
+The HuBMAP CLT can be installed using multiple methods:
+
+##### pip
+
+Install the HuBMAP CLT globally using pip:
 ```bash
 pip install atlas-consortia-clt
 ```
 
-This will also install other requirements needed by the the HuBMAP CLT including the Globus [Command Line Tool](https://docs.globus.org/cli/)
+##### pip with a virtual environment
 
-The globus command line tool is a separate tool from **_Globus Connect Personal_**. It is likely that users may have to
-log in separately through **_Globus CLI_**. To see if a user is currently logged in, use the command:
+Installing in a virtual environment keeps the HuBMAP CLT and its dependencies isolated from other Python projects.
 
+**macOS/Linux:**
 ```bash
-hubmap-clt whoami
+python3 -m venv clt-env # creates virtual environment named clt-env in the current directory
+source clt-env/bin/activate # activates the virtual environment
+pip install atlas-consortia-clt
 ```
 
-If a user is logged in, their username will be displayed. If not logged in, users will be prompted to login with the
-following command: 
+**Windows:**
+```bash
+python -m venv clt-env # creates virtual environment named clt-env in the current directory
+clt-env\Scripts\activate # activates the virtual environment
+pip install atlas-consortia-clt
+```
+
+To use the HuBMAP CLT in the future, activate the virtual environment first:
+
+**macOS/Linux:**
+```bash
+source clt-env/bin/activate
+```
+
+**Windows:**
+```bash
+clt-env\Scripts\activate
+```
+
+To deactivate the virtual environment, run the following command on any platform:
+```bash
+deactivate
+```
+
+##### pipx
+
+[pipx](https://pipx.pypa.io) installs the HuBMAP CLT in its own isolated environment and automatically exposes the `hubmap-clt` commands on your `PATH`, without affecting other Python packages.
+
+Install pipx if you don't have it. Check the [pipx documentation](https://pipx.pypa.io/stable/#install-pipx) for detailed installation instructions.
+
+Then install the HuBMAP CLT. The HuBMAP CLT relies on the `globus-cli` package and must also be installed via pipx.
+```bash
+pipx install atlas-consortia-clt globus-cli
+```
+
+To upgrade:
+```bash
+pipx upgrade atlas-consortia-clt globus-cli
+```
+
+#### Login to the HuBMAP CLT
+
+A one-time login is required for any download session. For non-public data, you must login with your HuBMAP account. For publicly available data, you can login with any account accepted by the login form (Google and ORCID). Login can be initiated using the following command:
 
 ```bash
 hubmap-clt login
 ```
 
-The Globus login screen will open in the default web browser. Follow login instructions. 
+By default, login will automatically open a browser window to complete authentication. If you are in a headless environment (e.g. a remote server without a browser), use the `--no-browser` flag. This will display a URL in the terminal that you can copy and open in a browser on another device to complete the login:
+
+```bash
+hubmap-clt login --no-browser
+```
+
+You can check if you are currently logged in with the following command:
+
+```bash
+hubmap-clt whoami
+```
 
 #### Using the HuBMAP CLT
 
-At this point, user should be set up and ready to use the HuBMAP Command Line Transfer tool. Detailed instructions of 
-its usage can be found [here](index.html).
+At this point, you should be set up and ready to use the HuBMAP Command Line Transfer tool. Detailed instructions of its usage can be found [here](index.html).
