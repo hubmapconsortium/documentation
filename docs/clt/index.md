@@ -75,13 +75,13 @@ hubmap-clt login --no-browser
 
 Similarly, log out with the command:
 
-```
+```bash
 hubmap-clt logout
 ```
 
 To check the identity of the currently logged in user, enter the command:
 
-```
+```bash
 hubmap-clt whoami
 ```
 
@@ -107,6 +107,12 @@ hubmap-clt transfer manifest.txt --destination data/hubmap/rna-seq
 ```
 
 Similarly, if you give the path/name to a directory that doesn't exist, it will be created. Be mindful of typos.
+
+An optional `--from-protected-space` flag can be specified to download protected data belonging to a published protected `Dataset`. By default, the HuBMAP CLT will download public data only. The user must have access to the protected data in order for the transfer to be successful.
+
+```bash
+hubmap-clt transfer manifest.txt --from-protected-space
+```
 
 <a name="gcp"></a>
 
