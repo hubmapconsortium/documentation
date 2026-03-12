@@ -61,7 +61,7 @@ can be found [here](generate-manifest.html)
 
 #### Login
 
-A one-time login is required for any download session.  For any non-public data, you must login with your HuBMAP authorized account, for publicly available data you can login with any account accepted on the login form (Google and OrCID accepted) as well.  To login issue the following command on the command line:
+A one-time login is required for any download session. For any non-public data, you must log in with your HuBMAP authorized account, for publicly available data you can log in with any account accepted on the login form (Google and OrCID accepted) as well. To log in, issue the following command on the command line:
 
 ```bash
 hubmap-clt login

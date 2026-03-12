@@ -14,7 +14,7 @@ In order to download any content from Globus, users must install **_Globus Conne
 creates a globus "Endpoint" locally. Downloads take the form of transfers from the desired Collection to the endpoint 
 created on the local machine. Instructions on installing **_Globus Connect Personal_** can be found <a href="https://www.globus.org/globus-connect-personal">Here</a>
 
-During setup, users will have the opportunity to name their Endpoint and login with their Globus Credentials
+During setup, users will have the opportunity to name their Endpoint and log in with their Globus Credentials
 
 #### **_IMPORTANT NOTE ABOUT GLOBUS CONNECT PERSONAL_**
 
@@ -106,9 +106,9 @@ To upgrade:
 pipx upgrade atlas-consortia-clt globus-cli
 ```
 
-#### Login to the HuBMAP CLT
+#### Log in to the HuBMAP CLT
 
-A one-time login is required for any download session. For non-public data, you must login with your HuBMAP account. For publicly available data, you can login with any account accepted by the login form (Google and ORCID). Login can be initiated using the following command:
+A one-time login is required for any download session. For non-public data, you must log in with your HuBMAP account. For publicly available data, you can log in with any account accepted by the login form (Google and ORCID). Login can be initiated using the following command:
 
 ```bash
 hubmap-clt login
