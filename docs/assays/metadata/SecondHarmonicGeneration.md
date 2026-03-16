@@ -1,7 +1,7 @@
 --- 
 layout: page 
 ---
-# Second-Harmonic-Generation 
+# SGH
 <details markdown="1"><summary> Version 2 (current) </summary>
 
 ## Version 2 (current) 
