@@ -30,4 +30,7 @@ To re-use existing HuBMAP infrastructure and processes, publication pages use a 
 - For questions on Vitessce vignette preparation: [Mark Keller](mailto:mark_keller@hms.harvard.edu)
 - For questions on Data Ingestion (ingestion portal, Globus, data provider groups): [Brendan Honick](mailto:help@hubmapconsortium.org,bhonick@andrew.cmu.edu)
 
+## 1. Create Publication in Ingest Portal
+a. Start at the [Ingest Portal](https://ingest.hubmapconsortium.org). <br />
+b. Select “Publication” in the “Register New: Individual” menu. You can also follow this [link](https://ingest.hubmapconsortium.org/new/publication) to get to that page. 
 
