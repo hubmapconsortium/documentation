@@ -28,7 +28,7 @@ Commands: One of the following commands is required:
    whoami                   Displays the information of the user who is
                             currently logged in.  If no user is logged
                             a message will be displayed prompting the user
-			                to log in.
+			                to login.
 
   -h or --help              Show this help message.
 
@@ -61,21 +61,27 @@ can be found [here](generate-manifest.html)
 
 #### Login
 
-A one-time login is required for any download session.  For any non-public data, you must login with your HuBMAP authorized account, for publicly available data you can log in with any account accepted on the login form (Google and OrCID accepted) as well.  To login issue the following command on the command line:
+A one-time login is required for any download session. For any non-public data, you must log in with your HuBMAP authorized account, for publicly available data you can log in with any account accepted on the login form (Google and OrCID accepted) as well. To log in, issue the following command on the command line:
 
-```
+```bash
 hubmap-clt login
+```
+
+By default, login will automatically open a browser window to complete authentication. If you are in a headless environment (e.g. a remote server without a browser), use the `--no-browser` flag. This will display a URL in the terminal that you can copy and open in a browser on another device to complete the login:
+
+```bash
+hubmap-clt login --no-browser
 ```
 
 Similarly, log out with the command:
 
-```
+```bash
 hubmap-clt logout
 ```
 
 To check the identity of the currently logged in user, enter the command:
 
-```
+```bash
 hubmap-clt whoami
 ```
 
@@ -101,6 +107,12 @@ hubmap-clt transfer manifest.txt --destination data/hubmap/rna-seq
 ```
 
 Similarly, if you give the path/name to a directory that doesn't exist, it will be created. Be mindful of typos.
+
+An optional `--from-protected-space` flag can be specified to download protected data belonging to a published protected `Dataset`. By default, the HuBMAP CLT will download public data only. The user must have access to the protected data in order for the transfer to be successful.
+
+```bash
+hubmap-clt transfer manifest.txt --from-protected-space
+```
 
 <a name="gcp"></a>
 
