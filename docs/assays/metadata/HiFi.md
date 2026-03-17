@@ -1,7 +1,7 @@
 --- 
 layout: page 
 ---
-# HiFi-Slide 
+# HiFi 
 
 <details markdown="1"><summary>Version 2 (current)</summary>
 
