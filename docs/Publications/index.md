@@ -31,16 +31,28 @@ To re-use existing HuBMAP infrastructure and processes, publication pages use a 
 - For questions on Data Ingestion (ingestion portal, Globus, data provider groups): [Brendan Honick](mailto:help@hubmapconsortium.org,bhonick@andrew.cmu.edu)
 
 ## 1. Create Publication in Ingest Portal
-&nbsp;&nbsp; <b>a.</b> Start at the [Ingest Portal](https://ingest.hubmapconsortium.org). <br />
-&nbsp;&nbsp; <b>b.</b> Select “Publication” in the “Register New: Individual” menu. You can also follow this [link](https://ingest.hubmapconsortium.org/new/publication) to get to that page. 
+&nbsp;&nbsp; a. Start at the [Ingest Portal](https://ingest.hubmapconsortium.org). <br />
+&nbsp;&nbsp; b. Select “Publication” in the “Register New: Individual” menu. You can also follow this [link](https://ingest.hubmapconsortium.org/new/publication) to get to that page. 
  <img src="Publications1.png" alt="Selecting Publication upload" width="400"> <br />
 &nbsp;&nbsp; The "Registering a Publication" dialog will display:
 <details><summary><i>Click here to display &#x25BC; (or hide &#x25B6;) the image below...</i></summary>
  <img src="Publications2a.png" alt="Registering a Publication dialog" width="800"> <br />
 </details>
-&nbsp;&nbsp; <b>c.</b> Fill out all required fields and enter as much information as possible into the optional fields. <br />
-&nbsp;&nbsp; <b>Note:</b> In particular, make sure to select _all_ HuBMAP datasets in the portal that were used in your publication. <br />
+&nbsp;&nbsp; c. Fill out all required fields and enter as much information as possible into the optional fields. <br />
+&nbsp;&nbsp; <mark>Note:</mark> In particular, make sure to select _all_ HuBMAP datasets in the portal that were used in your publication. <br />
 &nbsp;&nbsp;&nbsp;&nbsp; This information will be used to automatically infer donors and samples that are part of your publication <br />
-&nbsp;&nbsp;&nbsp;&nbsp; and display them on the publication page in addition to the datasets.
+&nbsp;&nbsp;&nbsp;&nbsp; and display them on the publication page in addition to the datasets. <br /> <br />
+&nbsp;&nbsp; d. To add datasets to the Publication, click the "Add+" button under "Sources."
+<img src="Publications2b.png" alt="Adding a dataset" width="500"> <br />
+&nbsp;&nbsp; e. Search for the datasets you want to add, click on a dataset to select it. <br />
+<img src="Publications2c.png" alt="Search for datasets" width="700"> <br />
+&nbsp;&nbsp; f. The selected dataset is listed under sources. <br />
+<img src="Publications2d.png" alt="Search for datasets" width="650"> <br />
+&nbsp;&nbsp; g. Alternatively, selecting the BULK option allows you to upload multiple datasets. <br />
+<img src="Publications2e.png" alt="Search for datasets"> <br />
+&nbsp;&nbsp;&nbsp; Once complete, click “Save”. The "Save was successful" dialog displays: <br />
+<img src="Publications3.png" alt="Search for datasets"> <br />
+
+
 
 
