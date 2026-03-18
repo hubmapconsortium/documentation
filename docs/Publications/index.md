@@ -31,14 +31,14 @@ To re-use existing HuBMAP infrastructure and processes, publication pages use a 
 - For questions on Data Ingestion (ingestion portal, Globus, data provider groups): [Brendan Honick](mailto:help@hubmapconsortium.org,bhonick@andrew.cmu.edu)
 
 ## 1. Create Publication in Ingest Portal
-&nbsp;&nbsp; a. Start at the [Ingest Portal](https://ingest.hubmapconsortium.org). <br />
-&nbsp;&nbsp; b. Select “Publication” in the “Register New: Individual” menu. You can also follow this [link](https://ingest.hubmapconsortium.org/new/publication) to get to that page. 
- ![Selecting Publication upload](https://github.com/hubmapconsortium/documentation/blob/main/docs/Publications/Publications1.png) <br />
+&nbsp;&nbsp; **a.** Start at the [Ingest Portal](https://ingest.hubmapconsortium.org). <br />
+&nbsp;&nbsp; **b.** Select “Publication” in the “Register New: Individual” menu. You can also follow this [link](https://ingest.hubmapconsortium.org/new/publication) to get to that page. 
+ ![Selecting Publication upload](Publications1.png) <br />
 &nbsp;&nbsp; The "Registering a Publication" dialog will display:
- ![Registering a Publication dialog](https://github.com/hubmapconsortium/documentation/blob/main/docs/Publications/Publications2a.png) <br />
-&nbsp;&nbsp; c. Fill out all required fields and enter as much information as possible into the optional fields. <br />
+ ![Registering a Publication dialog](Publications2a.png) <br />
+&nbsp;&nbsp; **c.** Fill out all required fields and enter as much information as possible into the optional fields. <br />
 &nbsp;&nbsp; **Note:** In particular, make sure to select _all_ HuBMAP datasets in the portal that were used in your publication. <br />
-&nbsp;&nbsp;&nbsp;&nbsp; This information will be used to automatically infer donors and samples that are part of your publication 
+&nbsp;&nbsp;&nbsp;&nbsp; This information will be used to automatically infer donors and samples that are part of your publication <br />
 &nbsp;&nbsp;&nbsp;&nbsp; and display them on the publication page in addition to the datasets.
 
 
