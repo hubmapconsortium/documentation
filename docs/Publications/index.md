@@ -30,7 +30,7 @@ To re-use existing HuBMAP infrastructure and processes, publication pages use a 
 - For questions on Vitessce vignette preparation: [Mark Keller](mailto:mark_keller@hms.harvard.edu)
 - For questions on Data Ingestion (ingestion portal, Globus, data provider groups): [Brendan Honick](mailto:help@hubmapconsortium.org,bhonick@andrew.cmu.edu)
 
-## 1. Create Publication in the Ingest Portal
+## 1. Create Publication - Ingest Portal
 &nbsp;&nbsp; a. Start at the [Ingest Portal](https://ingest.hubmapconsortium.org). <br />
 &nbsp;&nbsp; b. Select “Publication” in the “Register New: Individual” menu. You can also follow this [link](https://ingest.hubmapconsortium.org/new/publication) to get to that page. 
  <img src="Publications1.png" alt="Selecting Publication upload" width="400"> <br />
@@ -59,13 +59,18 @@ To re-use existing HuBMAP infrastructure and processes, publication pages use a 
 &nbsp;&nbsp; <img src="Publications2a-2.png" alt="Saving the Publication" width="800"> 
 </details>
 
-&nbsp;&nbsp;&nbsp; Once complete, click “Save,” the "Success" dialog should display: <br />
-<img src="Publications3-2.png" alt="Success dialog"> 
+- Once complete, click “Save” - The "Success" dialog should display: <br />
 
- - The steps above create a Globus directory where everything associated with the Publication will be stored.
+  <img src="Publications3-2.png" alt="Success dialog"> 
 
-## 2. Navigate to the Globus Directory for your Publication
+ - Note the HuBMAP ID - this will allow you to locate your Publication when the Success Dialog is not present 
+ - The steps above create...
+   - A HuBMAP record of your Publication
+   - A Globus directory where everything associated with the Publication will be stored
+
+## 2. Navigate to Your Publication
  - Click the link for the Publication's HuBMAP ID shown in the dialog above.
+   - OR, in the main Ingest Portal search, enter the Publication's HuBMAP ID and click SEARCH
  - This will open the "Publication Information" dialog, where you can update the descripton or other information.
    
  <img src="Publications3-3.png" alt="Top of Publication information dialog" width="800"> <br />
