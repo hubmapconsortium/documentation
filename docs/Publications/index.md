@@ -50,8 +50,9 @@ To re-use existing HuBMAP infrastructure and processes, publication pages use a 
 <img src="Publications2d.png" alt="Search for datasets" width="650"> <br />
 &nbsp;&nbsp; g. Alternatively, selecting the BULK option allows you to upload multiple datasets. <br />
 <img src="Publications2e.png" alt="Search for datasets"> <br />
-&nbsp;&nbsp;&nbsp; Once complete, click “Save”. The "Save was successful" dialog displays: <br />
+&nbsp;&nbsp;&nbsp; Once complete, click “Save”. The "Save was successful" dialog should display: <br />
 <img src="Publications3.png" alt="Search for datasets"> <br />
+- The steps above create a Globus directory where everything associated with the Publication will be stored.
 
 
 
