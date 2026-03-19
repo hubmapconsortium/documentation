@@ -49,18 +49,29 @@ To re-use existing HuBMAP infrastructure and processes, publication pages use a 
 - Important: For wild card searches, add "*" at the beginning and / or end of your keyword string
 - You can also select a group (institution)
   
-<img src="Publications2c.png" alt="Search for datasets" width="700"> <br />
+<img src="Publications2c-2.png" alt="Search for datasets" width="700"> <br />
 &nbsp;&nbsp; f. The selected dataset is listed under sources. <br />
 <img src="Publications2d.png" alt="Search for datasets" width="650"> <br />
 &nbsp;&nbsp; g. Alternatively, selecting the BULK option allows you to upload multiple datasets. <br />
 <img src="Publications2e.png" alt="Search for datasets"> <br />
-&nbsp;&nbsp;&nbsp; Once complete, click “Save”. The "Save was successful" dialog should display: <br />
-<img src="Publications3.png" alt="Search for datasets"> 
+
+<details><summary><i>Click here to display &#x25BC; (or hide &#x25B6;) the image below...</i></summary>
+&nbsp;&nbsp; <img src="Publications2a-2.png" alt="Saving the Publication" width="800"> 
+</details>
+
+&nbsp;&nbsp;&nbsp; Once complete, click “Save,” the "Success" dialog should display: <br />
+<img src="Publications3-2.png" alt="Success dialog"> 
 
  - The steps above create a Globus directory where everything associated with the Publication will be stored.
 
 ## 2. Navigate to the Globus Directory for your Publication
- - Click the link to the "Globus data repository” shown in the dialog above.
+ - Click the link for the Publication's HuBMAP ID shown in the dialog above.
+ - This will open the "Publication Information" dialog, where you can update the descripton or other information.
+   
+ <img src="Publications3-3.png" alt="Top of Publication information dialog" width="800"> <br />
+
+ - From this dialog, click the link to go to the data repository to add or modify data files.
+ - Alternatively, on the "Success" dialog (above) you can simply click DONE if you don't need to make any changes.
 
 
 
