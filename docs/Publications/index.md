@@ -104,7 +104,7 @@ Use the [ingest validation tools](https://github.com/hubmapconsortium/ingest-val
 - **data/** - All supplementary data for your paper and everything else that you want to share goes here.
   - Ensure that everything referenced by your Vitessce visualizations is in the data directory.
 
-#### Directory Structure Minimum Requirements:
+**Directory Structure Minimum Requirements:**
 - A directory including **metadata.tsv, vignettes/, data/,** and **extras/** at the top level (no enclosing directory).
 - These directories are _required_ but can be empty.
 
@@ -120,10 +120,24 @@ Links to additional collections or other resources can be included in the "descr
 
 You may also add externally-hosted iframes to the "description.md" to use an embeddable visualization that does not use Vitessce. 
 - These iframes can be provided in the "description.md" file.
-- Servers hosting the visualization must be configured to allow external embedding of the iframe via [Content Security Policy headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/frame-ancestors).
+- Servers hosting the visualization must be configured to allow external embedding of the iframe via <br />
+[Content Security Policy headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/frame-ancestors).
 
 One or more visualizations of key datasets will automatically be embedded in the page for your publication, <br />
 if you follow the instructions in the [Vitessce tutorial](https://github.com/vitessce/vitessce-python-tutorial). 
 - An example can be viewed for [this publication](https://portal.hubmapconsortium.org/browse/publication/2ced91fd6d543e79af90313e52ada57d). 
 - The Globus directory for the above publication can be viewed [here](https://app.globus.org/file-manager?origin_id=af603d86-eab9-4eec-bb1d-9d26556741bb&origin_path=%2F2ced91fd6d543e79af90313e52ada57d%2F) (requires Globus login).
 
+### 3.2 Globus File Upload
+The upload instructions below are not comprehensive. <br />
+As specified in the [HuBMAP Data Submission Guide](https://docs.hubmapconsortium.org/data-submission/), here is some _essential_ information about [Globus](https://www.globus.org/) uploads:
+- Your Globus ID must be an institutional ID. **Note:** eRA Commons and ORCID IDs are not acceptable for this purpose.
+  - When registering for HuMBAP or SenNet, if your institution does _NOT_ appear in the dropdown on this [page](https://app.globus.org), <br />
+  contact the Helpdesk and request a sponsored Pitt (University of Pittsburgh) account.
+  - [Check that your institution ID is linked](https://docs.globus.org/how-to/link-to-existing/) to your Globus ID.
+  - See also Globus' [How To](https://docs.globus.org/how-to/) & [FAQs](https://docs.globus.org/faq/) for more information.
+- _Write_ access to your team's Globus folder
+  - This will be granted _after_ confirming that you will submit data via the [HuBMAP Ingest Portal](http://ingest.hubmapconsortium.org/) OR [SenNet Data Sharing Portal](http://data.sennetconsortium.org) (required).
+
+**Note for Mac Users:** Ensure there are no ".DS_Store"files in the directories prior to upload to Globus. <br />
+Instructions for deleting from Globus via the CLI are [here](https://gist.github.com/keller-mark/f8973fdf575db0d1786434ac91dc0a7f).
