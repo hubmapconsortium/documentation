@@ -104,6 +104,26 @@ Use the [ingest validation tools](https://github.com/hubmapconsortium/ingest-val
 - **data/** - All supplementary data for your paper and everything else that you want to share goes here.
   - Ensure that everything referenced by your Vitessce visualizations is in the data directory.
 
-#### Minimum requirements for the Directory Structure:
+#### Directory Structure Minimum Requirements:
 - A directory including **metadata.tsv, vignettes/, data/,** and **extras/** at the top level (no enclosing directory).
-- These directories are _required_ but can be empty. 
+- These directories are _required_ but can be empty.
+
+### 3.1 Vignettes
+Vignettes are optional features specified using Markdown files named "description.md." <br />
+You can share additional documentation, links to external resources, or one or more visualizations of key datasets in the form of “vignettes”. <br />
+“Vignettes” will be automatically embedded in the page for your publication. 
+
+Links to additional collections or other resources can be included in the "description.md" file, using standard markdown link formatting i.e. 
+- "[link name in square brackets] (https://link-address-in-parentheses.example.com)".
+- Please follow the above directory structure for "vignette_01/," and include a "description.md" file.
+- The vitessce.json file is not required, as Vitessce visualizations are not required to display this markdown information.
+
+You may also add externally-hosted iframes to the "description.md" to use an embeddable visualization that does not use Vitessce. 
+- These iframes can be provided in the "description.md" file.
+- Servers hosting the visualization must be configured to allow external embedding of the iframe via [Content Security Policy headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/frame-ancestors).
+
+One or more visualizations of key datasets will automatically be embedded in the page for your publication, <br />
+if you follow the instructions in the [Vitessce tutorial](https://github.com/vitessce/vitessce-python-tutorial). 
+- An example can be viewed for [this publication](https://portal.hubmapconsortium.org/browse/publication/2ced91fd6d543e79af90313e52ada57d). 
+- The Globus directory for the above publication can be viewed [here](https://app.globus.org/file-manager?origin_id=af603d86-eab9-4eec-bb1d-9d26556741bb&origin_path=%2F2ced91fd6d543e79af90313e52ada57d%2F) (requires Globus login).
+
