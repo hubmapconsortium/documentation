@@ -59,7 +59,8 @@ To re-use existing HuBMAP infrastructure and processes, publication pages use a 
    <img src="Publications2a-2.png" alt="Saving the Publication" width="800"> 
   </details>
 
-- Once complete, click “Save” - The "Success" dialog should display: <br />
+ &nbsp;&nbsp; h. Once complete, click “Save” - The "Success" dialog should display: <br />
+ 
   <img src="Publications3-2.png" alt="Success dialog"> 
 
  - <mark>Note the HuBMAP ID - </mark> This will allow you to locate your Publication when the Success Dialog is not present. 
@@ -77,8 +78,32 @@ To re-use existing HuBMAP infrastructure and processes, publication pages use a 
 
  - From this dialog, click the link <img src="Link-icon1.png" alt="Link icon" width="17"> to the data repository to add or modify data files.
 
+## 3. Prepare Your Files for Upload
+Prepare the data for your publication. <br />
+This should include any supplementary data files and other information that you want to share with the community. 
 
+To prepare your data for upload, organize it according to the “publication” directory schema. 
+Use the [ingest validation tools](https://github.com/hubmapconsortium/ingest-validation-tools#for-data-submitters-and-curators) to confirm that your _directory structure_ and _metadata files_ conform to the requirements of the publication assay type once you have assembled your dataset. 
 
+### Directory structure:
+- [**metadata.tsv**](https://gist.github.com/keller-mark/45535076f55bf06f8b22006b7dfe61bb#file-metadata-tsv) - Schema depends on the assay type, use the schema for the [“publication” assay](https://hubmapconsortium.github.io/ingest-validation-tools/publication/) type. 
+- **extras/**
+  - [**contributors.tsv**](https://hubmapconsortium.github.io/ingest-validation-tools/contributors/current/)
+    - **Note:** The _contributors.tsv_ file may not accept certain special characters, such as _ö_.
+    - ORCIDs may not be provided by all authors (and may not be required). One option - omit that author on the publication page. 
+- **vignettes/** - Follow instructions in the [tutorial](https://github.com/vitessce/vitessce-python-tutorial) to construct your visualizations using Python and Jupyter notebooks.
+- <mark>**Note:** </mark>Vignettes are not required!
+  - **vignette_01/**
+    - [**description.md**](https://gist.githubusercontent.com/keller-mark/45535076f55bf06f8b22006b7dfe61bb/raw/d0cf00b54d8c1d3332238629dbc1b4450ac1fe30/description.md) 
+  - **vignette_02/**
+    - **description.md**
+    - **vitessce.json**
+  - **vignette_03/**
+    - **description.md** - Multiple Vitessce configurations can be added!
+    - **vitessce.json**
+- **data/** - All supplementary data for your paper and everything else that you want to share goes here.
+  - Ensure that everything referenced by your Vitessce visualizations is in the data directory.
 
-
-
+#### Minimum requirements for the Directory Structure:
+- A directory including **metadata.tsv, vignettes/, data/,** and **extras/** at the top level (no enclosing directory).
+- These directories are _required_ but can be empty. 
