@@ -55,18 +55,18 @@ To re-use existing HuBMAP infrastructure and processes, publication pages use a 
 &nbsp;&nbsp; g. Alternatively, selecting the BULK option allows you to upload multiple datasets. <br />
 <img src="Publications2e.png" alt="Search for datasets"> <br />
 
-<details><summary><i>Click here to display &#x25BC; (or hide &#x25B6;) the image below...</i></summary>
-&nbsp;&nbsp; <img src="Publications2a-2.png" alt="Saving the Publication" width="800"> 
-</details>
+  <details><summary><i>Click here to display &#x25BC; (or hide &#x25B6;) the image below...</i></summary>
+   <img src="Publications2a-2.png" alt="Saving the Publication" width="800"> 
+  </details>
 
 - Once complete, click “Save” - The "Success" dialog should display: <br />
-
   <img src="Publications3-2.png" alt="Success dialog"> 
 
- - Note the HuBMAP ID - this will allow you to locate your Publication when the Success Dialog is not present 
+ - <mark>Note the HuBMAP ID - </mark> This will allow you to locate your Publication when the Success Dialog is not present. 
  - The steps above create...
    - A HuBMAP record of your Publication
    - A Globus directory where everything associated with the Publication will be stored
+ - If no changes are needed, you can click DONE on the "Success" dialog.
 
 ## 2. Navigate to Your Publication
  - Click the link for the Publication's HuBMAP ID shown in the dialog above.
@@ -75,8 +75,8 @@ To re-use existing HuBMAP infrastructure and processes, publication pages use a 
    
  <img src="Publications3-3.png" alt="Top of Publication information dialog" width="800"> <br />
 
- - From this dialog, click the link to go to the data repository to add or modify data files.
- - Alternatively, on the "Success" dialog (above) you can simply click DONE if you don't need to make any changes.
+ - From this dialog, click the link <img src="Link-icon1.png" alt="Link icon" width="17"> to the data repository to add or modify data files.
+
 
 
 
