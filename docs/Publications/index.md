@@ -129,6 +129,12 @@ if you follow the instructions in the [Vitessce tutorial](https://github.com/vit
 - The Globus directory for the above publication can be viewed [here](https://app.globus.org/file-manager?origin_id=af603d86-eab9-4eec-bb1d-9d26556741bb&origin_path=%2F2ced91fd6d543e79af90313e52ada57d%2F) (requires Globus login).
 
 ### 3.2 Globus File Upload
+**Note for Mac Users:** Ensure there are no ".DS_Store"files in the directories prior to upload to Globus. <br />
+Instructions for deleting from Globus via the CLI are [here](https://gist.github.com/keller-mark/f8973fdf575db0d1786434ac91dc0a7f).
+
+#### Option 1: Web browser-based upload
+This option is fine for small-scale uploads (small files or small set of files). Other options are better for larger files and submissions.
+
 The upload instructions below are not comprehensive. <br />
 As specified in the [HuBMAP Data Submission Guide](https://docs.hubmapconsortium.org/data-submission/), here is some _essential_ information about [Globus](https://www.globus.org/) uploads:
 - Your Globus ID must be an institutional ID. **Note:** eRA Commons and ORCID IDs are not acceptable for this purpose.
@@ -139,5 +145,23 @@ As specified in the [HuBMAP Data Submission Guide](https://docs.hubmapconsortium
 - _Write_ access to your team's Globus folder
   - This will be granted _after_ confirming that you will submit data via the [HuBMAP Ingest Portal](http://ingest.hubmapconsortium.org/) OR [SenNet Data Sharing Portal](http://data.sennetconsortium.org) (required).
 
-**Note for Mac Users:** Ensure there are no ".DS_Store"files in the directories prior to upload to Globus. <br />
-Instructions for deleting from Globus via the CLI are [here](https://gist.github.com/keller-mark/f8973fdf575db0d1786434ac91dc0a7f).
+#### Option 2: Globus Connect Personal
+Use for larger-scale uploads (multi-gigabyte)
+
+&nbsp;&nbsp; a. For _Globus Connect Personal_, first make sure that the local directory you want to upload is marked as "Shareable" in _Preferences_.
+<img src="Publications-Step3-1.png" alt="File Accessability dialog" width="600"> <br />
+
+&nbsp;&nbsp; b. Then select "Web: Transfer Files" from the _Globus_ menu. <br />
+<img src="Publications-Step3-2.png" alt="Globus Menu - Mac"> <br />
+
+&nbsp;&nbsp; c. Navigate to the local directory that you want to upload in the _left_ pane of Globus. <br />
+<img src="Publications-Step3-3a.png" alt="Selecting the Upload directory"> <br />
+- On the _right_ side, enter "HuBMAP Data" as the _Collection_
+- Enter the path that was created for the publication
+
+&nbsp;&nbsp; d. Select files on the left side then click the blue _Start_ button on the left side to transfer files to the right side:
+<img src="Publications-Step3-3b.png" alt="Transferring files"> <br />
+
+&nbsp;&nbsp; e. Use the "Activity" tab to check the progress of the upload:
+<img src="Publications-Step3-3c.png" alt="Transferring files"> <br />
+
