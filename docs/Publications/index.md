@@ -148,7 +148,7 @@ As specified in the [HuBMAP Data Submission Guide](https://docs.hubmapconsortium
 #### Option 2: Globus Connect Personal
 Use for larger-scale uploads (multi-gigabyte)
 
-&nbsp;&nbsp; a. For _Globus Connect Personal_, first make sure that the local directory you want to upload is marked as "Shareable" in _Preferences_.
+&nbsp;&nbsp; a. For _Globus Connect Personal_, first make sure that the local directory you want to upload is marked as "Shareable" in _Preferences_. <br />
 <img src="Publications-Step3-1.png" alt="File Accessability dialog" width="600"> <br />
 
 &nbsp;&nbsp; b. Then select "Web: Transfer Files" from the _Globus_ menu. <br />
@@ -164,4 +164,25 @@ Use for larger-scale uploads (multi-gigabyte)
 
 &nbsp;&nbsp; e. Use the "Activity" tab to check the progress of the upload:
 <img src="Publications-Step3-3c.png" alt="Transferring files"> <br />
+
+## 4. Submit Publication in Ingest Portal
+&nbsp;&nbsp; a. After the upload is complete, navigate to the publication at https://ingest.hubmapconsortium.org/publication/{uuid} 
+- Note: Replace the UUID in the URL manually using the UUID from the Globus directory for the publication.
+-  (e.g., https://ingest.hubmapconsortium.org/publication/2ced91fd6d543e79af90313e52ada57d) for the above example.
+  
+<details><summary><i>Click here to display &#x25BC; (or hide &#x25B6;) the image below...</i></summary>
+ <img src="Publications-Step4-1.png" alt="HuBMAP Publication"> <br />
+</details>
+
+&nbsp;&nbsp; Note: Pending additional software development work, the publication will be visible without requiring manual navigation. 
+
+&nbsp;&nbsp; b. Then click “Submit”.
+- Clicking “Submit” will change the status of the publication to “Submitted”.
+- Behind the scenes, this triggers an alert to the data curation team, which will manually trigger the processing of the publication dataset.
+
+&nbsp;&nbsp; c. Once submitted, the  publication page may immediately appear on https://portal.hubmapconsortium.org/publications for logged in users. 
+- Some information (e.g., Vitessce visualizations, author information, etc.) will _not_ appear until backend processes are complete and the page has reached QA status (Step 5)
+
+
+
 
