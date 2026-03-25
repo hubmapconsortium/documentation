@@ -182,7 +182,7 @@ Use for larger-scale uploads (multi-gigabyte)
 
 &nbsp;&nbsp; c. Once submitted, the  publication page may immediately appear [here](https://portal.hubmapconsortium.org/publications) for logged-in users. 
 <img src="Publications-Step4-2.png" alt="HuBMAP Publication"> <br />
-- Some information (e.g., Vitessce visualizations, author information, etc.) will _not_ appear until backend processes are complete...
+- Some information (e.g., Vitessce visualizations, author information, etc.) will _not_ appear until <br /> backend processes are complete...
   - The page has to reach QA status (Step 5 - see below)
   - _Processing_ status indicates the file or publication is being actively processed and not yet available.
   - _Invalid_ status indicates that there is some error with the file or publication.
@@ -190,7 +190,7 @@ Use for larger-scale uploads (multi-gigabyte)
 
 ## 5. Approve Your Publication
 Following processing, the publication will be in “QA” state. 
-- You will receive an email from [Curation](mailto:ingest@hubmapconsortium.org) with a request to review your publication.
+- You will receive an email from [Curation](mailto://ingest@hubmapconsortium.org) with a request to review your publication.
 - Publications will be publicly visible [here](https://portal.hubmapconsortium.org/publications).
 - If you submitted your publication as a preprint, navigate to the “Preprint” tab to see your publication.
 
