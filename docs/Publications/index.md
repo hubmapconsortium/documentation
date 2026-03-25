@@ -198,3 +198,28 @@ Following processing, the publication will be in “QA” state.
   <img src="Publications-Step5-1.png" alt="HuBMAP Publication"> <br />
  </details>
 
+## 6. Updating a Publication
+### Reasons to Update:
+- Preprint changes status to Published
+- Finalized citation info becomes available (volume, issue, pages)
+- Corrections to metadata (title change, author updates)
+- Add new links or supporting resources
+  
+### Metadata vs vignettes (visualizations and tools) 
+#### Updating Metadata:
+- _Prior_ to submission or publication
+  - Ingest Portal
+- Afterwards...
+  - Help Desk Ticket - Send email to help@humbmapconsortium.org
+  - [GitHub Ticket](https://github.com/hubmapconsortium/manual-data-ingest)
+ 
+#### Updating Vignettes:
+- _Prior_ to submission via Ingest Portal
+  - Update Publication Globus Directory contents
+- Afterwards...
+  - Update Publication's Globus Directory contents
+  - Help Desk Ticket - Send email to help@humbmapconsortium.org
+    - Helpdesk team: Triage ticket to Harvard Portal team
+
+
+
