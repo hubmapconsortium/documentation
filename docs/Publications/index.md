@@ -166,13 +166,13 @@ Use for larger-scale uploads (multi-gigabyte)
 <img src="Publications-Step3-3c.png" alt="Transferring files"> <br />
 
 ## 4. Submit Publication in Ingest Portal
-&nbsp;&nbsp; a. After the upload is complete, navigate to the publication at https://ingest.hubmapconsortium.org/publication/{uuid} 
-- Note: Replace the UUID in the URL manually using the UUID from the Globus directory for the publication.
--  (e.g., https://ingest.hubmapconsortium.org/publication/2ced91fd6d543e79af90313e52ada57d) for the above example.
+&nbsp;&nbsp; a. After the upload is complete, navigate to the publication at "https://ingest.hubmapconsortium.org/publication/{uuid}" 
+- Note: Replace "{UUID}" in the URL _manually_ using the UUID from the publication's Globus directory.
+- For example, UUID = [2ced91fd6d543e79af90313e52ada57d](https://ingest.hubmapconsortium.org/publication/2ced91fd6d543e79af90313e52ada57d).
   
-<details><summary><i>Click here to display &#x25BC; (or hide &#x25B6;) the image below...</i></summary>
- <img src="Publications-Step4-1.png" alt="HuBMAP Publication"> <br />
-</details>
+ <details><summary><i>Click here to display &#x25BC; (or hide &#x25B6;) the image below...</i></summary>
+  <img src="Publications-Step4-1.png" alt="HuBMAP Publication"> <br />
+ </details>
 
 &nbsp;&nbsp; Note: Pending additional software development work, the publication will be visible without requiring manual navigation. 
 
@@ -181,8 +181,19 @@ Use for larger-scale uploads (multi-gigabyte)
 - Behind the scenes, this triggers an alert to the data curation team, which will manually trigger the processing of the publication dataset.
 
 &nbsp;&nbsp; c. Once submitted, the  publication page may immediately appear on https://portal.hubmapconsortium.org/publications for logged in users. 
+<img src="Publications-Step4-2.png" alt="HuBMAP Publication"> <br />
 - Some information (e.g., Vitessce visualizations, author information, etc.) will _not_ appear until backend processes are complete and the page has reached QA status (Step 5)
+  - _Processing_ indicates the file or publication is being actively processed and not yet available.
+  - _Invalid_ indicates that there is some error with the file or publication.
+  - _QA_ indicates that the file or publication is undergoing quality assurance checks or validation.
 
+## 5. Approve Your Publication
+Following processing, the publication will be in “QA” state. 
+- You will receive an email from [Curation](mailto:ingest@hubmapconsortium.org) with a request to review your publication.
+- Publications will be publicly visible [here](https://portal.hubmapconsortium.org/publications).
+- If you submitted your publication as a preprint, navigate to the “Preprint” tab to see your publication.
 
-
+ <details><summary><i>Click here to display &#x25BC; (or hide &#x25B6;) the image below...</i></summary>
+  <img src="Publications-Step5-1.png" alt="HuBMAP Publication"> <br />
+ </details>
 
