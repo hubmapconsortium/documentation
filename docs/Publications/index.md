@@ -174,18 +174,19 @@ Use for larger-scale uploads (multi-gigabyte)
   <img src="Publications-Step4-1.png" alt="HuBMAP Publication"> <br />
  </details>
 
-&nbsp;&nbsp; Note: Pending additional software development work, the publication will be visible without requiring manual navigation. 
+&nbsp;&nbsp; _Note:_ Pending additional software development work, the publication will be visible without requiring manual navigation. 
 
 &nbsp;&nbsp; b. Then click “Submit”.
 - Clicking “Submit” will change the status of the publication to “Submitted”.
-- Behind the scenes, this triggers an alert to the data curation team, which will manually trigger the processing of the publication dataset.
+- Behind the scenes, this alerts the curation team, who will _manually_ trigger the processing of the publication dataset.
 
-&nbsp;&nbsp; c. Once submitted, the  publication page may immediately appear on https://portal.hubmapconsortium.org/publications for logged in users. 
+&nbsp;&nbsp; c. Once submitted, the  publication page may immediately appear [here](https://portal.hubmapconsortium.org/publications) for logged-in users. 
 <img src="Publications-Step4-2.png" alt="HuBMAP Publication"> <br />
-- Some information (e.g., Vitessce visualizations, author information, etc.) will _not_ appear until backend processes are complete and the page has reached QA status (Step 5)
-  - _Processing_ indicates the file or publication is being actively processed and not yet available.
-  - _Invalid_ indicates that there is some error with the file or publication.
-  - _QA_ indicates that the file or publication is undergoing quality assurance checks or validation.
+- Some information (e.g., Vitessce visualizations, author information, etc.) will _not_ appear until backend processes are complete...
+  - The page has to reach QA status (Step 5 - see below)
+  - _Processing_ status indicates the file or publication is being actively processed and not yet available.
+  - _Invalid_ status indicates that there is some error with the file or publication.
+  - _QA_ status indicates that the file or publication is undergoing quality assurance checks or validation.
 
 ## 5. Approve Your Publication
 Following processing, the publication will be in “QA” state. 
