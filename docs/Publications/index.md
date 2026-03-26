@@ -165,7 +165,7 @@ Use for larger-scale uploads (multi-gigabyte)
 &nbsp;&nbsp; e. Use the "Activity" tab to check the progress of the upload:
 <img src="Publications-Step3-3c.png" alt="Transferring files"> <br />
 
-## 4. Submit Publication in Ingest Portal
+## 4. Submit Publication - Ingest Portal
 &nbsp;&nbsp; a. After the upload is complete, navigate to the publication at "https://ingest.hubmapconsortium.org/publication/{uuid}" 
 - Note: Replace "{UUID}" in the URL _manually_ using the UUID from the publication's Globus directory.
 - For example, UUID = [2ced91fd6d543e79af90313e52ada57d](https://ingest.hubmapconsortium.org/publication/2ced91fd6d543e79af90313e52ada57d).
