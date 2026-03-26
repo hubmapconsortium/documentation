@@ -221,5 +221,8 @@ Following processing, the publication will be in “QA” state.
   - Help Desk Ticket - Send email to help@humbmapconsortium.org
     - Helpdesk team: Triage ticket to Harvard Portal team
 
-
+ <details><summary><i>Click here to display &#x25BC; (or hide &#x25B6;) the <em>Update Workflow diagram</em> below...</i></summary>
+  <h3>Worflow Diagram for Updating Publications</h3>
+  <img src="PubUpdateWF.png" alt="Publication Update Workflow diagram"> <br />
+ </details>
 
