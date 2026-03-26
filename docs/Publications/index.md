@@ -205,7 +205,8 @@ Following processing, the publication will be in “QA” state.
 - Corrections to metadata (title change, author updates)
 - Add new links or supporting resources
   
-### Metadata vs vignettes (visualizations and tools) 
+### Metadata vs vignettes 
+- (visualizations and tools) 
 #### Updating Metadata:
 - _Prior_ to submission or publication
   - Ingest Portal
@@ -222,7 +223,7 @@ Following processing, the publication will be in “QA” state.
     - Helpdesk team: Triage ticket to Harvard Portal team
 
  <details><summary><i>Click here to display &#x25BC; (or hide &#x25B6;) the <em>Update Workflow diagram</em> below...</i></summary>
-  <h3>Worflow Diagram for Updating Publications</h3>
+  <h3>Worflow Diagram for Updates</h3>
   <img src="PubUpdateWF.png" alt="Publication Update Workflow diagram"> <br />
  </details>
 
