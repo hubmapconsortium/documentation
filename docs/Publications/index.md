@@ -129,7 +129,7 @@ if you follow the instructions in the [Vitessce tutorial](https://github.com/vit
 - The Globus directory for the above publication can be viewed [here](https://app.globus.org/file-manager?origin_id=af603d86-eab9-4eec-bb1d-9d26556741bb&origin_path=%2F2ced91fd6d543e79af90313e52ada57d%2F) (requires Globus login).
 
 ### 3.2 Globus File Upload
-**Note for Mac Users:** Ensure there are no ".DS_Store"files in the directories prior to upload to Globus. <br />
+<mark> _Note for Mac Users:_ </mark> Ensure there are no ".DS_Store"files in the directories prior to upload to Globus. <br />
 Instructions for deleting from Globus via the CLI are [here](https://gist.github.com/keller-mark/f8973fdf575db0d1786434ac91dc0a7f).
 
 #### Option 1: Web browser-based upload
@@ -167,7 +167,7 @@ Use for larger-scale uploads (multi-gigabyte)
 
 ## 4. Submit Publication - Ingest Portal
 &nbsp;&nbsp; a. After the upload is complete, navigate to the publication at "https://ingest.hubmapconsortium.org/publication/{uuid}" 
-- Note: Replace "{UUID}" in the URL _manually_ using the UUID from the publication's Globus directory.
+- <mark> _Note:_ </mark> Replace "{UUID}" in the URL _manually_ using the UUID from the publication's Globus directory.
 - For example, UUID = [2ced91fd6d543e79af90313e52ada57d](https://ingest.hubmapconsortium.org/publication/2ced91fd6d543e79af90313e52ada57d).
   
  <details><summary><i>Click here to display &#x25BC; (or hide &#x25B6;) the image below...</i></summary>
