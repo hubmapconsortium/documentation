@@ -89,11 +89,11 @@ Use the [ingest validation tools](https://github.com/hubmapconsortium/ingest-val
 - [**metadata.tsv**](https://gist.github.com/keller-mark/45535076f55bf06f8b22006b7dfe61bb#file-metadata-tsv) - Schema depends on the assay type, use the schema for the [“publication” assay](https://hubmapconsortium.github.io/ingest-validation-tools/publication/) type. 
 - **extras/**
   - [**contributors.tsv**](https://hubmapconsortium.github.io/ingest-validation-tools/contributors/current/)
-    - **Note:** The _contributors.tsv_ file may not accept certain special characters, such as _ö_.
+    - <mark><b>Note:</b></mark> The _contributors.tsv_ file may not accept certain special characters, such as _ö_.
     - ORCIDs may not be provided by all authors (and may not be required). One option - omit that author on the publication page. 
 - **vignettes/** - Follow instructions in the [tutorial](https://github.com/vitessce/vitessce-python-tutorial) to construct your visualizations using Python and Jupyter notebooks.
-- <mark>**Note:** </mark>Vignettes are not required!
-  - **vignette_01/**
+- <mark><b>Note:</b></mark> Vignettes are not required!
+  - **vignette_01/** 
     - [**description.md**](https://gist.githubusercontent.com/keller-mark/45535076f55bf06f8b22006b7dfe61bb/raw/d0cf00b54d8c1d3332238629dbc1b4450ac1fe30/description.md) 
   - **vignette_02/**
     - **description.md**
@@ -104,7 +104,7 @@ Use the [ingest validation tools](https://github.com/hubmapconsortium/ingest-val
 - **data/** - All supplementary data for your paper and everything else that you want to share goes here.
   - Ensure that everything referenced by your Vitessce visualizations is in the data directory.
 
-**Directory Structure Minimum Requirements:**
+#### Minimum Requirements:
 - A directory including **metadata.tsv, vignettes/, data/,** and **extras/** at the top level (no enclosing directory).
 - These directories are _required_ but can be empty.
 
@@ -224,6 +224,6 @@ Following processing, the publication will be in “QA” state.
 
  <details><summary><i>Click here to display &#x25BC; (or hide &#x25B6;) the <em>Update Workflow diagram</em> below...</i></summary>
   <h3>Worflow Diagram for Updates</h3>
-  <img src="PubUpdateWF.png" alt="Publication Update Workflow diagram"> <br />
+  <img src="PubUpdateWF.png" alt="Publication Update Workflow diagram" width="600"> <br />
  </details>
 
