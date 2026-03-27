@@ -175,12 +175,16 @@ Use for larger-scale uploads (multi-gigabyte)
  </details>
 
 &nbsp;&nbsp; _Note:_ Pending additional software development work, the publication will be visible without requiring manual navigation. 
+ 
+&nbsp;&nbsp; b. Make any changes or updates to the publication description or other fields, if needed.
 
-&nbsp;&nbsp; b. Then click “Submit”.
-- Clicking “Submit” will change the status of the publication to “Submitted”.
+- After many any such changes, click "Save"
+- In no changes are needed, proceed to the next step.
+
+&nbsp;&nbsp; c. Click “Submit” - This will change the status of the publication to “Submitted”.
 - Behind the scenes, this alerts the curation team, who will _manually_ trigger the processing of the publication dataset.
 
-&nbsp;&nbsp; c. Once submitted, the  publication page may immediately appear [here](https://portal.hubmapconsortium.org/publications) for logged-in users. 
+&nbsp;&nbsp; d. Once submitted, the  publication page may immediately appear [here](https://portal.hubmapconsortium.org/publications) for logged-in users. 
 <img src="Publications-Step4-2.png" alt="HuBMAP Publication"> <br />
 - Some information (e.g., Vitessce visualizations, author information, etc.) will _not_ appear until <br /> backend processes are complete...
   - The page has to reach QA status (Step 5 - see below)
