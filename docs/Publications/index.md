@@ -228,24 +228,20 @@ Following processing, the publication will be in “QA” state.
 - Preprint changes status to Published
 - Finalized citation info becomes available (volume, issue, pages)
 - Corrections to metadata (title change, author updates)
-- Add new links or supporting resources
-  
-### Metadata vs vignettes 
-- (visualizations and tools) 
-#### Updating Metadata:
-- _Prior_ to submission or publication
-  - Ingest Portal
-- Afterwards...
-  - Help Desk Ticket - Send email to help@humbmapconsortium.org
-  - [GitHub Ticket](https://github.com/hubmapconsortium/manual-data-ingest)
- 
-#### Updating Vignettes:
-- _Prior_ to submission via Ingest Portal
-  - Update Publication Globus Directory contents
-- Afterwards...
-  - Update Publication's Globus Directory contents
-  - Help Desk Ticket - Send email to help@humbmapconsortium.org
-    - Helpdesk team: Triage ticket to Harvard Portal team
+- Add or update links, supporting resources, and/or visualizations in vignettes
+
+### Metadata Updates:
+ - Publication entities can be modified _prior_ to submission.
+   - Updates to metadata such as the publication title or abstract can be performed in the [Ingest Portal](https://ingest.hubmapconsortium.org/).
+ - After submission, if further changes are needed, submit a [Help Desk Ticket](mailto://help@hubmapconsortium.org)
+   - Be sure to include the fields and changes required.
+
+### Data and Vignette Updates:
+- Updates to data files or vignettes should be made in the data directory.
+- A link to the data directory is provided on the "Publication Information" page in the HuBMAP Ingest Portal.
+- After completing updates to the data directory contents, submit a [Help Desk Ticket](mailto://help@hubmapconsortium.org)
+- Once a publication page’s status is Published, a new publication version must be created.
+- Create a new Publication submission and reference the previous publication’s HuBMAP ID or UUID.
 
  <details><summary><i>Click here to display &#x25BC; (or hide &#x25B6;) the <em>Update Workflow diagram</em> below...</i></summary>
   <h3>Workflow Diagram for Updates</h3>
