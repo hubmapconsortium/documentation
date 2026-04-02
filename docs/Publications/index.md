@@ -2,13 +2,16 @@
 layout: default
 ---
 
-# Publication Page Upload Workflow
+# Publication Page Submission
 ## Introduction
 _What is the purpose of publication pages?_<br>
 The purpose of [publication pages](https://portal.hubmapconsortium.org/publications) in the HuBMAP Data Portal is to:
 - provide an overview of and showcase HuBMAP publications
 - make it easy for members of the community to find datasets, samples, and donors included in HuBMAP publications
 - feature exciting data through interactive [Vitessce-based visualizations](https://vitessce.io) in ways not possible in PDF-based publications
+
+<mark>Note:</mark> Authors are encouraged to reference dataset collections or individual dataset DOIs in their publications. <br />
+Publication pages do not have assigned DOIs, as they are able to be updated.
   
 _Who can contribute to a publication page?_ <br>
 - **Any HuBMAP member can submit a publication page for any of their publications that use publicly available data in the HuBMAP Data Portal.**
@@ -23,7 +26,8 @@ To re-use existing HuBMAP infrastructure and processes, publication pages use a 
 
 ## Prerequisites
 1. The Globus organization associated with your Globus user account must be a “Data Provider” group. If you previously submitted data to the HuBMAP Data Portal, that will be the case. If not, please contact the [HuBMAP Helpdesk](mailto:help@hubmapconsortium.org). 
-2. Your data needs to be prepared according to the instructions included in the “Upload Files” section of this document. The process of preparing the data for a publication page is the same as preparing any other dataset for upload to the portal. The “assay type” in this case is “publication.” See the [metadata and directory schemas](https://hubmapconsortium.github.io/ingest-validation-tools/publication/) for a publication.
+2. Prepare a Submissions Directory. Similar to submitting datasets to the HIVE (HuBMAP), set up a directory based on the 
+[metadata and directory schemas](https://hubmapconsortium.github.io/ingest-validation-tools/publication/) for a "publication."
 
 ### Contacts
 - For all general questions, including communication regarding QA, please contact the [HuBMAP Help Desk](mailto:help@hubmapconsortium.org)
@@ -52,7 +56,7 @@ To re-use existing HuBMAP infrastructure and processes, publication pages use a 
 <img src="Publications2c-2.png" alt="Search for datasets" width="700"> <br />
 &nbsp;&nbsp; f. The selected dataset is listed under sources. <br />
 <img src="Publications2d.png" alt="Search for datasets" width="650"> <br />
-&nbsp;&nbsp; g. Alternatively, selecting the BULK option allows you to upload multiple datasets. <br />
+&nbsp;&nbsp; g. Alternatively, selecting the BULK option allows you to add multiple datasets, separated by commas <br />
 <img src="Publications2e.png" alt="Search for datasets"> <br />
 
   <details><summary><i>Click here to display &#x25BC; (or hide &#x25B6;) the image below...</i></summary>
@@ -63,15 +67,15 @@ To re-use existing HuBMAP infrastructure and processes, publication pages use a 
  
   <img src="Publications3-2.png" alt="Success dialog"> 
 
- - <mark>Note the HuBMAP ID - </mark> This will allow you to locate your Publication when the Success Dialog is not present. 
+ - <mark>Note the HuBMAP ID - </mark> This will allow you to locate your Publication when the Success dialog is not present. 
  - The steps above create...
    - A HuBMAP record of your Publication
    - A Globus directory where everything associated with the Publication will be stored
- - If no changes are needed, you can click DONE on the "Success" dialog.
+ - Click the link for the Publication's HuBMAP ID to go directly to your Publication.
+ - If no changes are needed, you can click DONE on the "Success" dialog - whic will close it.
 
 ## 2. Navigate to Your Publication
- - Click the link for the Publication's HuBMAP ID shown in the dialog above.
-   - OR, in the main Ingest Portal search, enter the Publication's HuBMAP ID and click SEARCH
+ - In the main Ingest Portal search, enter the Publication's HuBMAP ID and click SEARCH
  - This will open the "Publication Information" dialog, where you can update the descripton or other information.
    
  <img src="Publications3-3.png" alt="Top of Publication information dialog" width="800"> <br />
@@ -86,11 +90,11 @@ To prepare your data for upload, organize it according to the “publication” 
 Use the [ingest validation tools](https://github.com/hubmapconsortium/ingest-validation-tools#for-data-submitters-and-curators) to confirm that your _directory structure_ and _metadata files_ conform to the requirements of the publication assay type once you have assembled your dataset. 
 
 ### Directory structure:
-- [**metadata.tsv**](https://gist.github.com/keller-mark/45535076f55bf06f8b22006b7dfe61bb#file-metadata-tsv) - Schema depends on the assay type, use the schema for the [“publication” assay](https://hubmapconsortium.github.io/ingest-validation-tools/publication/) type. 
+- [**metadata.tsv**](https://gist.github.com/keller-mark/45535076f55bf06f8b22006b7dfe61bb#file-metadata-tsv) - Use the schema for the [“publication” assay](https://hubmapconsortium.github.io/ingest-validation-tools/publication/) type. 
 - **extras/**
   - [**contributors.tsv**](https://hubmapconsortium.github.io/ingest-validation-tools/contributors/current/)
-    - <mark><b>Note:</b></mark> The _contributors.tsv_ file may not accept certain special characters, such as _ö_.
-    - ORCIDs may not be provided by all authors (and may not be required). One option - omit that author on the publication page. 
+    - <mark>Note:</mark> The _contributors.tsv_ file may not accept certain special characters, such as _ö_.
+    - ORCIDs are required for ALL authors. If an ORCID is not available for an author, omit that author from the contributors.tsv
 - **vignettes/** - Follow instructions in the [tutorial](https://github.com/vitessce/vitessce-python-tutorial) to construct your visualizations using Python and Jupyter notebooks.
 - <mark><b>Note:</b></mark> Vignettes are not required!
   - **vignette_01/** 
@@ -110,6 +114,7 @@ Use the [ingest validation tools](https://github.com/hubmapconsortium/ingest-val
 
 ### 3.1 Vignettes
 Vignettes are optional features specified using Markdown files named "description.md." <br />
+Vignettes can be used to link to external websites or resources and embed interactive visualizations using Vitessce.
 You can share additional documentation, links to external resources, or one or more visualizations of key datasets in the form of “vignettes”. <br />
 “Vignettes” will be automatically embedded in the page for your publication. 
 
@@ -132,7 +137,7 @@ if you follow the instructions in the [Vitessce tutorial](https://github.com/vit
 <mark> _Note for Mac Users:_ </mark> Ensure there are no ".DS_Store"files in the directories prior to upload to Globus. <br />
 Instructions for deleting from Globus via the CLI are [here](https://gist.github.com/keller-mark/f8973fdf575db0d1786434ac91dc0a7f).
 
-#### Option 1: Web browser-based upload
+#### Option 1: Web browser-based
 This option is fine for small-scale uploads (small files or small set of files). Other options are better for larger files and submissions.
 
 The upload instructions below are not comprehensive. <br />
