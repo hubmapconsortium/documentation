@@ -72,7 +72,7 @@ To re-use existing HuBMAP infrastructure and processes, publication pages use a 
    - A HuBMAP record of your Publication
    - A Globus directory where everything associated with the Publication will be stored
  - Click the link for the Publication's HuBMAP ID to go directly to your Publication.
- - If no changes are needed, you can click DONE on the "Success" dialog - whic will close it.
+ - If no changes are needed, you can click DONE on the "Success" dialog - which will close it.
 
 ## 2. Navigate to Your Publication
  - In the main Ingest Portal search, enter the Publication's HuBMAP ID and click SEARCH
@@ -232,7 +232,7 @@ Following processing, the publication will be in “QA” state.
     - Helpdesk team: Triage ticket to Harvard Portal team
 
  <details><summary><i>Click here to display &#x25BC; (or hide &#x25B6;) the <em>Update Workflow diagram</em> below...</i></summary>
-  <h3>Worflow Diagram for Updates</h3>
+  <h3>Workflow Diagram for Updates</h3>
   <img src="PubUpdateWF.png" alt="Publication Update Workflow diagram" width="600"> <br />
  </details>
 
