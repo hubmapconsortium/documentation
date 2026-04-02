@@ -74,7 +74,7 @@ To re-use existing HuBMAP infrastructure and processes, publication pages use a 
  - Click the link for the Publication's HuBMAP ID to go directly to your Publication.
  - If no changes are needed, you can click DONE on the "Success" dialog - which will close it.
 
-## 2. Navigate to Your Publication
+## 2. Locating Your Publication
  - In the main Ingest Portal search, enter the Publication's HuBMAP ID and click SEARCH
  - This will open the "Publication Information" dialog, where you can update the descripton or other information.
    
@@ -137,20 +137,21 @@ Visualizations of key datasets will automatically be embedded in the publication
 - Visualization configurations can be generated directly from an existing visualization on the Portal. To do this:
   - Navigate to the desired dataset visualization
   - Configure preferred settings (e.g., filters, colormaps, zoom level, etc.) for that visualization
-  - Click the Share button (top right of Vitessce window) and select one of the options for copying or downloading Configuration files. See example image below. <br />
-<img src=".png" alt="Vitessce Vizualization window"> <br />
+  - Click the Share button (top right of Vitessce window) and select one of the options for copying or downloading Configuration files. See example below: <br />
+<img src="Publication-Vites-Viz1.png" alt="Vitessce Vizualization window"> <br />
 - To construct alternative or additional visualizations, follow the instructions in the [Vitessce tutorial](https://github.com/vitessce/vitessce-python-tutorial) using Python and Jupyter notebooks.
 - An example can be viewed for [this publication](https://portal.hubmapconsortium.org/browse/publication/2ced91fd6d543e79af90313e52ada57d). 
 - The Globus directory for the above publication can be viewed [here](https://app.globus.org/file-manager?origin_id=af603d86-eab9-4eec-bb1d-9d26556741bb&origin_path=%2F2ced91fd6d543e79af90313e52ada57d%2F) (requires Globus login).
 
 ### 3.2 Globus File Upload
+This section provides options for uploading files associates with publications via Globus. 
 <mark> _Note for Mac Users:_ </mark> Ensure there are no ".DS_Store"files in the directories prior to upload to Globus. <br />
-Instructions for deleting from Globus via the CLI are [here](https://gist.github.com/keller-mark/f8973fdf575db0d1786434ac91dc0a7f).
+- Instructions for deleting these files from Globus via the CLI are [here](https://gist.github.com/keller-mark/f8973fdf575db0d1786434ac91dc0a7f).
 
 #### Option 1: Web browser-based
-This option is fine for small-scale uploads (small files or small set of files). Other options are better for larger files and submissions.
+This option works well for most publication pages due to small file sizes (small files or small set of files). Option 2 (below) is better for larger files and submissions.
+- The upload instructions below are not comprehensive. See the Globus [FAQ](https://docs.globus.org/faq/) regarding Globus Connect and Endpoints for more detail.
 
-The upload instructions below are not comprehensive. <br />
 As specified in the [HuBMAP Data Submission Guide](https://docs.hubmapconsortium.org/data-submission/), here is some _essential_ information about [Globus](https://www.globus.org/) uploads:
 - Your Globus ID must be an institutional ID. **Note:** eRA Commons and ORCID IDs are not acceptable for this purpose.
   - When registering for HuMBAP or SenNet, if your institution does _NOT_ appear in the dropdown on this [page](https://app.globus.org), <br />
@@ -180,31 +181,36 @@ Use for larger-scale uploads (multi-gigabyte)
 &nbsp;&nbsp; e. Use the "Activity" tab to check the progress of the upload:
 <img src="Publications-Step3-3c.png" alt="Transferring files"> <br />
 
-## 4. Submit Publication - Ingest Portal
-&nbsp;&nbsp; a. After the upload is complete, navigate to the publication at "https://ingest.hubmapconsortium.org/publication/{uuid}" 
-- <mark> _Note:_ </mark> Replace "{UUID}" in the URL _manually_ using the UUID from the publication's Globus directory.
-- For example, UUID = [2ced91fd6d543e79af90313e52ada57d](https://ingest.hubmapconsortium.org/publication/2ced91fd6d543e79af90313e52ada57d).
+See [Globus Connect Personal](https://www.globus.org/globus-connect-personal) for more information. <br />
+ - This site provides installation instructions if the user isn’t already familiar with the tool.
+
+## 4. Navigating to Your Publication
+After the upload is complete, navigate to the publication in the Ingest Portal.
+ - In the main search, enter the Publication's HuBMAP ID or just search by TYPE, and click SEARCH
+    <img src="Publications-Step4-0.png" alt="Search for Publication"> <br />
+ - This will open the "Publication Information" dialog, where you can update the descripton or other information.
   
  <details><summary><i>Click here to display &#x25BC; (or hide &#x25B6;) the image below...</i></summary>
   <img src="Publications-Step4-1.png" alt="HuBMAP Publication"> <br />
  </details>
 
-&nbsp;&nbsp; _Note:_ Pending additional software development work, the publication will be visible without requiring manual navigation. 
- 
-&nbsp;&nbsp; b. Make any changes or updates to the publication description or other fields, if needed.
+### 4.1 Submitting Your Publication
+&nbsp;&nbsp; a. Make any changes or updates to the publication description or other fields, if needed.
 
-- After many any such changes, click "Save"
+- After making any such changes, click "Save"
 - In no changes are needed, proceed to the next step.
 
-&nbsp;&nbsp; c. Click “Submit” - This will change the status of the publication to “Submitted”.
+&nbsp;&nbsp; b. Click “Submit” - This will change the status of the publication to “Submitted”.
 - Behind the scenes, this alerts the curation team, who will _manually_ trigger the processing of the publication dataset.
 
-&nbsp;&nbsp; d. Once submitted, the  publication page may immediately appear [here](https://portal.hubmapconsortium.org/publications) for logged-in users. 
+&nbsp;&nbsp; c. Once submitted, the  publication page may immediately appear [here](https://portal.hubmapconsortium.org/publications) for logged-in users. 
 <img src="Publications-Step4-2.png" alt="HuBMAP Publication"> <br />
 - Some information (e.g., Vitessce visualizations, author information, etc.) will _not_ appear until <br /> backend processes are complete...
   - The page has to reach QA status (Step 5 - see below)
   - _Processing_ status indicates the file or publication is being actively processed and not yet available.
   - _Invalid_ status indicates that there is some error with the file or publication.
+    - Hover over a status value to display more information about it...
+    <img src="Publications-Step4-3.png" alt=" Publication"> <br />
   - _QA_ status indicates that the file or publication is undergoing quality assurance checks or validation.
 
 ## 5. Approve Your Publication
