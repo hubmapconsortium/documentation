@@ -93,7 +93,8 @@ Use the [ingest validation tools](https://github.com/hubmapconsortium/ingest-val
 - [**metadata.tsv**](https://gist.github.com/keller-mark/45535076f55bf06f8b22006b7dfe61bb#file-metadata-tsv) - Use the schema for the [“publication” assay](https://hubmapconsortium.github.io/ingest-validation-tools/publication/) type. 
 - **extras/**
   - [**contributors.tsv**](https://hubmapconsortium.github.io/ingest-validation-tools/contributors/current/)
-    - <mark>Note:</mark> The _contributors.tsv_ file may not accept certain special characters, such as _ö_.
+    - <mark>Note:</mark> The _contributors.tsv_ file will ONLY accept characters in the ASCII character set - see a [reference list](https://www.w3schools.com/charsets/ref_html_ascii.asp).
+      - Modify the spelling of any names included in the _contributors.tsv_ to avoid special characters, such as _ö_. 
     - ORCIDs are required for ALL authors. If an ORCID is not available for an author, omit that author from the contributors.tsv
 - **vignettes/** - Follow instructions in the [tutorial](https://github.com/vitessce/vitessce-python-tutorial) to construct your visualizations using Python and Jupyter notebooks.
 - <mark><b>Note:</b></mark> Vignettes are not required!
@@ -118,18 +119,27 @@ Vignettes can be used to link to external websites or resources and embed intera
 You can share additional documentation, links to external resources, or one or more visualizations of key datasets in the form of “vignettes”. <br />
 “Vignettes” will be automatically embedded in the page for your publication. 
 
+#### 3.1.a Links to External Resources
 Links to additional collections or other resources can be included in the "description.md" file, using standard markdown link formatting i.e. 
 - "[link name in square brackets] (https://link-address-in-parentheses.example.com)".
 - Please follow the above directory structure for "vignette_01/," and include a "description.md" file.
-- The vitessce.json file is not required, as Vitessce visualizations are not required to display this markdown information.
+- The vitessce.json file is not required, Vitessce visualizations are not required to display this markdown information.
 
+#### 3.1.b Embedding iframes
 You may also add externally-hosted iframes to the "description.md" to use an embeddable visualization that does not use Vitessce. 
 - These iframes can be provided in the "description.md" file.
+- The vitessce.json file is not required, Vitessce visualizations are not required to display this markdown information.
 - Servers hosting the visualization must be configured to allow external embedding of the iframe via <br />
 [Content Security Policy headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/frame-ancestors).
 
-One or more visualizations of key datasets will automatically be embedded in the page for your publication, <br />
-if you follow the instructions in the [Vitessce tutorial](https://github.com/vitessce/vitessce-python-tutorial). 
+#### 3.1.c  Vitessce Visualizations
+Visualizations of key datasets will automatically be embedded in the publication page if Vignettes are included in the Globus file upload.
+- Visualization configurations can be generated directly from an existing visualization on the Portal. To do this:
+  - Navigate to the desired dataset visualization
+  - Configure preferred settings (e.g., filters, colormaps, zoom level, etc.) for that visualization
+  - Click the Share button (top right of Vitessce window) and select one of the options for copying or downloading Configuration files. See example image below. <br />
+<img src=".png" alt="Vitessce Vizualization window"> <br />
+- To construct alternative or additional visualizations, follow the instructions in the [Vitessce tutorial](https://github.com/vitessce/vitessce-python-tutorial) using Python and Jupyter notebooks.
 - An example can be viewed for [this publication](https://portal.hubmapconsortium.org/browse/publication/2ced91fd6d543e79af90313e52ada57d). 
 - The Globus directory for the above publication can be viewed [here](https://app.globus.org/file-manager?origin_id=af603d86-eab9-4eec-bb1d-9d26556741bb&origin_path=%2F2ced91fd6d543e79af90313e52ada57d%2F) (requires Globus login).
 
