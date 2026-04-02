@@ -138,7 +138,7 @@ Visualizations of key datasets will automatically be embedded in the publication
   - Navigate to the desired dataset visualization
   - Configure preferred settings (e.g., filters, colormaps, zoom level, etc.) for that visualization
   - Click the Share button (top right of Vitessce window) and select one of the options for copying or downloading Configuration files. See example below: <br />
-<img src="Publication-Vites-Viz1.png" alt="Vitessce Vizualization window"> <br />
+<img src="Publication-Vites-Viz1.png" alt="Vitessce Vizualization window" width="800"> <br />
 - To construct alternative or additional visualizations, follow the instructions in the [Vitessce tutorial](https://github.com/vitessce/vitessce-python-tutorial) using Python and Jupyter notebooks.
 - An example can be viewed for [this publication](https://portal.hubmapconsortium.org/browse/publication/2ced91fd6d543e79af90313e52ada57d). 
 - The Globus directory for the above publication can be viewed [here](https://app.globus.org/file-manager?origin_id=af603d86-eab9-4eec-bb1d-9d26556741bb&origin_path=%2F2ced91fd6d543e79af90313e52ada57d%2F) (requires Globus login).
@@ -187,7 +187,7 @@ See [Globus Connect Personal](https://www.globus.org/globus-connect-personal) fo
 ## 4. Navigating to Your Publication
 After the upload is complete, navigate to the publication in the Ingest Portal.
  - In the main search, enter the Publication's HuBMAP ID or just search by TYPE, and click SEARCH
-    <img src="Publications-Step4-0.png" alt="Search for Publication"> <br />
+    <img src="Publications-Step4-0.png" alt="Search for Publication" width="800"> <br />
  - This will open the "Publication Information" dialog, where you can update the descripton or other information.
   
  <details><summary><i>Click here to display &#x25BC; (or hide &#x25B6;) the image below...</i></summary>
