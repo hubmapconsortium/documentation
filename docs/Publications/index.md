@@ -80,7 +80,7 @@ To re-use existing HuBMAP infrastructure and processes, publication pages use a 
    
  <img src="Publications3-3.png" alt="Top of Publication information dialog" width="800"> <br />
 
- - From this dialog, click the link <img src="Link-icon1.png" alt="Link icon" width="17"> to the data repository to add or modify data files.
+ - From this dialog, click the link <img src="Link-icon1.png" alt="Link icon" width="16"> to the data repository to add or modify data files.
 
 ## 3. Preparing Files for Upload
 Prepare the data for your publication. <br />
@@ -112,7 +112,8 @@ Use the [ingest validation tools](https://github.com/hubmapconsortium/ingest-val
 #### Minimum Requirements:
 - A directory including **metadata.tsv, vignettes/, data/,** and **extras/** at the top level (no enclosing directory).
 - These directories are _required_ but can be empty.
-- See an example of such a [directory structure](https://app.globus.org/file-manager?origin_id=af603d86-eab9-4eec-bb1d-9d26556741bb&origin_path=%2Ffa99f1ac5d1b1eb63d8e797149cc8902%2F&two_pane=false), which is from [this publication](https://portal.hubmapconsortium.org/browse/publication/fa99f1ac5d1b1eb63d8e797149cc8902).
+
+See an example of a [directory structure](https://app.globus.org/file-manager?origin_id=af603d86-eab9-4eec-bb1d-9d26556741bb&origin_path=%2Ffa99f1ac5d1b1eb63d8e797149cc8902%2F&two_pane=false), which is from [this publication](https://portal.hubmapconsortium.org/browse/publication/fa99f1ac5d1b1eb63d8e797149cc8902).
 
 ### 3.1 Vignettes
 Vignettes are optional features specified using Markdown files named "description.md." <br />
