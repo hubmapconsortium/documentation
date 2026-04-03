@@ -34,7 +34,7 @@ To re-use existing HuBMAP infrastructure and processes, publication pages use a 
 - For questions on Vitessce vignette preparation: [Mark Keller](mailto:mark_keller@hms.harvard.edu)
 - For questions on Data Ingestion (ingestion portal, Globus, data provider groups): [Brendan Honick](mailto:help@hubmapconsortium.org,bhonick@andrew.cmu.edu)
 
-## 1. Create Publication - Ingest Portal
+## 1. Create Publication
 &nbsp;&nbsp; a. Start at the [Ingest Portal](https://ingest.hubmapconsortium.org). <br />
 &nbsp;&nbsp; b. Select “Publication” in the “Register New: Individual” menu. You can also follow this [link](https://ingest.hubmapconsortium.org/new/publication) to get to that page. 
  <img src="Publications1.png" alt="Selecting Publication upload" width="400"> <br />
@@ -82,7 +82,7 @@ To re-use existing HuBMAP infrastructure and processes, publication pages use a 
 
  - From this dialog, click the link <img src="Link-icon1.png" alt="Link icon" width="17"> to the data repository to add or modify data files.
 
-## 3. Prepare Your Files for Upload
+## 3. Preparing Files for Upload
 Prepare the data for your publication. <br />
 This should include any supplementary data files and other information that you want to share with the community. 
 
@@ -188,7 +188,7 @@ Use for larger-scale uploads (multi-gigabyte)
 See [Globus Connect Personal](https://www.globus.org/globus-connect-personal) for more information. <br />
  - This site provides installation instructions if the user isn’t already familiar with the tool.
 
-## 4. Navigating to Your Publication
+## 4. Navigating to a Publication
 After the upload is complete, navigate to the publication in the Ingest Portal.
  - In the main search, enter the Publication's HuBMAP ID or search by TYPE, then click SEARCH
     <img src="Publications-Step4-0.png" alt="Search for Publication" width="800"> <br />
@@ -217,7 +217,7 @@ After the upload is complete, navigate to the publication in the Ingest Portal.
     <img src="Publications-Step4-3.png" alt=" Publication"> <br />
   - _QA_ status indicates that the file or publication is undergoing quality assurance checks or validation.
 
-## 5. Approve Your Publication
+## 5. Approving Your Publication
 Following processing, the publication will be in “QA” state. 
 - You will receive an email from [Curation](mailto://ingest@hubmapconsortium.org) with a request to review your publication.
 - Publications will be publicly visible [here](https://portal.hubmapconsortium.org/publications).
