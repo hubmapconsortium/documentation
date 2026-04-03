@@ -115,13 +115,13 @@ Use the [ingest validation tools](https://github.com/hubmapconsortium/ingest-val
 
 ### 3.1 Vignettes
 Vignettes are optional features specified using Markdown files named "description.md." <br />
-Vignettes can be used to link to external websites or resources and embed interactive visualizations using Vitessce.
-You can share additional documentation, links to external resources, or one or more visualizations of key datasets in the form of “vignettes”. <br />
+Vignettes can be used to link to external websites or resources and embed interactive visualizations using Vitessce. <br />
+You can share additional documentation, links to external resources, or one or more visualizations of key datasets as “vignettes”. <br />
 “Vignettes” will be automatically embedded in the page for your publication. 
 
 #### 3.1.a Links to External Resources
-Links to additional collections or other resources can be included in the "description.md" file, using standard markdown link formatting i.e. 
-- "[link name in square brackets] (https://link-address-in-parentheses.example.com)".
+Links to additional collections or other resources can be included in the "description.md" file, using standard markdown link formatting: 
+- "[link name here] (https://link-address-here.example.com)" -- _Be sure to OMIT the space between the "] (" !_
 - Please follow the above directory structure for "vignette_01/," and include a "description.md" file.
 - The vitessce.json file is not required, Vitessce visualizations are not required to display this markdown information.
 
@@ -145,12 +145,15 @@ Visualizations of key datasets will automatically be embedded in the publication
 
 ### 3.2 Globus File Upload
 This section provides options for uploading files associates with publications via Globus. 
-<mark> _Note for Mac Users:_ </mark> Ensure there are no ".DS_Store"files in the directories prior to upload to Globus. <br />
+
+<mark>Note for Mac Users:</mark> Ensure there are no ".DS_Store"files in the directories prior to upload to Globus. <br />
 - Instructions for deleting these files from Globus via the CLI are [here](https://gist.github.com/keller-mark/f8973fdf575db0d1786434ac91dc0a7f).
 
 #### Option 1: Web browser-based
-This option works well for most publication pages due to small file sizes (small files or small set of files). Option 2 (below) is better for larger files and submissions.
-- The upload instructions below are not comprehensive. See the Globus [FAQ](https://docs.globus.org/faq/) regarding Globus Connect and Endpoints for more detail.
+This option works well for most publication pages due to small file sizes (small files or small set of files). <br />
+Option 2 (below) is better for larger files and submissions.
+- The upload instructions below are not comprehensive.
+- See the Globus [FAQ](https://docs.globus.org/faq/) regarding Globus Connect and Endpoints for more detail.
 
 As specified in the [HuBMAP Data Submission Guide](https://docs.hubmapconsortium.org/data-submission/), here is some _essential_ information about [Globus](https://www.globus.org/) uploads:
 - Your Globus ID must be an institutional ID. **Note:** eRA Commons and ORCID IDs are not acceptable for this purpose.
@@ -186,7 +189,7 @@ See [Globus Connect Personal](https://www.globus.org/globus-connect-personal) fo
 
 ## 4. Navigating to Your Publication
 After the upload is complete, navigate to the publication in the Ingest Portal.
- - In the main search, enter the Publication's HuBMAP ID or just search by TYPE, and click SEARCH
+ - In the main search, enter the Publication's HuBMAP ID or search by TYPE, then click SEARCH
     <img src="Publications-Step4-0.png" alt="Search for Publication" width="800"> <br />
  - This will open the "Publication Information" dialog, where you can update the descripton or other information.
   
