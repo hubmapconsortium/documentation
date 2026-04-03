@@ -112,16 +112,17 @@ Use the [ingest validation tools](https://github.com/hubmapconsortium/ingest-val
 #### Minimum Requirements:
 - A directory including **metadata.tsv, vignettes/, data/,** and **extras/** at the top level (no enclosing directory).
 - These directories are _required_ but can be empty.
+- See an example of such a [directory structure](https://app.globus.org/file-manager?origin_id=af603d86-eab9-4eec-bb1d-9d26556741bb&origin_path=%2Ffa99f1ac5d1b1eb63d8e797149cc8902%2F&two_pane=false), which is from [this publication](https://portal.hubmapconsortium.org/browse/publication/fa99f1ac5d1b1eb63d8e797149cc8902).
 
 ### 3.1 Vignettes
 Vignettes are optional features specified using Markdown files named "description.md." <br />
 Vignettes can be used to link to external websites or resources and embed interactive visualizations using Vitessce. <br />
-You can share additional documentation, links to external resources, or one or more visualizations of key datasets as “vignettes”. <br />
+You can share additional documentation, links to external resources, or one or more visualizations of key datasets as “vignettes”.
 “Vignettes” will be automatically embedded in the page for your publication. 
 
 #### 3.1.a Links to External Resources
 Links to additional collections or other resources can be included in the "description.md" file, using standard markdown link formatting: 
-- "[link name here] (https://link-address-here.example.com)" -- _Be sure to OMIT the space between the "] (" !_
+- "[link name here] (https://link-address-here.example.com)" -- _Be sure to OMIT the space between "] (" !_
 - Please follow the above directory structure for "vignette_01/," and include a "description.md" file.
 - The vitessce.json file is not required, Vitessce visualizations are not required to display this markdown information.
 
@@ -156,7 +157,7 @@ Option 2 (below) is better for larger files and submissions.
 - See the Globus [FAQ](https://docs.globus.org/faq/) regarding Globus Connect and Endpoints for more detail.
 
 As specified in the [HuBMAP Data Submission Guide](https://docs.hubmapconsortium.org/data-submission/), here is some _essential_ information about [Globus](https://www.globus.org/) uploads:
-- Your Globus ID must be an institutional ID. **Note:** eRA Commons and ORCID IDs are not acceptable for this purpose.
+- Your Globus ID must be an institutional ID. <mark>Note:</mark> eRA Commons and ORCID IDs are _not_ acceptable for this purpose.
   - When registering for HuMBAP or SenNet, if your institution does _NOT_ appear in the dropdown on this [page](https://app.globus.org), <br />
   contact the Helpdesk and request a sponsored Pitt (University of Pittsburgh) account.
   - [Check that your institution ID is linked](https://docs.globus.org/how-to/link-to-existing/) to your Globus ID.
