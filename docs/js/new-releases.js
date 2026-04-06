@@ -3,22 +3,7 @@
   'use strict';
   const newReleases = ["10XMultiome", "ATACseq", "AutoFluorescence", "CellDIVE", "CODEX", "DESI", "Histology", "IMC", "LC-MS", "LightSheet", "MALDI", "MIBI", "MUSIC", "RNAseq", "RNAseqWithProbes", "VisiumNoProbes"];
 
-  // Inject minimal styling for the left accent and highlight at runtime
-  (function injectStyle(){
-    try {
-      var css = '' +
-        'table.currentMeta tr, .altStyle table tr { border-left: 4px solid #444a65; }' +
-        'table.currentMeta td, .altStyle table td { padding-left: .75rem; }' +
-        '.new-release-highlight { background-color: #fff8e1; border-left: 4px solid #ffc107; transition: background-color .25s ease, border-color .25s ease; }';
-
-      var style = document.createElement('style');
-      style.setAttribute('data-generated','new-release-highlight-and-accent');
-      style.appendChild(document.createTextNode(css));
-      (document.head || document.documentElement).appendChild(style);
-    } catch (e) {
-      // silent fail
-    }
-  })();
+  // Styles for new-release highlighting are now provided by /css/releaseHighlight.css
 
   // Detect quick sequence: Ctrl + ArrowUp, ArrowUp
   let seqCount = 0;
@@ -26,12 +11,22 @@
   const SEQ_TIMEOUT = 800; // ms
 
   function isAssayPage() {
-    return !!document.querySelector('table.currentMeta') || !!document.querySelector('.altStyle table');
+    return true
+    // return !!document.querySelector('table.currentMeta') || !!document.querySelector('.altStyle table');
   }
 
   function highlightMatches() {
+    console.debug('%c◉ highlighting ', 'color:#2158FF', );
     document.querySelectorAll('.new-release-highlight').forEach(function(el){ el.classList.remove('new-release-highlight'); });
     var tables = document.querySelectorAll('table.currentMeta, .altStyle table');
+      if (!tables || tables.length === 0) {
+        tables = document.querySelectorAll('.altStyle table');
+      }
+      if (!tables || tables.length === 0) {
+        tables = document.querySelectorAll('table');
+      }
+      console.debug('%c◉ new-releases: tables found', 'color:#2158FF', tables.length);
+    console.debug('%c◉ tablesfound ', 'color:#00ff7b', );
     tables.forEach(function(table){
       table.querySelectorAll('tr').forEach(function(row){
         var links = row.querySelectorAll('a');
@@ -44,6 +39,7 @@
             if (!name) continue;
             if (href.indexOf(name) !== -1 || txt.indexOf(name) !== -1) {
               row.classList.add('new-release-highlight');
+                console.debug('%c◉ new-releases: matched', 'color:#00ff7b', name, txt || href);
               break;
             }
           }
@@ -54,7 +50,20 @@
   }
 
   document.addEventListener('keydown', function(e){
-    if (!e.ctrlKey) { seqCount = 0; return; }
+    console.debug('%c◉ addEventListener ', 'color:#2158FF', );
+      // allow Ctrl+1 to trigger highlight immediately
+      if (e.ctrlKey && e.key === '1') {
+        if (isAssayPage()){
+          console.debug('%c◉ highlighting ', 'color:#00ff7b', );
+          highlightMatches();
+          var first = document.querySelector('.new-release-highlight');
+          if (first) first.scrollIntoView({behavior: 'smooth', block: 'center'});
+        }
+        seqCount = 0;
+        return;
+      }
+
+      if (!e.ctrlKey) { seqCount = 0; return; }
     if (e.key === 'ArrowUp'){
       var now = Date.now();
       if (now - lastTime > SEQ_TIMEOUT) seqCount = 0;
