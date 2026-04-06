@@ -6,3 +6,5 @@ node_modules
 scripts/metaBuilder/metaJSON/old
 scripts/metaBuilder/toMD/old/
 scripts/metaBuilder/__pycache__/
+docs/assays/metadata/.directory
+docs/.directory
