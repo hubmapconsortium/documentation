@@ -4,7 +4,7 @@ layout: default
 
 # Publication Page Submission
 ## Introduction
-_What is the purpose of publication pages?_<br>
+_What is the purpose of publication pages?_ <br />
 The purpose of [publication pages](https://portal.hubmapconsortium.org/publications) in the HuBMAP Data Portal is to:
 - provide an overview of and showcase HuBMAP publications
 - make it easy for members of the community to find datasets, samples, and donors included in HuBMAP publications
@@ -14,9 +14,9 @@ The purpose of [publication pages](https://portal.hubmapconsortium.org/publicati
 Publication pages do not have assigned DOIs, as they are able to be updated.
   
 _Who can contribute to a publication page?_ <br>
-- **Any HuBMAP member can submit a publication page for any of their publications that use publicly available data in the HuBMAP Data Portal.**
+- Any HuBMAP member can submit a publication page for any publication that uses publicly available data in the HuBMAP Data Portal.
 - Both preprints and published papers can be shared as publication pages.
-- **Note:** The HuBMAP HIVE will _not_ be responsible for the creation of publication pages or maintenance of their content beyond regular HuBMAP Data Portal maintenance. 
+- <mark>Note:</mark> The HuBMAP HIVE will _not_ be responsible for the creation of publication pages or maintenance of their content beyond regular HuBMAP Data Portal maintenance. 
 
 _What is the process of submitting a publication page?_ <br>
 To re-use existing HuBMAP infrastructure and processes, publication pages use a process that is very similar to regular dataset submissions, see details below. 
@@ -80,7 +80,7 @@ To re-use existing HuBMAP infrastructure and processes, publication pages use a 
    
  <img src="Publications3-3.png" alt="Top of Publication information dialog" width="800"> <br />
 
- - From this dialog, click the link <img src="Link-icon1.png" alt="Link icon" width="16"> to the data repository to add or modify data files.
+ - From this dialog, to add or modify data files, link to the data repository, highlighted in light blue (above).
 
 ## 3. Preparing Files for Upload
 Prepare the data for your publication. <br />
