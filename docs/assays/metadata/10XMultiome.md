@@ -26,11 +26,3 @@ Fields that are collected for 10X-Multiome data, available at ```Dataset.metadat
 
 
 &nbsp;
-
-## Deprecated Attributes
-&nbsp;
-
-<span style="color:#00000061" title="Required"></span><span class="requiredNote"> indicates a field that was previously required</span>
-
-| Attribute | Type | Description | Allowable Values |
-|------|------|-------------|-------------------|

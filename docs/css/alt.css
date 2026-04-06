@@ -1,5 +1,6 @@
 
-.altStyle div.c-container{
+.altStyle div.c-container,
+.altStyle div.c-header__main{
 	max-width: 87%!important;
 }
 /* inline code badges inside table cells */
