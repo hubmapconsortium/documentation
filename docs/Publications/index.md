@@ -80,7 +80,7 @@ To re-use existing HuBMAP infrastructure and processes, publication pages use a 
    
  <img src="Publications3-3.png" alt="Top of Publication information dialog" width="800"> <br />
 
- - From this dialog, to add or modify data files, link to the data repository, highlighted in light blue (above).
+ - From this dialog, to add or modify data files, click the link to the data repository, highlighted in light blue (above).
 
 ## 3. Preparing Files for Upload
 Prepare the data for your publication. <br />
@@ -132,7 +132,7 @@ You may also add externally-hosted iframes to the "description.md" to use an emb
 - These iframes can be provided in the "description.md" file.
 - The vitessce.json file is not required, Vitessce visualizations are not required to display this markdown information.
 - Servers hosting the visualization must be configured to allow external embedding of the iframe via <br />
-[Content Security Policy headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/frame-ancestors).
+[Content Security Policy headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/frame-ancestors). See an example [description.md](description.md) file
 
 #### 3.1.c  Vitessce Visualizations
 Visualizations of key datasets will automatically be embedded in the publication page if Vignettes are included in the Globus file upload.
