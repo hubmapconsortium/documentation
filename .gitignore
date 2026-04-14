@@ -2,4 +2,7 @@
 .idea
 node_modules
 .vscode/*
-scripts
+# scripts
+scripts/metaBuilder/metaJSON/old
+scripts/metaBuilder/toMD/old/
+scripts/metaBuilder/__pycache__/

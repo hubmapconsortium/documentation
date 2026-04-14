@@ -1,7 +1,7 @@
 --- 
 layout: page 
 ---
-# Thick-Section-Multiphoton-MxIF 
+# MxIF
 <details markdown="1"><summary> Version 2 (current) </summary>
 
 ## Version 2 (current) 

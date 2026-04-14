@@ -1,0 +1,5 @@
+https://hubmapconsortium.github.io/ingest-validation-tools/iclap/current/
+iCLAP (individual-nucleotide resolution UV-crosslinking and affinity purification) is a specialized, high-stringency technique designed to map the specific RNA binding sites of RNA-binding proteins (RBPs) at the single-nucleotide level.
+
+https://hubmapconsortium.github.io/ingest-validation-tools/comet/current/
+COMET is a technique used to measure DNA damage in individual cells. The name comes from the shape that damaged DNA fragments form when they migrate out of a cell's nucleus under an electric field, resembling a comet with a head and a tail. This assay is widely used in genetics research to study DNA damage from factors like radiation, chemicals, and environmental exposure.
