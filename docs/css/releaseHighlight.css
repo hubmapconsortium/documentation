@@ -1,0 +1,18 @@
+/* Styles for new-release highlighting moved out of JS into a dedicated CSS file */
+
+/* left accent on rows and padding for table rows used as context */
+table.currentMeta tr,
+.altStyle table tr {
+  border-left: 4px solid #444a65;
+}
+
+table.currentMeta td,
+.altStyle table td {
+  padding-left: .75rem;
+}
+
+.new-release-highlight {
+  background-color: #fff8e1;
+  border-left: 4px solid #ffc107;
+  transition: background-color .25s ease, border-color .25s ease;
+}
