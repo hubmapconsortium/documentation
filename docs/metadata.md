@@ -55,6 +55,8 @@ See section 10 of the Guide for details on transferring metadata to the HIVE.
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/dbit-seq/current/)
 - DESI
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/desi/current/)
+- DNA Methylation
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/dna-methylation/current/)
 - Enhanced SRS
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/enhanced-srs/current/)
 - FACS
