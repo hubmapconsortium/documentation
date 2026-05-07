@@ -1,7 +1,7 @@
 --- 
 layout: page 
 ---
-# Illumina Spatial
+# Illumina Spatial ver0
 
 <details markdown="1"><summary>Version 0 (current)</summary>
 
