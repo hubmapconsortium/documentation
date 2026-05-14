@@ -141,7 +141,18 @@ Visualizations of key datasets will automatically be embedded in the publication
   - Configure preferred settings (e.g., filters, colormaps, zoom level, etc.) for that visualization
   - Click the Share button (top right of Vitessce window) and select one of the options for copying or downloading Configuration files. See example below: <br />
 <img src="Publication-Vites-Viz1.png" alt="Vitessce Vizualization window" width="800"> <br />
-- To construct alternative or additional visualizations, follow the instructions in the [Vitessce tutorial](https://github.com/vitessce/vitessce-python-tutorial) using Python and Jupyter notebooks.
+
+ <mark>Note:</mark> Remove any token parameters from the downloaded configuration files.
+- The downloaded configuration file(s) may contain url strings such as: 
+  - "url": https://assets.hubmapconsortium.org/43213991a54ce196d406707ffe2e86bd/ometiff-pyramids/stitched/expressions/reg1_stitched_expressions.ome.tif?    
+  - token=[<https://assets.hubmapconsortium.org/43213991a54ce196d406707ffe2e86bd/ometiff-pyramids/stitched/expressions/reg1_stitched_expressions.ome.tif?token=%5b>...]
+
+- The highlighted “token=value” parameters in the url string should be removed prior to submission. 
+  - This is generated as part of the config when a user is logged into the data portal when downloading the configuration and will result in urls becoming invalid. 
+  - The token parameter is not required when a dataset is published and does not contain protected data. 
+  - The token parameter value should not be shared publicly.
+
+To construct alternative or additional visualizations, follow the instructions in the [Vitessce tutorial](https://github.com/vitessce/vitessce-python-tutorial) using Python and Jupyter notebooks.
 - An example can be viewed for [this publication](https://portal.hubmapconsortium.org/browse/publication/2ced91fd6d543e79af90313e52ada57d). 
 - The Globus directory for the above publication can be viewed [here](https://app.globus.org/file-manager?origin_id=af603d86-eab9-4eec-bb1d-9d26556741bb&origin_path=%2F2ced91fd6d543e79af90313e52ada57d%2F) (requires Globus login).
 
