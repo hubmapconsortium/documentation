@@ -143,9 +143,8 @@ Visualizations of key datasets will automatically be embedded in the publication
 <img src="Publication-Vites-Viz1.png" alt="Vitessce Vizualization window" width="800"> <br />
 
  <mark>Note:</mark> Remove any token parameters from the downloaded configuration files.
-- The downloaded configuration file(s) may contain url strings such as: 
-  - "url": https://assets.hubmapconsortium.org/43213991a54ce196d406707ffe2e86bd/ometiff-pyramids/stitched/expressions/reg1_stitched_expressions.ome.tif?    
-  - token=[<https://assets.hubmapconsortium.org/43213991a54ce196d406707ffe2e86bd/ometiff-pyramids/stitched/expressions/reg1_stitched_expressions.ome.tif?token=%5b>...]
+- The downloaded configuration file(s) may contain url strings such as:
+  - https://assets.hubmapconsortium.org/43213991a54ce196d406707ffe2e86bd/ometiff-pyramids/stitched/expressions/reg1_stitched_expressions.ome.tif?<mark>token=[value]</mark>
 
 - The highlighted “token=value” parameters in the url string should be removed prior to submission. 
   - This is generated as part of the config when a user is logged into the data portal when downloading the configuration and will result in urls becoming invalid. 
