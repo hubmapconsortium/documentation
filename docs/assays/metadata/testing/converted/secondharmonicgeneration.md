@@ -4,7 +4,7 @@ layout: page-triary
 
 # Second Harmonic Generation Metadata Attributes
 
-Fields that are collected for Secondharmonicgeneration data, available at ```dataset.metadata.<attribute>```
+Fields that are collected for Second Harmonic Generation data, available at ```dataset.metadata.<attribute>```
 &nbsp;
 
 <span style="color:red" title="Required">*</span><span class="requiredNote"> indicates a required field</span>

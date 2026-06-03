@@ -4,7 +4,7 @@ layout: page-triary
 
 # WGS Metadata Attributes
 
-Fields that are collected for Wgs data, available at ```dataset.metadata.<attribute>```
+Fields that are collected for WGS data, available at ```dataset.metadata.<attribute>```
 &nbsp;
 
 <span style="color:red" title="Required">*</span><span class="requiredNote"> indicates a required field</span>

@@ -4,7 +4,7 @@ layout: page-triary
 
 # CosMx Proteomics Metadata Attributes
 
-Fields that are collected for Cosmx Proteomics data, available at ```dataset.metadata.<attribute>```
+Fields that are collected for CosMx Proteomics data, available at ```dataset.metadata.<attribute>```
 &nbsp;
 
 <span style="color:red" title="Required">*</span><span class="requiredNote"> indicates a required field</span>

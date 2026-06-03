@@ -4,7 +4,7 @@ layout: page-triary
 
 # 2D Imaging Mass Cytometry Metadata Attributes
 
-Fields that are collected for Imc data, available at ```dataset.metadata.<attribute>```
+Fields that are collected for 2D Imaging Mass Cytometry data, available at ```dataset.metadata.<attribute>```
 &nbsp;
 
 <span style="color:red" title="Required">*</span><span class="requiredNote"> indicates a required field</span>

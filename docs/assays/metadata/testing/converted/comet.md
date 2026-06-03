@@ -4,7 +4,7 @@ layout: page-triary
 
 # COMET Metadata Attributes
 
-Fields that are collected for Comet data, available at ```dataset.metadata.<attribute>```
+Fields that are collected for COMET data, available at ```dataset.metadata.<attribute>```
 &nbsp;
 
 <span style="color:red" title="Required">*</span><span class="requiredNote"> indicates a required field</span>

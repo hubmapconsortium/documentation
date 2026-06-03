@@ -4,7 +4,7 @@ layout: page-triary
 
 # Thick Section Multiphoton MxIF Metadata Attributes
 
-Fields that are collected for Thicksectionmultiphotonmxif data, available at ```dataset.metadata.<attribute>```
+Fields that are collected for Thick Section Multiphoton MxIF data, available at ```dataset.metadata.<attribute>```
 &nbsp;
 
 <span style="color:red" title="Required">*</span><span class="requiredNote"> indicates a required field</span>

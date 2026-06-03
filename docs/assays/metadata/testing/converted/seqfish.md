@@ -4,7 +4,7 @@ layout: page-triary
 
 # seqFISH Metadata Attributes
 
-Fields that are collected for Seqfish data, available at ```dataset.metadata.<attribute>```
+Fields that are collected for seqFISH data, available at ```dataset.metadata.<attribute>```
 &nbsp;
 
 <span style="color:red" title="Required">*</span><span class="requiredNote"> indicates a required field</span>

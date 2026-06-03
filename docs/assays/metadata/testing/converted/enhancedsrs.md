@@ -4,7 +4,7 @@ layout: page-triary
 
 # Enhanced SRS Metadata Attributes
 
-Fields that are collected for Enhancedsrs data, available at ```dataset.metadata.<attribute>```
+Fields that are collected for Enhanced SRS data, available at ```dataset.metadata.<attribute>```
 &nbsp;
 
 <span style="color:red" title="Required">*</span><span class="requiredNote"> indicates a required field</span>

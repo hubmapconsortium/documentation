@@ -4,7 +4,7 @@ layout: page-triary
 
 # MPLEx Metadata Attributes
 
-Fields that are collected for Mplex data, available at ```dataset.metadata.<attribute>```
+Fields that are collected for MPLEx data, available at ```dataset.metadata.<attribute>```
 &nbsp;
 
 <span style="color:red" title="Required">*</span><span class="requiredNote"> indicates a required field</span>

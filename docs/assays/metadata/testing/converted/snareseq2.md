@@ -4,7 +4,7 @@ layout: page-triary
 
 # SNARE-seq2 Metadata Attributes
 
-Fields that are collected for Snareseq2 data, available at ```dataset.metadata.<attribute>```
+Fields that are collected for SNARE-seq2 data, available at ```dataset.metadata.<attribute>```
 &nbsp;
 
 <span style="color:red" title="Required">*</span><span class="requiredNote"> indicates a required field</span>

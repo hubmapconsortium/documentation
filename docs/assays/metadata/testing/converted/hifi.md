@@ -4,7 +4,7 @@ layout: page-triary
 
 # HiFi-Slide Metadata Attributes
 
-Fields that are collected for Hifi data, available at ```dataset.metadata.<attribute>```
+Fields that are collected for HiFi-Slide data, available at ```dataset.metadata.<attribute>```
 &nbsp;
 
 <span style="color:red" title="Required">*</span><span class="requiredNote"> indicates a required field</span>

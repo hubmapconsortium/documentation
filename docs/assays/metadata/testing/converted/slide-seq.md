@@ -4,7 +4,7 @@ layout: page-triary
 
 # Slide-seq Metadata Attributes
 
-Fields that are collected for Slide Seq data, available at ```dataset.metadata.<attribute>```
+Fields that are collected for Slide-seq data, available at ```dataset.metadata.<attribute>```
 &nbsp;
 
 <span style="color:red" title="Required">*</span><span class="requiredNote"> indicates a required field</span>

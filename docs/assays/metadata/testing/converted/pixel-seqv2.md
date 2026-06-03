@@ -4,7 +4,7 @@ layout: page-triary
 
 # Pixel-seqV2 Metadata Attributes
 
-Fields that are collected for Pixel Seqv2 data, available at ```dataset.metadata.<attribute>```
+Fields that are collected for Pixel-seqV2 data, available at ```dataset.metadata.<attribute>```
 &nbsp;
 
 <span style="color:red" title="Required">*</span><span class="requiredNote"> indicates a required field</span>

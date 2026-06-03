@@ -4,7 +4,7 @@ layout: page-triary
 
 # Visium HD Metadata Attributes
 
-Fields that are collected for Visium Hd data, available at ```dataset.metadata.<attribute>```
+Fields that are collected for Visium HD data, available at ```dataset.metadata.<attribute>```
 &nbsp;
 
 <span style="color:red" title="Required">*</span><span class="requiredNote"> indicates a required field</span>
