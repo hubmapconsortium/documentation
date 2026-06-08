@@ -43,6 +43,17 @@ In general, a donor and organ are required in the provenance hierarchy where tis
 - [GitHub](https://github.com/hubmapconsortium/entity-api) 
 - [Smart API](https://smart-api.info/ui/0065e419668f3336a40d1f5ab89c6ba3)
 
+### scFind
+A single-cell analysis tool that facilitates fast search of biologically or clinically relevant marker genes in cell atlases. 
+- [GitHub](https://github.com/hubmapconsortium/scfind)
+- [Paper in _Nature Methods_](https://www.nature.com/articles/s41592-021-01076-9)
+
+### Cells API
+Allows users to navigate the output of the HIVE’s data processing pipelines by performing queries on the aggregated pipeline output.
+- [GitHub](https://github.com/hubmapconsortium/hubmap-api-py-client)
+- [Documentation](https://docs.google.com/document/d/1YX0ueWHsYVwHXBz3aCvZPxw2944srHFeAtQjT69yRx8/edit?pli=1&tab=t.0)
+
+
 ## <a id="HRA"></a> Human Reference Atlas (HRA) APIs
 HuBMAP produces the Human Reference Atlas (HRA), see <https://humanatlas.io/>, which provies a comprehensive, high-resolution, three-dimensional atlas of all the cells in the healthy human body. The Human Reference Atlas provides standard terminologies and data structures for describing specimens, biological structures, and spatial positions linked to existing ontologies. In addition to user interfaces, querying of the HRA is available via APIs.
 
