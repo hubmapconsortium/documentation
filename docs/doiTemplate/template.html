@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Metadata Reporting Standards — {{SPEC_NAME}}</title>
+
+  <!-- DOI metadata (required): replace placeholder values per page -->
+  <meta name="citation_doi" content="{{DOI}}" />
+  <meta name="dc.identifier" content="https://doi.org/{{DOI}}" />
+  <meta name="dc.identifier.doi" content="{{DOI}}" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./template.css" />
+  <script src="./template.js" defer></script>
+</head>
+<body>
+  <div class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="https://hubmapconsortium.org" aria-label="HuBMAP Home">
+        <img class="brand-logo" src="./hubmap-type-white250.png" alt="HuBMAP" />
+      </a>
+    </div>
+  </div>
+
+  <main class="page">
+    <h1>Metadata Reporting Standards</h1>
+    <p class="spec-name">{{SPEC_NAME}}</p>
+
+    <div class="hero">
+      <div>
+        <p>
+          {{SPEC_SHORT_DESCRIPTION}}
+        </p>
+        <p class="doi">
+          DOI: <a href="https://doi.org/{{DOI}}">https://doi.org/{{DOI}}</a>
+        </p>
+      </div>
+
+      <div class="actions">
+        <select class="version-select" aria-label="Version" name="version">
+          <option selected>{{VERSION_LABEL}}</option>
+        </select>
+        <div class="icon-row">
+          <button class="icon-btn help" type="button" title="Help">?</button>
+          <button class="icon-btn share" type="button" title="Share" aria-label="Share">
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path fill="currentColor" d="M18 15.2c-1.04 0-1.98.42-2.66 1.1l-5.9-3.32a3.25 3.25 0 0 0 0-1.96l5.9-3.33A3.77 3.77 0 1 0 14.6 6L8.7 9.34a3.8 3.8 0 1 0 0 5.32l5.9 3.33a3.77 3.77 0 1 0 3.4-2.8Z"/>
+            </svg>
+          </button>
+        </div>
+        <a class="primary-btn" href="{{DOWNLOAD_URL}}">Download (ZIP)</a>
+        <p class="checksum">MD5 hash: {{MD5_HASH}}</p>
+      </div>
+    </div>
+
+    <div class="tab-wrap" role="tablist" aria-label="Specification sections">
+      <button class="tab active" role="tab" aria-selected="true" aria-controls="panel-meta" id="tab-meta" type="button">Descriptive Metadata</button>
+      <button class="tab" role="tab" aria-selected="false" aria-controls="panel-files" id="tab-files" type="button">File Organization</button>
+    </div>
+
+    <section class="panel" id="panel-meta" role="tabpanel" aria-labelledby="tab-meta">
+      <div class="box">
+        <h3>Schema</h3>
+        <p class="hint">Paste the CEDAR OpenView content snapshot below (do not use direct BioPortal links).</p>
+        <div class="scroll">{{CEDAR_OPENVIEW_SCHEMA_CONTENT}}</div>
+      </div>
+
+      <div class="box deprecated-wrap">
+        <h3>
+          Deprecated
+          <span class="tooltip" title="Fields listed here are deprecated and should not be used for new submissions.">ⓘ</span>
+        </h3>
+        <p class="hint">Keep deprecated fields visible for historical compatibility.</p>
+        <div class="scroll">{{DEPRECATED_FIELDS_CONTENT}}</div>
+      </div>
+
+      <div class="button-row">
+        <a class="secondary-btn" href="{{CEDAR_OPENVIEW_DOC_URL}}">CEDAR OpenView Documentation</a>
+        <a class="secondary-btn" href="{{CEDAR_VALIDATOR_URL}}">CEDAR Validator</a>
+      </div>
+    </section>
+
+    <section class="panel" id="panel-files" role="tabpanel" aria-labelledby="tab-files" hidden>
+      <div class="box">
+        <h3>Definitions</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Field</th>
+              <th>Description</th>
+              <th>Regexp / Rules</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><code>{{FIELD_NAME_1}}</code></td>
+              <td>{{FIELD_DESCRIPTION_1}}</td>
+              <td><code>{{REGEX_1}}</code></td>
+            </tr>
+            <tr>
+              <td><code>{{FIELD_NAME_2}}</code></td>
+              <td>{{FIELD_DESCRIPTION_2}}</td>
+              <td><code>{{REGEX_2}}</code></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="box">
+        <h3>Example</h3>
+        <pre>{{EXAMPLE_DIRECTORY_TREE}}
+├── metadata.tsv
+├── files/
+│   ├── image_001.tif
+│   └── image_002.tif
+└── README.md</pre>
+      </div>
+    </section>
+
+    <section>
+      <h2>HuBMAP Datasets</h2>
+      <p>{{HUBMAP_DATASETS_TEXT}}</p>
+      <a class="secondary-btn" href="{{VIEW_DATASETS_URL}}">View HuBMAP Datasets</a>
+    </section>
+
+    <section>
+      <h2>Citation</h2>
+      <p>{{CITATION_TEXT}}</p>
+    </section>
+
+    <section>
+      <h2>Reuse</h2>
+      <p>{{REUSE_TEXT}}</p>
+    </section>
+
+    <section>
+      <h2>Contributors</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Role</th>
+            <th>ORCID</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>{{CONTRIBUTOR_NAME_1}}</td>
+            <td>{{CONTRIBUTOR_ROLE_1}}</td>
+            <td><a href="{{CONTRIBUTOR_ORCID_1}}">{{CONTRIBUTOR_ORCID_1}}</a></td>
+          </tr>
+          <tr>
+            <td>{{CONTRIBUTOR_NAME_2}}</td>
+            <td>{{CONTRIBUTOR_ROLE_2}}</td>
+            <td><a href="{{CONTRIBUTOR_ORCID_2}}">{{CONTRIBUTOR_ORCID_2}}</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+</body>
+</html>
