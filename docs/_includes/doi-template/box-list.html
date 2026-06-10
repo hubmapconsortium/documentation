@@ -1,0 +1,14 @@
+<div class="{{ include.class | default: 'box' }}">
+  <h3>{{ include.title }}</h3>
+  <p class="hint">{{ include.hint }}</p>
+  <div class="scroll">
+    {% if include.intro %}
+      <p>{{ include.intro }}</p>
+    {% endif %}
+    <ul>
+      {% for item in include.items %}
+        <li>{{ item }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,31 @@
+<h1>Metadata Reporting Standards</h1>
+<p class="spec-name">{{ page.spec_name }}</p>
+
+<div class="hero">
+  <div>
+    <p>{{ page.summary }}</p>
+    <p class="doi">
+      DOI: <a href="https://doi.org/{{ page.doi }}">https://doi.org/{{ page.doi }}</a>
+    </p>
+    <p class="hint" style="margin-top: 8px; margin-bottom: 0;">
+      Published: {{ page.published }}<br />
+      Subjects: {{ page.subjects }}
+    </p>
+  </div>
+
+  <div class="actions">
+    <select class="version-select" aria-label="Version" name="version">
+      <option selected>{{ page.version_label }}</option>
+    </select>
+    <div class="icon-row">
+      <button class="icon-btn help" type="button" title="Help">?</button>
+      <button class="icon-btn share" type="button" title="Share" aria-label="Share">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path fill="currentColor" d="M18 15.2c-1.04 0-1.98.42-2.66 1.1l-5.9-3.32a3.25 3.25 0 0 0 0-1.96l5.9-3.33A3.77 3.77 0 1 0 14.6 6L8.7 9.34a3.8 3.8 0 1 0 0 5.32l5.9 3.33a3.77 3.77 0 1 0 3.4-2.8Z"/>
+        </svg>
+      </button>
+    </div>
+    <a class="primary-btn" href="{{ page.download_href | default: '#' }}">Download (ZIP)</a>
+    <p class="checksum">MD5 hash: {{ page.md5_hash | default: '7531483d85468575da1e0d2437695b46' }}</p>
+  </div>
+</div>

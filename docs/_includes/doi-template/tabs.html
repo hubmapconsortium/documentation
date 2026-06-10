@@ -1,0 +1,17 @@
+<div class="tab-wrap" role="tablist" aria-label="Specification sections">
+  <button class="tab active" role="tab" aria-selected="true" aria-controls="panel-meta" id="tab-meta" type="button">Descriptive Metadata</button>
+  <button class="tab" role="tab" aria-selected="false" aria-controls="panel-files" id="tab-files" type="button">File Organization</button>
+</div>
+
+<section class="panel" id="panel-meta" role="tabpanel" aria-labelledby="tab-meta">
+  {% include doi-template/box-list.html title="Schema" hint="Paste the CEDAR OpenView content snapshot below (do not use direct BioPortal links)." items=page.schema_items intro=page.schema_intro class="box" %}
+
+  {% include doi-template/box-list.html title="Deprecated" hint="Keep deprecated fields visible for historical compatibility." items=page.deprecated_items intro=page.deprecated_intro class="box deprecated-wrap" %}
+
+  {% include doi-template/button-row.html %}
+</section>
+
+<section class="panel" id="panel-files" role="tabpanel" aria-labelledby="tab-files" hidden>
+  {% include doi-template/definitions.html %}
+  {% include doi-template/example-tree.html %}
+</section>

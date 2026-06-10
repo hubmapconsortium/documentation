@@ -1,0 +1,21 @@
+<div class="box">
+  <h3>Definitions</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Field</th>
+        <th>Description</th>
+        <th>Regexp / Rules</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for row in page.definitions %}
+        <tr>
+          <td><code>{{ row.field }}</code></td>
+          <td>{{ row.description }}</td>
+          <td>{{ row.rules }}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
