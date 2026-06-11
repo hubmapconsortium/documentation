@@ -1,7 +1,7 @@
 ---
-layout: doi-template
-title: Metadata Reporting Standards - Gistology
-spec_name: Gistology
+layout: doi-landing-page
+title: Metadata Reporting Standards - Histology
+spec_name: Histology
 version_label: Version 1
 doi: 10.35079/HBM788.QPBW.699
 published: September 26, 2025
