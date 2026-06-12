@@ -111,3 +111,9 @@ pre code {
 
 /* Ensure table cells allow the wrapper to control overflow for Description and Allowable Values */
 .altStyle table td:nth-child(3), .altStyle table td:nth-child(4) { max-height: none; overflow: visible; }
+
+@media (min-width: 1131px) {
+	.c-header__main {
+		max-width: 87% !important;
+	}
+}
