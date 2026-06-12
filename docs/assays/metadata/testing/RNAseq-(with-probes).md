@@ -64,8 +64,9 @@ Fields that are collected for RNAseq-(with-probes) data, available at ```dataset
 &nbsp;
 
 ## Deprecated Attributes
-
-<span style="color:#00000061" title="Required"></span><span class="requiredNote"> indicates a field that was previously required</span>
+<span class="requiredNote">
+  These attributes were supported by older metadata version specifications. They are no longer collected but there may be some older datasets that contain data for these attributes.
+</span>
 
 | Attribute | Type | Description | Allowable Values |
 |------|------|-------------|-------------------|

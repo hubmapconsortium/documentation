@@ -23,6 +23,23 @@
     return (text || '').replace(/\s+/g, ' ').trim();
   }
 
+  function getUsableCellWidth(cell, extraPx) {
+    var rect = cell.getBoundingClientRect();
+    var cs = window.getComputedStyle(cell);
+    var paddingLeft = parseFloat(cs.paddingLeft) || 0;
+    var paddingRight = parseFloat(cs.paddingRight) || 0;
+    var borderLeft = parseFloat(cs.borderLeftWidth) || 0;
+    var borderRight = parseFloat(cs.borderRightWidth) || 0;
+    var safety = 1;
+    var width = rect.width - paddingLeft - paddingRight - borderLeft - borderRight - (extraPx || 0) - safety;
+
+    if (width <= 0 || isNaN(width)) {
+      width = (cell.clientWidth || 300) - (extraPx || 0) - safety;
+    }
+
+    return Math.max(1, Math.floor(width));
+  }
+
   function getLineHeightPx(el) {
     var cs = window.getComputedStyle(el);
     var lh = parseFloat(cs.lineHeight);
@@ -36,10 +53,7 @@
   function measureTextHeight(cell, text) {
     var probe = document.createElement('span');
     var cs = window.getComputedStyle(cell);
-    var innerWidth = cell.clientWidth - (parseFloat(cs.paddingLeft) || 0) - (parseFloat(cs.paddingRight) || 0);
-    if (innerWidth <= 0) {
-      innerWidth = cell.clientWidth || 300;
-    }
+    var innerWidth = getUsableCellWidth(cell, 0);
 
     probe.style.position = 'fixed';
     probe.style.left = '-100000px';
@@ -68,10 +82,7 @@
   function measureTextHeightWithToggle(cell, text, toggleLabel) {
     var probe = document.createElement('span');
     var cs = window.getComputedStyle(cell);
-    var innerWidth = cell.clientWidth - (parseFloat(cs.paddingLeft) || 0) - (parseFloat(cs.paddingRight) || 0);
-    if (innerWidth <= 0) {
-      innerWidth = cell.clientWidth || 300;
-    }
+    var innerWidth = getUsableCellWidth(cell, 10);
 
     probe.style.position = 'fixed';
     probe.style.left = '-100000px';
@@ -96,6 +107,7 @@
     var suffix = document.createElement('span');
     suffix.className = 'av-inline-toggle';
     suffix.style.whiteSpace = 'nowrap';
+    suffix.style.marginLeft = '10px';
     suffix.textContent = '\u00A0' + toggleLabel;
     probe.appendChild(suffix);
 
@@ -343,59 +355,10 @@
     });
   }
 
-  function lockMetadataTableWidths() {
-    var tables = document.querySelectorAll('.altStyle table');
-    tables.forEach(function(table) {
-      if (table.dataset.widthsLocked === 'true') return;
-
-      var tableW = table.getBoundingClientRect().width;
-      if (!tableW) return;
-
-      var rows = table.querySelectorAll('tr');
-      var sampleRow = null;
-      rows.forEach(function(row) {
-        var cells = row.querySelectorAll('th,td');
-        if (!cells.length) return;
-        if (!sampleRow || cells.length > sampleRow.querySelectorAll('th,td').length) {
-          sampleRow = row;
-        }
-      });
-      if (!sampleRow) return;
-
-      var sampleCells = sampleRow.querySelectorAll('th,td');
-      if (!sampleCells.length) return;
-
-      var widths = [];
-      sampleCells.forEach(function(cell, idx) {
-        widths[idx] = Math.round(cell.getBoundingClientRect().width);
-      });
-
-      table.style.width = Math.round(tableW) + 'px';
-      table.style.maxWidth = Math.round(tableW) + 'px';
-      table.style.tableLayout = 'fixed';
-
-      rows.forEach(function(row) {
-        var cells = row.querySelectorAll('th,td');
-        cells.forEach(function(cell, idx) {
-          if (!widths[idx]) return;
-          var px = widths[idx] + 'px';
-          cell.style.width = px;
-          cell.style.minWidth = px;
-          cell.style.maxWidth = px;
-        });
-      });
-
-      table.dataset.widthsLocked = 'true';
-    });
-  }
-
   function init() {
     if (bypassFormatting) {
       return;
     }
-
-    // Freeze table/cell widths before any content replacement.
-    lockMetadataTableWidths();
     
     // Description: 3rd column (index 2) — hard clamp to 2 lines using text replacement + inline suffix
     setupDescriptionInlineClamp();
