@@ -3,12 +3,17 @@
   <p class="hint">{{ include.hint }}</p>
   <div class="scroll">
     {% if include.intro %}
-      <p>{{ include.intro }}</p>
+      <div class="intro">{{ include.intro | markdownify }}</div>
     {% endif %}
-    <ul>
-      {% for item in include.items %}
-        <li>{{ item }}</li>
-      {% endfor %}
-    </ul>
+
+    {% if include.markdown_items %}
+      <div class="markdown-content">{{ include.items | markdownify }}</div>
+    {% else %}
+      <ul>
+        {% for item in include.items %}
+          <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
   </div>
 </div>

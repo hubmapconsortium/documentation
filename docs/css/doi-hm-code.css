@@ -1,0 +1,63 @@
+.doiStyle .schema-wrap table code {
+	padding: 3px 4px;
+	margin: 2px 0;
+	display: inline-block;
+	box-shadow: 0 0 3px #A5A9BE;
+	border: 1px solid #444A65;
+	border-radius: 10px;
+	font-size: 0.65rem;
+	background: linear-gradient(180deg, #c4c8dc 0%, #b9bfda 100%) !important;
+	color: #444A65;
+	text-shadow: 0 0 2px #818597A7;
+}
+
+.doiStyle .schema-wrap table code:hover {
+	border-color: #444A65;
+	background: linear-gradient(180deg, #c4c8dc 0%, #C4CAE5 100%) !important;
+	cursor: default;
+}
+
+.doiStyle .schema-wrap table span.requiredMark {
+	color: #ff0000;
+}
+
+.doiStyle .schema-wrap table.deprecated span.requiredMark {
+	color: #00000061;
+}
+
+.doiStyle .schema-wrap table th {
+	text-align: left;
+}
+
+.doiStyle .schema-wrap table td:nth-child(1) {
+	font-family: monospace;
+}
+
+.doiStyle .schema-wrap table td:nth-child(2) {
+	text-align: center;
+	color: #00000061;
+}
+
+.doiStyle .schema-wrap table td:nth-child(2) i:hover {
+	color: #00000091;
+}
+
+.doiStyle .schema-wrap table td:nth-child(3) {
+	font-weight: 400;
+	font-size: 0.75rem;
+	line-height: 1.36;
+	letter-spacing: 0.03333em;
+	max-height: 150px;
+	overflow-y: auto;
+	border: 0;
+}
+
+.doiStyle .schema-wrap table td:nth-child(3),
+.doiStyle .schema-wrap table td:nth-child(4) {
+	max-height: none;
+	overflow: visible;
+}
+
+.doiStyle .fa-circle-nodes {
+	transform: rotate(80deg);
+}
