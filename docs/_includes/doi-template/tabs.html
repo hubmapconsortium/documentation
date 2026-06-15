@@ -5,9 +5,7 @@
 
 <section class="panel" id="panel-meta" role="tabpanel" aria-labelledby="tab-meta">
   {% include doi-template/box-list.html title="Schema" hint="Paste the CEDAR OpenView content snapshot below (do not use direct BioPortal links)." items=page.schema_items intro=page.schema_intro class="box schema-wrap" markdown_items=true %}
-
-  {% include doi-template/box-list.html title="Deprecated" hint="Keep deprecated fields visible for historical compatibility." items=page.deprecated_items intro=page.deprecated_intro class="box deprecated-wrap" %}
-
+  {% include doi-template/box-list.html title="Deprecated" hint="Keep deprecated fields visible for historical compatibility." items=page.deprecated_items intro=page.deprecated_intro class="box deprecated-wrap" markdown_items=true %}
   {% include doi-template/button-row.html %}
 </section>
 

@@ -306,7 +306,21 @@ h1 {
   white-space: normal;
 }
 
+.deprecated-wrap .scroll {
+  font-family: inherit;
+  white-space: normal;
+}
+
 .schema-wrap .scroll table {
+  width: 100%;
+  margin: 0;
+  border-collapse: collapse;
+  table-layout: fixed;
+  box-shadow: none;
+  background: #fff;
+}
+
+.deprecated-wrap .scroll table {
   width: 100%;
   margin: 0;
   border-collapse: collapse;
@@ -325,7 +339,21 @@ h1 {
   overflow-wrap: anywhere;
 }
 
+.deprecated-wrap .scroll th,
+.deprecated-wrap .scroll td {
+  padding: 7px 8px;
+  font-size: 11px;
+  line-height: 1.35;
+  vertical-align: top;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+
 .schema-wrap .scroll th {
+  background: #f2f5fa;
+}
+
+.deprecated-wrap .scroll th {
   background: #f2f5fa;
 }
 
@@ -346,6 +374,26 @@ h1 {
 
 .schema-wrap .scroll td:nth-child(4),
 .schema-wrap .scroll th:nth-child(4) {
+  width: 20%;
+}
+
+.deprecated-wrap .scroll td:nth-child(1),
+.deprecated-wrap .scroll th:nth-child(1) {
+  width: 22%;
+}
+
+.deprecated-wrap .scroll td:nth-child(2),
+.deprecated-wrap .scroll th:nth-child(2) {
+  width: 14%;
+}
+
+.deprecated-wrap .scroll td:nth-child(3),
+.deprecated-wrap .scroll th:nth-child(3) {
+  width: 44%;
+}
+
+.deprecated-wrap .scroll td:nth-child(4),
+.deprecated-wrap .scroll th:nth-child(4) {
   width: 20%;
 }
 
