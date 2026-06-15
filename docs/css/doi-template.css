@@ -301,6 +301,63 @@ h1 {
   line-height: 1.4;
 }
 
+.schema-wrap .scroll {
+  font-family: inherit;
+  white-space: normal;
+}
+
+.schema-wrap .scroll table {
+  width: 100%;
+  margin: 0;
+  border-collapse: collapse;
+  table-layout: fixed;
+  box-shadow: none;
+  background: #fff;
+}
+
+.schema-wrap .scroll th,
+.schema-wrap .scroll td {
+  padding: 7px 8px;
+  font-size: 11px;
+  line-height: 1.35;
+  vertical-align: top;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+
+.schema-wrap .scroll th {
+  background: #f2f5fa;
+}
+
+.schema-wrap .scroll td:nth-child(1),
+.schema-wrap .scroll th:nth-child(1) {
+  width: 22%;
+}
+
+.schema-wrap .scroll td:nth-child(2),
+.schema-wrap .scroll th:nth-child(2) {
+  width: 14%;
+}
+
+.schema-wrap .scroll td:nth-child(3),
+.schema-wrap .scroll th:nth-child(3) {
+  width: 44%;
+}
+
+.schema-wrap .scroll td:nth-child(4),
+.schema-wrap .scroll th:nth-child(4) {
+  width: 20%;
+}
+
+.schema-wrap .scroll p {
+  margin: 0 0 8px;
+}
+
+.schema-wrap .scroll ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
 .hint {
   color: #4f5a6d;
   font-size: 12px;
