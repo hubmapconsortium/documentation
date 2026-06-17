@@ -7,8 +7,6 @@ doi: 10.35079/HBM788.QPBW.699
 published: September 26, 2025
 subjects: "AB-PAS, H&E, H-DAB, LFB, PAS, SBB, Trichrome"
 summary: The microscopic study of tissue composition and structure, often referred to as microscopic anatomy. It involves examining tissue samples, typically after they've been sectioned, stained, and placed under a microscope.
-schema_intro:
-deprecated_intro:
 schema_doc_href: "#"
 validator_href: "#"
 datasets_href: "#"

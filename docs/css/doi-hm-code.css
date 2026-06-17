@@ -49,7 +49,6 @@
 	letter-spacing: 0.03333em;
 	max-height: 150px;
 	overflow-y: auto;
-	border: 0;
 }
 
 .doiStyle .schema-wrap table td:nth-child(3),

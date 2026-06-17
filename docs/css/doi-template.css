@@ -191,11 +191,15 @@ h1 {
 .primary-btn:hover {
   background: var(--hubmap-bright-blue-hover);
   border-color: #0f6dc6;
-  transform: translateY(-1px);
 }
 
 .primary-btn:active {
   transform: translateY(0);
+}
+
+.primary-btn.download {
+  height:28px;
+  font-size: 14px;
 }
 
 .checksum {
@@ -232,7 +236,7 @@ h1 {
   min-height: 44px;
   border-radius: 10px;
   font-weight: 600;
-  padding: 0 20px;
+  padding: 0 17px;
   color: #2d3f61;
   border-color: #a7b7d4;
 }
@@ -246,8 +250,12 @@ h1 {
 .tab.active {
   background: var(--hubmap-bright-blue);
   border-color: var(--hubmap-bright-blue-hover);
+  border-bottom-color: #fff;
   color: #fff;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.24);
+  position: relative;
+  z-index: 2;
+  transform: translateY(1px);
 }
 
 .icon-btn:focus-visible,
@@ -262,15 +270,18 @@ h1 {
 .tab-wrap {
   display: flex;
   gap: 8px;
-  margin: 16px 0 0;
+  margin: 16px 0 -8px;
+  padding-left: 10px;
+  position: relative;
+  z-index: 2;
 }
 
 .panel {
-  margin-top: 10px;
-  border: 1px solid #b8c1d2;
-  border-radius: 10px;
-  background: var(--bg-soft);
-  padding: 16px;
+  margin-top: -1px;
+  border: 1px solid var(--hubmap-bright-blue);
+  border-radius: 28px;
+  background: #fff;
+  padding: 18px 16px 18px;
 }
 
 .panel[hidden] { display: none; }
@@ -292,9 +303,9 @@ h1 {
 .scroll {
   max-height: 190px;
   overflow: auto;
-  border: 1px solid #d9dde6;
+  border: 1px solid #b7bdc9;
   background: #fff;
-  padding: 10px;
+  padding: 8px;
   white-space: pre-wrap;
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
   font-size: 12px;
@@ -304,11 +315,13 @@ h1 {
 .schema-wrap .scroll {
   font-family: inherit;
   white-space: normal;
+  max-height: 380px;
 }
 
 .deprecated-wrap .scroll {
   font-family: inherit;
   white-space: normal;
+  max-height: 150px;
 }
 
 .schema-wrap .scroll table {
@@ -331,8 +344,8 @@ h1 {
 
 .schema-wrap .scroll th,
 .schema-wrap .scroll td {
-  padding: 7px 8px;
-  font-size: 11px;
+  padding: 6px 7px;
+  font-size: 10.5px;
   line-height: 1.35;
   vertical-align: top;
   word-break: break-word;
@@ -341,8 +354,8 @@ h1 {
 
 .deprecated-wrap .scroll th,
 .deprecated-wrap .scroll td {
-  padding: 7px 8px;
-  font-size: 11px;
+  padding: 6px 7px;
+  font-size: 10.5px;
   line-height: 1.35;
   vertical-align: top;
   word-break: break-word;
@@ -355,6 +368,25 @@ h1 {
 
 .deprecated-wrap .scroll th {
   background: #f2f5fa;
+}
+
+.schema-section + .deprecated-section {
+  margin-top: 22px;
+}
+
+.schema-section,
+.deprecated-section {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: 0;
+}
+
+.schema-section h3,
+.deprecated-section h3 {
+  margin: 0 0 7px;
+  font-size: 17px;
+  font-weight: 700;
+  color: #1f232b;
 }
 
 .schema-wrap .scroll td:nth-child(1),
@@ -418,15 +450,12 @@ h1 {
   cursor: help;
 }
 
-.deprecated-wrap {
-  background: var(--danger-soft);
-}
-
 .button-row {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  margin-top: 8px;
+  margin-top: 16px;
+  justify-content: space-between;
 }
 
 table {
