@@ -1,6 +1,12 @@
 ---
 layout: page
 ---
+<!-- 
+  @TODO: 
+    Verify GeoMx Allowable Values 
+    Verify RNAseq Allowable Values
+    Verify Visium no probes Deprecated (Stanford has none but Cedar has V2 and V3)
+-->
 ## HuBMAP Metadata by Dataset Type
 
 A list of available dataset types (data types from multiple supported assays), with a link [<img src="info3.png" width="14">](enhancedsrs "Attribute description") to the valid metadata attributes for each dataset type. The linked assay metadata pages list all attributes, as they have occurred, across any versions of the metadata specification for the given dataset type with the most current, valid set of attributes listed first on the page. The directory schema for each dataset type is also linked in the description column.
@@ -43,7 +49,3 @@ A list of available dataset types (data types from multiple supported assays), w
 | [Visium No Probes](<Visium-(no-probes)>) [<img src="info3.png" width="14">](<Visium-(no-probes)> "Attribute description") | A spatial transcriptomics solution that allows researchers to analyze gene expression patterns within the spatial context of a tissue. An in situ method that captures RNA transcripts within the tissue and then sequences them. Link to [Visium NP directory schema](https://hubmapconsortium.github.io/ingest-validation-tools/visium-no-probes/current/). |
 | [Visium with Probes](visiumwithprobes) [<img src="info3.png" width="14">](visiumwithprobes "Attribute description") | Offers spatially resolved transcriptomics through the 10X Genomics Visium CytAssist, which combines histology with probe-based transcriptomics in a spatial context. Link to [Visium with Probes directory schema](https://hubmapconsortium.github.io/ingest-validation-tools/visium-with-probes/current/). |
 | [WGS](wgs) [<img src="info3.png" width="14">](wgs "Attribute description") | The process of determining the entire DNA sequence of an organism's genome at a single time. This entails sequencing all of an organism's chromosomal and mitochondrial DNA. Link to [WGS directory schema](https://hubmapconsortium.github.io/ingest-validation-tools/wgs/). _The consortium is no longer accepting data of this type_. |
-
-<!-- 
-#### Commentary:
-Fellow **Documentation Team** members, this page is now the replacement of the prior HuBMAP Metadata by Dataset page which has since been removed-->
