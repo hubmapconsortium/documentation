@@ -10,6 +10,7 @@ summary: The microscopic study of tissue composition and structure, often referr
 schema_doc_href: "#"
 validator_href: "#"
 datasets_href: "#"
+help_href: /histology-doi-help/
 datasets_text: The HuBMAP Data Portal is an open platform to discover, visualize, and download standardized healthy single-cell and spatial tissue data.
 citation_text: Fisher, Hardi, Morgan, Honick, O'Connor, Pillai, Blood, Silverstein, Musen. Histology Dataset Type. v1.0, HuBMAP, 26 Sept 2025. https://doi.org/10.35079/HBM788.QPBW.699
 reuse_text: This standard may be reused, expanded, or referenced by external repositories.  [Include DCWG paper citation here]

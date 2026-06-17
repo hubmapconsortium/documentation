@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{ page.title | default: 'Metadata Reporting Standards - Documents Provided' }}</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="{{ '/css/doi-hm-code.css' | relative_url }}" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="{{ '/css/doi-template.css' | relative_url }}" />
+    {% seo %}
+  </head>
+  <body class="doiStyle">
+    <div class="topbar">
+      <div class="topbar-inner">
+        <a class="brand" href="https://hubmapconsortium.org" aria-label="HuBMAP Home">
+          <img class="brand-logo" src="/logo192.png" alt="HuBMAP" />
+        </a>
+      </div>
+    </div>
+
+    <main class="page doi-template help-layout">
+      {{ content }}
+    </main>
+  </body>
+</html>

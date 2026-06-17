@@ -517,6 +517,91 @@ h2 {
   margin: 0;
 }
 
+.help-layout {
+  padding-bottom: 28px;
+}
+
+.help-intro {
+  margin: 26px 0 18px;
+  max-width: 1080px;
+}
+
+.help-intro p {
+  margin: 0 0 22px;
+  font-size: 22px;
+  line-height: 1.18;
+  color: #1e1f22;
+}
+
+.help-card {
+  position: relative;
+  border: 2px solid #202020;
+  background: #fff;
+  padding: 22px 20px 26px;
+  overflow: hidden;
+}
+
+.help-card::after {
+  content: '';
+  position: absolute;
+  right: -38px;
+  bottom: -66px;
+  width: 390px;
+  height: 190px;
+  border-bottom: 2px solid #202020;
+  border-left: 2px solid transparent;
+  border-radius: 0 0 240px 240px;
+  transform: rotate(-7deg);
+  pointer-events: none;
+}
+
+.help-file + .help-file {
+  margin-top: 28px;
+}
+
+.help-file h2 {
+  margin: 0 0 18px;
+  font-size: 28px;
+  line-height: 1.1;
+  font-weight: 800;
+  color: #111;
+}
+
+.help-file-name {
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.help-file-type {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.help-file h3 {
+  margin: 0 0 16px;
+  font-size: 24px;
+  line-height: 1.15;
+  font-weight: 400;
+}
+
+.help-file p,
+.help-file li {
+  font-size: 18px;
+  line-height: 1.22;
+}
+
+.help-file p {
+  margin: 0 0 16px;
+}
+
+.help-file ul {
+  margin: 0 0 18px 28px;
+}
+
+.help-file li {
+  margin: 0 0 6px;
+}
+
 @media (max-width: 760px) {
   .topbar-inner {
     min-height: 56px;
@@ -534,5 +619,22 @@ h2 {
   }
   .version-select {
     font-size: 13px;
+  }
+  .help-intro p {
+    font-size: 18px;
+  }
+  .help-file h2 {
+    font-size: 24px;
+  }
+  .help-file-name {
+    font-size: 30px;
+  }
+  .help-file-type,
+  .help-file h3 {
+    font-size: 18px;
+  }
+  .help-file p,
+  .help-file li {
+    font-size: 16px;
   }
 }
