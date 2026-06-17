@@ -1,0 +1,19 @@
+<div class="{{ include.class | default: 'box' }}">
+  <h3>{{ include.title }}</h3>
+  <p class="hint">{{ include.hint }}</p>
+  <div class="scroll">
+    {% if include.intro and include.intro | strip != "" %}
+      <div class="intro">{{ include.intro | strip | markdownify }}</div>
+    {% endif %}
+
+    {% if include.markdown_items %}
+      <div class="markdown-content">{{ include.items | strip | markdownify }}</div>
+    {% else %}
+      <ul>
+        {% for item in include.items %}
+          <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </div>
+</div>
