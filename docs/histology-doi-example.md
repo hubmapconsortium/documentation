@@ -7,9 +7,9 @@ doi: 10.35079/HBM788.QPBW.699
 published: September 26, 2025
 subjects: "AB-PAS, H&E, H-DAB, LFB, PAS, SBB, Trichrome"
 summary: The microscopic study of tissue composition and structure, often referred to as microscopic anatomy. It involves examining tissue samples, typically after they've been sectioned, stained, and placed under a microscope.
-schema_doc_href: "#"
-validator_href: "#"
-datasets_href: "#"
+schema_doc_href: "https://metadatacenter.readthedocs.io/en/latest/user-overview/"
+validator_href: "https://metadatacenter.readthedocs.io/en/latest/user-overview/"
+datasets_href: "https://ingest.hubmapconsortium.org/?keywords=Histology&target_field=dataset_type.keyword&entity_type=dataset"
 help_href: /histology-doi-help/
 datasets_text: The HuBMAP Data Portal is an open platform to discover, visualize, and download standardized healthy single-cell and spatial tissue data.
 citation_text: Fisher, Hardi, Morgan, Honick, O'Connor, Pillai, Blood, Silverstein, Musen. Histology Dataset Type. v1.0, HuBMAP, 26 Sept 2025. https://doi.org/10.35079/HBM788.QPBW.699
