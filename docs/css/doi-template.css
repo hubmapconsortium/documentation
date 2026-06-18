@@ -234,7 +234,7 @@ h1 {
 
 .tab {
   min-height: 44px;
-  border-radius: 10px;
+  border-radius: 10px 10px 0 0;
   font-weight: 600;
   padding: 0 17px;
   color: #2d3f61;
@@ -255,7 +255,7 @@ h1 {
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.24);
   position: relative;
   z-index: 2;
-  transform: translateY(1px);
+  top: 1px;
 }
 
 .icon-btn:focus-visible,
@@ -270,7 +270,7 @@ h1 {
 .tab-wrap {
   display: flex;
   gap: 8px;
-  margin: 16px 0 -8px;
+  margin: 13px 0 0px 15px;
   padding-left: 10px;
   position: relative;
   z-index: 2;
@@ -328,7 +328,7 @@ h1 {
   width: 100%;
   margin: 0;
   border-collapse: collapse;
-  table-layout: fixed;
+  table-layout: auto;
   box-shadow: none;
   background: #fff;
 }
@@ -337,7 +337,7 @@ h1 {
   width: 100%;
   margin: 0;
   border-collapse: collapse;
-  table-layout: fixed;
+  table-layout: auto;
   box-shadow: none;
   background: #fff;
 }
@@ -390,43 +390,53 @@ h1 {
 }
 
 .schema-wrap .scroll td:nth-child(1),
-.schema-wrap .scroll th:nth-child(1) {
-  width: 22%;
+.schema-wrap .scroll th:nth-child(1),
+.deprecated-wrap .scroll td:nth-child(1),
+.deprecated-wrap .scroll th:nth-child(1) {
+  width: 1%;
+  white-space: nowrap;
+  word-break: normal;
+  overflow-wrap: normal;
 }
 
 .schema-wrap .scroll td:nth-child(2),
-.schema-wrap .scroll th:nth-child(2) {
-  width: 14%;
+.schema-wrap .scroll th:nth-child(2),
+.deprecated-wrap .scroll td:nth-child(2),
+.deprecated-wrap .scroll th:nth-child(2) {
+  width: 52px;
+  min-width: 52px;
+  max-width: 52px;
 }
 
 .schema-wrap .scroll td:nth-child(3),
-.schema-wrap .scroll th:nth-child(3) {
-  width: 44%;
+.schema-wrap .scroll th:nth-child(3),
+.deprecated-wrap .scroll td:nth-child(3),
+.deprecated-wrap .scroll th:nth-child(3) {
+  width: 60%;
 }
 
 .schema-wrap .scroll td:nth-child(4),
-.schema-wrap .scroll th:nth-child(4) {
-  width: 20%;
-}
-
-.deprecated-wrap .scroll td:nth-child(1),
-.deprecated-wrap .scroll th:nth-child(1) {
-  width: 22%;
-}
-
-.deprecated-wrap .scroll td:nth-child(2),
-.deprecated-wrap .scroll th:nth-child(2) {
-  width: 14%;
-}
-
-.deprecated-wrap .scroll td:nth-child(3),
-.deprecated-wrap .scroll th:nth-child(3) {
-  width: 44%;
-}
-
+.schema-wrap .scroll th:nth-child(4),
 .deprecated-wrap .scroll td:nth-child(4),
 .deprecated-wrap .scroll th:nth-child(4) {
-  width: 20%;
+  width: 40%;
+}
+
+.schema-wrap .scroll td:nth-child(2),
+.deprecated-wrap .scroll td:nth-child(2) {
+  text-align: center;
+}
+
+.schema-wrap .scroll th:nth-child(2),
+.deprecated-wrap .scroll th:nth-child(2) {
+  text-align: center;
+}
+
+.allowable-values-scroll {
+  max-height: 75px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: block;
 }
 
 .schema-wrap .scroll p {

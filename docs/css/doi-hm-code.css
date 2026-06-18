@@ -34,8 +34,14 @@
 }
 
 .doiStyle .schema-wrap table td:nth-child(2) {
+	width: 10%;
 	text-align: center;
 	color: #00000061;
+}
+
+.doiStyle .schema-wrap table th:nth-child(2) {
+	width: 10%;
+	text-align: center;
 }
 
 .doiStyle .schema-wrap table td:nth-child(2) i:hover {
@@ -55,6 +61,10 @@
 .doiStyle .schema-wrap table td:nth-child(4) {
 	max-height: none;
 	overflow: visible;
+}
+
+.doiStyle .schema-wrap table td:nth-child(4) {
+	padding-bottom: 14px;
 }
 
 .doiStyle .fa-circle-nodes {
