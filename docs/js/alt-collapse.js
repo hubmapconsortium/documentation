@@ -364,8 +364,7 @@
     setupDescriptionInlineClamp();
 
     // Allowable Values: 4th column (index 3)
-    // setupCollapsible(3, 1.1, 'more...', 'less', 2, { iconToggle: true } );
-    setupCollapsible(3, 1.1, '...more', '...less', 2 );
+    setupCollapsible(3, 1, '...more', '...less', 0);
 
     // Add classes to the first and second tables on the page (if present).
     try {
