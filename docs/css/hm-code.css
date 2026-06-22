@@ -73,9 +73,9 @@ table.hmTable {
 
 .altStyle table code {
 	padding: 1px 3px;
-	margin: 2px 0;
+	margin: 3px 0;
 	display: inline-block;
-	box-shadow: 0 0 3px #A5A9BE;
+	box-shadow: 0 0 2px #A5A9BE;
 	border: 1px solid #444A65;
 	border-radius: 10px;
 	font-size: 0.65rem;

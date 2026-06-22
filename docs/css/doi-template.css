@@ -437,6 +437,23 @@ h1 {
   overflow-y: auto;
   overflow-x: hidden;
   display: block;
+  scrollbar-gutter: stable;
+  scrollbar-width: auto;
+  scrollbar-color: #8ea0c2 #f2f5fa;
+}
+
+.allowable-values-scroll::-webkit-scrollbar {
+  width: 12px;
+}
+
+.allowable-values-scroll::-webkit-scrollbar-track {
+  background: #f2f5fa;
+}
+
+.allowable-values-scroll::-webkit-scrollbar-thumb {
+  background: #8ea0c2;
+  border: 3px solid #f2f5fa;
+  border-radius: 999px;
 }
 
 .schema-wrap .scroll p {
