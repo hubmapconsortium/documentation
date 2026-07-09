@@ -55,6 +55,8 @@ See section 10 of the Guide for details on transferring metadata to the HIVE.
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/dbit-seq/current/)
 - DESI
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/desi/current/)
+- DICOM-MRI
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/dicom-mri/current/)
 - DNA Methylation
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/dna-methylation/current/)
 - Enhanced SRS
@@ -69,6 +71,8 @@ See section 10 of the Guide for details on transferring metadata to the HIVE.
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/histology/current/)
 - iCLAP
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/iclap/current/)
+- Illumina Spatial ver0
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/illumina-spatial-ver0/current/)
 - [IMC (Imaging Mass Cytometry) ](/assays/imc)
   - 2D IMC
     - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/imc-2d/current/)
@@ -78,6 +82,8 @@ See section 10 of the Guide for details on transferring metadata to the HIVE.
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/lcms/current/)
 - Light Sheet
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/lightsheet/current/)
+- MACSima
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/macsima/current/)
 - [MALDI-IMS (neg and pos modes - Matrix Assisted Laser Desorption Ionization Imaging Mass Spectrometry)](/assays/maldi-ims)
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/maldi/current/)
 - MERFISH
@@ -100,6 +106,8 @@ See section 10 of the Guide for details on transferring metadata to the HIVE.
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/oct/current/)
 - Olink
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/olink/current/)
+- Paired-Tag
+  - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/paired-tag/current/)
 - PhenoCycler
   - [Specification](https://hubmapconsortium.github.io/ingest-validation-tools/phenocycler/current/)
 - Pixel-seqV2
