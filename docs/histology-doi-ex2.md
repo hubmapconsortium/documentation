@@ -7,9 +7,9 @@ doi: 10.35079/HBM788.QPBW.699
 published: September 26, 2025
 subjects: "AB-PAS, H&E, H-DAB, LFB, PAS, SBB, Trichrome"
 summary: The microscopic study of tissue composition and structure, often referred to as microscopic anatomy. It involves examining tissue samples, typically after they've been sectioned, stained, and placed under a microscope.
-schema_doc_href: "https://metadatacenter.readthedocs.io/en/latest/user-overview/"
-validator_href: "https://metadatacenter.readthedocs.io/en/latest/user-overview/"
-datasets_href: "https://ingest.hubmapconsortium.org/?keywords=Histology&target_field=dataset_type.keyword&entity_type=dataset"
+schema_doc_href: "https://openview.metadatacenter.org/templates/https:%2F%2Frepo.metadatacenter.org%2Ftemplates%2F907d89c7-6cf4-4ec6-9edd-63cf0441d689"
+validator_href: "https://metadatavalidator.metadatacenter.org"
+datasets_href: "https://portal.hubmapconsortium.org/search/datasets?dataset_type=Histology"
 help_href: /histology-doi-help/
 datasets_text: The HuBMAP Data Portal is an open platform to discover, visualize, and download standardized healthy single-cell and spatial tissue data.
 citation_text: Fisher, Hardi, Morgan, Honick, O'Connor, Pillai, Blood, Silverstein, Musen. Histology Dataset Type. v1.0, HuBMAP, 26 Sept 2025. https://doi.org/10.35079/HBM788.QPBW.699
@@ -62,7 +62,7 @@ schema_items: |-
   | tiled_image_columns | <i class="fa-solid fa-hashtag" title="Numeric" aria-label="Numeric"></i> | The number of columns used in the stitching process of a tiled image, often referred to as the grid size in the x-dimension. Example: 5 |  |
   | tiled_image_count | <i class="fa-solid fa-hashtag" title="Numeric" aria-label="Numeric"></i> | The total number of raw tiled images captured, which are intended to be stitched together. Example: 75 |  |
   | intended_tile_overlap_percentage | <i class="fa-solid fa-hashtag" title="Numeric" aria-label="Numeric"></i> | The intended percentage of overlap between tiled images. This value serves as the set point, although slight variations may occur during image acquisition due to stage registration. Example: 5 |  |
-  | non_global_files | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | A semicolon separated list of non-shared files to be included in the dataset. The path assumes the files are located in the "TOP/non-global/" directory. For example, for the file is TOP/non-global/lab_processed/images/1-tissue-boundary.geojson the value of this field would be "./lab_processed/images/1-tissue-boundary.geojson". After ingest, these files will be copied to the appropriate locations within the respective dataset directory tree. This field is used for internal HuBMAP processing. Examples for GeoMx and PhenoCycler are provided in the File Locations documentation: https://docs.google.com/document/d/1n2McSs9geA9Eli4QWQaB3c9R3wo5d5U1Xd57DWQfN5Q/edit#heading=h.1u82i4axggee |  |
+  | non_global_files | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | A semicolon separated list of non-shared files to be included in the dataset. The path assumes the files are located in the "TOP/non-global/" directory. For example, for the file is TOP/non-global/lab_processed/images/1-tissue-boundary.geojson the value of this field would be "./lab_processed/images/1-tissue-boundary.geojson". After ingest, these files will be copied to the appropriate locations within the respective dataset directory tree. This field is used for internal HuBMAP processing. Examples for GeoMx and PhenoCycler are provided in the File Locations documentation: https://hubmapconsortium.github.io/ingest-validation-tools/histology/current/ |  |
   | metadata_schema_id <span class="requiredMark">*</span>| <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | The string that serves as the definitive identifier for the metadata schema version and is readily interpretable by computers for data validation and processing. Example: 22bc762a-5020-419d-b170-24253ed9e8d9 |  |
 deprecated_items: |-
   | Attribute | Type | Description | Allowable Values |
