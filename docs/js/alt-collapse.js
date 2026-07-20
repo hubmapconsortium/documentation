@@ -23,6 +23,45 @@
     return (text || '').replace(/\s+/g, ' ').trim();
   }
 
+  function setupSchemaTypeLegend() {
+    var firstTable = document.querySelector('.altStyle table');
+    if (!firstTable || !firstTable.querySelector('td:nth-child(2) .fa-solid')) return;
+    if (document.querySelector('.schema-type-legend')) return;
+
+    var schemaTypes = [
+      { icon: 'fa-font', label: 'Text field' },
+      { icon: 'fa-hashtag', label: 'Numeric' },
+      { icon: 'fa-circle-nodes', label: 'Allowable value' },
+      { icon: 'fa-calendar', label: 'Date/time' },
+      { icon: 'fa-circle-dot', label: 'Radio' }
+    ];
+    var typesOnPage = schemaTypes.filter(function(type) {
+      return document.querySelector('.altStyle table td:nth-child(2) .' + type.icon);
+    });
+
+    var legend = document.createElement('details');
+    legend.className = 'schema-type-legend';
+
+    var summary = document.createElement('summary');
+    summary.textContent = 'Schema type legend';
+    legend.appendChild(summary);
+
+    var list = document.createElement('ul');
+    list.setAttribute('aria-label', 'Schema types');
+    typesOnPage.forEach(function(type) {
+      var item = document.createElement('li');
+      var icon = document.createElement('i');
+      icon.className = 'fa-solid ' + type.icon;
+      icon.setAttribute('aria-hidden', 'true');
+      item.appendChild(icon);
+      item.appendChild(document.createTextNode(type.label));
+      list.appendChild(item);
+    });
+    legend.appendChild(list);
+
+    firstTable.parentNode.insertBefore(legend, firstTable);
+  }
+
   function getUsableCellWidth(cell, extraPx) {
     var rect = cell.getBoundingClientRect();
     var cs = window.getComputedStyle(cell);
@@ -360,6 +399,8 @@
       return;
     }
     
+    setupSchemaTypeLegend();
+
     // Description: 3rd column (index 2) — hard clamp to 2 lines using text replacement + inline suffix
     setupDescriptionInlineClamp();
 
