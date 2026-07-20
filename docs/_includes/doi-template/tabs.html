@@ -6,7 +6,16 @@
 <section class="panel" id="panel-meta" role="tabpanel" aria-labelledby="tab-meta">
   {% assign deprecated_items = page.deprecated_items | strip %}
   <section class="schema-section">
-    <h3>Schema</h3>
+    <div class="schema-heading">
+      <h3>Schema</h3>
+    </div>
+    <div class="schema-type-legend" aria-label="Schema type legend">
+      <strong>Types:</strong>
+      <span><i class="fa-solid fa-font" aria-hidden="true"></i> Text field</span>
+      <span><i class="fa-solid fa-circle-nodes" aria-hidden="true"></i> Allowable value</span>
+      <span><i class="fa-solid fa-circle-dot" aria-hidden="true"></i> Radio</span>
+      <span><i class="fa-solid fa-hashtag" aria-hidden="true"></i> Numeric</span>
+    </div>
     <div class="schema-wrap">
       <div class="scroll">
         <div class="markdown-content">{{ page.schema_items | strip | markdownify }}</div>
