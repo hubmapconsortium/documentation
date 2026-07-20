@@ -2,7 +2,8 @@
 .idea
 node_modules
 .vscode/*
+/.vscode/*
+.directory
 # scripts
-scripts/metaBuilder/metaJSON/old
-scripts/metaBuilder/toMD/old/
-scripts/metaBuilder/__pycache__/
+scripts/*
+docs/metaTemplate/.gitignore

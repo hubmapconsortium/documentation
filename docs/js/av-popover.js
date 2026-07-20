@@ -105,6 +105,9 @@
     // scan table cells for multiple code elements
     const tds = document.querySelectorAll('table td');
     tds.forEach(td => {
+      if (document.body.classList.contains('doiStyle') && td.closest('.schema-wrap, .deprecated-wrap')) {
+        return;
+      }
       const codes = Array.from(td.querySelectorAll('code'));
       if(codes.length <= 3) return; // nothing to do
       // create trigger and replace cell content

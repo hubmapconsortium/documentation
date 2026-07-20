@@ -1,0 +1,32 @@
+<div class="tab-wrap" role="tablist" aria-label="Specification sections">
+  <button class="tab active" role="tab" aria-selected="true" aria-controls="panel-meta" id="tab-meta" type="button">Descriptive Metadata</button>
+  <button class="tab" role="tab" aria-selected="false" aria-controls="panel-files" id="tab-files" type="button">File Organization</button>
+</div>
+
+<section class="panel" id="panel-meta" role="tabpanel" aria-labelledby="tab-meta">
+  {% assign deprecated_items = page.deprecated_items | strip %}
+  <section class="schema-section">
+    <h3>Schema</h3>
+    <div class="schema-wrap">
+      <div class="scroll">
+        <div class="markdown-content">{{ page.schema_items | strip | markdownify }}</div>
+      </div>
+    </div>
+  </section>
+  {% if deprecated_items != "" %}
+  <section class="deprecated-section">
+    <h3>Deprecated</h3>
+    <div class="deprecated-wrap">
+      <div class="scroll">
+        <div class="markdown-content">{{ page.deprecated_items | strip | markdownify }}</div>
+      </div>
+    </div>
+  </section>
+  {% endif %}
+  {% include doi-template/button-row.html %}
+</section>
+
+<section class="panel" id="panel-files" role="tabpanel" aria-labelledby="tab-files" hidden>
+  {% include doi-template/definitions.html %}
+  {% include doi-template/example-tree.html %}
+</section>
