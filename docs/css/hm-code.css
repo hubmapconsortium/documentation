@@ -34,6 +34,13 @@ pre code {
 	max-width: 95% !important;
 }
 
+/* Keep assay names comfortably readable on the metadata index. */
+.assay-metadata-index th:first-child,
+.assay-metadata-index td:first-child {
+	width: 24%;
+	min-width: 13rem;
+}
+
 /* inline code badges inside table cells */
 .altStyle .requiredNote {
 	font-size: 0.75rem;
@@ -45,6 +52,45 @@ pre code {
 .altStyle p:has(.requiredNote) {
 	margin-bottom: 0;
 	padding-bottom: 0;
+}
+
+.schema-type-legend {
+	width: fit-content;
+	margin: 0 0 0.65rem auto;
+	font-size: 0.75rem;
+	color: #444a65;
+}
+
+.schema-type-legend summary {
+	cursor: pointer;
+	font-weight: 600;
+	margin: 0;
+	padding: 0;
+	background: transparent;
+	color: #2a6fb8;
+}
+
+.schema-type-legend ul {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.4rem 1rem;
+	margin: 0.45rem 0 0;
+	padding: 0.55rem 0.7rem;
+	list-style: none;
+	border: 1px solid #c4c8dc;
+	border-radius: 4px;
+	background: #f7f8fc;
+}
+
+.schema-type-legend li {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.35rem;
+}
+
+.schema-type-legend .fa-solid {
+	width: 1rem;
+	text-align: center;
 }
 
 .altStyle table thead th {
