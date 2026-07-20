@@ -43,20 +43,20 @@ Fields that are collected for LC-MS data, available at ```dataset.metadata.<attr
 | lc_column_length_value | <i class="fa-solid fa-hashtag" title="Numeric" aria-label="Numeric"></i> | Liquid chromatography column length. |  |
 | lc_column_length_unit | <i class="fa-solid fa-circle-nodes" title="Allowable Value" aria-label="Allowable Value"></i> | Units for liquid chromatography column length (typically cm). | ```um``` ```mm``` ```cm``` |
 | lc_temperature_value | <i class="fa-solid fa-hashtag" title="Numeric" aria-label="Numeric"></i> | Liquid chromatography temperature. |  |
-| lc_temperature_unit | <i class="fa-solid fa-circle-nodes" title="Allowable Value" aria-label="Allowable Value"></i> |  | ```celsius``` |
+| lc_temperature_unit | <i class="fa-solid fa-circle-nodes" title="Allowable Value" aria-label="Allowable Value"></i> | The unit of measurment for the LC temperature value. If the temperature is not specified, this field may be left blank. | ```celsius``` |
 | lc_inner_diameter_value | <i class="fa-solid fa-hashtag" title="Numeric" aria-label="Numeric"></i> | Liquid chromatography column inner diameter. |  |
-| lc_inner_diameter_unit | <i class="fa-solid fa-circle-nodes" title="Allowable Value" aria-label="Allowable Value"></i> |  | ```um``` ```mm``` ```cm``` |
+| lc_inner_diameter_unit | <i class="fa-solid fa-circle-nodes" title="Allowable Value" aria-label="Allowable Value"></i> | The unit of measurment for the LC inner diameter value. If the diameter is not specified, this field may be left blank. | ```um``` ```mm``` ```cm``` |
 | lc_flow_rate_value | <i class="fa-solid fa-hashtag" title="Numeric" aria-label="Numeric"></i> | Value of flow rate. |  |
 | lc_flow_rate_unit | <i class="fa-solid fa-circle-nodes" title="Allowable Value" aria-label="Allowable Value"></i> | Units of flow rate. | ```nL/min``` ```mL/min``` |
 | lc_gradient_value | <i class="fa-solid fa-hashtag" title="Numeric" aria-label="Numeric"></i> | Liquid chromatography gradient. |  |
 | lc_gradient_unit | <i class="fa-solid fa-circle-nodes" title="Allowable Value" aria-label="Allowable Value"></i> | Unit for liquid chromatography gradient | ```minute``` |
 | lc_mobile_phase_a | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | Composition of mobile phase A |  |
 | lc_mobile_phase_b | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | Composition of mobile phase B |  |
-| spatial_sampling_technique | <i class="fa-solid fa-circle-nodes" title="Allowable Value" aria-label="Allowable Value"></i> |  | ```nanoSPLITS``` ```nanoPOTS``` ```LESA``` ```microPOTS``` ```LCM``` ```microLESA``` |
+| spatial_sampling_technique | <i class="fa-solid fa-circle-nodes" title="Allowable Value" aria-label="Allowable Value"></i> | The spatially targeted technique used to isolate or analyze specific regions of a sample. Techniques may include Laser-Capture Microdissection (LCM), Liquid Extraction Surface Analysis (LESA), or Nanodroplet Processing in One Pot for Trace Samples (nanoPOTS), among others. | ```nanoSPLITS``` ```nanoPOTS``` ```LESA``` ```microPOTS``` ```LCM``` ```microLESA``` |
 | spatial_sampling_target | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | Specifies the cell-type or functional tissue unit (FTU) that is targeted in the spatial profiling experiment. Leave blank if data are generated in imaging mode without a specific target structure. |  |
 | spatial_sampling_type | <i class="fa-solid fa-circle-nodes" title="Allowable Value" aria-label="Allowable Value"></i> | Specifies whether or not the analysis was performed in a spatially targeted manner. Spatial profiling experiments target specific tissue foci but do not necessarily generate images. Spatial imaging expriments collect data from a regular array (pixels) that can be visualized as heat maps of ion intensity at each location (molecular images). Leave blank if data are derived from bulk analysis. | ```Imaging``` ```Profiling``` |
 | analysis_protocol_doi <span class="requiredMark">*</span>| <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | A DOI to a protocols.io protocol describing the software and database(s) used to process the raw data. Example: https://dx.doi.org/10.17504/protocols.io.bsu5ney6 |  |
-| acquisition_protocol_doi |  |  |  |
+| acquisition_protocol_doi | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | DOI for protocols.io referring to the protocol for this assay. |  |
 | metadata_schema_id <span class="requiredMark">*</span>| <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | The string that serves as the definitive identifier for the metadata schema version and is readily interpretable by computers for data validation and processing. Example: 22bc762a-5020-419d-b170-24253ed9e8d9 |  |
 
 

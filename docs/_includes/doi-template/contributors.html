@@ -1,0 +1,25 @@
+<section>
+  <h2>Contributors</h2>
+  <p>{{ page.contributors_intro }}</p>
+  <p>{{ page.contributors_note }}</p>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Affiliation</th>
+        <th>Contact</th>
+        <th>ORCID</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for contributor in page.contributors %}
+        <tr>
+          <td>{{ contributor.name }}</td>
+          <td>{{ contributor.affiliation }}</td>
+          <td><a href="mailto:{{ contributor.contact }}">{{ contributor.contact }}</a></td>
+          <td><a href="{{ contributor.orcid }}">{{ contributor.orcid }}</a></td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</section>

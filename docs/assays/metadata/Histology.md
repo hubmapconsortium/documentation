@@ -57,7 +57,7 @@ Fields that are collected for Histology data, available at ```dataset.metadata.<
 | operator | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | Name of the person responsible for executing the assay. |  |
 | operator_email | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | Email address for the operator. |  |
 | overall_protocols_io_doi | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | DOI for protocols.io referring to the overall protocol for the assay. |  |
-| principal_investigator |  |  |  |
+| principal_investigator | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | The full name of the principal investigator who is responsible for the data. |  |
 | pi_email | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | Email address for the principal investigator. |  |
 | resolution_x_unit | <i class="fa-solid fa-circle-nodes" title="Allowable Value" aria-label="Allowable Value"></i> | The unit of measurement of width of a pixel.(nm) | ```mm``` ```um``` ```nm``` |
 | resolution_x_value | <i class="fa-solid fa-hashtag" title="Numeric" aria-label="Numeric"></i> | The width of a pixel. (Akoya pixel is 377nm square) |  |

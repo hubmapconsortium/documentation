@@ -1,0 +1,7 @@
+<section>
+  <h2>{{ include.title }}</h2>
+  <p>{{ include.body }}</p>
+  {% if include.button_label and include.button_href %}
+    <a class="secondary-btn" href="{{ include.button_href }}">{{ include.button_label }}</a>
+  {% endif %}
+</section>

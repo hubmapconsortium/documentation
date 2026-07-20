@@ -53,7 +53,7 @@ Fields that are collected for Light-Sheet data, available at ```dataset.metadata
 | number_of_channels | <i class="fa-solid fa-hashtag" title="Numeric" aria-label="Numeric"></i> | Number of fluorescent channels imaged during each cycle. |  |
 | operator | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | Name of the person responsible for executing the assay. |  |
 | operator_email | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | Email address for the operator. |  |
-| principal_investigator |  |  |  |
+| principal_investigator | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | The full name of the principal investigator who is responsible for the data. |  |
 | pi_email | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | Email address for the principal investigator. |  |
 | resolution_x_unit | <i class="fa-solid fa-circle-nodes" title="Allowable Value" aria-label="Allowable Value"></i> | The unit of measurement of width of a pixel.(nm) | ```mm``` ```um``` ```nm``` |
 | resolution_x_value | <i class="fa-solid fa-hashtag" title="Numeric" aria-label="Numeric"></i> | The width of a pixel. (Akoya pixel is 377nm square) |  |
