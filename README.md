@@ -86,3 +86,12 @@ serve ./docs
     - correct: `foo-who/` , incorrect: `foo_who/`
 - Please set up prettier in your IDE to keep code formatting consistent or just follow the prettier rules as described in `./package.json`
 - Do follow any additional code formatting and styles as seen in the project
+
+
+## Available Scripts
+### Generating New Assay Metadata Pages
+To generate new assay metadata pages, you can use the `generate.py` script located in the `metadata-generator` directory under `scripts`. This script will add the new Assay to the index and create a markdown file in the `docs/assays/metadata` directory (based on the provided github issue number). The head of the script includes a description of the required arguments and usage. You can run the script with the following command:
+
+```bash
+python scripts/metadata-generator/generate.py <github_issue_number> <github_issue_number_again> ...
+```
