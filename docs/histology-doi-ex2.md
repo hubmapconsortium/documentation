@@ -10,7 +10,7 @@ summary: The microscopic study of tissue composition and structure, often referr
 schema_doc_href: "https://openview.metadatacenter.org/templates/https:%2F%2Frepo.metadatacenter.org%2Ftemplates%2F907d89c7-6cf4-4ec6-9edd-63cf0441d689"
 validator_href: "https://metadatavalidator.metadatacenter.org"
 datasets_href: "https://portal.hubmapconsortium.org/search/datasets?dataset_type=Histology"
-help_href: /histology-doi-help/
+help_href: /doi-pages-help/
 datasets_text: The HuBMAP Data Portal is an open platform to discover, visualize, and download standardized healthy single-cell and spatial tissue data.
 citation_text: Fisher S.A., Hardi J., Morgan R., Nordgren E., Kant P.M., Honick B., Rosario J., O'Connor M.J., Blood P.D., DCWG Members, Silverstein J.C., Musen M.A. The HuBMAP Framework for Advancing Data FAIRness. bioRxiv 2026.06.01.728946 (2026) https://doi.org/10.64898/2026.06.01.728946
 reuse_text: This standard may be reused, expanded, or referenced by external repositories. Fisher, S. A. et al. The HuBMAP Framework for Advancing Data FAIRness. bioRxiv 2026.06.01.728946 (2026).
