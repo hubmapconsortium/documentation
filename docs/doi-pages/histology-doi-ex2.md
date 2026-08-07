@@ -15,7 +15,7 @@ datasets_text: The HuBMAP Data Portal is an open platform to discover, visualize
 citation_text: Fisher S.A., Hardi J., Morgan R., Nordgren E., Kant P.M., Honick B., Rosario J., O'Connor M.J., Blood P.D., DCWG Members, Silverstein J.C., Musen M.A. The HuBMAP Framework for Advancing Data FAIRness. bioRxiv 2026.06.01.728946 (2026) https://doi.org/10.64898/2026.06.01.728946
 reuse_text: This standard may be reused, expanded, or referenced by external repositories. Fisher, S. A. et al. The HuBMAP Framework for Advancing Data FAIRness. bioRxiv 2026.06.01.728946 (2026).
 contributors_intro: Below is the information for the primary contributors to the HuBMAP and SenNet metadata reporting standards. The full list of contributors can be found here [DCWG paper citation].
-contributors_note: For questions about this standard, email <help@hubmapconsortium.org>. Alternatively, reach out to the individuals listed below, either via the email address listed in the table or via contact information provided on their ORCID profile page.
+contributors_note: For questions about this standard, email <a href="mailto:help@hubmapconsortium.org">HuBMAP Helpdesk</a>. Alternatively, reach out to the individuals listed below, either via the email address listed in the table or via contact information provided on their ORCID profile page.
 example_tree: |-
   .
   ├── metadata.tsv
