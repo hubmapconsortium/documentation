@@ -25,13 +25,13 @@ SPRM is a statistical modeling program used to calculate a range of descriptors 
 
 ### [Single-cell RNA sequencing](https://docs.google.com/document/d/14Fu32w_AjyOzT82m99DzZz5iUEJa5v98IBPns5vlizo/edit?usp=sharing)
 
-HuBMAP single-cell RNA-seq data sets are processed with a two-stage pipeline, using [Salmon](https://combine-lab.github.io/salmon/) for transcript quantification and [Scanpy](https://icb-scanpy.readthedocs-hosted.com/en/stable/) for secondary analysis. This pipeline is implemented in CWL, calling command-line tools encapsulated in Docker containers.
+HuBMAP single-cell RNA-seq data sets are processed with a two-stage pipeline, using [Salmon](https://combine-lab.github.io/salmon/) for transcript quantification and [Scanpy](https://icb-scanpy.readthedocs-hosted.com/en/stable/) for secondary analysis.  Cell type annotations are generated with [Azimuth](https://github.com/satijalab/panhumanpy/).  This pipeline is implemented in CWL, calling command-line tools encapsulated in Docker containers.
 
 - [Git Hub](https://github.com/hubmapconsortium/salmon-rnaseq)
 
 ### [Single-cell ATAC-seq](https://docs.google.com/document/d/1qNy8DQJ4Xn431huHyTydRJCQSF68Cmu06tZtZnAKW6s/edit)
 
-The HuBMAP Consortium uses a three-stage pipeline for scATAC-seq data sets, composed of [SnapTools](https://github.com/r3fang/SnapTools), [SnapATAC](https://github.com/r3fang/SnapATAC), and [chromVAR](https://bioconductor.org/packages/release/bioc/html/chromVAR.html). This pipeline is written in CWL, calling command-line tools encapsulated in Docker containers.
+The HuBMAP Consortium uses a two-stage pipeline for scATAC-seq data sets, composed of [ArchR](https://github.com/GreenleafLab/ArchR) and [chromVAR](https://bioconductor.org/packages/release/bioc/html/chromVAR.html). This pipeline is written in CWL, calling command-line tools encapsulated in Docker containers.
 
 - [Git Hub](https://github.com/hubmapconsortium/sc-atac-seq-pipeline)
 
@@ -45,7 +45,7 @@ HuBMAP single-cell RNA-seq data sets are processed using [Salmon](https://combin
 
 ### [Bulk ATAC-seq](https://docs.google.com/document/d/1Jwm5V-A3j1fynriwo9Ec9QWEODovR14zUmaaUNf1Pq0/edit?usp=sharing)
 
-The HuBMAP Consortium uses a two-stage pipeline for scATAC-seq data sets, composed of [SnapTools](https://github.com/r3fang/SnapTools) and [MACS2](https://github.com/macs3-project/MACS) This pipeline is written in CWL, calling command-line tools encapsulated in Docker containers.
+The HuBMAP Consortium uses a pipeline for scATAC-seq data sets, composed [MACS2](https://github.com/macs3-project/MACS) This pipeline is written in CWL, calling command-line tools encapsulated in Docker containers.
 
 - [Git Hub](https://github.com/hubmapconsortium/sc-atac-seq-pipeline)
 
@@ -57,13 +57,13 @@ The HuBMAP pipeline for processing 10x Multiome and snareseq data uses [salmon](
 
 ### [Visium w/o probes](https://docs.google.com/document/d/1t-TlkecYlp6Nq5wXKgGZrfdNWL7OiHWvlzZ3EXA1Fxs/edit?usp=sharing)
 
-The HuBMAP pipeline for processing whole-transcriptome Visium data uses [salmon](https://combine-lab.github.io/salmon/) for quantification, [scanpy](https://scanpy.readthedocs.io/en/stable/) and [squidpy](https://squidpy.readthedocs.io/en/stable/) for downstream analysis including spatial analysis.  This pipeline is written in CWL, calling command-line tools encapsulated in Docker containers. 
+The HuBMAP pipeline for processing whole-transcriptome Visium data uses [salmon](https://combine-lab.github.io/salmon/) for quantification, [scanpy](https://scanpy.readthedocs.io/en/stable/) and [squidpy](https://squidpy.readthedocs.io/en/stable/) for downstream analysis including spatial analysis.  There are [SpatialData](https://github.com/scverse/spatialdata) outputs written for further visualization and analysis.  This pipeline is written in CWL, calling command-line tools encapsulated in Docker containers. 
 
 - [Git Hub](https://github.com/hubmapconsortium/salmon-rnaseq/)
 
 ### [Visium w/ probes](https://docs.google.com/document/d/1VCy7fsF4F-2KMnAeQ1fpFOojRSYoWlv0hAYiWzPhe2s/edit?usp=sharing)
 
-The HuBMAP pipeline for processing probe-based Visium data uses BWA for short read alignment, [scanpy](https://scanpy.readthedocs.io/en/stable/) and [squidpy](https://squidpy.readthedocs.io/en/stable/) for downstream analysis including spatial analysis.  This pipeline is written in CWL, calling command-line tools encapsulated in Docker containers. 
+The HuBMAP pipeline for processing probe-based Visium data uses BWA for short read alignment, [scanpy](https://scanpy.readthedocs.io/en/stable/) and [squidpy](https://squidpy.readthedocs.io/en/stable/) for downstream analysis including spatial analysis.  There are [SpatialData](https://github.com/scverse/spatialdata) outputs written for further visualization and analysis.  This pipeline is written in CWL, calling command-line tools encapsulated in Docker containers. 
 
 - [Git Hub](https://github.com/hubmapconsortium/visium-pipeline/)
 
@@ -94,3 +94,7 @@ The HuBMAP pipeline for processing PhenoCycler and CellDive data uses DeepCell f
 
 The HuBMAP pipeline for processing MIBI data uses DeepCell for segmentation, SPRM for quantification, secondary analysis including spatial analysis, and DeepCellTypes, Stellar, and RIBCA for cell type annotation.
 - [Git Hub](https://github.com/hubmapconsortium/mibi-pipeline/)
+
+### [Cell DIVE](https://github.com/hubmapconsortium/celldive-pipeline)
+The HuBMAP pipeline for processing Cell DIVE data uses DeepCell for segmentation and SPRM for quantification.
+- [Git Hub](https://github.com/hubmapconsortium/celldive-pipeline)
