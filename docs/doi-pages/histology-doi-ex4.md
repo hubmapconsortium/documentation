@@ -1,21 +1,38 @@
 ---
 layout: doi-landing-page
+
 title: Metadata Reporting Standards - Histology
+
 spec_name: Histology
+
 version_label: Version 1
+
 doi: 10.35079/HBM788.QPBW.699
+
 published: September 26, 2025
+
 subjects: "AB-PAS, H&E, H-DAB, LFB, PAS, SBB, Trichrome"
+
 summary: The microscopic study of tissue composition and structure, often referred to as microscopic anatomy. It involves examining tissue samples, typically after they've been sectioned, stained, and placed under a microscope.
+
 schema_doc_href: "https://openview.metadatacenter.org/templates/https:%2F%2Frepo.metadatacenter.org%2Ftemplates%2F907d89c7-6cf4-4ec6-9edd-63cf0441d689"
+
 validator_href: "https://metadatavalidator.metadatacenter.org"
+
 datasets_href: "https://portal.hubmapconsortium.org/search/datasets?dataset_type=Histology"
+
 help_href: /doi-pages-help/
+
 datasets_text: The HuBMAP Data Portal is an open platform to discover, visualize, and download standardized healthy single-cell and spatial tissue data.
+
 citation_text: Fisher SA, Hardi J, Morgan R, Nordgren E, Kant PM, Honick B, Rosario J, O'Connor MJ, Turner ML, DCWG Members, Gehlenborg N, Blood PD, Silverstein JC, Musen MA. 2026. The HuBMAP Framework for Advancing Data FAIRness. submitted. https://doi.org/10.64898/2026.06.01.728946
+
 reuse_text: This standard may be reused, expanded, or referenced by external repositories.
+
 contributors_intro: Below is the information for the individuals who contributed to the HuBMAP and SenNet metadata reporting standards.
+
 contributors_note: For questions about this standard, email <a href="mailto:help@hubmapconsortium.org">HuBMAP Helpdesk</a>. You can alternatively reach out to the individuals listed below, either via the email address listed in the table or via contact information provided on their ORCID profile page.
+
 example_tree: |-
   .
   ├── metadata.tsv
@@ -32,7 +49,9 @@ example_tree: |-
           ├── Histology_13_95.ome.tiff
           ├── Histology_13_95.channels.csv
           └── tissue-boundary.geojson
-schema_items: |-
+          
+schema_items: 
+|-
   | Attribute | Type | Description | Allowable Values |
   |------|------|-------------|-------------------|
   | parent_sample_id <span class="requiredMark">*</span>| <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | Unique HuBMAP or SenNet identifier of the sample (i.e., block, section or suspension) used to perform this assay. For example, for a RNAseq assay, the parent would be the suspension, whereas, for one of the imaging assays, the parent would be the tissue section. If an assay comes from multiple parent samples then this should be a comma separated list. Example: HBM386.ZGKG.235, HBM672.MKPK.442 or SNT232.UBHJ.322, SNT329.ALSK.102 |  |
@@ -85,7 +104,9 @@ definitions:
   - field: lab_processed/images/
     description: Folder containing processed image outputs.
     rules: Directory
+    
 contributors:
+
 |name|affiliation|contact|orcid|
 |--------|-----------------|------------|--------|
 |Stephen A Fisher|University of Pennsylvania, Philadelphia PA, USA|safisher@upenn.edu|0000-0001-8034-7685 |
