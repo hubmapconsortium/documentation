@@ -92,13 +92,13 @@ definitions:
     
 contributors:
 |-
- |name|affiliation|contact|orcid|
- |--------|-----------------|------------|--------|
- |Stephen A Fisher|University of Pennsylvania, Philadelphia PA, USA|safisher@upenn.edu|0000-0001-8034-7685 |
- |Josef Hardi|Stanford University, Stanford, CA, USA|johardi@stanford.edu|0000-0002-2533-6681 |
- |Richard Morgan|University of Pittsburgh, Pittsburgh, PA, USA|rsm66@pitt.edu|0009-0003-1800-8545 |
- |Mark A Musen|Stanford University, Stanford, CA, USA|musen@stanford.edu|0000-0003-3325-793X |
- |Jonathan C Silverstein|University of Pittsburgh, Pittsburgh, PA, USA|j.c.s@pitt.edu|0000-0002-9252-6039 |
+ | name | affiliation | contact | orcid |
+ |------|-------------|---------|--------|
+ | Stephen A Fisher | University of Pennsylvania, Philadelphia PA, USA | safisher@upenn.edu | 0000-0001-8034-7685 |
+ | Josef Hardi | Stanford University, Stanford, CA, USA | johardi@stanford.edu | 0000-0002-2533-6681 |
+ | Richard Morgan | University of Pittsburgh, Pittsburgh, PA, USA | rsm66@pitt.edu | 0009-0003-1800-8545 |
+ | Mark A Musen | Stanford University, Stanford, CA, USA | musen@stanford.edu | 0000-0003-3325-793X |
+ | Jonathan C Silverstein | University of Pittsburgh, Pittsburgh, PA, USA | j.c.s@pitt.edu | 0000-0002-9252-6039 |
  |Erik Nordgren|University of Pennsylvania, Philadelphia PA, USA||0000-0002-5024-0278 |
  |Peter M Kant|University of Pittsburgh, Pittsburgh, PA, USA; Currently: Otsuka Precision Health, Princeton, NJ, USA||0009-0002-6510-5041 |
  |Brendan John Honick|Pittsburgh Supercomputing Center, Carnegie Mellon University, Pittsburgh, PA, USA||0000-0001-6128-9854 |
