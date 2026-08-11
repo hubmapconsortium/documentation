@@ -111,7 +111,7 @@ contributors:
     contact: 
     orcid: 0000-0002-5024-0278
   - name: Peter M Kant
-    affiliation: University of Pittsburgh, Pittsburgh, PA, USA; Currently: Otsuka Precision Health, Princeton, NJ, USA
+    affiliation: University of Pittsburgh, Pittsburgh, PA, USA; Currently - Otsuka Precision Health, Princeton, NJ, USA
     contact: 
     orcid: 0009-0002-6510-5041
   - name: Brendan John Honick
@@ -183,7 +183,7 @@ contributors:
     contact: 
     orcid: 0009-0002-6547-2650
   - name: Dinh Diep
-    affiliation: University of California, San Diego, CA, USA; Currently: Altos Labs, San Diego, CA, USA
+    affiliation: University of California, San Diego, CA, USA; Currently - Altos Labs, San Diego, CA, USA
     contact: 
     orcid: 0000-0001-6057-4119
   - name: Sergii Domanskyi
@@ -255,7 +255,7 @@ contributors:
     contact: 
     orcid: 0000-0003-2760-0586
   - name: Angela RS Kruse
-    affiliation: Vanderbilt University, Nashville, TN, USA; Currently: The Ohio State University, Columbus, OH, USA
+    affiliation: Vanderbilt University, Nashville, TN, USA; Currently - The Ohio State University, Columbus, OH, USA
     contact: 
     orcid: 0000-0001-8776-2769
   - name: Yumi Kwon
@@ -263,7 +263,7 @@ contributors:
     contact: 
     orcid: 0000-0003-0523-6197
   - name: Blue B Lake
-    affiliation: University of California San Diego, La Jolla, CA, USA; Currently: Altos Labs, San Diego, CA, USA
+    affiliation: University of California San Diego, La Jolla, CA, USA; Currently - Altos Labs, San Diego, CA, USA
     contact: 
     orcid: 0000-0002-8637-9044
   - name: Roy Lardenoije
@@ -395,7 +395,7 @@ contributors:
     contact: 
     orcid: 0000-0002-8849-808X
   - name: Seth Winfree
-    affiliation: University of Nebraska Medical Center, Omaha, NE, USA; Currently: QCDx Inc, Farmington, CT, USA
+    affiliation: University of Nebraska Medical Center, Omaha, NE, USA; Currently - QCDx Inc, Farmington, CT, USA
     contact: 
     orcid: 
   - name: Pei-Hsun Wu
@@ -407,7 +407,7 @@ contributors:
     contact: 
     orcid: 0000-0002-3524-9776
   - name: Mowei Zhou
-    affiliation: Pacific Northwest National Laboratory, Richland, WA, USA; Currently: Zhejiang University, Hangzhou, Zhejiang 310058, China
+    affiliation: Pacific Northwest National Laboratory, Richland, WA, USA; Currently - Zhejiang University, Hangzhou, Zhejiang 310058, China
     contact: 
     orcid: 0000-0003-3575-3224
   - name: Chenchen Zhu
