@@ -92,7 +92,7 @@ definitions: |-
   | lab_processed/probabilities/ | | Directory containing probabilities related to lab-processed data (e.g., Ilastik pixel classification). |
   | lab_processed/probabilities/*.tiff | | [QA/QC] A TIFF file containing pixel probabilities. |
     
-contributors: |-
+creators: |-
   | name | affiliation | contact | orcid |
   |------|-------------|---------|--------|
   | Stephen A Fisher | University of Pennsylvania, Philadelphia PA, USA | safisher@upenn.edu | 0000-0001-8034-7685 |
@@ -177,6 +177,15 @@ contributors: |-
   |Kevin J Zemaitis|Pacific Northwest National Laboratory, Richland, WA, USA||0000-0002-3524-9776 |
   |Mowei Zhou|Pacific Northwest National Laboratory, Richland, WA, USA; Currently - Zhejiang University, Hangzhou, Zhejiang 310058, China||0000-0003-3575-3224 |
   |Chenchen Zhu|Department of Genetics, Stanford University, Stanford, CA, USA||0000-0003-2165-9456 |
+
+contacts: |-
+  | name | affiliation | email | orcid |
+  |------|-------------|---------|--------|
+  | Stephen A Fisher | University of Pennsylvania, Philadelphia PA, USA | safisher@upenn.edu | 0000-0001-8034-7685 |
+  | Josef Hardi | Stanford University, Stanford, CA, USA | johardi@stanford.edu | 0000-0002-2533-6681 |
+  | Richard Morgan | University of Pittsburgh, Pittsburgh, PA, USA | rsm66@pitt.edu | 0009-0003-1800-8545 |
+  | Mark A Musen | Stanford University, Stanford, CA, USA | musen@stanford.edu | 0000-0003-3325-793X |
+  | Jonathan C Silverstein | University of Pittsburgh, Pittsburgh, PA, USA | j.c.s@pitt.edu | 0000-0002-9252-6039 |
   
 ---
 
