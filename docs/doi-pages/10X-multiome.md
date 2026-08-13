@@ -16,22 +16,19 @@ citation_text: Fisher SA, Hardi J, Morgan R, Nordgren E, Kant PM, Honick B, Rosa
 reuse_text: This standard may be reused, expanded, or referenced by external repositories.
 contributors_intro: Below is the information for the individuals who contributed to the HuBMAP and SenNet metadata reporting standards.
 contributors_note: For questions about this standard, email <a href="mailto:help@hubmapconsortium.org">HuBMAP Helpdesk</a>. You can alternatively reach out to the individuals listed below, either via the email address listed in the table or via contact information provided on their ORCID profile page.
-example_tree: |-
+example_tree: 
+|- 
   .
-  ├── metadata.tsv
   ├── extras/
-  │   ├── contributors.tsv
-  │   └── microscope_hardware.json
+  │   └── expected_cell_count.txt$
   ├── raw/
-  │   └── images/
-  │       ├── Brightfield_HE_10msec_image_0001.tiff
-  │       ├── Brightfield_HE_10msec_image_0002.tiff
-  │       └── Brightfield_HE_10msec_image_0110.tiff
+  │   └── fastq/
+  │       ├── RNA/
+  │       │   └── *_R*.fastq.gz$
+  │       └── ATAC/
+  │           └── *_R*.fastq.gz$
   └── lab_processed/
-      └── images/
-          ├── Histology_13_95.ome.tiff
-          ├── Histology_13_95.channels.csv
-          └── tissue-boundary.geojson
+
 schema_items: |-
   | Attribute | Type | Description | Allowable Values |
   |------|------|-------------|-------------------|
@@ -69,22 +66,20 @@ deprecated_items: |-
   |------|------|-------------|-------------------|
   | tiled_image_columns | <i class="fa-solid fa-hashtag" title="Numeric" aria-label="Numeric"></i> | The number of columns used in the stitching process of a tiled image, often referred to as the grid size in the x-dimension. Example: 5 |  |
   | tiled_image_count | <i class="fa-solid fa-hashtag" title="Numeric" aria-label="Numeric"></i> | The total number of raw tiled images captured, which are intended to be stitched together. Example: 75 |  |
-definitions:
-  - field: metadata.tsv
-    description: The main metadata file for the submission.
-    rules: Required
-  - field: extras/
-    description: Folder for supporting files associated with the dataset.
-    rules: Directory
-  - field: raw/
-    description: Folder containing raw data files from the experiment.
-    rules: Directory
-  - field: raw/images/
-    description: Folder containing raw image files.
-    rules: Directory
-  - field: lab_processed/images/
-    description: Folder containing processed image outputs.
-    rules: Directory
+definitions: 
+|-
+  | Pattern | Required? | Description |
+  |--|--|--|
+  | extras/ | ✓ | Folder for general lab-specific files related to the dataset. |
+  | extras/expected_cell_count.txt$ |  | The expected cell count for the RNA sequencing dataset. This is an optional file that, if present, will be used by the HIVE's RNA sequencing analysis pipeline. With some datasets, knowing the expected cell count has improved the output of the HIVE analysis pipeline. |
+  | raw/ | ✓ | All raw data files for the experiment. |
+  | raw/fastq/ | ✓ | Raw sequencing files for the experiment. |
+  | raw/fastq/RNA/ | ✓ | Directory containing fastq files pertaining to RNAseq sequencing. |
+  | raw/fastq/RNA/*_R*.fastq.gz$ | ✓ | This is a GZip'd version of the forward and reverse fastq files from RNAseq sequencing (R1 and R2). |
+  | raw/fastq/ATAC/ | ✓ | Directory containing fastq files pertaining to ATACseq sequencing. |
+  | raw/fastq/ATAC/*_R*.fastq.gz$ | ✓ | This is a GZip'd version of the fastq files containing the forward, reverse and barcode reads from ATACseq sequencing (R1, R2 and R3). Further, if the barcodes are in R3 (as with 10X) then the metadata field "barcode reads" would be set to "Read 2 (R2)" and the fastq file named "*_R2*fastq.gz" would be expected. |
+  lab_processed/ |  | Experiment files that were processed by the lab generating the data. |
+
 contributors:
  |-
   | Name | Affiliation | Contact | ORCID |
