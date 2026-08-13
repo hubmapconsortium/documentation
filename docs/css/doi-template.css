@@ -310,7 +310,7 @@ h1 {
   border: 1px solid #b7bdc9;
   background: #fff;
   padding: 8px;
-  white-space: pre-wrap;
+  white-space: normal;
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
   font-size: 12px;
   line-height: 1.4;
@@ -318,17 +318,26 @@ h1 {
 
 .schema-wrap .scroll {
   font-family: inherit;
-  white-space: normal;
   max-height: 380px;
 }
 
 .deprecated-wrap .scroll {
   font-family: inherit;
-  white-space: normal;
-  max-height: 150px;
+  max-height: 200px;
 }
 
-.schema-wrap .scroll table {
+.definitions-wrap .scroll {
+  font-family: inherit;
+  max-height: 380px;
+}
+
+.contributors-wrap .scroll {
+  margin-top: 14px;
+  font-family: inherit;
+  max-height: 210px;
+}
+
+.scroll table {
   width: 100%;
   margin: 0;
   border-collapse: collapse;
@@ -337,41 +346,20 @@ h1 {
   background: #fff;
 }
 
-.deprecated-wrap .scroll table {
-  width: 100%;
-  margin: 0;
-  border-collapse: collapse;
-  table-layout: auto;
-  box-shadow: none;
-  background: #fff;
+.scroll table th,
+.scroll table td {
+  padding: 6px 7px;
 }
 
 .schema-wrap .scroll th,
-.schema-wrap .scroll td {
-  padding: 6px 7px;
-  font-size: 10.5px;
-  line-height: 1.35;
-  vertical-align: top;
-  word-break: break-word;
-  overflow-wrap: anywhere;
-}
-
+.schema-wrap .scroll td,
 .deprecated-wrap .scroll th,
 .deprecated-wrap .scroll td {
-  padding: 6px 7px;
   font-size: 10.5px;
   line-height: 1.35;
   vertical-align: top;
   word-break: break-word;
   overflow-wrap: anywhere;
-}
-
-.schema-wrap .scroll th {
-  background: #f2f5fa;
-}
-
-.deprecated-wrap .scroll th {
-  background: #f2f5fa;
 }
 
 .schema-section + .deprecated-section {
@@ -416,43 +404,72 @@ h1 {
 .schema-wrap .scroll th:nth-child(1),
 .deprecated-wrap .scroll td:nth-child(1),
 .deprecated-wrap .scroll th:nth-child(1) {
-  width: 1%;
-  white-space: nowrap;
-  word-break: normal;
-  overflow-wrap: normal;
+  width: 20%;
+  font-family: monospace;
+}
+
+.schema-wrap .scroll th:nth-child(2),
+.deprecated-wrap .scroll th:nth-child(2) {
+  width: 50px;
+  min-width: 50px;
+  max-width: 50px;
+  text-align: center;
 }
 
 .schema-wrap .scroll td:nth-child(2),
-.schema-wrap .scroll th:nth-child(2),
-.deprecated-wrap .scroll td:nth-child(2),
-.deprecated-wrap .scroll th:nth-child(2) {
-  width: 52px;
-  min-width: 52px;
-  max-width: 52px;
+.deprecated-wrap .scroll td:nth-child(2) {
+  width: 50px;
+  min-width: 50px;
+  max-width: 50px;
+  text-align: center;
 }
 
-.schema-wrap .scroll td:nth-child(3),
-.schema-wrap .scroll th:nth-child(3),
-.deprecated-wrap .scroll td:nth-child(3),
-.deprecated-wrap .scroll th:nth-child(3) {
-  width: 60%;
+.schema-wrap table td:nth-child(3),
+.deprecated-wrap table td:nth-child(3) {
+	font-weight: 400;
+	font-size: 0.75rem;
+	line-height: 1.36;
+	letter-spacing: 0.03333em;
+	max-height: 150px;
+	overflow-y: auto;
+}
+
+.schema-wrap table td:nth-child(3),
+.schema-wrap table td:nth-child(4),
+.deprecated-wrap table td:nth-child(3),
+.deprecated-wrap table td:nth-child(4) {
+	max-height: none;
+	overflow: visible;
+}
+
+.schema-wrap table td:nth-child(4),
+.deprecated-wrap table td:nth-child(4) {
+	padding-bottom: 14px;
 }
 
 .schema-wrap .scroll td:nth-child(4),
 .schema-wrap .scroll th:nth-child(4),
 .deprecated-wrap .scroll td:nth-child(4),
 .deprecated-wrap .scroll th:nth-child(4) {
+  width: 20%;
+}
+
+.definitions-wrap .scroll table tr td:nth-child(1) {
+  width: 50%;
+  word-break: normal;
+  overflow-wrap: normal;
+}
+
+.contributors-wrap .scroll table tr td:nth-child(1) {
+  width: 20%;
+  word-break: normal;
+  overflow-wrap: normal;
+}
+
+.contributors-wrap .scroll table tr td:nth-child(2) {
   width: 40%;
-}
-
-.schema-wrap .scroll td:nth-child(2),
-.deprecated-wrap .scroll td:nth-child(2) {
-  text-align: center;
-}
-
-.schema-wrap .scroll th:nth-child(2),
-.deprecated-wrap .scroll th:nth-child(2) {
-  text-align: center;
+  word-break: normal;
+  overflow-wrap: normal;
 }
 
 .allowable-values-scroll {
@@ -477,15 +494,6 @@ h1 {
   background: #8ea0c2;
   border: 3px solid #f2f5fa;
   border-radius: 999px;
-}
-
-.schema-wrap .scroll p {
-  margin: 0 0 8px;
-}
-
-.schema-wrap .scroll ul {
-  margin: 0;
-  padding-left: 18px;
 }
 
 .hint {
