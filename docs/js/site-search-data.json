@@ -11,6 +11,12 @@
                                 "tagId": "",
                                 "path": "/technical"
                             },{
+                                "title": "HuBMAP Product Offerings: Project Management, Communication, Tracking, & Reporting",
+                                "mod": "Fri Jan 7 16:10:55 2022 -0500",
+                                "tag": "h1",
+                                "tagId": "",
+                                "path": "/software"
+                            },{
                                 "title": "layout: page",
                                 "mod": "Fri Jan 7 16:10:55 2022 -0500",
                                 "tag": "h2",
@@ -80,12 +86,6 @@
                                 "title": "Operations",
                                 "mod": "Fri Jan 7 16:10:55 2022 -0500",
                                 "tag": "h2",
-                                "tagId": "",
-                                "path": "/software"
-                            },{
-                                "title": "HuBMAP Product Offerings: Project Management, Communication, Tracking, & Reporting",
-                                "mod": "Fri Jan 7 16:10:55 2022 -0500",
-                                "tag": "h1",
                                 "tagId": "",
                                 "path": "/software"
                             },{
@@ -425,48 +425,6 @@
                                 "tagId": "",
                                 "path": "/sdk/entitysdk"
                             },{
-                                "title": "HuBMAP Portal Release - Summer 2020",
-                                "mod": "Fri Jan 7 16:10:55 2022 -0500",
-                                "tag": "h1",
-                                "tagId": "",
-                                "path": "/release-summer-2020"
-                            },{
-                                "title": "layout: page",
-                                "mod": "Fri Jan 7 16:10:55 2022 -0500",
-                                "tag": "h2",
-                                "tagId": "",
-                                "path": "/release-summer-2020"
-                            },{
-                                "title": "Key Features",
-                                "mod": "Fri Jan 7 16:10:55 2022 -0500",
-                                "tag": "h2",
-                                "tagId": "",
-                                "path": "/release-summer-2020"
-                            },{
-                                "title": "Future Releases",
-                                "mod": "Fri Jan 7 16:10:55 2022 -0500",
-                                "tag": "h2",
-                                "tagId": "",
-                                "path": "/release-summer-2020"
-                            },{
-                                "title": "Access",
-                                "mod": "Fri Jan 7 16:10:55 2022 -0500",
-                                "tag": "h3",
-                                "tagId": "",
-                                "path": "/release-summer-2020"
-                            },{
-                                "title": "Search & View",
-                                "mod": "Fri Jan 7 16:10:55 2022 -0500",
-                                "tag": "h3",
-                                "tagId": "",
-                                "path": "/release-summer-2020"
-                            },{
-                                "title": "Analysis & Infrastructure",
-                                "mod": "Fri Jan 7 16:10:55 2022 -0500",
-                                "tag": "h3",
-                                "tagId": "",
-                                "path": "/release-summer-2020"
-                            },{
                                 "title": "HuBMAP Provenance Graph",
                                 "mod": "Tue Aug 27 14:21:02 2024 -0400",
                                 "tag": "h1",
@@ -538,6 +496,48 @@
                                 "tag": "h3",
                                 "tagId": "",
                                 "path": "/pipelines"
+                            },{
+                                "title": "HuBMAP Portal Release - Summer 2020",
+                                "mod": "Fri Jan 7 16:10:55 2022 -0500",
+                                "tag": "h1",
+                                "tagId": "",
+                                "path": "/release-summer-2020"
+                            },{
+                                "title": "layout: page",
+                                "mod": "Fri Jan 7 16:10:55 2022 -0500",
+                                "tag": "h2",
+                                "tagId": "",
+                                "path": "/release-summer-2020"
+                            },{
+                                "title": "Key Features",
+                                "mod": "Fri Jan 7 16:10:55 2022 -0500",
+                                "tag": "h2",
+                                "tagId": "",
+                                "path": "/release-summer-2020"
+                            },{
+                                "title": "Future Releases",
+                                "mod": "Fri Jan 7 16:10:55 2022 -0500",
+                                "tag": "h2",
+                                "tagId": "",
+                                "path": "/release-summer-2020"
+                            },{
+                                "title": "Access",
+                                "mod": "Fri Jan 7 16:10:55 2022 -0500",
+                                "tag": "h3",
+                                "tagId": "",
+                                "path": "/release-summer-2020"
+                            },{
+                                "title": "Search & View",
+                                "mod": "Fri Jan 7 16:10:55 2022 -0500",
+                                "tag": "h3",
+                                "tagId": "",
+                                "path": "/release-summer-2020"
+                            },{
+                                "title": "Analysis & Infrastructure",
+                                "mod": "Fri Jan 7 16:10:55 2022 -0500",
+                                "tag": "h3",
+                                "tagId": "",
+                                "path": "/release-summer-2020"
                             },{
                                 "title": "Pass Through Dataset Types",
                                 "mod": "Tue Jun 17 12:08:37 2025 -0400",
@@ -665,48 +665,6 @@
                                 "tagId": "",
                                 "path": "/param-search/schema-person"
                             },{
-                                "title": "HuBMAP Donor schema",
-                                "mod": "Tue Aug 27 14:21:02 2024 -0400",
-                                "tag": "h1",
-                                "tagId": "",
-                                "path": "/param-search/schema-donor"
-                            },{
-                                "title": "layout: page",
-                                "mod": "Tue Aug 27 14:21:02 2024 -0400",
-                                "tag": "h2",
-                                "tagId": "",
-                                "path": "/param-search/schema-donor"
-                            },{
-                                "title": "Overview:",
-                                "mod": "Tue Aug 27 14:21:02 2024 -0400",
-                                "tag": "h2",
-                                "tagId": "",
-                                "path": "/param-search/schema-donor"
-                            },{
-                                "title": "Description:",
-                                "mod": "Tue Aug 27 14:21:02 2024 -0400",
-                                "tag": "h2",
-                                "tagId": "",
-                                "path": "/param-search/schema-donor"
-                            },{
-                                "title": "Dataset Attributes",
-                                "mod": "Tue Aug 27 14:21:02 2024 -0400",
-                                "tag": "h3",
-                                "tagId": "",
-                                "path": "/param-search/schema-donor"
-                            },{
-                                "title": "Donor Metadata Schema",
-                                "mod": "Tue Aug 27 14:21:02 2024 -0400",
-                                "tag": "h3",
-                                "tagId": "",
-                                "path": "/param-search/schema-donor"
-                            },{
-                                "title": "data_access_level attribute values",
-                                "mod": "Tue Aug 27 14:21:02 2024 -0400",
-                                "tag": "h3",
-                                "tagId": "",
-                                "path": "/param-search/schema-donor"
-                            },{
                                 "title": "HuBMAP Dataset schema",
                                 "mod": "Mon Apr 14 14:55:55 2025 -0400",
                                 "tag": "h1",
@@ -826,6 +784,48 @@
                                 "tag": "h3",
                                 "tagId": "",
                                 "path": "/param-search/"
+                            },{
+                                "title": "HuBMAP Donor schema",
+                                "mod": "Tue Aug 27 14:21:02 2024 -0400",
+                                "tag": "h1",
+                                "tagId": "",
+                                "path": "/param-search/schema-donor"
+                            },{
+                                "title": "layout: page",
+                                "mod": "Tue Aug 27 14:21:02 2024 -0400",
+                                "tag": "h2",
+                                "tagId": "",
+                                "path": "/param-search/schema-donor"
+                            },{
+                                "title": "Overview:",
+                                "mod": "Tue Aug 27 14:21:02 2024 -0400",
+                                "tag": "h2",
+                                "tagId": "",
+                                "path": "/param-search/schema-donor"
+                            },{
+                                "title": "Description:",
+                                "mod": "Tue Aug 27 14:21:02 2024 -0400",
+                                "tag": "h2",
+                                "tagId": "",
+                                "path": "/param-search/schema-donor"
+                            },{
+                                "title": "Dataset Attributes",
+                                "mod": "Tue Aug 27 14:21:02 2024 -0400",
+                                "tag": "h3",
+                                "tagId": "",
+                                "path": "/param-search/schema-donor"
+                            },{
+                                "title": "Donor Metadata Schema",
+                                "mod": "Tue Aug 27 14:21:02 2024 -0400",
+                                "tag": "h3",
+                                "tagId": "",
+                                "path": "/param-search/schema-donor"
+                            },{
+                                "title": "data_access_level attribute values",
+                                "mod": "Tue Aug 27 14:21:02 2024 -0400",
+                                "tag": "h3",
+                                "tagId": "",
+                                "path": "/param-search/schema-donor"
                             },{
                                 "title": "Example Data Query and Download",
                                 "mod": "Mon Apr 14 14:55:55 2025 -0400",
@@ -1177,168 +1177,6 @@ permalink: /histology-doi-help/",
                                 "tagId": "",
                                 "path": "/feedback"
                             },{
-                                "title": "Donor Metadata",
-                                "mod": "Tue Dec 6 11:36:06 2022 -0500",
-                                "tag": "h1",
-                                "tagId": "",
-                                "path": "/donor"
-                            },{
-                                "title": "layout: page",
-                                "mod": "Tue Dec 6 11:36:06 2022 -0500",
-                                "tag": "h2",
-                                "tagId": "",
-                                "path": "/donor"
-                            },{
-                                "title": "Format",
-                                "mod": "Tue Dec 6 11:36:06 2022 -0500",
-                                "tag": "h2",
-                                "tagId": "",
-                                "path": "/donor"
-                            },{
-                                "title": "Content",
-                                "mod": "Tue Dec 6 11:36:06 2022 -0500",
-                                "tag": "h2",
-                                "tagId": "",
-                                "path": "/donor"
-                            },{
-                                "title": "Data Source",
-                                "mod": "Tue Dec 6 11:36:06 2022 -0500",
-                                "tag": "h3",
-                                "tagId": "",
-                                "path": "/donor"
-                            },{
-                                "title": "Data Extraction and Transformation",
-                                "mod": "Tue Dec 6 11:36:06 2022 -0500",
-                                "tag": "h3",
-                                "tagId": "",
-                                "path": "/donor"
-                            },{
-                                "title": "donor_id",
-                                "mod": "Tue Dec 6 11:36:06 2022 -0500",
-                                "tag": "h3",
-                                "tagId": "",
-                                "path": "/donor"
-                            },{
-                                "title": "source_name",
-                                "mod": "Tue Dec 6 11:36:06 2022 -0500",
-                                "tag": "h3",
-                                "tagId": "",
-                                "path": "/donor"
-                            },{
-                                "title": "start_datetime",
-                                "mod": "Tue Dec 6 11:36:06 2022 -0500",
-                                "tag": "h3",
-                                "tagId": "",
-                                "path": "/donor"
-                            },{
-                                "title": "end_datetime",
-                                "mod": "Tue Dec 6 11:36:06 2022 -0500",
-                                "tag": "h3",
-                                "tagId": "",
-                                "path": "/donor"
-                            },{
-                                "title": "graph_version",
-                                "mod": "Tue Dec 6 11:36:06 2022 -0500",
-                                "tag": "h3",
-                                "tagId": "",
-                                "path": "/donor"
-                            },{
-                                "title": "concept_id",
-                                "mod": "Tue Dec 6 11:36:06 2022 -0500",
-                                "tag": "h3",
-                                "tagId": "",
-                                "path": "/donor"
-                            },{
-                                "title": "code",
-                                "mod": "Tue Dec 6 11:36:06 2022 -0500",
-                                "tag": "h3",
-                                "tagId": "",
-                                "path": "/donor"
-                            },{
-                                "title": "sab",
-                                "mod": "Tue Dec 6 11:36:06 2022 -0500",
-                                "tag": "h3",
-                                "tagId": "",
-                                "path": "/donor"
-                            },{
-                                "title": "data_type",
-                                "mod": "Tue Dec 6 11:36:06 2022 -0500",
-                                "tag": "h3",
-                                "tagId": "",
-                                "path": "/donor"
-                            },{
-                                "title": "data_value",
-                                "mod": "Tue Dec 6 11:36:06 2022 -0500",
-                                "tag": "h3",
-                                "tagId": "",
-                                "path": "/donor"
-                            },{
-                                "title": "numeric_operator",
-                                "mod": "Tue Dec 6 11:36:06 2022 -0500",
-                                "tag": "h3",
-                                "tagId": "",
-                                "path": "/donor"
-                            },{
-                                "title": "units",
-                                "mod": "Tue Dec 6 11:36:06 2022 -0500",
-                                "tag": "h3",
-                                "tagId": "",
-                                "path": "/donor"
-                            },{
-                                "title": "preferred_term",
-                                "mod": "Tue Dec 6 11:36:06 2022 -0500",
-                                "tag": "h3",
-                                "tagId": "",
-                                "path": "/donor"
-                            },{
-                                "title": "grouping_concept",
-                                "mod": "Tue Dec 6 11:36:06 2022 -0500",
-                                "tag": "h3",
-                                "tagId": "",
-                                "path": "/donor"
-                            },{
-                                "title": "grouping_concept_preferred_term",
-                                "mod": "Tue Dec 6 11:36:06 2022 -0500",
-                                "tag": "h3",
-                                "tagId": "",
-                                "path": "/donor"
-                            },{
-                                "title": "grouping_code",
-                                "mod": "Tue Dec 6 11:36:06 2022 -0500",
-                                "tag": "h3",
-                                "tagId": "",
-                                "path": "/donor"
-                            },{
-                                "title": "grouping_sab",
-                                "mod": "Tue Dec 6 11:36:06 2022 -0500",
-                                "tag": "h3",
-                                "tagId": "",
-                                "path": "/donor"
-                            },{
-                                "title": "basic_demographics",
-                                "mod": "Tue Dec 6 11:36:06 2022 -0500",
-                                "tag": "h3",
-                                "tagId": "",
-                                "path": "/donor"
-                            },{
-                                "title": "more",
-                                "mod": "Tue Dec 6 11:36:06 2022 -0500",
-                                "tag": "h3",
-                                "tagId": "",
-                                "path": "/donor"
-                            },{
-                                "title": "HuBMAP Fast Track Projects",
-                                "mod": "Wed Jun 4 11:44:20 2025 -0400",
-                                "tag": "h1",
-                                "tagId": "",
-                                "path": "/fast-track-landing-page"
-                            },{
-                                "title": "layout: page",
-                                "mod": "Wed Jun 4 11:44:20 2025 -0400",
-                                "tag": "h2",
-                                "tagId": "",
-                                "path": "/fast-track-landing-page"
-                            },{
                                 "title": "HuBMAP Frequently Asked Questions (FAQ)",
                                 "mod": "Thu Jun 13 16:14:14 2024 -0400",
                                 "tag": "h1",
@@ -1508,6 +1346,168 @@ permalink: /doi-pages-help/",
                                 "tag": "h3",
                                 "tagId": "",
                                 "path": "/doi-pages-help"
+                            },{
+                                "title": "Donor Metadata",
+                                "mod": "Tue Dec 6 11:36:06 2022 -0500",
+                                "tag": "h1",
+                                "tagId": "",
+                                "path": "/donor"
+                            },{
+                                "title": "layout: page",
+                                "mod": "Tue Dec 6 11:36:06 2022 -0500",
+                                "tag": "h2",
+                                "tagId": "",
+                                "path": "/donor"
+                            },{
+                                "title": "Format",
+                                "mod": "Tue Dec 6 11:36:06 2022 -0500",
+                                "tag": "h2",
+                                "tagId": "",
+                                "path": "/donor"
+                            },{
+                                "title": "Content",
+                                "mod": "Tue Dec 6 11:36:06 2022 -0500",
+                                "tag": "h2",
+                                "tagId": "",
+                                "path": "/donor"
+                            },{
+                                "title": "Data Source",
+                                "mod": "Tue Dec 6 11:36:06 2022 -0500",
+                                "tag": "h3",
+                                "tagId": "",
+                                "path": "/donor"
+                            },{
+                                "title": "Data Extraction and Transformation",
+                                "mod": "Tue Dec 6 11:36:06 2022 -0500",
+                                "tag": "h3",
+                                "tagId": "",
+                                "path": "/donor"
+                            },{
+                                "title": "donor_id",
+                                "mod": "Tue Dec 6 11:36:06 2022 -0500",
+                                "tag": "h3",
+                                "tagId": "",
+                                "path": "/donor"
+                            },{
+                                "title": "source_name",
+                                "mod": "Tue Dec 6 11:36:06 2022 -0500",
+                                "tag": "h3",
+                                "tagId": "",
+                                "path": "/donor"
+                            },{
+                                "title": "start_datetime",
+                                "mod": "Tue Dec 6 11:36:06 2022 -0500",
+                                "tag": "h3",
+                                "tagId": "",
+                                "path": "/donor"
+                            },{
+                                "title": "end_datetime",
+                                "mod": "Tue Dec 6 11:36:06 2022 -0500",
+                                "tag": "h3",
+                                "tagId": "",
+                                "path": "/donor"
+                            },{
+                                "title": "graph_version",
+                                "mod": "Tue Dec 6 11:36:06 2022 -0500",
+                                "tag": "h3",
+                                "tagId": "",
+                                "path": "/donor"
+                            },{
+                                "title": "concept_id",
+                                "mod": "Tue Dec 6 11:36:06 2022 -0500",
+                                "tag": "h3",
+                                "tagId": "",
+                                "path": "/donor"
+                            },{
+                                "title": "code",
+                                "mod": "Tue Dec 6 11:36:06 2022 -0500",
+                                "tag": "h3",
+                                "tagId": "",
+                                "path": "/donor"
+                            },{
+                                "title": "sab",
+                                "mod": "Tue Dec 6 11:36:06 2022 -0500",
+                                "tag": "h3",
+                                "tagId": "",
+                                "path": "/donor"
+                            },{
+                                "title": "data_type",
+                                "mod": "Tue Dec 6 11:36:06 2022 -0500",
+                                "tag": "h3",
+                                "tagId": "",
+                                "path": "/donor"
+                            },{
+                                "title": "data_value",
+                                "mod": "Tue Dec 6 11:36:06 2022 -0500",
+                                "tag": "h3",
+                                "tagId": "",
+                                "path": "/donor"
+                            },{
+                                "title": "numeric_operator",
+                                "mod": "Tue Dec 6 11:36:06 2022 -0500",
+                                "tag": "h3",
+                                "tagId": "",
+                                "path": "/donor"
+                            },{
+                                "title": "units",
+                                "mod": "Tue Dec 6 11:36:06 2022 -0500",
+                                "tag": "h3",
+                                "tagId": "",
+                                "path": "/donor"
+                            },{
+                                "title": "preferred_term",
+                                "mod": "Tue Dec 6 11:36:06 2022 -0500",
+                                "tag": "h3",
+                                "tagId": "",
+                                "path": "/donor"
+                            },{
+                                "title": "grouping_concept",
+                                "mod": "Tue Dec 6 11:36:06 2022 -0500",
+                                "tag": "h3",
+                                "tagId": "",
+                                "path": "/donor"
+                            },{
+                                "title": "grouping_concept_preferred_term",
+                                "mod": "Tue Dec 6 11:36:06 2022 -0500",
+                                "tag": "h3",
+                                "tagId": "",
+                                "path": "/donor"
+                            },{
+                                "title": "grouping_code",
+                                "mod": "Tue Dec 6 11:36:06 2022 -0500",
+                                "tag": "h3",
+                                "tagId": "",
+                                "path": "/donor"
+                            },{
+                                "title": "grouping_sab",
+                                "mod": "Tue Dec 6 11:36:06 2022 -0500",
+                                "tag": "h3",
+                                "tagId": "",
+                                "path": "/donor"
+                            },{
+                                "title": "basic_demographics",
+                                "mod": "Tue Dec 6 11:36:06 2022 -0500",
+                                "tag": "h3",
+                                "tagId": "",
+                                "path": "/donor"
+                            },{
+                                "title": "more",
+                                "mod": "Tue Dec 6 11:36:06 2022 -0500",
+                                "tag": "h3",
+                                "tagId": "",
+                                "path": "/donor"
+                            },{
+                                "title": "HuBMAP Fast Track Projects",
+                                "mod": "Wed Jun 4 11:44:20 2025 -0400",
+                                "tag": "h1",
+                                "tagId": "",
+                                "path": "/fast-track-landing-page"
+                            },{
+                                "title": "layout: page",
+                                "mod": "Wed Jun 4 11:44:20 2025 -0400",
+                                "tag": "h2",
+                                "tagId": "",
+                                "path": "/fast-track-landing-page"
                             },{
                                 "title": "Metadata Reporting Standards",
                                 "mod": "Fri Aug 7 10:29:51 2026 -0400",
@@ -1839,48 +1839,6 @@ permalink: /doi-pages-help/",
                                 "mod": "Thu Mar 12 15:35:15 2026 -0400",
                                 "tag": "h2",
                                 "tagId": "",
-                                "path": "/clt/install-hubmap-clt"
-                            },{
-                                "title": "Installing and Getting Started with the HuBMAP Command Line Transfer",
-                                "mod": "Thu Mar 12 15:35:15 2026 -0400",
-                                "tag": "h3",
-                                "tagId": "",
-                                "path": "/clt/install-hubmap-clt"
-                            },{
-                                "title": "Globus Prerequisites",
-                                "mod": "Thu Mar 12 15:35:15 2026 -0400",
-                                "tag": "h4",
-                                "tagId": "",
-                                "path": "/clt/install-hubmap-clt"
-                            },{
-                                "title": "IMPORTANT NOTE ABOUT GLOBUS CONNECT PERSONAL",
-                                "mod": "Thu Mar 12 15:35:15 2026 -0400",
-                                "tag": "h4",
-                                "tagId": "",
-                                "path": "/clt/install-hubmap-clt"
-                            },{
-                                "title": "Installing the HuBMAP CLT",
-                                "mod": "Thu Mar 12 15:35:15 2026 -0400",
-                                "tag": "h4",
-                                "tagId": "",
-                                "path": "/clt/install-hubmap-clt"
-                            },{
-                                "title": "Log in to the HuBMAP CLT",
-                                "mod": "Thu Mar 12 15:35:15 2026 -0400",
-                                "tag": "h4",
-                                "tagId": "",
-                                "path": "/clt/install-hubmap-clt"
-                            },{
-                                "title": "Using the HuBMAP CLT",
-                                "mod": "Thu Mar 12 15:35:15 2026 -0400",
-                                "tag": "h4",
-                                "tagId": "",
-                                "path": "/clt/install-hubmap-clt"
-                            },{
-                                "title": "layout: page",
-                                "mod": "Thu Mar 12 15:35:15 2026 -0400",
-                                "tag": "h2",
-                                "tagId": "",
                                 "path": "/clt/"
                             },{
                                 "title": "Using the HuBMAP CLT",
@@ -1925,30 +1883,6 @@ permalink: /doi-pages-help/",
                                 "tagId": "",
                                 "path": "/clt/"
                             },{
-                                "title": "Sample Bulk Registration",
-                                "mod": "Mon May 12 10:01:12 2025 -0400",
-                                "tag": "h1",
-                                "tagId": "",
-                                "path": "/bulk-registration/sample-bulk-reg"
-                            },{
-                                "title": "layout: page",
-                                "mod": "Mon May 12 10:01:12 2025 -0400",
-                                "tag": "h2",
-                                "tagId": "",
-                                "path": "/bulk-registration/sample-bulk-reg"
-                            },{
-                                "title": "Sample Bulk Registration TSV Fields",
-                                "mod": "Mon May 12 10:01:12 2025 -0400",
-                                "tag": "h3",
-                                "tagId": "",
-                                "path": "/bulk-registration/sample-bulk-reg"
-                            },{
-                                "title": "Sample Metadata Submission",
-                                "mod": "Mon May 12 10:01:12 2025 -0400",
-                                "tag": "h3",
-                                "tagId": "",
-                                "path": "/bulk-registration/sample-bulk-reg"
-                            },{
                                 "title": "layout: page",
                                 "mod": "Mon Jul 15 17:31:14 2024 -0400",
                                 "tag": "h2",
@@ -1985,6 +1919,48 @@ permalink: /doi-pages-help/",
                                 "tagId": "",
                                 "path": "/clt/generate-manifest"
                             },{
+                                "title": "layout: page",
+                                "mod": "Thu Mar 12 15:35:15 2026 -0400",
+                                "tag": "h2",
+                                "tagId": "",
+                                "path": "/clt/install-hubmap-clt"
+                            },{
+                                "title": "Installing and Getting Started with the HuBMAP Command Line Transfer",
+                                "mod": "Thu Mar 12 15:35:15 2026 -0400",
+                                "tag": "h3",
+                                "tagId": "",
+                                "path": "/clt/install-hubmap-clt"
+                            },{
+                                "title": "Globus Prerequisites",
+                                "mod": "Thu Mar 12 15:35:15 2026 -0400",
+                                "tag": "h4",
+                                "tagId": "",
+                                "path": "/clt/install-hubmap-clt"
+                            },{
+                                "title": "IMPORTANT NOTE ABOUT GLOBUS CONNECT PERSONAL",
+                                "mod": "Thu Mar 12 15:35:15 2026 -0400",
+                                "tag": "h4",
+                                "tagId": "",
+                                "path": "/clt/install-hubmap-clt"
+                            },{
+                                "title": "Installing the HuBMAP CLT",
+                                "mod": "Thu Mar 12 15:35:15 2026 -0400",
+                                "tag": "h4",
+                                "tagId": "",
+                                "path": "/clt/install-hubmap-clt"
+                            },{
+                                "title": "Log in to the HuBMAP CLT",
+                                "mod": "Thu Mar 12 15:35:15 2026 -0400",
+                                "tag": "h4",
+                                "tagId": "",
+                                "path": "/clt/install-hubmap-clt"
+                            },{
+                                "title": "Using the HuBMAP CLT",
+                                "mod": "Thu Mar 12 15:35:15 2026 -0400",
+                                "tag": "h4",
+                                "tagId": "",
+                                "path": "/clt/install-hubmap-clt"
+                            },{
                                 "title": "Donor Bulk Registration",
                                 "mod": "Thu Jun 13 16:14:14 2024 -0400",
                                 "tag": "h1",
@@ -2009,6 +1985,30 @@ permalink: /doi-pages-help/",
                                 "tagId": "",
                                 "path": "/bulk-registration/donor-bulk-reg"
                             },{
+                                "title": "Sample Bulk Registration",
+                                "mod": "Mon May 12 10:01:12 2025 -0400",
+                                "tag": "h1",
+                                "tagId": "",
+                                "path": "/bulk-registration/sample-bulk-reg"
+                            },{
+                                "title": "layout: page",
+                                "mod": "Mon May 12 10:01:12 2025 -0400",
+                                "tag": "h2",
+                                "tagId": "",
+                                "path": "/bulk-registration/sample-bulk-reg"
+                            },{
+                                "title": "Sample Bulk Registration TSV Fields",
+                                "mod": "Mon May 12 10:01:12 2025 -0400",
+                                "tag": "h3",
+                                "tagId": "",
+                                "path": "/bulk-registration/sample-bulk-reg"
+                            },{
+                                "title": "Sample Metadata Submission",
+                                "mod": "Mon May 12 10:01:12 2025 -0400",
+                                "tag": "h3",
+                                "tagId": "",
+                                "path": "/bulk-registration/sample-bulk-reg"
+                            },{
                                 "title": "Combined Bulk Registration",
                                 "mod": "Thu Jun 13 16:14:14 2024 -0400",
                                 "tag": "h1",
@@ -2020,12 +2020,6 @@ permalink: /doi-pages-help/",
                                 "tag": "h2",
                                 "tagId": "",
                                 "path": "/bulk-registration/comined-bulk-reg"
-                            },{
-                                "title": "HuBMAP Antibody Validation Report Structure",
-                                "mod": "Tue Apr 14 10:37:49 2026 -0400",
-                                "tag": "h1",
-                                "tagId": "",
-                                "path": "/avr/tsv-format-v2"
                             },{
                                 "title": "Donor Registration Fields",
                                 "mod": "Thu Jun 13 16:14:14 2024 -0400",
@@ -2051,6 +2045,12 @@ permalink: /doi-pages-help/",
                                 "tagId": "",
                                 "path": "/bulk-registration/comined-bulk-reg"
                             },{
+                                "title": "HuBMAP Antibody Validation Report Structure",
+                                "mod": "Tue Apr 14 10:37:49 2026 -0400",
+                                "tag": "h1",
+                                "tagId": "",
+                                "path": "/avr/tsv-format-v2"
+                            },{
                                 "title": "layout: page",
                                 "mod": "Tue Apr 14 10:37:49 2026 -0400",
                                 "tag": "h2",
@@ -2069,18 +2069,6 @@ permalink: /doi-pages-help/",
                                 "tagId": "",
                                 "path": "/avr/"
                             },{
-                                "title": "HuBMAP Antibody Validation Report Repository: Uploading new reports",
-                                "mod": "Wed Mar 16 15:32:03 2022 -0400",
-                                "tag": "h1",
-                                "tagId": "",
-                                "path": "/avr/avr-upload"
-                            },{
-                                "title": "layout: page",
-                                "mod": "Wed Mar 16 15:32:03 2022 -0400",
-                                "tag": "h2",
-                                "tagId": "",
-                                "path": "/avr/avr-upload"
-                            },{
                                 "title": "HuBMAP Antibody Validation Report CSV Structure",
                                 "mod": "Tue Mar 22 14:31:39 2022 -0400",
                                 "tag": "h1",
@@ -2094,6 +2082,18 @@ permalink: /doi-pages-help/",
                                 "path": "/avr/csv-format"
                             },{
                                 "title": "HuBMAP Antibody Validation Report Repository: Uploading new reports",
+                                "mod": "Wed Mar 16 15:32:03 2022 -0400",
+                                "tag": "h1",
+                                "tagId": "",
+                                "path": "/avr/avr-upload"
+                            },{
+                                "title": "layout: page",
+                                "mod": "Wed Mar 16 15:32:03 2022 -0400",
+                                "tag": "h2",
+                                "tagId": "",
+                                "path": "/avr/avr-upload"
+                            },{
+                                "title": "HuBMAP Antibody Validation Report Repository: Uploading new reports",
                                 "mod": "Mon Jan 12 13:38:37 2026 -0500",
                                 "tag": "h1",
                                 "tagId": "",
@@ -2104,6 +2104,114 @@ permalink: /doi-pages-help/",
                                 "tag": "h2",
                                 "tagId": "",
                                 "path": "/avr/avr-upload-v2"
+                            },{
+                                "title": "Frequently Asked Questions (FAQ) for Antibody Validation Reports (AVRs)",
+                                "mod": "Mon Jan 12 13:38:37 2026 -0500",
+                                "tag": "h1",
+                                "tagId": "",
+                                "path": "/avr/avr-faq"
+                            },{
+                                "title": "layout: page",
+                                "mod": "Mon Jan 12 13:38:37 2026 -0500",
+                                "tag": "h2",
+                                "tagId": "",
+                                "path": "/avr/avr-faq"
+                            },{
+                                "title": "General AVR Questions",
+                                "mod": "Mon Jan 12 13:38:37 2026 -0500",
+                                "tag": "h2",
+                                "tagId": "",
+                                "path": "/avr/avr-faq"
+                            },{
+                                "title": "Submitting AVRs",
+                                "mod": "Mon Jan 12 13:38:37 2026 -0500",
+                                "tag": "h2",
+                                "tagId": "",
+                                "path": "/avr/avr-faq"
+                            },{
+                                "title": "What is an antibody validation report?",
+                                "mod": "Mon Jan 12 13:38:37 2026 -0500",
+                                "tag": "h3",
+                                "tagId": "",
+                                "path": "/avr/avr-faq"
+                            },{
+                                "title": "How are antibodies validated within HuBMAP?",
+                                "mod": "Mon Jan 12 13:38:37 2026 -0500",
+                                "tag": "h3",
+                                "tagId": "",
+                                "path": "/avr/avr-faq"
+                            },{
+                                "title": "How can I access, search and browse existing AVRs?",
+                                "mod": "Mon Jan 12 13:38:37 2026 -0500",
+                                "tag": "h3",
+                                "tagId": "",
+                                "path": "/avr/avr-faq"
+                            },{
+                                "title": "Who should submit an AVR?",
+                                "mod": "Mon Jan 12 13:38:37 2026 -0500",
+                                "tag": "h3",
+                                "tagId": "",
+                                "path": "/avr/avr-faq"
+                            },{
+                                "title": "Can I contribute an AVR if I am not a HuBMAP member?",
+                                "mod": "Mon Jan 12 13:38:37 2026 -0500",
+                                "tag": "h3",
+                                "tagId": "",
+                                "path": "/avr/avr-faq"
+                            },{
+                                "title": "Can I add to or make changes to an existing AVR?",
+                                "mod": "Mon Jan 12 13:38:37 2026 -0500",
+                                "tag": "h3",
+                                "tagId": "",
+                                "path": "/avr/avr-faq"
+                            },{
+                                "title": "Do AVRs capture species cross-reactivity?",
+                                "mod": "Mon Jan 12 13:38:37 2026 -0500",
+                                "tag": "h3",
+                                "tagId": "",
+                                "path": "/avr/avr-faq"
+                            },{
+                                "title": "Is there a working group that I may join to support authoring an Organ Mapping Antibody Panel and submitting AVRs?",
+                                "mod": "Mon Jan 12 13:38:37 2026 -0500",
+                                "tag": "h3",
+                                "tagId": "",
+                                "path": "/avr/avr-faq"
+                            },{
+                                "title": "How do I cite an AVR?",
+                                "mod": "Mon Jan 12 13:38:37 2026 -0500",
+                                "tag": "h3",
+                                "tagId": "",
+                                "path": "/avr/avr-faq"
+                            },{
+                                "title": "How do I complete an AVR?",
+                                "mod": "Mon Jan 12 13:38:37 2026 -0500",
+                                "tag": "h3",
+                                "tagId": "",
+                                "path": "/avr/avr-faq"
+                            },{
+                                "title": "How do I upload AVRs?",
+                                "mod": "Mon Jan 12 13:38:37 2026 -0500",
+                                "tag": "h3",
+                                "tagId": "",
+                                "path": "/avr/avr-faq"
+                            },{
+                                "title": "Should every antibody in an OMAP have a corresponding AVR?",
+                                "mod": "Mon Jan 12 13:38:37 2026 -0500",
+                                "tag": "h3",
+                                "tagId": "",
+                                "path": "/avr/avr-faq"
+                            },{
+                                "title": "Should I fill out an AVR for antibodies that work but are not included in an OMAP?",
+                                "mod": "Mon Jan 12 13:38:37 2026 -0500",
+                                "tag": "h3",
+                                "tagId": "",
+                                "path": "/avr/avr-faq"
+                            },{
+                                "title": "Should I fill out an AVR for antibodies that do not work for an imaging platform or tissue?",
+                                "mod": "Mon Jan 12 13:38:37 2026 -0500",
+                                "tag": "h3",
+                                "tagId": "",
+                                "path": "/avr/avr-faq"
                             },{
                                 "title": "HuBMAP Assays",
                                 "mod": "Fri Feb 24 15:50:27 2023 -0500",
@@ -2266,114 +2374,6 @@ permalink: /doi-pages-help/",
                                 "tag": "h3",
                                 "tagId": "",
                                 "path": "/assays/wgs"
-                            },{
-                                "title": "Frequently Asked Questions (FAQ) for Antibody Validation Reports (AVRs)",
-                                "mod": "Mon Jan 12 13:38:37 2026 -0500",
-                                "tag": "h1",
-                                "tagId": "",
-                                "path": "/avr/avr-faq"
-                            },{
-                                "title": "layout: page",
-                                "mod": "Mon Jan 12 13:38:37 2026 -0500",
-                                "tag": "h2",
-                                "tagId": "",
-                                "path": "/avr/avr-faq"
-                            },{
-                                "title": "General AVR Questions",
-                                "mod": "Mon Jan 12 13:38:37 2026 -0500",
-                                "tag": "h2",
-                                "tagId": "",
-                                "path": "/avr/avr-faq"
-                            },{
-                                "title": "Submitting AVRs",
-                                "mod": "Mon Jan 12 13:38:37 2026 -0500",
-                                "tag": "h2",
-                                "tagId": "",
-                                "path": "/avr/avr-faq"
-                            },{
-                                "title": "What is an antibody validation report?",
-                                "mod": "Mon Jan 12 13:38:37 2026 -0500",
-                                "tag": "h3",
-                                "tagId": "",
-                                "path": "/avr/avr-faq"
-                            },{
-                                "title": "How are antibodies validated within HuBMAP?",
-                                "mod": "Mon Jan 12 13:38:37 2026 -0500",
-                                "tag": "h3",
-                                "tagId": "",
-                                "path": "/avr/avr-faq"
-                            },{
-                                "title": "How can I access, search and browse existing AVRs?",
-                                "mod": "Mon Jan 12 13:38:37 2026 -0500",
-                                "tag": "h3",
-                                "tagId": "",
-                                "path": "/avr/avr-faq"
-                            },{
-                                "title": "Who should submit an AVR?",
-                                "mod": "Mon Jan 12 13:38:37 2026 -0500",
-                                "tag": "h3",
-                                "tagId": "",
-                                "path": "/avr/avr-faq"
-                            },{
-                                "title": "Can I contribute an AVR if I am not a HuBMAP member?",
-                                "mod": "Mon Jan 12 13:38:37 2026 -0500",
-                                "tag": "h3",
-                                "tagId": "",
-                                "path": "/avr/avr-faq"
-                            },{
-                                "title": "Can I add to or make changes to an existing AVR?",
-                                "mod": "Mon Jan 12 13:38:37 2026 -0500",
-                                "tag": "h3",
-                                "tagId": "",
-                                "path": "/avr/avr-faq"
-                            },{
-                                "title": "Do AVRs capture species cross-reactivity?",
-                                "mod": "Mon Jan 12 13:38:37 2026 -0500",
-                                "tag": "h3",
-                                "tagId": "",
-                                "path": "/avr/avr-faq"
-                            },{
-                                "title": "Is there a working group that I may join to support authoring an Organ Mapping Antibody Panel and submitting AVRs?",
-                                "mod": "Mon Jan 12 13:38:37 2026 -0500",
-                                "tag": "h3",
-                                "tagId": "",
-                                "path": "/avr/avr-faq"
-                            },{
-                                "title": "How do I cite an AVR?",
-                                "mod": "Mon Jan 12 13:38:37 2026 -0500",
-                                "tag": "h3",
-                                "tagId": "",
-                                "path": "/avr/avr-faq"
-                            },{
-                                "title": "How do I complete an AVR?",
-                                "mod": "Mon Jan 12 13:38:37 2026 -0500",
-                                "tag": "h3",
-                                "tagId": "",
-                                "path": "/avr/avr-faq"
-                            },{
-                                "title": "How do I upload AVRs?",
-                                "mod": "Mon Jan 12 13:38:37 2026 -0500",
-                                "tag": "h3",
-                                "tagId": "",
-                                "path": "/avr/avr-faq"
-                            },{
-                                "title": "Should every antibody in an OMAP have a corresponding AVR?",
-                                "mod": "Mon Jan 12 13:38:37 2026 -0500",
-                                "tag": "h3",
-                                "tagId": "",
-                                "path": "/avr/avr-faq"
-                            },{
-                                "title": "Should I fill out an AVR for antibodies that work but are not included in an OMAP?",
-                                "mod": "Mon Jan 12 13:38:37 2026 -0500",
-                                "tag": "h3",
-                                "tagId": "",
-                                "path": "/avr/avr-faq"
-                            },{
-                                "title": "Should I fill out an AVR for antibodies that do not work for an imaging platform or tissue?",
-                                "mod": "Mon Jan 12 13:38:37 2026 -0500",
-                                "tag": "h3",
-                                "tagId": "",
-                                "path": "/avr/avr-faq"
                             },{
                                 "title": "Consumer-focused section",
                                 "mod": "Wed Oct 12 09:13:02 2022 -0400",
@@ -2705,6 +2705,12 @@ permalink: /doi-pages-help/",
                                 "tagId": "",
                                 "path": "/assays/rnaseq"
                             },{
+                                "title": "HuBMAP Nano-DESI (Desorption Electrospray Ionization) & nanoPOTS (Processing in One Pot for Trace Samples )",
+                                "mod": "Fri Feb 11 12:35:10 2022 -0500",
+                                "tag": "h1",
+                                "tagId": "",
+                                "path": "/assays/nano"
+                            },{
                                 "title": "layout: page",
                                 "mod": "Fri Feb 11 12:35:10 2022 -0500",
                                 "tag": "h2",
@@ -2759,12 +2765,6 @@ permalink: /doi-pages-help/",
                                 "tagId": "",
                                 "path": "/assays/nano"
                             },{
-                                "title": "HuBMAP Nano-DESI (Desorption Electrospray Ionization) & nanoPOTS (Processing in One Pot for Trace Samples )",
-                                "mod": "Fri Feb 11 12:35:10 2022 -0500",
-                                "tag": "h1",
-                                "tagId": "",
-                                "path": "/assays/nano"
-                            },{
                                 "title": "Last Updated: 12/18/2020",
                                 "mod": "Fri Feb 11 12:35:10 2022 -0500",
                                 "tag": "h3",
@@ -2776,36 +2776,6 @@ permalink: /doi-pages-help/",
                                 "tag": "h3",
                                 "tagId": "",
                                 "path": "/assays/nano"
-                            },{
-                                "title": "WGS Metadata Attributes",
-                                "mod": "Mon Jul 20 10:56:17 2026 -0400",
-                                "tag": "h1",
-                                "tagId": "",
-                                "path": "/assays/metadata/wgs"
-                            },{
-                                "title": "layout: page-triary",
-                                "mod": "Mon Jul 20 10:56:17 2026 -0400",
-                                "tag": "h2",
-                                "tagId": "",
-                                "path": "/assays/metadata/wgs"
-                            },{
-                                "title": "Deprecated Attributes",
-                                "mod": "Mon Jul 20 10:56:17 2026 -0400",
-                                "tag": "h2",
-                                "tagId": "",
-                                "path": "/assays/metadata/wgs"
-                            },{
-                                "title": "Visium (with probes) Metadata Attributes",
-                                "mod": "Mon Jul 20 10:56:17 2026 -0400",
-                                "tag": "h1",
-                                "tagId": "",
-                                "path": "/assays/metadata/visiumwithprobes"
-                            },{
-                                "title": "layout: page-triary",
-                                "mod": "Mon Jul 20 10:56:17 2026 -0400",
-                                "tag": "h2",
-                                "tagId": "",
-                                "path": "/assays/metadata/visiumwithprobes"
                             },{
                                 "title": "HuBMAP PAS Stained Microscopy",
                                 "mod": "Thu Mar 3 12:46:25 2022 -0500",
@@ -2939,11 +2909,35 @@ permalink: /doi-pages-help/",
                                 "tagId": "",
                                 "path": "/assays/mxif"
                             },{
+                                "title": "WGS Metadata Attributes",
+                                "mod": "Mon Jul 20 10:56:17 2026 -0400",
+                                "tag": "h1",
+                                "tagId": "",
+                                "path": "/assays/metadata/wgs"
+                            },{
                                 "title": "layout: page-triary",
-                                "mod": "Fri Jul 17 09:31:39 2026 -0400",
+                                "mod": "Mon Jul 20 10:56:17 2026 -0400",
                                 "tag": "h2",
                                 "tagId": "",
-                                "path": "/assays/metadata/visium-hd"
+                                "path": "/assays/metadata/wgs"
+                            },{
+                                "title": "Deprecated Attributes",
+                                "mod": "Mon Jul 20 10:56:17 2026 -0400",
+                                "tag": "h2",
+                                "tagId": "",
+                                "path": "/assays/metadata/wgs"
+                            },{
+                                "title": "Visium (with probes) Metadata Attributes",
+                                "mod": "Mon Jul 20 10:56:17 2026 -0400",
+                                "tag": "h1",
+                                "tagId": "",
+                                "path": "/assays/metadata/visiumwithprobes"
+                            },{
+                                "title": "layout: page-triary",
+                                "mod": "Mon Jul 20 10:56:17 2026 -0400",
+                                "tag": "h2",
+                                "tagId": "",
+                                "path": "/assays/metadata/visiumwithprobes"
                             },{
                                 "title": "Visium HD Metadata Attributes",
                                 "mod": "Fri Jul 17 09:31:39 2026 -0400",
@@ -2951,17 +2945,23 @@ permalink: /doi-pages-help/",
                                 "tagId": "",
                                 "path": "/assays/metadata/visium-hd"
                             },{
-                                "title": "STARmap Metadata Attributes",
+                                "title": "SNARE-seq2 Metadata Attributes",
                                 "mod": "Mon Jul 20 10:56:17 2026 -0400",
                                 "tag": "h1",
                                 "tagId": "",
-                                "path": "/assays/metadata/starmap"
+                                "path": "/assays/metadata/snareseq2"
+                            },{
+                                "title": "layout: page-triary",
+                                "mod": "Fri Jul 17 09:31:39 2026 -0400",
+                                "tag": "h2",
+                                "tagId": "",
+                                "path": "/assays/metadata/visium-hd"
                             },{
                                 "title": "layout: page-triary",
                                 "mod": "Mon Jul 20 10:56:17 2026 -0400",
                                 "tag": "h2",
                                 "tagId": "",
-                                "path": "/assays/metadata/starmap"
+                                "path": "/assays/metadata/snareseq2"
                             },{
                                 "title": "Thick Section Multiphoton MxIF Metadata Attributes",
                                 "mod": "Mon Jul 20 10:56:17 2026 -0400",
@@ -2975,17 +2975,17 @@ permalink: /doi-pages-help/",
                                 "tagId": "",
                                 "path": "/assays/metadata/thicksectionmultiphotonmxif"
                             },{
-                                "title": "SNARE-seq2 Metadata Attributes",
+                                "title": "STARmap Metadata Attributes",
                                 "mod": "Mon Jul 20 10:56:17 2026 -0400",
                                 "tag": "h1",
                                 "tagId": "",
-                                "path": "/assays/metadata/snareseq2"
+                                "path": "/assays/metadata/starmap"
                             },{
                                 "title": "layout: page-triary",
                                 "mod": "Mon Jul 20 10:56:17 2026 -0400",
                                 "tag": "h2",
                                 "tagId": "",
-                                "path": "/assays/metadata/snareseq2"
+                                "path": "/assays/metadata/starmap"
                             },{
                                 "title": "Slide-seq Metadata Attributes",
                                 "mod": "Mon Jul 20 10:56:17 2026 -0400",
@@ -3017,6 +3017,18 @@ permalink: /doi-pages-help/",
                                 "tagId": "",
                                 "path": "/assays/metadata/sims"
                             },{
+                                "title": "layout: page",
+                                "mod": "Mon Jul 20 10:56:17 2026 -0400",
+                                "tag": "h2",
+                                "tagId": "",
+                                "path": "/assays/metadata/simple"
+                            },{
+                                "title": "Simple Assay Index",
+                                "mod": "Mon Jul 20 10:56:17 2026 -0400",
+                                "tag": "h2",
+                                "tagId": "",
+                                "path": "/assays/metadata/simple"
+                            },{
                                 "title": "seqFISH Metadata Attributes",
                                 "mod": "Mon Jul 20 10:56:17 2026 -0400",
                                 "tag": "h1",
@@ -3035,17 +3047,17 @@ permalink: /doi-pages-help/",
                                 "tagId": "",
                                 "path": "/assays/metadata/seqfish"
                             },{
-                                "title": "layout: page",
+                                "title": "Second Harmonic Generation Metadata Attributes",
                                 "mod": "Mon Jul 20 10:56:17 2026 -0400",
-                                "tag": "h2",
+                                "tag": "h1",
                                 "tagId": "",
-                                "path": "/assays/metadata/simple"
+                                "path": "/assays/metadata/secondharmonicgeneration"
                             },{
-                                "title": "Simple Assay Index",
+                                "title": "layout: page-triary",
                                 "mod": "Mon Jul 20 10:56:17 2026 -0400",
                                 "tag": "h2",
                                 "tagId": "",
-                                "path": "/assays/metadata/simple"
+                                "path": "/assays/metadata/secondharmonicgeneration"
                             },{
                                 "title": "Seq-Scope Metadata Attributes",
                                 "mod": "Fri Jul 17 09:31:39 2026 -0400",
@@ -3059,17 +3071,17 @@ permalink: /doi-pages-help/",
                                 "tagId": "",
                                 "path": "/assays/metadata/seq-scope"
                             },{
-                                "title": "Second Harmonic Generation Metadata Attributes",
+                                "title": "Pixel-seqV2 Metadata Attributes",
                                 "mod": "Mon Jul 20 10:56:17 2026 -0400",
                                 "tag": "h1",
                                 "tagId": "",
-                                "path": "/assays/metadata/secondharmonicgeneration"
+                                "path": "/assays/metadata/pixel-seqv2"
                             },{
                                 "title": "layout: page-triary",
                                 "mod": "Mon Jul 20 10:56:17 2026 -0400",
                                 "tag": "h2",
                                 "tagId": "",
-                                "path": "/assays/metadata/secondharmonicgeneration"
+                                "path": "/assays/metadata/pixel-seqv2"
                             },{
                                 "title": "Raman Imaging Metadata Attributes",
                                 "mod": "Mon Jul 20 10:56:17 2026 -0400",
@@ -3083,18 +3095,6 @@ permalink: /doi-pages-help/",
                                 "tagId": "",
                                 "path": "/assays/metadata/raman-imaging"
                             },{
-                                "title": "Pixel-seqV2 Metadata Attributes",
-                                "mod": "Mon Jul 20 10:56:17 2026 -0400",
-                                "tag": "h1",
-                                "tagId": "",
-                                "path": "/assays/metadata/pixel-seqv2"
-                            },{
-                                "title": "layout: page-triary",
-                                "mod": "Mon Jul 20 10:56:17 2026 -0400",
-                                "tag": "h2",
-                                "tagId": "",
-                                "path": "/assays/metadata/pixel-seqv2"
-                            },{
                                 "title": "PhenoCycler Metadata Attributes",
                                 "mod": "Fri Jul 17 09:31:39 2026 -0400",
                                 "tag": "h1",
@@ -3106,18 +3106,6 @@ permalink: /doi-pages-help/",
                                 "tag": "h2",
                                 "tagId": "",
                                 "path": "/assays/metadata/phenocycler"
-                            },{
-                                "title": "Olink Metadata Attributes",
-                                "mod": "Fri Jul 17 09:31:39 2026 -0400",
-                                "tag": "h1",
-                                "tagId": "",
-                                "path": "/assays/metadata/olink"
-                            },{
-                                "title": "layout: page-triary",
-                                "mod": "Fri Jul 17 09:31:39 2026 -0400",
-                                "tag": "h2",
-                                "tagId": "",
-                                "path": "/assays/metadata/olink"
                             },{
                                 "title": "Paired Tag Metadata Attributes",
                                 "mod": "Mon Jul 20 16:45:09 2026 -0400",
@@ -3131,17 +3119,17 @@ permalink: /doi-pages-help/",
                                 "tagId": "",
                                 "path": "/assays/metadata/paired-tag"
                             },{
-                                "title": "MERFISH Metadata Attributes",
-                                "mod": "Mon Jul 20 10:56:17 2026 -0400",
+                                "title": "Olink Metadata Attributes",
+                                "mod": "Fri Jul 17 09:31:39 2026 -0400",
                                 "tag": "h1",
                                 "tagId": "",
-                                "path": "/assays/metadata/merfish"
+                                "path": "/assays/metadata/olink"
                             },{
                                 "title": "layout: page-triary",
-                                "mod": "Mon Jul 20 10:56:17 2026 -0400",
+                                "mod": "Fri Jul 17 09:31:39 2026 -0400",
                                 "tag": "h2",
                                 "tagId": "",
-                                "path": "/assays/metadata/merfish"
+                                "path": "/assays/metadata/olink"
                             },{
                                 "title": "MPLEx Metadata Attributes",
                                 "mod": "Fri Jul 17 09:31:39 2026 -0400",
@@ -3155,17 +3143,17 @@ permalink: /doi-pages-help/",
                                 "tagId": "",
                                 "path": "/assays/metadata/mplex"
                             },{
-                                "title": "MACSima Metadata Attributes",
-                                "mod": "Mon Jul 20 17:00:36 2026 -0400",
+                                "title": "MERFISH Metadata Attributes",
+                                "mod": "Mon Jul 20 10:56:17 2026 -0400",
                                 "tag": "h1",
                                 "tagId": "",
-                                "path": "/assays/metadata/macsima"
+                                "path": "/assays/metadata/merfish"
                             },{
                                 "title": "layout: page-triary",
-                                "mod": "Mon Jul 20 17:00:36 2026 -0400",
+                                "mod": "Mon Jul 20 10:56:17 2026 -0400",
                                 "tag": "h2",
                                 "tagId": "",
-                                "path": "/assays/metadata/macsima"
+                                "path": "/assays/metadata/merfish"
                             },{
                                 "title": "layout: page",
                                 "mod": "Mon Jul 20 17:00:36 2026 -0400",
@@ -3179,11 +3167,23 @@ permalink: /doi-pages-help/",
                                 "tagId": "",
                                 "path": "/assays/metadata/"
                             },{
+                                "title": "MACSima Metadata Attributes",
+                                "mod": "Mon Jul 20 17:00:36 2026 -0400",
+                                "tag": "h1",
+                                "tagId": "",
+                                "path": "/assays/metadata/macsima"
+                            },{
                                 "title": "2D Imaging Mass Cytometry Metadata Attributes",
                                 "mod": "Mon Jul 20 10:56:17 2026 -0400",
                                 "tag": "h1",
                                 "tagId": "",
                                 "path": "/assays/metadata/imc"
+                            },{
+                                "title": "layout: page-triary",
+                                "mod": "Mon Jul 20 17:00:36 2026 -0400",
+                                "tag": "h2",
+                                "tagId": "",
+                                "path": "/assays/metadata/macsima"
                             },{
                                 "title": "layout: page-triary",
                                 "mod": "Mon Jul 20 10:56:17 2026 -0400",
@@ -3197,18 +3197,6 @@ permalink: /doi-pages-help/",
                                 "tagId": "",
                                 "path": "/assays/metadata/imc"
                             },{
-                                "title": "Illumina Spatial Metadata Attributes",
-                                "mod": "Mon Jul 20 10:56:17 2026 -0400",
-                                "tag": "h1",
-                                "tagId": "",
-                                "path": "/assays/metadata/illumina-spatial"
-                            },{
-                                "title": "layout: page-triary",
-                                "mod": "Mon Jul 20 10:56:17 2026 -0400",
-                                "tag": "h2",
-                                "tagId": "",
-                                "path": "/assays/metadata/illumina-spatial"
-                            },{
                                 "title": "iCLAP Metadata Attributes",
                                 "mod": "Mon Jul 20 10:56:17 2026 -0400",
                                 "tag": "h1",
@@ -3220,6 +3208,18 @@ permalink: /doi-pages-help/",
                                 "tag": "h2",
                                 "tagId": "",
                                 "path": "/assays/metadata/iclap"
+                            },{
+                                "title": "Illumina Spatial Metadata Attributes",
+                                "mod": "Mon Jul 20 10:56:17 2026 -0400",
+                                "tag": "h1",
+                                "tagId": "",
+                                "path": "/assays/metadata/illumina-spatial"
+                            },{
+                                "title": "layout: page-triary",
+                                "mod": "Mon Jul 20 10:56:17 2026 -0400",
+                                "tag": "h2",
+                                "tagId": "",
+                                "path": "/assays/metadata/illumina-spatial"
                             },{
                                 "title": "HiFi-Slide Metadata Attributes",
                                 "mod": "Mon Jul 20 10:56:17 2026 -0400",
@@ -3311,30 +3311,6 @@ permalink: /doi-pages-help/",
                                 "tagId": "",
                                 "path": "/assays/metadata/cycif"
                             },{
-                                "title": "COMET Metadata Attributes",
-                                "mod": "Mon Jul 20 10:56:17 2026 -0400",
-                                "tag": "h1",
-                                "tagId": "",
-                                "path": "/assays/metadata/comet"
-                            },{
-                                "title": "layout: page-triary",
-                                "mod": "Mon Jul 20 10:56:17 2026 -0400",
-                                "tag": "h2",
-                                "tagId": "",
-                                "path": "/assays/metadata/comet"
-                            },{
-                                "title": "CosMx Proteomics Metadata Attributes",
-                                "mod": "Mon Jul 20 10:56:17 2026 -0400",
-                                "tag": "h1",
-                                "tagId": "",
-                                "path": "/assays/metadata/cosmx-proteomics"
-                            },{
-                                "title": "layout: page-triary",
-                                "mod": "Mon Jul 20 10:56:17 2026 -0400",
-                                "tag": "h2",
-                                "tagId": "",
-                                "path": "/assays/metadata/cosmx-proteomics"
-                            },{
                                 "title": "CosMx Transcriptomics Metadata Attributes",
                                 "mod": "Mon Jul 20 10:56:17 2026 -0400",
                                 "tag": "h1",
@@ -3352,6 +3328,30 @@ permalink: /doi-pages-help/",
                                 "tag": "h2",
                                 "tagId": "",
                                 "path": "/assays/metadata/cosmx-transcriptomics"
+                            },{
+                                "title": "CosMx Proteomics Metadata Attributes",
+                                "mod": "Mon Jul 20 10:56:17 2026 -0400",
+                                "tag": "h1",
+                                "tagId": "",
+                                "path": "/assays/metadata/cosmx-proteomics"
+                            },{
+                                "title": "layout: page-triary",
+                                "mod": "Mon Jul 20 10:56:17 2026 -0400",
+                                "tag": "h2",
+                                "tagId": "",
+                                "path": "/assays/metadata/cosmx-proteomics"
+                            },{
+                                "title": "COMET Metadata Attributes",
+                                "mod": "Mon Jul 20 10:56:17 2026 -0400",
+                                "tag": "h1",
+                                "tagId": "",
+                                "path": "/assays/metadata/comet"
+                            },{
+                                "title": "layout: page-triary",
+                                "mod": "Mon Jul 20 10:56:17 2026 -0400",
+                                "tag": "h2",
+                                "tagId": "",
+                                "path": "/assays/metadata/comet"
                             },{
                                 "title": "Visium (no probes) Metadata Attributes",
                                 "mod": "",
@@ -3443,12 +3443,6 @@ permalink: /doi-pages-help/",
                                 "tagId": "",
                                 "path": "/assays/metadata/MUSIC-(CEDAR)"
                             },{
-                                "title": "MIBI Metadata Attributes",
-                                "mod": "Mon Jul 20 10:56:17 2026 -0400",
-                                "tag": "h1",
-                                "tagId": "",
-                                "path": "/assays/metadata/MIBI"
-                            },{
                                 "title": "layout: page-triary",
                                 "mod": "Mon Jul 20 10:56:17 2026 -0400",
                                 "tag": "h2",
@@ -3458,6 +3452,12 @@ permalink: /doi-pages-help/",
                                 "title": "Deprecated Attributes",
                                 "mod": "Mon Jul 20 10:56:17 2026 -0400",
                                 "tag": "h2",
+                                "tagId": "",
+                                "path": "/assays/metadata/MIBI"
+                            },{
+                                "title": "MIBI Metadata Attributes",
+                                "mod": "Mon Jul 20 10:56:17 2026 -0400",
+                                "tag": "h1",
                                 "tagId": "",
                                 "path": "/assays/metadata/MIBI"
                             },{
@@ -3478,6 +3478,24 @@ permalink: /doi-pages-help/",
                                 "tag": "h2",
                                 "tagId": "",
                                 "path": "/assays/metadata/MALDI"
+                            },{
+                                "title": "Light-Sheet Metadata Attributes",
+                                "mod": "Mon Jul 20 10:56:17 2026 -0400",
+                                "tag": "h1",
+                                "tagId": "",
+                                "path": "/assays/metadata/Light-Sheet"
+                            },{
+                                "title": "layout: page-triary",
+                                "mod": "Mon Jul 20 10:56:17 2026 -0400",
+                                "tag": "h2",
+                                "tagId": "",
+                                "path": "/assays/metadata/Light-Sheet"
+                            },{
+                                "title": "Deprecated Attributes",
+                                "mod": "Mon Jul 20 10:56:17 2026 -0400",
+                                "tag": "h2",
+                                "tagId": "",
+                                "path": "/assays/metadata/Light-Sheet"
                             },{
                                 "title": "LC-MS Metadata Attributes",
                                 "mod": "Mon Jul 20 10:56:17 2026 -0400",
@@ -3551,23 +3569,23 @@ permalink: /doi-pages-help/",
                                 "tagId": "",
                                 "path": "/assays/metadata/DESI"
                             },{
-                                "title": "Light-Sheet Metadata Attributes",
-                                "mod": "Mon Jul 20 10:56:17 2026 -0400",
+                                "title": "Cell DIVE Metadata Attributes",
+                                "mod": "Fri Jul 17 09:31:39 2026 -0400",
                                 "tag": "h1",
                                 "tagId": "",
-                                "path": "/assays/metadata/Light-Sheet"
+                                "path": "/assays/metadata/Cell-DIVE"
                             },{
                                 "title": "layout: page-triary",
-                                "mod": "Mon Jul 20 10:56:17 2026 -0400",
+                                "mod": "Fri Jul 17 09:31:39 2026 -0400",
                                 "tag": "h2",
                                 "tagId": "",
-                                "path": "/assays/metadata/Light-Sheet"
+                                "path": "/assays/metadata/Cell-DIVE"
                             },{
                                 "title": "Deprecated Attributes",
-                                "mod": "Mon Jul 20 10:56:17 2026 -0400",
+                                "mod": "Fri Jul 17 09:31:39 2026 -0400",
                                 "tag": "h2",
                                 "tagId": "",
-                                "path": "/assays/metadata/Light-Sheet"
+                                "path": "/assays/metadata/Cell-DIVE"
                             },{
                                 "title": "CODEX Metadata Attributes",
                                 "mod": "Fri Jul 17 09:31:39 2026 -0400",
@@ -3605,36 +3623,6 @@ permalink: /doi-pages-help/",
                                 "tagId": "",
                                 "path": "/assays/metadata/Auto-fluorescence"
                             },{
-                                "title": "Cell DIVE Metadata Attributes",
-                                "mod": "Fri Jul 17 09:31:39 2026 -0400",
-                                "tag": "h1",
-                                "tagId": "",
-                                "path": "/assays/metadata/Cell-DIVE"
-                            },{
-                                "title": "layout: page-triary",
-                                "mod": "Fri Jul 17 09:31:39 2026 -0400",
-                                "tag": "h2",
-                                "tagId": "",
-                                "path": "/assays/metadata/Cell-DIVE"
-                            },{
-                                "title": "Deprecated Attributes",
-                                "mod": "Fri Jul 17 09:31:39 2026 -0400",
-                                "tag": "h2",
-                                "tagId": "",
-                                "path": "/assays/metadata/Cell-DIVE"
-                            },{
-                                "title": "4i Metadata Attributes",
-                                "mod": "Mon Jul 20 10:56:17 2026 -0400",
-                                "tag": "h1",
-                                "tagId": "",
-                                "path": "/assays/metadata/4i"
-                            },{
-                                "title": "layout: page-triary",
-                                "mod": "Mon Jul 20 10:56:17 2026 -0400",
-                                "tag": "h2",
-                                "tagId": "",
-                                "path": "/assays/metadata/4i"
-                            },{
                                 "title": "ATACseq Metadata Attributes",
                                 "mod": "Mon Jul 20 10:56:17 2026 -0400",
                                 "tag": "h1",
@@ -3652,6 +3640,30 @@ permalink: /doi-pages-help/",
                                 "tag": "h2",
                                 "tagId": "",
                                 "path": "/assays/metadata/ATACseq"
+                            },{
+                                "title": "4i Metadata Attributes",
+                                "mod": "Mon Jul 20 10:56:17 2026 -0400",
+                                "tag": "h1",
+                                "tagId": "",
+                                "path": "/assays/metadata/4i"
+                            },{
+                                "title": "layout: page-triary",
+                                "mod": "Mon Jul 20 10:56:17 2026 -0400",
+                                "tag": "h2",
+                                "tagId": "",
+                                "path": "/assays/metadata/4i"
+                            },{
+                                "title": "10X-Multiome Metadata Attributes",
+                                "mod": "Fri Jul 17 09:31:39 2026 -0400",
+                                "tag": "h1",
+                                "tagId": "",
+                                "path": "/assays/metadata/10X-Multiome"
+                            },{
+                                "title": "layout: page-triary",
+                                "mod": "Fri Jul 17 09:31:39 2026 -0400",
+                                "tag": "h2",
+                                "tagId": "",
+                                "path": "/assays/metadata/10X-Multiome"
                             },{
                                 "title": "HuBMAP Matrix Assisted Laser Desorption/Ionization (MALDI) Imaging Mass Spectrometry (IMS)",
                                 "mod": "Wed Mar 30 13:14:58 2022 -0400",
@@ -3730,18 +3742,6 @@ permalink: /doi-pages-help/",
                                 "tag": "h3",
                                 "tagId": "",
                                 "path": "/assays/maldi-ims"
-                            },{
-                                "title": "10X-Multiome Metadata Attributes",
-                                "mod": "Fri Jul 17 09:31:39 2026 -0400",
-                                "tag": "h1",
-                                "tagId": "",
-                                "path": "/assays/metadata/10X-Multiome"
-                            },{
-                                "title": "layout: page-triary",
-                                "mod": "Fri Jul 17 09:31:39 2026 -0400",
-                                "tag": "h2",
-                                "tagId": "",
-                                "path": "/assays/metadata/10X-Multiome"
                             },{
                                 "title": "HuBMAP Light Sheet Fluorescence Microscopy (UF-TMC)",
                                 "mod": "Wed Mar 30 13:00:54 2022 -0400",
@@ -4379,6 +4379,12 @@ permalink: /doi-pages-help/",
                                 "tagId": "",
                                 "path": "/assays/atacseq"
                             },{
+                                "title": "HuBMAP Autofluorescence Microscopy (AF)",
+                                "mod": "Thu Mar 3 13:01:59 2022 -0500",
+                                "tag": "h1",
+                                "tagId": "",
+                                "path": "/assays/af"
+                            },{
                                 "title": "Cellranger-atac",
                                 "mod": "Wed Mar 30 12:50:57 2022 -0400",
                                 "tag": "h4",
@@ -4414,12 +4420,6 @@ permalink: /doi-pages-help/",
                                 "tag": "h4",
                                 "tagId": "",
                                 "path": "/assays/atacseq"
-                            },{
-                                "title": "HuBMAP Autofluorescence Microscopy (AF)",
-                                "mod": "Thu Mar 3 13:01:59 2022 -0500",
-                                "tag": "h1",
-                                "tagId": "",
-                                "path": "/assays/af"
                             },{
                                 "title": "layout: page",
                                 "mod": "Thu Mar 3 13:01:59 2022 -0500",
@@ -4595,6 +4595,18 @@ permalink: /doi-pages-help/",
                                 "tagId": "",
                                 "path": "/alpha-index-tools"
                             },{
+                                "title": "HuBMAP - The Human BioMolecular Atlas Program",
+                                "mod": "Thu Oct 31 15:24:21 2024 -0400",
+                                "tag": "h1",
+                                "tagId": "",
+                                "path": "/about-docs"
+                            },{
+                                "title": "layout: external-TOC2",
+                                "mod": "Thu Oct 31 15:24:21 2024 -0400",
+                                "tag": "h2",
+                                "tagId": "",
+                                "path": "/about-docs"
+                            },{
                                 "title": "About",
                                 "mod": "Fri Feb 11 11:33:54 2022 -0500",
                                 "tag": "h1",
@@ -4691,18 +4703,6 @@ permalink: /doi-pages-help/",
                                 "tagId": "",
                                 "path": "/_includes/sidebars/internal-toc.block"
                             },{
-                                "title": "HuBMAP - The Human BioMolecular Atlas Program",
-                                "mod": "Thu Oct 31 15:24:21 2024 -0400",
-                                "tag": "h1",
-                                "tagId": "",
-                                "path": "/about-docs"
-                            },{
-                                "title": "layout: external-TOC2",
-                                "mod": "Thu Oct 31 15:24:21 2024 -0400",
-                                "tag": "h2",
-                                "tagId": "",
-                                "path": "/about-docs"
-                            },{
                                 "title": "HuBMAP Data",
                                 "mod": "Thu Nov 6 14:51:23 2025 -0500",
                                 "tag": "h3",
@@ -4739,12 +4739,6 @@ permalink: /doi-pages-help/",
                                 "tagId": "",
                                 "path": "/_includes/doi-template/tabs"
                             },{
-                                "title": "Metadata Reporting Standards",
-                                "mod": "Wed Jun 17 16:30:46 2026 -0400",
-                                "tag": "h1",
-                                "tagId": "",
-                                "path": "/_includes/doi-template/hero"
-                            },{
                                 "title": "Example",
                                 "mod": "Wed Jun 10 17:58:19 2026 -0400",
                                 "tag": "h3",
@@ -4752,19 +4746,25 @@ permalink: /doi-pages-help/",
                                 "path": "/_includes/doi-template/example-tree"
                             },{
                                 "title": "Definitions",
-                                "mod": "Wed Aug 12 17:30:02 2026 +0100",
+                                "mod": "Thu Aug 13 16:23:42 2026 +0100",
                                 "tag": "h3",
                                 "tagId": "",
                                 "path": "/_includes/doi-template/definitions"
                             },{
                                 "title": "Contributors",
-                                "mod": "Wed Aug 12 17:29:18 2026 +0100",
+                                "mod": "Thu Aug 13 16:23:42 2026 +0100",
                                 "tag": "h2",
                                 "tagId": "",
                                 "path": "/_includes/doi-template/contributors"
                             },{
+                                "title": "Metadata Reporting Standards",
+                                "mod": "Wed Jun 17 16:30:46 2026 -0400",
+                                "tag": "h1",
+                                "tagId": "",
+                                "path": "/_includes/doi-template/hero"
+                            },{
                                 "title": "{{ include.title }}",
-                                "mod": "Wed Jun 10 17:58:19 2026 -0400",
+                                "mod": "Thu Aug 13 16:23:42 2026 +0100",
                                 "tag": "h2",
                                 "tagId": "",
                                 "path": "/_includes/doi-template/content-section"
@@ -4774,6 +4774,12 @@ permalink: /doi-pages-help/",
                                 "tag": "h3",
                                 "tagId": "",
                                 "path": "/_includes/doi-template/box-list"
+                            },{
+                                "title": "Single-molecule fluorescence in situ hybridization from the mouse somatosensory cortex",
+                                "mod": "Tue Apr 7 14:59:09 2026 -0400",
+                                "tag": "h2",
+                                "tagId": "",
+                                "path": "/Publications/description"
                             },{
                                 "title": "Publication Page Submission",
                                 "mod": "Mon May 18 10:26:43 2026 -0400",
@@ -4925,12 +4931,6 @@ permalink: /doi-pages-help/",
                                 "tagId": "",
                                 "path": "/Publications/"
                             },{
-                                "title": "Single-molecule fluorescence in situ hybridization from the mouse somatosensory cortex",
-                                "mod": "Tue Apr 7 14:59:09 2026 -0400",
-                                "tag": "h2",
-                                "tagId": "",
-                                "path": "/Publications/description"
-                            },{
                                 "title": "Issues with HuBMAP FAQ",
                                 "mod": "Fri Feb 23 13:32:45 2024 -0500",
                                 "tag": "h1",
@@ -5063,6 +5063,24 @@ permalink: /doi-pages-help/",
                                 "tagId": "",
                                 "path": "/EPICs/Upload_reqs"
                             },{
+                                "title": "layout: default",
+                                "mod": "Mon May 19 11:43:06 2025 -0400",
+                                "tag": "h2",
+                                "tagId": "",
+                                "path": "/EPICs/Example3"
+                            },{
+                                "title": "EPIC Example Type 3",
+                                "mod": "Mon May 19 11:43:06 2025 -0400",
+                                "tag": "h2",
+                                "tagId": "",
+                                "path": "/EPICs/Example3"
+                            },{
+                                "title": "3D Reconstruction: Draft",
+                                "mod": "Mon May 19 11:43:06 2025 -0400",
+                                "tag": "h3",
+                                "tagId": "",
+                                "path": "/EPICs/Example3"
+                            },{
                                 "title": "HuBMAP EPICs Overview",
                                 "mod": "Mon May 19 09:53:59 2025 -0400",
                                 "tag": "h1",
@@ -5088,24 +5106,6 @@ permalink: /doi-pages-help/",
                                 "path": "/EPICs/Overview"
                             },{
                                 "title": "layout: default",
-                                "mod": "Mon May 19 11:43:06 2025 -0400",
-                                "tag": "h2",
-                                "tagId": "",
-                                "path": "/EPICs/Example3"
-                            },{
-                                "title": "EPIC Example Type 3",
-                                "mod": "Mon May 19 11:43:06 2025 -0400",
-                                "tag": "h2",
-                                "tagId": "",
-                                "path": "/EPICs/Example3"
-                            },{
-                                "title": "3D Reconstruction: Draft",
-                                "mod": "Mon May 19 11:43:06 2025 -0400",
-                                "tag": "h3",
-                                "tagId": "",
-                                "path": "/EPICs/Example3"
-                            },{
-                                "title": "layout: default",
                                 "mod": "Mon May 19 11:38:51 2025 -0400",
                                 "tag": "h2",
                                 "tagId": "",
@@ -5114,6 +5114,12 @@ permalink: /doi-pages-help/",
                                 "title": "EPIC Example Type 2",
                                 "mod": "Mon May 19 11:38:51 2025 -0400",
                                 "tag": "h2",
+                                "tagId": "",
+                                "path": "/EPICs/Example2"
+                            },{
+                                "title": "Object by Analyte: Draft",
+                                "mod": "Mon May 19 11:38:51 2025 -0400",
+                                "tag": "h3",
                                 "tagId": "",
                                 "path": "/EPICs/Example2"
                             },{
@@ -5128,12 +5134,6 @@ permalink: /doi-pages-help/",
                                 "tag": "h2",
                                 "tagId": "",
                                 "path": "/EPICs/Example1"
-                            },{
-                                "title": "Object by Analyte: Draft",
-                                "mod": "Mon May 19 11:38:51 2025 -0400",
-                                "tag": "h3",
-                                "tagId": "",
-                                "path": "/EPICs/Example2"
                             },{
                                 "title": "Segmentation Mask: Published",
                                 "mod": "Mon May 19 11:27:48 2025 -0400",
