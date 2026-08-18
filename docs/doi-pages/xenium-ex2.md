@@ -20,38 +20,43 @@ contributors_note: For questions about this standard, email <a href="mailto:help
 example_tree: 
 |-
   .
-  ├── metadata.tsv
   ├── extras/
-  │   ├── some_file.tsv
-  │   ├── some_file1.tsv
-  │   ├── some_file2.tsv
-  │   ├── some_file3.tsv
-  │   ├── some_file4.tsv
-  │   ├── contributors.tsv
-  │   └── microscope_hardware.json
+  │   ├── microscope_hardware.json$
+  │   └── microscope_settings.json$
   ├── raw/
+  │   ├── markers.csv$
+  │   ├── additional_panels_used.csv$
+  │   ├── custom_probe_set.csv$
+  │   ├── custom_probe_set.bed$
+  │   ├── transcript_locations.csv$
+  │   ├── custom_gene_list.csv$
+  │   ├── probes.csv$
+  │   ├── gene_panel.json$
+  │   ├── protein_panel.json$
   │   └── images/
-  │       ├── Brightfield_HE_10msec_image_0001.tiff
-  │       ├── Brightfield_HE_10msec_image_0002.tiff
-  │       ├── Brightfield_HE_10msec_image_0003.tiff
-  │       ├── Brightfield_HE_10msec_image_0004.tiff
-  │       ├── Brightfield_HE_10msec_image_0005.tiff
-  │       ├── Brightfield_HE_10msec_image_0006.tiff
-  │       ├── Brightfield_HE_10msec_image_0007.tiff
-  │       ├── Brightfield_HE_10msec_image_0008.tiff
-  │       ├── Brightfield_HE_10msec_image_0009.tiff
-  │       ├── Brightfield_HE_10msec_image_0010.tiff
-  │       ├── Brightfield_HE_10msec_image_0010.tiff
-  │       ├── Brightfield_HE_10msec_image_0011.tiff
-  │       ├── Brightfield_HE_10msec_image_0012.tiff
-  │       ├── Brightfield_HE_10msec_image_0013.tiff
-  │       ├── Brightfield_HE_10msec_image_0014.tiff
-  │       └── Brightfield_HE_10msec_image_0110.tiff
+  │       └── overlay.{jpeg,tif,tiff}$
   └── lab_processed/
-      └── images/
-          ├── Histology_13_95.ome.tiff
-          ├── Histology_13_95.channels.csv
-          └── tissue-boundary.geojson
+      ├── images/
+      │   ├── *.ome.tiff$
+      │   ├── *ome-tiff.channels.csv$
+      │   └── *tissue-boundary.geojson$
+      └── xenium_bundle/
+          ├── cell_feature_matrix.h5$
+          ├── experiment.xenium$
+          ├── nucleus_boundaries.parquet$
+          ├── cell_boundaries.parquet$
+          ├── transcripts.parquet$
+          ├── cells.parquet$
+          ├── morphology_mip.ome.tif$
+          ├── morphology_focus.ome.tif$
+          ├── transcripts.zarr.zip$
+          ├── cells.zarr.zip$
+          ├── cell_feature_matrix.zarr.zip$
+          └── morphology_focus/
+              ├── morphology_focus_0000.ome.tif$
+              ├── morphology_focus_0001.ome.tif$
+              ├── morphology_focus_0002.ome.tif$
+              └── morphology_focus_0003.ome.tif$
           
 schema_items: 
 |-
