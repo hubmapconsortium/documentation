@@ -12,11 +12,11 @@ This page describes File Info documents stored in the HuBMAP indices for Files a
 ```
 
 ## Description: 
-Per the standard [Search API](https://smart-api.info/ui/7aaf02b838022d564da776b03f357158) functionality the indices are stored as a pair of [Elasticsearch](https://www.elastic.co/guide/en/elasticsearch/reference/7.17/index.html) indices consisting of a private/consortium-only index and a public/open-to-all index.  The Search API will automatically direct to the index based on the user authorization.
+Per the standard [Search API](https://smart-api.info/ui/7aaf02b838022d564da776b03f357158) functionality the indices are stored as a pair of [Elasticsearch](https://www.elastic.co/guide/en/elasticsearch/reference/7.17/index.html) indices consisting of a private/consortium-only index and a public/open-to-all index.  The Search API will automatically direct to the index based on the user authorization. Non-logged-in users (no auth token) or logged-in users with without membership in the `HuBMAP - Read` group will get results from files that are publicly accessible only, logged-in users with membership in `HuBMAP - Read` group will receive results from all indexed files.
 
-Each document in the files index contains information about one File entity associated with a HuBMAP Dataset.  The structure of these documents is described below.
+Each document in the files index contains information about one File entity associated with a HuBMAP Dataset. Only files from Datasets in `Published`, `QA`, `Submitted` or `Approval` status are added to the indices. The structure of these documents is described below. Users with public access only, will only receive files from unprotected (non-sequence), Published datasets.
 
-Files are stored at the Pittsburgh Supercomputing Center.  A nightly process seaches for changes on the PSC file system and updates ElasticSearch documents with changes.  This keeps the Files indices content no more than one day behind for all files.
+A nightly process searches for changes on the HIVE file system and updates ElasticSearch documents with changes.  This keeps the Files indices content no more than one day behind for all files.
 
 ## Document elements:
 
