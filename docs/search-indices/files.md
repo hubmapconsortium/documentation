@@ -22,13 +22,13 @@ A nightly process searches for changes on the HIVE file system and updates Elast
 
 | Document Element     | Description                                                                                                                   |
 |----------------------|-------------------------------------------------------------------------------------------------------------------------------|
-| `file_uuid`          | The 32-character UUID of the file.                                                                                            |
-| `md5_checksum`       | The hexidecimal representation of the MD5 checksum of the file calculated during data ingestion.                              |
-| `sha256_checksum`    | The hexidecimal representation of the SHA-256 checksum of the file calculated during data ingestion.                          |
+| `file_uuid`          | The 32-character UUID of the file.  This field is only generated for files that are part of a Published Dataset.              |
+| `md5_checksum`       | The hexidecimal representation of the MD5 checksum of the file calculated during data ingestion.  This field is only generated for files that are part of a Published Dataset. |
+| `sha256_checksum`    | The hexidecimal representation of the SHA-256 checksum of the file calculated during data ingestion. This field is only generated for files that are part of a Published Dataset. |
 | `size`               | Integer size of the file in bytes.                                                                                            |
 | `rel_path`           | The local file system path of the file relative to its Dataset directory, including the file name.                            |
 | `file_extension`     | The part of `rel_path` after the final period in the file name, which is after the final directory separator.                 |
-| `last_modified_at`   | Operating system modification timestamp of the file in the PSC file system.  The format is an integer representing milliseconds since midnight, Jan 1, 1970 |
+| `last_modified_at`   | Operating system modification timestamp of the file on file system.  The format is an integer representing milliseconds since midnight, Jan 1, 1970 |
 | `description`        | Free-text description of this Dataset file.                                                                                   |
 | `dataset_uuid`       | The 32-character UUID of the Dataset which is the direct ancestor of this file.                                               |
 | `dataset_hubmap_id`  | The HuBMAP Consortium-wide unique identifier of the Dataset which is the direct ancestor of this file.  Randomly generated.   |
