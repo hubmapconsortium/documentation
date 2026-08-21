@@ -478,8 +478,8 @@ def index_row(assay: Assay) -> str:
     name = clean_cell(assay.name)
     description = clean_cell(assay.description)
     return (
-        f'| [{name}]({assay.schema_index_url}) '
-        f'[<img src="info3.png" width="14">]({assay.slug} "Attribute description")'
+        f'| [{name}]({assay.slug}) '
+        f'[<img src="dir-icon3.png" width="14">]({assay.schema_index_url}#directory-schemas "Click for directory schema")'
         f" | {description} |\n"
     )
 
