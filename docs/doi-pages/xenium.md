@@ -7,7 +7,7 @@ doi: 10.35079/HBM788.QPBW.699
 published: August 20, 2026
 subjects: 
 summary: Xenium (10x Genomics) is a high-resolution, imaging-based in situ spatial transcriptomics platform that maps the expression of targeted RNA panels within intact tissue sections at single-cell and subcellular resolution. This assay can identify the location of target transcripts within the tissue, providing a single cell resolution map of expression patterns of all genes that are included in the selected probe panel and generating a single-cell-resolution expression map of all profiled genes.
-schema_doc_href: "https://openview.metadatacenter.org/templates/https:%2F%2Frepo.metadatacenter.org%2Ftemplates%2F907d89c7-6cf4-4ec6-9edd-63cf0441d689"
+schema_doc_href: "https://openview.metadatacenter.org/templates/https:%2F%2Frepo.metadatacenter.org%2Ftemplates%2Fc83b9743-ea76-4eb3-97f1-7325331936ea"
 validator_href: "https://metadatavalidator.metadatacenter.org"
 datasets_href: "https://portal.hubmapconsortium.org/search/datasets?dataset_type=Xenium"
 help_href: /doi-pages-help/
@@ -21,42 +21,42 @@ example_tree:
 |-
   .
   ├── extras/
-  │   ├── microscope_hardware.json$
-  │   └── microscope_settings.json$
+  │   ├── microscope_hardware.json
+  │   └── microscope_settings.json
   ├── raw/
-  │   ├── markers.csv$
-  │   ├── additional_panels_used.csv$
-  │   ├── custom_probe_set.csv$
-  │   ├── custom_probe_set.bed$
-  │   ├── transcript_locations.csv$
-  │   ├── custom_gene_list.csv$
-  │   ├── probes.csv$
-  │   ├── gene_panel.json$
-  │   ├── protein_panel.json$
+  │   ├── markers.csv
+  │   ├── additional_panels_used.csv
+  │   ├── custom_probe_set.csv
+  │   ├── custom_probe_set.bed
+  │   ├── transcript_locations.csv
+  │   ├── custom_gene_list.csv
+  │   ├── probes.csv
+  │   ├── gene_panel.json
+  │   ├── protein_panel.json
   │   └── images/
-  │       └── overlay.{jpeg,tif,tiff}$
+  │       └── overlay.{jpeg,tif,tiff}
   └── lab_processed/
       ├── images/
-      │   ├── *.ome.tiff$
-      │   ├── *ome-tiff.channels.csv$
-      │   └── *tissue-boundary.geojson$
+      │   ├── foobar_xenium.ome.tiff
+      │   ├── foobar_xenium.ome-tiff.channels.csv
+      │   └── foobar_xenium.tissue-boundary.geojson
       └── xenium_bundle/
-          ├── cell_feature_matrix.h5$
-          ├── experiment.xenium$
-          ├── nucleus_boundaries.parquet$
-          ├── cell_boundaries.parquet$
-          ├── transcripts.parquet$
-          ├── cells.parquet$
-          ├── morphology_mip.ome.tif$
-          ├── morphology_focus.ome.tif$
-          ├── transcripts.zarr.zip$
-          ├── cells.zarr.zip$
-          ├── cell_feature_matrix.zarr.zip$
+          ├── cell_feature_matrix.h5
+          ├── experiment.xenium
+          ├── nucleus_boundaries.parquet
+          ├── cell_boundaries.parquet
+          ├── transcripts.parquet
+          ├── cells.parquet
+          ├── morphology_mip.ome.tif
+          ├── morphology_focus.ome.tif
+          ├── transcripts.zarr.zip
+          ├── cells.zarr.zip
+          ├── cell_feature_matrix.zarr.zip
           └── morphology_focus/
-              ├── morphology_focus_0000.ome.tif$
-              ├── morphology_focus_0001.ome.tif$
-              ├── morphology_focus_0002.ome.tif$
-              └── morphology_focus_0003.ome.tif$
+              ├── morphology_focus_0000.ome.tif
+              ├── morphology_focus_0001.ome.tif
+              ├── morphology_focus_0002.ome.tif
+              └── morphology_focus_0003.ome.tif
           
 schema_items: 
 |-
