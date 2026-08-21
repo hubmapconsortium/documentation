@@ -6,3 +6,7 @@ node_modules
 .directory
 # scripts
 docs/metaTemplate/.gitignore
+
+#elipse project files
+.project
+.pydevproject
