@@ -4,7 +4,9 @@ layout: page-triary
 
 # Pixel-seqV2 Metadata Attributes
 
-Fields that are collected for Pixel-seqV2 data, available at ```dataset.metadata.<attribute>```
+These metadata fields have been collected for Pixel-seqV2 data.<br />
+These fields are available from the [HuBMAP Search and Entity APIs](/apis) at ```Dataset.metadata.<attribute>```.<br />
+See the latest version of the [Pixel-seqV2 Ingest Metadata Specifications](https://hubmapconsortium.github.io/ingest-validation-tools/pixel-seqv2/current/) for the schema and directory structure needed when uploading data.
 &nbsp;
 
 <span style="color:red" title="Required">*</span><span class="requiredNote"> indicates a required field</span>

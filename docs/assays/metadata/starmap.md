@@ -4,7 +4,9 @@ layout: page-triary
 
 # STARmap Metadata Attributes
 
-Fields that are collected for STARmap data, available at ```dataset.metadata.<attribute>```
+These metadata fields have been collected for STARmap data.<br />
+These fields are available from the [HuBMAP Search and Entity APIs](/apis) at ```Dataset.metadata.<attribute>```.<br />
+See the latest version of the [STARmap Ingest Metadata Specifications](https://hubmapconsortium.github.io/ingest-validation-tools/starmap/current/) for the schema and directory structure needed when uploading data.
 &nbsp;
 
 <span style="color:red" title="Required">*</span><span class="requiredNote"> indicates a required field</span>

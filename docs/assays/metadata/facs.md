@@ -4,7 +4,9 @@ layout: page-triary
 
 # FACS Metadata Attributes
 
-Fields that are collected for FACS data, available at ```dataset.metadata.<attribute>```
+These metadata fields have been collected for FACS data.<br />
+These fields are available from the [HuBMAP Search and Entity APIs](/apis) at ```Dataset.metadata.<attribute>```.<br />
+See the latest version of the [FACS Ingest Metadata Specifications](https://hubmapconsortium.github.io/ingest-validation-tools/facs/current/) for the schema and directory structure needed when uploading data.
 &nbsp;
 
 <span style="color:red" title="Required">*</span><span class="requiredNote"> indicates a required field</span>

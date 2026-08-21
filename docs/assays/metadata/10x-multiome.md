@@ -4,7 +4,9 @@ layout: page-triary
 
 # 10X-Multiome Metadata Attributes
 
-Fields that are collected for 10X-Multiome data, available at ```dataset.metadata.<attribute>```
+These metadata fields have been collected for 10X-Multiome data.<br />
+These fields are available from the [HuBMAP Search and Entity APIs](/apis) at ```Dataset.metadata.<attribute>```.<br />
+See the latest version of the [10X-Multiome Ingest Metadata Specifications](https://hubmapconsortium.github.io/ingest-validation-tools/10x-multiome/current/) for the schema and directory structure needed when uploading data.
 &nbsp;
 
 <span style="color:red" title="Required">*</span><span class="requiredNote"> indicates a required field</span>

@@ -4,7 +4,9 @@ layout: page-triary
 
 # MIBI Metadata Attributes
 
-Fields that are collected for MIBI data, available at ```dataset.metadata.<attribute>```
+These metadata fields have been collected for MIBI data.<br />
+These fields are available from the [HuBMAP Search and Entity APIs](/apis) at ```Dataset.metadata.<attribute>```.<br />
+See the latest version of the [MIBI Ingest Metadata Specifications](https://hubmapconsortium.github.io/ingest-validation-tools/mibi/current/) for the schema and directory structure needed when uploading data.
 &nbsp;
 
 <span style="color:red" title="Required">*</span><span class="requiredNote"> indicates a required field</span>

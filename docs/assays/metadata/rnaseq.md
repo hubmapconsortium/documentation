@@ -4,7 +4,9 @@ layout: page-triary
 
 # RNAseq Metadata Attributes
 
-Fields that are collected for RNAseq data, available at ```dataset.metadata.<attribute>```
+These metadata fields have been collected for RNAseq data.<br />
+These fields are available from the [HuBMAP Search and Entity APIs](/apis) at ```Dataset.metadata.<attribute>```.<br />
+See the latest version of the [RNAseq Ingest Metadata Specifications](https://hubmapconsortium.github.io/ingest-validation-tools/rnaseq/current/) for the schema and directory structure needed when uploading data.
 &nbsp;
 
 <span style="color:red" title="Required">*</span><span class="requiredNote"> indicates a required field</span>

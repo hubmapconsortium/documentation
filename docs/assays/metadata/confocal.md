@@ -4,7 +4,9 @@ layout: page-triary
 
 # Confocal Metadata Attributes
 
-Fields that are collected for Confocal data, available at ```dataset.metadata.<attribute>```
+These metadata fields have been collected for Confocal data.<br />
+These fields are available from the [HuBMAP Search and Entity APIs](/apis) at ```Dataset.metadata.<attribute>```.<br />
+See the latest version of the [Confocal Ingest Metadata Specifications](https://hubmapconsortium.github.io/ingest-validation-tools/confocal/current/) for the schema and directory structure needed when uploading data.
 &nbsp;
 
 <span style="color:red" title="Required">*</span><span class="requiredNote"> indicates a required field</span>

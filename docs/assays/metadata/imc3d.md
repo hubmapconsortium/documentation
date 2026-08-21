@@ -2,9 +2,10 @@
 layout: page-triary
 ---
 
-# 2D Imaging Mass Cytometry Metadata Attributes
+# 3D Imaging Mass Cytometry Metadata Attributes
 
-Fields that are collected for 2D Imaging Mass Cytometry data, available at ```dataset.metadata.<attribute>```
+These metadata fields have been collected for 3D Imaging Mass Cytometry data.<br />
+These fields are available from the [HuBMAP Search and Entity APIs](/apis) at ```Dataset.metadata.<attribute>```.<br />
 &nbsp;
 
 <span style="color:red" title="Required">*</span><span class="requiredNote"> indicates a required field</span>

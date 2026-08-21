@@ -4,7 +4,9 @@ layout: page-triary
 
 # IMC-2D Metadata Attributes
 
-Fields that are collected for IMC-2D data, available at ```dataset.metadata.<attribute>```
+These metadata fields have been collected for IMC-2D data.<br />
+These fields are available from the [HuBMAP Search and Entity APIs](/apis) at ```Dataset.metadata.<attribute>```.<br />
+See the latest version of the [IMC-2D Ingest Metadata Specifications](https://hubmapconsortium.github.io/ingest-validation-tools/imc-2d/current/) for the schema and directory structure needed when uploading data.
 &nbsp;
 
 <span style="color:red" title="Required">*</span><span class="requiredNote"> indicates a required field</span>

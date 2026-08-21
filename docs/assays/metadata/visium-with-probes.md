@@ -4,7 +4,9 @@ layout: page-triary
 
 # Visium (with probes) Metadata Attributes
 
-Fields that are collected for Visium (with probes) data, available at ```dataset.metadata.<attribute>```
+These metadata fields have been collected for Visium (with probes) data.<br />
+These fields are available from the [HuBMAP Search and Entity APIs](/apis) at ```Dataset.metadata.<attribute>```.<br />
+See the latest version of the [Visium (with probes) Ingest Metadata Specifications](https://hubmapconsortium.github.io/ingest-validation-tools/visium-with-probes/current/) for the schema and directory structure needed when uploading data.
 &nbsp;
 
 <span style="color:red" title="Required">*</span><span class="requiredNote"> indicates a required field</span>

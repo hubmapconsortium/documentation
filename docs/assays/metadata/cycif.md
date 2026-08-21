@@ -4,7 +4,9 @@ layout: page-triary
 
 # CyCIF Metadata Attributes
 
-Fields that are collected for CyCIF data, available at ```dataset.metadata.<attribute>```
+These metadata fields have been collected for CyCIF data.<br />
+These fields are available from the [HuBMAP Search and Entity APIs](/apis) at ```Dataset.metadata.<attribute>```.<br />
+See the latest version of the [CyCIF Ingest Metadata Specifications](https://hubmapconsortium.github.io/ingest-validation-tools/cycif/current/) for the schema and directory structure needed when uploading data.
 &nbsp;
 
 <span style="color:red" title="Required">*</span><span class="requiredNote"> indicates a required field</span>

@@ -4,7 +4,9 @@ layout: page-triary
 
 # Second Harmonic Generation Metadata Attributes
 
-Fields that are collected for Second Harmonic Generation data, available at ```dataset.metadata.<attribute>```
+These metadata fields have been collected for Second Harmonic Generation data.<br />
+These fields are available from the [HuBMAP Search and Entity APIs](/apis) at ```Dataset.metadata.<attribute>```.<br />
+See the latest version of the [Second Harmonic Generation Ingest Metadata Specifications](https://hubmapconsortium.github.io/ingest-validation-tools/second-harmonic-generation/current/) for the schema and directory structure needed when uploading data.
 &nbsp;
 
 <span style="color:red" title="Required">*</span><span class="requiredNote"> indicates a required field</span>
