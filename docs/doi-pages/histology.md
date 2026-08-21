@@ -4,7 +4,9 @@ title: Metadata Reporting Standards - Histology
 spec_name: Histology
 version_label: Version 1
 doi: 10.35079/HBM788.QPBW.699
-published: August 19, 2026
+download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/blob/main/docs/histology/current/doi-object.zip"
+md5_hash: 02f137a986fe53263587ed4b8101cd2b
+published: August 21, 2026
 subjects: "AB-PAS, H&E, H-DAB, LFB, PAS, SBB, Trichrome"
 summary: The microscopic study of tissue composition and structure, often referred to as microscopic anatomy. It involves examining tissue samples, typically after they've been sectioned, stained, and placed under a microscope.
 schema_doc_href: "https://openview.metadatacenter.org/templates/https:%2F%2Frepo.metadatacenter.org%2Ftemplates%2F907d89c7-6cf4-4ec6-9edd-63cf0441d689"
@@ -99,8 +101,8 @@ definitions:
   | raw/images/*.{xml,scn,vsi,ndpi,svs,czi,tiff,qptiff} | ✓ | Raw microscope file for the experiment. |
   | lab_processed/ | ✓ | Experiment files that were processed by the lab generating the data. |
   | lab_processed/images/ | ✓ | Processed image files. |
-  | lab_processed/images/*.ome.tiff | ✓ | OME-TIFF files (multichannel, multi-layered) produced by the microscopy experiment. If compressed, must use loss-less compression. [Required fields](https://docs.google.com/spreadsheets/d/1YnmdTAA0Z9MKN3OjR3Sca8pz-LNQll91wdQoRPSP6Q4/edit#gid=0) |
-  | lab_processed/images/*ome-tiff.channels.csv | ✓ | Documentation for each channel of the OME-TIFF. One row per channel. [Required fields](https://docs.google.com/spreadsheets/d/1xEJSb0xn5C5fB3k62pj1CyHNybpt4-YtvUs5SUMS44o/edit#gid=0) |
+  | lab_processed/images/*.ome.tiff | ✓ | OME-TIFF files (multichannel, multi-layered) produced by the microscopy experiment. If compressed, must use loss-less compression. Required fields -<https://docs.google.com/spreadsheets/d/1YnmdTAA0Z9MKN3OjR3Sca8pz-LNQll91wdQoRPSP6Q4/edit#gid=0> |
+  | lab_processed/images/*ome-tiff.channels.csv | ✓ | Documentation for each channel of the OME-TIFF. One row per channel. Required fields -<https://docs.google.com/spreadsheets/d/1xEJSb0xn5C5fB3k62pj1CyHNybpt4-YtvUs5SUMS44o/edit#gid=0> |
   | lab_processed/images/*.tissue-boundary.geojson | | [QA/QC] GeoJSON file describing manually identified (or otherwise) tissue boundaries. |
   | lab_processed/transformations/ | | Directory containing transformation matrices used to align modalities for multimodal overlays (e.g., MALDI, autofluorescence microscopy, MxIF, histology). |
   | lab_processed/transformations/*.txt | | Transformation matrices for overlaying images from the same tissue section. |
