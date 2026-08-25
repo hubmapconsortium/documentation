@@ -4,16 +4,20 @@
 <div class="hero">
   <div>
     <p>{{ page.summary }}</p>
-    <p class="doi">
+    <p class="doi" style=" margin-top: 8px; margin-bottom: 0;">
       DOI: <a href="https://doi.org/{{ page.doi }}">https://doi.org/{{ page.doi }}</a>
     </p>
     <p class="hint" style="margin-top: 8px; margin-bottom: 0;">
       Published: {{ page.published }}<br />
-      Subjects: {{ page.subjects }}
+      {% if page.subjects %}
+        Subjects: {{ page.subjects }}
+      {% endif %}
     </p>
   </div>
 
   <div class="actions">
+    <a class="primary-btn download" href="{{ page.download_href | default: '#' }}">Download (ZIP)</a>
+    <p class="checksum">MD5 hash: {{ page.md5_hash | default: '7531483d85468575da1e0d2437695b46' }}</p>
     <div class="icon-row">
       {% if page.help_href %}
         <a class="icon-btn help" href="{{ page.help_href | relative_url }}" title="Help" aria-label="Help">?</a>
@@ -21,7 +25,5 @@
         <button class="icon-btn help" type="button" title="Help" aria-label="Help">?</button>
       {% endif %}
     </div>
-    <a class="primary-btn download" href="{{ page.download_href | default: '#' }}">Download (ZIP)</a>
-    <p class="checksum">MD5 hash: {{ page.md5_hash | default: '7531483d85468575da1e0d2437695b46' }}</p>
   </div>
 </div>
