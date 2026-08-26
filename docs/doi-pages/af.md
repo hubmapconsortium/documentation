@@ -10,7 +10,7 @@ published: August 25, 2026
 subjects: 
 summary: Autofluorescence imaging exploits the intrinsic fluorescence of endogenous biological molecules—such as NADH, collagen, and elastin—to generate label-free structural images of cells and tissues. No exogenous dyes or antibodies are required; specific wavelengths of light excite native tissue fluorophores, and the emitted signal is captured to reveal tissue morphology and composition.
 validator_href: "https://metadatavalidator.metadatacenter.org"
-datasets_href: "https://portal.hubmapconsortium.org/search/datasets?dataset_type=af"
+datasets_href: "https://portal.hubmapconsortium.org/search/datasets?dataset_type=Auto-fluorescence"
 help_href: /doi-pages-help/
 datasets_text: The HuBMAP Data Portal is an open platform to discover, visualize, and download standardized healthy single-cell and spatial tissue data.
 citation_text: Fisher SA, Hardi J, Morgan R, Nordgren E, Kant PM, Honick B, Rosario J, O'Connor MJ, Turner ML, DCWG Members, Gehlenborg N, Blood PD, Silverstein JC, Musen MA. 2026. The HuBMAP Framework for Advancing Data FAIRness. submitted. https://doi.org/10.64898/2026.06.01.728946
