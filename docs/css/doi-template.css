@@ -84,6 +84,15 @@ h1 {
   color: var(--muted);
 }
 
+.hero span.requiredMark {
+	color: #ff0000;
+}
+
+.hero p.multiAssay {
+	margin-top: 8px;
+	margin-bottom: 0;
+}
+
 .actions {
   display: flex;
   flex-direction: column;
