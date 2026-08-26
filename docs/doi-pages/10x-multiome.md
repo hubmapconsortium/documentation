@@ -8,7 +8,7 @@ download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/raw/
 md5_hash: e0dafa46bc69fde627665402988d4c49
 published: August 25, 2026
 subjects: 
-summary: A multimodal single-cell sequencing technology that simultaneously captures both gene expression (RNA-seq) and chromatin accessibility (ATAC-seq) from the same individual nucleus. Both RNA molecules and open-chromatin DNA fragments are labeled with a unique per-nucleus barcode using the 10x Genomics Chromium platform, allowing paired readouts to be linked to the same cell of origin.
+summary: A multimodal single-cell sequencing technology that simultaneously captures both gene expression (RNA-seq) and chromatin accessibility (ATAC-seq) from the same individual nucleus. Both RNA molecules and open-chromatin DNA fragments are labeled with a unique per-nucleus barcode using the 10x Genomics Chromium platform, allowing paired readouts to be linked to the same cell of origin. </p><p class="multiAssay"><span class="requiredMark">*</span> This reporting standard requires the inclusion of <a href="https://dx.doi.org/10.35079/HBM556.VHXG.898">RNAseq</a> and <a href="https://dx.doi.org/10.35079/HBM846.LZCV.363">ATACseq</a> dataset metadata for completeness.
 schema_doc_href: "https://openview.metadatacenter.org/templates/https:%2F%2Frepo.metadatacenter.org%2Ftemplates%2F63c06fb2-4638-4979-aa97-5aff2a840156"
 validator_href: "https://metadatavalidator.metadatacenter.org"
 datasets_href: "https://portal.hubmapconsortium.org/search/datasets?dataset_type=10x-multiome"
