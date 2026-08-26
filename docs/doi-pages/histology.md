@@ -158,7 +158,7 @@ contributors:
   |Angela RS Kruse|Vanderbilt University, Nashville, TN, USA; Currently - The Ohio State University, Columbus, OH, USA||0000-0001-8776-2769 |
   |Yumi Kwon|Pacific Northwest National Laboratory, Richland, WA, USA||0000-0003-0523-6197 |
   |Blue B Lake|University of California San Diego, La Jolla, CA, USA; Currently - Altos Labs, San Diego, CA, USA||0000-0002-8637-9044 |
-  |Roy Lardenoije|Delft University of Technology, Delft, The Netherlands |  
+  |Roy Lardenoije|Delft University of Technology, Delft, The Netherlands |  | 0000-0002-9026-7870 |
   |Shin Lin|Emory University, Atlanta, GA, USA||0000-0003-0118-0413 |
   |Yiing Lin|Washington University, St. Louis, MO, USA||0000-0002-0317-7608 |
   |Scott A Lindsay|University of California, San Diego, CA, USA||0000-0002-2929-7755 |
