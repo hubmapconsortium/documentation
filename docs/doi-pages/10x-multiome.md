@@ -1,7 +1,7 @@
 ---
 layout: doi-landing-page
-title: Metadata Reporting Standards - 10x-Multiome
-spec_name: 10x-Multiome
+title: Metadata Reporting Standards - 10X Multiome
+spec_name: 10X Multiome
 version_label: Version 1
 doi: 10.35079/HBM528.GWLG.472
 download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/raw/refs/heads/main/docs/10x-multiome/current/doi-object.zip"
@@ -11,7 +11,7 @@ subjects:
 summary: A multimodal single-cell sequencing technology that simultaneously captures both gene expression (RNA-seq) and chromatin accessibility (ATAC-seq) from the same individual nucleus. Both RNA molecules and open-chromatin DNA fragments are labeled with a unique per-nucleus barcode using the 10x Genomics Chromium platform, allowing paired readouts to be linked to the same cell of origin. </p><p class="multiAssay"><span class="requiredMark">*</span> This reporting standard requires the inclusion of <a href="https://dx.doi.org/10.35079/HBM556.VHXG.898">RNAseq</a> and <a href="https://dx.doi.org/10.35079/HBM846.LZCV.363">ATACseq</a> dataset metadata for completeness.
 schema_doc_href: "https://openview.metadatacenter.org/templates/https:%2F%2Frepo.metadatacenter.org%2Ftemplates%2F63c06fb2-4638-4979-aa97-5aff2a840156"
 validator_href: "https://metadatavalidator.metadatacenter.org"
-datasets_href: "https://portal.hubmapconsortium.org/search/datasets?dataset_type=10x-multiome"
+datasets_href: "https://portal.hubmapconsortium.org/search/datasets?dataset_type=10X+multiome"
 help_href: /doi-pages-help/
 datasets_text: The HuBMAP Data Portal is an open platform to discover, visualize, and download standardized healthy single-cell and spatial tissue data.
 citation_text: Fisher SA, Hardi J, Morgan R, Nordgren E, Kant PM, Honick B, Rosario J, O'Connor MJ, Turner ML, DCWG Members, Gehlenborg N, Blood PD, Silverstein JC, Musen MA. 2026. The HuBMAP Framework for Advancing Data FAIRness. submitted. https://doi.org/10.64898/2026.06.01.728946
