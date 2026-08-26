@@ -10,7 +10,7 @@ published: August 25, 2026
 subjects: 
 summary: ATACseq maps open, regulatory regions of the genome in cells or bulk tissue by exploiting the preference of a hyperactive Tn5 transposase for nucleosome-free chromatin. The Tn5 enzyme inserts sequencing adapters directly into accessible chromatin regions, and the resulting DNA fragments are sequenced to generate a genome-wide map of open chromatin. The data reveals the landscape of active regulatory elements—such as promoters and enhancers—providing insight into gene regulation and cell identity.
 validator_href: "https://metadatavalidator.metadatacenter.org"
-datasets_href: "https://portal.hubmapconsortium.org/search/datasets?dataset_type=atacseq"
+datasets_href: "https://portal.hubmapconsortium.org/search/datasets?dataset_type=ATACseq"
 help_href: /doi-pages-help/
 datasets_text: The HuBMAP Data Portal is an open platform to discover, visualize, and download standardized healthy single-cell and spatial tissue data.
 citation_text: Fisher SA, Hardi J, Morgan R, Nordgren E, Kant PM, Honick B, Rosario J, O'Connor MJ, Turner ML, DCWG Members, Gehlenborg N, Blood PD, Silverstein JC, Musen MA. 2026. The HuBMAP Framework for Advancing Data FAIRness. submitted. https://doi.org/10.64898/2026.06.01.728946
