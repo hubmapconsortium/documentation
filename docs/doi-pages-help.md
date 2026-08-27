@@ -32,7 +32,7 @@ permalink: /doi-pages-help/
   <article class="help-file">
     <h2><span class="help-file-name">metadata.yml</span> <small class="help-file-type">(YAML file)</small></h2>
     <h3>Descriptive Metadata Schema as YAML</h3>
-    <p>This file provides a simplified <a href="href=https://yaml.org/">YAML</a> version of the descriptive metadata schema. It is intended to be easier for humans to read while still preserving a structured format that can be used computationally.</p>
+    <p>This file provides a simplified <a href="https://yaml.org/">YAML</a> version of the descriptive metadata schema. It is intended to be easier for humans to read while still preserving a structured format that can be used computationally.</p>
   </article>
 
   <article class="help-file">
