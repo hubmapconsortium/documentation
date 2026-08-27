@@ -6,7 +6,7 @@ version_label: Version 1
 doi: 10.35079/HBM676.GTXH.329
 download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/raw/refs/heads/main/docs/codex/current/doi-object.zip"
 md5_hash: 6de650a1f626aad771da0ad40f71386f
-published: August 27, 2026
+published: August 27, 2026 
 subjects: 
 summary: A highly multiplexed spatial imaging platform that enables simultaneous profiling of dozens of proteins within intact tissue sections. Antibodies conjugated to unique DNA barcodes are applied to the tissue, and iterative cycles of fluorescent reporter hybridization, imaging, and reporter removal are used to sequentially read out each protein target. The result is a high-dimensional, spatially resolved, protein expression profiles at single-cell resolution of the intact tissue.
 validator_href: "https://metadatavalidator.metadatacenter.org"
