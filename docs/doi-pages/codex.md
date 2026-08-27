@@ -26,29 +26,32 @@ example_tree:
   │   ├── microscope_hardware.json
   │   ├── microscope_settings.json
   │   └── dir-schema-v2-with-dataset-json
+  │
   ├── raw/
-  │   ├── cyc[^/
-  │   │   └── ]foobar_reg[^/
-  │   │       └── ]foobar/
-  │   ├── src_[^/
-      │   └── ]foobar/
-  │   ├── cyc01_reg01/
-  │   │   └── foobar_z*_CH*.tif
-  │   ├── src_foobar/
-  │   │   └── cyc02_reg02_1/
-  │   │       └── foobar.gci
   │   ├── dataset.json
-  │   ├── reg_foobar.png
-  │   └── experiment.json
+  │   ├── experiment.json
+  │   ├── reg_00.png
+  │   │
+  │   ├── cyc001_reg001_20230601/
+  │   │   ├── tile001_z001_CH001.tif
+  │   │   ├── tile001_z002_CH001.tif
+  │   │   └── tile001_z001_CH002.tif
+  │   │
+  │   └── src_keyance/
+  │       └── cyc001_reg001_20230601/
+  │           └── capture.gci
+  │
   ├── lab_processed/
   │   └── images/
-  │       ├── foobar.ome.tiff
-  │       └── foobar.ome-tiff.channels.csv
-  ├── foobar_NAV01.tif
-  ├── foobar.pdf
-  └── processed/
-    └── drv_[^/
-            └── ]foobar/
+  │       ├── sample_region1.ome.tiff
+  │       └── sample_region1_ome-tiff.channels.csv
+  │
+  ├── processed/
+  │   └── drv_akoya/
+  │       └── pipeline_output.csv
+  │
+  ├── NAV.tif
+  └── summary.pdf
         
 schema_items: 
 |-
@@ -90,18 +93,18 @@ definitions:
   | raw/ | ✓ | This is a directory containing raw data. |
   | lab_processed/ | ✓ | Experiment files that were processed by the lab generating the data. |
   | lab_processed/images/ | ✓ | This is a directory containing processed image files |
-  | lab_processed/images/*.ome.tiff$ | ✓ | OME-TIFF file (multichannel, multi-layered) produced by the experiment. If compressed, must use loss-less compression algorithm. See the following link for the set of fields that are required in the OME TIFF file XML header. <https://docs.google.com/spreadsheets/d/1YnmdTAA0Z9MKN3OjR3Sca8pz-LNQll91wdQoRPSP6Q4/edit#gid=0> |
-  | lab_processed/images/*ome-tiff.channels.csv$ | ✓ | This file provides essential documentation pertaining to each channel of the accompanying OME TIFF. The file should contain one row per OME TIFF channel. The required fields are detailed here: <https://docs.google.com/spreadsheets/d/1xEJSb0xn5C5fB3k62pj1CyHNybpt4-YtvUs5SUMS44o/edit#gid=0> |
-  | *NAV*.tif$ |  | Navigational Image showing Region of Interest (Keyance Microscope only) |
-  | *.pdf$ |  | [QA/QC] PDF export of Powerpoint slide deck containing the Image Analysis Report |
+  | lab_processed/images/\*.ome.tiff$ | ✓ | OME-TIFF file (multichannel, multi-layered) produced by the experiment. If compressed, must use loss-less compression algorithm. See the following link for the set of fields that are required in the OME TIFF file XML header. <https://docs.google.com/spreadsheets/d/1YnmdTAA0Z9MKN3OjR3Sca8pz-LNQll91wdQoRPSP6Q4/edit#gid=0> |
+  | lab_processed/images/\*ome-tiff.channels.csv$ | ✓ | This file provides essential documentation pertaining to each channel of the accompanying OME TIFF. The file should contain one row per OME TIFF channel. The required fields are detailed here: <https://docs.google.com/spreadsheets/d/1xEJSb0xn5C5fB3k62pj1CyHNybpt4-YtvUs5SUMS44o/edit#gid=0> |
+  | \*NAV\*.tif$ |  | Navigational Image showing Region of Interest (Keyance Microscope only) |
+  | \*.pdf$ |  | [QA/QC] PDF export of Powerpoint slide deck containing the Image Analysis Report |
   | extras/dir-schema-v2-with-dataset-json | ✓ | Empty file whose presence indicates the version of the directory schema in use |
-  | processed/drv_[^/]*/ | ✓ | Processed files produced by the Akoya software or alternative software. |
-  | raw/cyc[^/]*_reg[^/]*/ | ✓ | Intermediary directory |
-  | raw/src_[^/]*/ | ✓ | Intermediary directory |
-  | raw/cyc*_reg*/*_z*_CH*.tif$ | ✓ | TIFF files produced by the experiment. General folder format: Cycle(n)_Region(n)_date; General file format: name_tileNumber(n)_zplaneNumber(n)_channelNumber(n) |
-  | raw/src_*/cyc*_reg*_*/*.gci$ |  | Group Capture Information File (Keyance Microscope only) |
+  | processed/drv_\*/ | ✓ | Processed files produced by the Akoya software or alternative software. |
+  | raw/cyc\*_reg\*/ | ✓ | Intermediary directory |
+  | raw/src_\*/ | ✓ | Intermediary directory |
+  | raw/cyc\*_reg\*/\*_z\*_CH\*.tif$ | ✓ | TIFF files produced by the experiment. General folder format: Cycle(n)_Region(n)_date; General file format: name_tileNumber(n)_zplaneNumber(n)_channelNumber(n) |
+  | raw/src_\*/cyc\*_reg\*\_\*/\*.gci$ |  | Group Capture Information File (Keyance Microscope only) |
   | raw/dataset.json$ | ✓ | Data processing parameters file. This will include additional CODEX specific metadata needed for the HIVE processing workflow. |
-  | raw/reg_*.png$ |  | Region overviews |
+  | raw/reg_\*.png$ |  | Region overviews |
   | raw/experiment.json$ |  | JSON file produced by the Akoya software which contains the metadata for the experiment, including the software version used, microscope parameters, channel names, pixel dimensions, etc. (required for HuBMAP pipeline) |
     
 contributors: 

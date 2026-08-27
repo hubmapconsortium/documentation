@@ -22,13 +22,8 @@ contributors_note: For questions about this standard, email <a href="mailto:help
 example_tree: 
 |-
   .
-  ├── metadata.tsv
   ├── extras/
   │   ├── some_file.tsv
-  │   ├── some_file1.tsv
-  │   ├── some_file2.tsv
-  │   ├── some_file3.tsv
-  │   ├── some_file4.tsv
   │   ├── contributors.tsv
   │   └── microscope_hardware.json
   ├── raw/
