@@ -56,9 +56,9 @@ definitions:
   | raw/ | ✓ | All raw data files for the experiment. |
   | raw/fastq/ | ✓ | Raw sequencing files for the experiment. |
   | raw/fastq/RNA/ | ✓ | Directory containing fastq files pertaining to RNAseq sequencing. |
-  | raw/fastq/RNA/*_R*.fastq.gz$ | ✓ | This is a GZip'd version of the forward and reverse fastq files from RNAseq sequencing (R1 and R2). |
+  | raw/fastq/RNA/\*_R\*.fastq.gz$ | ✓ | This is a GZip'd version of the forward and reverse fastq files from RNAseq sequencing (R1 and R2). |
   | raw/fastq/ATAC/ | ✓ | Directory containing fastq files pertaining to ATACseq sequencing. |
-  | raw/fastq/ATAC/*_R*.fastq.gz$ | ✓ | This is a GZip'd version of the fastq files containing the forward, reverse and barcode reads from ATACseq sequencing (R1, R2 and R3). Further, if the barcodes are in R3 (as with 10X) then the metadata field "barcode reads" would be set to "Read 2 (R2)" and the fastq file named "*_R2*fastq.gz" would be expected. |
+  | raw/fastq/ATAC/\*_R\*.fastq.gz$ | ✓ | This is a GZip'd version of the fastq files containing the forward, reverse and barcode reads from ATACseq sequencing (R1, R2 and R3). Further, if the barcodes are in R3 (as with 10X) then the metadata field "barcode reads" would be set to "Read 2 (R2)" and the fastq file named "\*_R2\*.fastq.gz" would be expected. |
   lab_processed/ |  | Experiment files that were processed by the lab generating the data. |
 
 contributors:
