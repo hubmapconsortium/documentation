@@ -64,6 +64,10 @@ h1 {
   font-weight: 500;
 }
 
+p span.requiredMark {
+	color: #ff0000;
+}
+
 .spec-name {
   margin: 0 0 14px;
   font-size: 24px;
