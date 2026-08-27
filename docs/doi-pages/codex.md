@@ -1,6 +1,6 @@
 ---
 layout: doi-landing-page
-title: Metadata Reporting Standards - Co-Detection by Indexing (CODEX)
+title: Metadata Reporting Standards - Co-Detection by Indexing (CODEX) 
 spec_name: CODEX
 version_label: Version 1
 doi: 10.35079/HBM676.GTXH.329
