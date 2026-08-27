@@ -27,27 +27,27 @@ example_tree:
   │   └── dir-schema-v2-with-dataset-json
   ├── raw/
   │   ├── cyc[^/
-  │   │   └── ]*_reg[^/
-  │   │       └── ]*/
+  │   │   └── ]foobar_reg[^/
+  │   │       └── ]foobar/
   │   ├── src_[^/
-      │   └── ]*/
-  │   ├── cyc*_reg*/
-  │   │   └── *_z*_CH*.tif$
-  │   ├── src_*/
-  │   │   └── cyc*_reg*_*/
-  │   │       └── *.gci$
-  │   ├── dataset.json$
-  │   ├── reg_*.png$
-  │   └── experiment.json$
+      │   └── ]foobar/
+  │   ├── cyc01_reg01/
+  │   │   └── foobar_z*_CH*.tif
+  │   ├── src_foobar/
+  │   │   └── cyc02_reg02_1/
+  │   │       └── foobar.gci
+  │   ├── dataset.json
+  │   ├── reg_foobar.png
+  │   └── experiment.json
   ├── lab_processed/
   │   └── images/
-  │       ├── *.ome.tiff$
-  │       └── *ome-tiff.channels.csv$
-  ├── *NAV*.tif$
-  ├── *.pdf$
+  │       ├── foobar.ome.tiff
+  │       └── foobar.ome-tiff.channels.csv
+  ├── foobar_NAV01.tif
+  ├── foobar.pdf
   └── processed/
     └── drv_[^/
-            └── ]*/
+            └── ]foobar/
         
 schema_items: 
 |-
