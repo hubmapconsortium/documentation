@@ -1,7 +1,7 @@
 ---
 layout: doi-landing-page
-title: Metadata Reporting Standards - Cytometry by Time-Of-Flight (CyTOF) 
-spec_name: CyTOF
+title: Metadata Reporting Standards - CyTOF
+spec_name: Cytometry by Time-Of-Flight (CyTOF)
 version_label: Version 1
 doi: 10.35079/HBM353.CWQW.535
 download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/raw/refs/heads/main/docs/cytof/current/doi-object.zip"
