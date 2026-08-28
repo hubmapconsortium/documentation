@@ -8,7 +8,7 @@ download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/raw/
 md5_hash: 52afb1aa5caabc5c2080b3b0ac10ec91
 published: August 28, 2026 
 subjects: 
-summary: Deterministic Barcoding in Tissue for spatial omics sequencing (DBiT-seq) simultaneously maps mRNA transcripts and protein expression within intact tissue sections using microfluidic co-delivery of DNA barcodes. Spatially indexed barcodes are deposited in a deterministic grid pattern onto the tissue, capturing both RNA and antibody-DNA conjugates, which are subsequently sequenced to yield co-registered transcriptomic and proteomic profiles. This approach provides paired spatial gene expression and protein abundance data at near-cellular, pixel resolution.
+summary: DBiT-seq simultaneously maps mRNA transcripts and protein expression within intact tissue sections using microfluidic co-delivery of DNA barcodes. Spatially indexed barcodes are deposited in a deterministic grid pattern onto the tissue, capturing both RNA and antibody-DNA conjugates, which are subsequently sequenced to yield co-registered transcriptomic and proteomic profiles. This approach provides paired spatial gene expression and protein abundance data at near-cellular, pixel resolution.
 schema_doc_href: "https://openview.metadatacenter.org/templates/https:%2F%2Frepo.metadatacenter.org%2Ftemplates%2Fef55657a-b052-4eae-ae1a-5bef4fdf688c"
 validator_href: "https://metadatavalidator.metadatacenter.org"
 datasets_href: "https://portal.hubmapconsortium.org/search/datasets"
