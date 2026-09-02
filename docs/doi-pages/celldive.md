@@ -9,6 +9,7 @@ md5_hash: 2bd36229b86c7d61946c5cac5919a213
 published: August 25, 2026
 subjects: 
 summary: A highly multiplexed fluorescence imaging assay that enables quantification of more than 60 protein biomarkers within a single, intact fixed tissue section. The workflow consists of iterative cycles of antibody staining, multi-channel fluorescence imaging, and chemical dye inactivation, with each cycle adding additional protein targets to the cumulative dataset. This approach provides high-dimensional, spatially resolved protein expression profiles at single-cell resolution without destroying the tissue.
+schema_doc_href: https://openview.metadatacenter.org/templates/https:%2F%2Frepo.metadatacenter.org%2Ftemplates%2F6f9eee7b-7ef1-4f32-a34e-706bbbbb09bf
 validator_href: "https://metadatavalidator.metadatacenter.org"
 datasets_href: "https://portal.hubmapconsortium.org/search/datasets?dataset_type=Cell+DIVE"
 help_href: /doi-pages-help/
