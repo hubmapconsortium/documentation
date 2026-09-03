@@ -9,6 +9,7 @@ md5_hash: 4d79df8204375c0d9ce321e5b2fcfb80
 published: August 25, 2026
 subjects: 
 summary: Autofluorescence imaging exploits the intrinsic fluorescence of endogenous biological molecules—such as NADH, collagen, and elastin—to generate label-free structural images of cells and tissues. No exogenous dyes or antibodies are required; specific wavelengths of light excite native tissue fluorophores, and the emitted signal is captured to reveal tissue morphology and composition.
+schema_doc_href: https://openview.metadatacenter.org/templates/https:%2F%2Frepo.metadatacenter.org%2Ftemplates%2Fc9c6a02b-010e-4217-96dc-f7ef71dd14c4
 validator_href: "https://metadatavalidator.metadatacenter.org"
 datasets_href: "https://portal.hubmapconsortium.org/search/datasets?dataset_type=Auto-fluorescence"
 help_href: /doi-pages-help/
