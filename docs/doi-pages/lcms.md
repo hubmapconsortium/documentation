@@ -34,7 +34,7 @@ example_tree:
       ├── ID_metadata/
       │   └── foobar.csv
       └── QC_results/
-         └── foobar.txt
+          └── foobar.txt
 
 schema_items: 
 |-
