@@ -1,17 +1,17 @@
 ---
 layout: doi-landing-page
-title: Metadata Reporting Standards - AF
-spec_name: Auto-fluorescence (AF)
+title: Metadata Reporting Standards - MPLeX
+spec_name: Multi-Phase Liquid Extraction (MPLeX)
 version_label: Version 1
-doi: 10.35079/HBM663.DHKQ.865
-download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/raw/refs/heads/main/docs/af/current/doi-object.zip"
-md5_hash: 4d79df8204375c0d9ce321e5b2fcfb80
-published: August 25, 2026
+doi: 10.35079/HBM765.TCFP.373
+download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/raw/refs/heads/main/docs/mplex/current/doi-object.zip"
+md5_hash: c60316e366093b12bbc26795105753a1
+published: September 2, 2026 
 subjects: 
-summary: Autofluorescence imaging exploits the intrinsic fluorescence of endogenous biological molecules—such as NADH, collagen, and elastin—to generate label-free structural images of cells and tissues. No exogenous dyes or antibodies are required; specific wavelengths of light excite native tissue fluorophores, and the emitted signal is captured to reveal tissue morphology and composition.
-schema_doc_href: https://openview.metadatacenter.org/templates/https:%2F%2Frepo.metadatacenter.org%2Ftemplates%2Fc9c6a02b-010e-4217-96dc-f7ef71dd14c4
+summary: MPLEx is a simple, rapid, and robust sample preparation protocol for integrated multi-omics analysis from diverse biological sample types, including environmental, in vitro, and clinical specimens. Based on a modified Bligh-Dyer solvent extraction, MPLEx simultaneously partitions lipids, metabolites, and proteins into distinct phases in a single step, enabling individual downstream analysis of each fraction by mass spectrometry-based lipidomics, metabolomics, and proteomics. 
+schema_doc_href: "https://openview.metadatacenter.org/templates/https:%2F%2Frepo.metadatacenter.org%2Ftemplates%2F2015a1c3-fcf8-458c-8572-0f65e89f2405"
 validator_href: "https://metadatavalidator.metadatacenter.org"
-datasets_href: "https://portal.hubmapconsortium.org/search/datasets?dataset_type=Auto-fluorescence"
+datasets_href: "https://portal.hubmapconsortium.org/search/datasets"
 help_href: /doi-pages-help/
 datasets_text: The HuBMAP Data Portal is an open platform to discover, visualize, and download standardized healthy single-cell and spatial tissue data.
 citation_text: Fisher SA, Hardi J, Morgan R, Nordgren E, Kant PM, Honick B, Rosario J, O'Connor MJ, Turner ML, DCWG Members, Gehlenborg N, Blood PD, Silverstein JC, Musen MA. 2026. The HuBMAP Framework for Advancing Data FAIRness. submitted. https://doi.org/10.64898/2026.06.01.728946
@@ -23,26 +23,10 @@ example_tree:
 |-
   .
   ├── extras/
-  │   ├── microscope_hardware.json
-  │   └── microscope_settings.json
   ├── raw/
-  │   ├── channel_layout.tsv
-  │   └── images/
-  │       └── foobar.{xml,nd2,oir,lif,czi,tiff,qptiff}
-  ├── lab_processed/
-  │   ├── images/
-  │   │   ├── foobar.ome.tiff
-  │   │   ├── foobar.ome-tiff.channels.csv
-  │   │   └── foobar.tissue-boundary.geojson
-  │   └── transformations/
-  │       └── foobar.txt
-  └── qa_qc/
-      ├── resolution_report/
-      │   ├── resolution.txt
-      │   └── foobar.pdf
-      └── illumination_report/
-          ├── illumination.txt
-          └── foobar.pdf
+  │   └── mplex/
+  └── lab_processed/
+      └── mplex/
 
 schema_items: 
 |-
@@ -62,43 +46,49 @@ schema_items:
   | Time since acquisition instrument calibration unit | <i class="fa-solid fa-circle-nodes" title="Allowable Value" aria-label="Allowable Value"></i> | The unit of measurement used to specify the time since acquisition instrument calibration value. Example: month | ```month``` ```year``` ```day``` |
   | Contributors path <span class="requiredMark">*</span> | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | The name of the file containing the ORCID IDs for all contributors to this dataset. Example: ./contributors.csv |  |
   | Data path <span class="requiredMark">*</span> | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | The top-level directory containing the raw and/or processed data. For a single dataset upload, this might be represented as ".", whereas for a data upload containing multiple datasets, this would be the directory name for the respective dataset. For example, if the data is within a directory named "TEST001-RK", use the syntax "./TEST001-RK" for this field. If there are multiple directory levels, use the format "./TEST001-RK/Run1/Pass2", where "Pass2" is the subdirectory where the single dataset's data is stored. This is an internal metadata field used solely for data ingestion. Example: ./TEST001-RK |  |
-  | Antibodies path <span class="requiredMark">*</span> | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | The path to the antibodies.tsv file relative to the root directory of the upload structure. This path should start with "." and is typically formatted as "./extras/antibodies.tsv". Example: ./extras/antibodies.tsv |  |
-  | Is image preprocessing required? | <i class="fa-solid fa-circle-dot" title="Radio" aria-label="Radio"></i> | Indicates whether image preprocessing is necessary based on the type of acquisition instrument used, such as a microscope or slide scanner. This may involve steps like fusing image tiles to assemble the complete image. Example: Yes | ```Yes``` ```No``` |
-  | Slide ID | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | The unique identifier assigned to each slide, enabling users to determine which tissue sections were processed together on the same slide. It is recommended that data providers prefix the ID with the center name to prevent overlapping values across different centers. Example: VAN0071-PA-1-1_AF |  |
-  | Tile configuration | <i class="fa-solid fa-circle-nodes" title="Allowable Value" aria-label="Allowable Value"></i> | The configuration of tiles used for stitching in the assay process. If no tile configuration is applicable, enter "Not applicable". Example: Row-by-row | ```Not applicable``` ```Row-by-row``` ```Column-by-column``` ```Snake-by-rows``` ```Snake-by-columns``` |
-  | Scan direction | <i class="fa-solid fa-circle-nodes" title="Allowable Value" aria-label="Allowable Value"></i> | The direction of imaging, which is necessary for the stitching process. Example: Left-and-down | ```Left-and-up``` ```Right-and-up``` ```Not applicable``` ```Left-and-down``` ```Right-and-down``` |
-  | Tiled image columns | <i class="fa-solid fa-hashtag" title="Numeric" aria-label="Numeric"></i> | The number of columns used in the stitching process of a tiled image, often referred to as the grid size in the x-dimension. Example: 5 |  |
-  | Tiled image count | <i class="fa-solid fa-hashtag" title="Numeric" aria-label="Numeric"></i> | The total number of raw tiled images captured, which are intended to be stitched together. Example: 75 |  |
-  | Intended tile overlap percentage | <i class="fa-solid fa-hashtag" title="Numeric" aria-label="Numeric"></i> | The intended percentage of overlap between tiled images. This value serves as the set point, although slight variations may occur during image acquisition due to stage registration. Example: 5 |  |
-  | Non global files | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | Specifies a semicolon-separated list of non-global files that are to be included in the dataset. The file paths assume that the files are located in the "TOP/non-global/" directory. For instance, if the file is located at TOP/non-global/lab_processed/images/1-tissue-boundary.geojson, the value for this field would be "./lab_processed/images/1-tissue-boundary.geojson". Once ingested, these files will be copied to their appropriate locations within the respective dataset directory tree. This field is intended for internal HuBMAP processing. Examples for GeoMx and PhenoCycler are provided in the File Locations documentation - <https://docs.google.com/document/d/1n2McSs9geA9Eli4QWQaB3c9R3wo5d5U1Xd57DWQfN5Q/edit#heading=h.1u82i4axggee Example: ./lab_processed/images/1-tissue-boundary.geojson> |  |
+  | MS ionization technique <span class="requiredMark">*</span> | <i class="fa-solid fa-circle-nodes" title="Allowable Value" aria-label="Allowable Value"></i> | The ionization technique used in imaging mass spectrometry, which refers to the method employed to probe the sample. Example: MALDI | ```LDI``` ```SIMS-H20``` ```HESI``` ```LA``` ```nanoDESI``` ```MALDI``` ```DESI``` ```SIMS-C60``` ```ESI``` ```MALDI-2``` ```nESI``` |
+  | MS scan mode <span class="requiredMark">*</span> | <i class="fa-solid fa-circle-nodes" title="Allowable Value" aria-label="Allowable Value"></i> | The mode of mass spectrometry (MS) scanning, which refers to the number of steps involved in the separation of fragments during the analysis. Example: MS1 | ```MS1``` ```MS3``` ```MS2``` |
+  | Mass analysis polarity <span class="requiredMark">*</span> | <i class="fa-solid fa-circle-nodes" title="Allowable Value" aria-label="Allowable Value"></i> | The polarity mode used in mass analysis, indicating whether positive or negative ion modes are employed. Example: Positive ion mode | ```Negative ion mode``` ```Positive ion mode``` ```Negative and positive ion mode``` |
+  | Mass-to-charge range low value | <i class="fa-solid fa-hashtag" title="Numeric" aria-label="Numeric"></i> | The low value of the scanned mass-to-charge range for MS1. This value is unitless. Example: 100 |  |
+  | Mass-to-charge range high value | <i class="fa-solid fa-hashtag" title="Numeric" aria-label="Numeric"></i> | The high value of the scanned mass-to-charge range, for MS1. (unitless) |  |
+  | Mass resolving power | <i class="fa-solid fa-hashtag" title="Numeric" aria-label="Numeric"></i> | The mass resolving power, denoted as m/∆m, where ∆m is defined as the full width at half-maximum (FWHM) for a given peak with a specified mass-to-charge ratio (m/z). This measurement is unitless. Example: 60000 |  |
+  | Mass-to-charge resolving power | <i class="fa-solid fa-hashtag" title="Numeric" aria-label="Numeric"></i> | The peak mass-to-charge ratio (m/z) used to calculate the resolving power. Example: 400.2 |  |
+  | Ion mobility | <i class="fa-solid fa-circle-nodes" title="Allowable Value" aria-label="Allowable Value"></i> | The specific technology employed for ion mobility spectrometry. Available technologies include Traveling Wave Ion Mobility Spectrometry (TWIMS), Trapped Ion Mobility Spectrometry (TIMS), High Field Asymmetric Waveform Ion Mobility Spectrometry (FAIMS), Drift Tube Ion Mobility Spectrometry (DTIMS), Structures for Lossless Ion Manipulations (SLIM), and cyclic Ion Mobility Spectrometry (cIMS). Example: TIMS | ```cIMS``` ```TWIMS``` ```DTIMS``` ```SLIM``` ```TIMS``` ```FAIMS``` |
+  | Data collection mode | <i class="fa-solid fa-circle-nodes" title="Allowable Value" aria-label="Allowable Value"></i> | The mode of data collection used in tandem MS assays, which can include options such as Data-dependent acquisition (DDA), Data-independent acquisition (DIA), multiple reaction monitoring (SRM), or parallel reaction monitoring (PRM). Example: PRM | ```DDA``` ```PRM``` ```DIA``` ```SRM``` |
+  | Label name | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | The name or identifier of the chemical label used on this sample if labeling was applied. This is typically required for multiplexed experiments using techniques like Tandem Mass Tag (TMT). If sample was not labeled, this field may be left blank. Example: TMT126 |  |
+  | LC instrument vendor | <i class="fa-solid fa-circle-nodes" title="Allowable Value" aria-label="Allowable Value"></i> | The company that manufactures the instrument used for liquid chromatography. If the instrument was custom-built or developed internally, enter "In-House". Example: Bruker | ```In-House``` ```Evosep``` ```Shimadzu``` ```Thermo Fisher Scientific``` ```Agilent Technologies``` ```Sciex``` ```Bruker``` ```Waters``` |
+  | LC instrument model | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | The model number or name of the instrument used for liquid chromatography. Example: Bruker Elute LC-MS |  |
+  | LC column vendor | <i class="fa-solid fa-circle-nodes" title="Allowable Value" aria-label="Allowable Value"></i> | The manufacturer of the liquid chromatography column used, unless a self-packed or pulled tip capillary is employed. If the column was custom-made or developed internally, enter "In-House". Example: Bruker | ```In-House``` ```IonOpticks``` ```Evosep``` ```Thermo Fisher Scientific``` ```Agilent Technologies``` ```Millipore``` ```Bruker``` ```Waters``` |
+  | LC column model | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | The model number or name of the liquid chromatography column used. If a custom self-packed, pulled tip capillary is utilized, enter "Pulled tip capillary". Example: Thermo Scientific Vanquish UHPLC |  |
+  | LC resin | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | The details of the resin used in liquid chromatography, including information about the vendor, particle size, and pore size. Example: Thermo Fisher Scientific, Acclaim PepMap 100 C18, 3 µm, 100 Å |  |
+  | LC column length value | <i class="fa-solid fa-hashtag" title="Numeric" aria-label="Numeric"></i> | Liquid chromatography column length. |  |
+  | LC column length unit | <i class="fa-solid fa-circle-nodes" title="Allowable Value" aria-label="Allowable Value"></i> | Units for liquid chromatography column length (typically cm). | ```mm``` ```um``` ```cm``` |
+  | LC temperature value | <i class="fa-solid fa-hashtag" title="Numeric" aria-label="Numeric"></i> | The temperature at which the liquid chromatography (LC) process is conducted. Example: 40 |  |
+  | LC temperature unit | <i class="fa-solid fa-circle-nodes" title="Allowable Value" aria-label="Allowable Value"></i> |  | ```celsius``` |
+  | LC inner diameter value | <i class="fa-solid fa-hashtag" title="Numeric" aria-label="Numeric"></i> | Liquid chromatography column inner diameter. |  |
+  | LC inner diameter unit | <i class="fa-solid fa-circle-nodes" title="Allowable Value" aria-label="Allowable Value"></i> | The unit of measurment for the LC inner diameter value. If the diameter is not specified, this field may be left blank. Example: um | ```mm``` ```um``` ```cm``` |
+  | LC flow rate value | <i class="fa-solid fa-hashtag" title="Numeric" aria-label="Numeric"></i> | Value of flow rate. |  |
+  | LC flow rate unit | <i class="fa-solid fa-circle-nodes" title="Allowable Value" aria-label="Allowable Value"></i> | Units of flow rate. | ```mL/min``` ```nL/min``` |
+  | LC gradient value | <i class="fa-solid fa-hashtag" title="Numeric" aria-label="Numeric"></i> | The liquid chromatography (LC) gradient used in the assay. Example: 120 |  |
+  | LC gradient unit | <i class="fa-solid fa-circle-nodes" title="Allowable Value" aria-label="Allowable Value"></i> | Unit for liquid chromatography gradient | ```minute``` |
+  | LC mobile phase A | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | Composition of mobile phase A. |  |
+  | LC mobile phase B | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> |  |  |
+  | Spatial sampling technique | <i class="fa-solid fa-circle-nodes" title="Allowable Value" aria-label="Allowable Value"></i> |  | ```microPOTS``` ```nanoSPLITS``` ```LESA``` ```microLESA``` ```nanoPOTS``` ```LCM``` |
+  | Spatial sampling target | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | The cell type or functional tissue unit (FTU) that is the focus of the spatial profiling experiment. If the data are generated in imaging mode without targeting a specific structure, this field may be left blank. Example: Proximal tubule epithelial cell |  |
+  | Spatial sampling type | <i class="fa-solid fa-circle-nodes" title="Allowable Value" aria-label="Allowable Value"></i> | The type of spatial targeting used in the analysis. Spatial profiling focuses on selected tissue regions without necessarily producing images, while spatial imaging captures data across a regular grid of pixels, enabling visualization as ion intensity heat maps—also referred to as molecular images. Leave this field blank if the data originate from bulk (non-spatial) analysis. Example: Imaging | ```Profiling``` ```Imaging``` |
+  | Analysis protocol DOI <span class="requiredMark">*</span> | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | A DOI to a protocols.io protocol describing the software and database(s) used to process the raw data. Example: https://dx.doi.org/10.17504/protocols.io.bsu5ney6 |  |
   | Metadata schema ID <span class="requiredMark">*</span> | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | The unique string identifier for the metadata specification version, which is easily interpretable by computers for purposes of data validation and processing. Example: 22bc762a-5020-419d-b170-24253ed9e8d9 |  |
-
+  
 definitions: 
 |-
   | Pattern | Required? | Description |
   |--|--|--|
-  | extras/ | ✓ | Folder for general lab-specific files related to the dataset. [Exists in all assays] |
-  | extras/microscope_hardware.json$ | ✓ | [QA/QC] A file generated by the micro-meta app that contains a description of the hardware components of the microscope. Email HuBMAP Consortium Help Desk <help@hubmapconsortium.org> if help is required in generating this document. |
-  | extras/microscope_settings.json$ |  | [QA/QC] A file generated by the micro-meta app that contains a description of the settings that were used to acquire the image data. Email HuBMAP Consortium Help Desk <help@hubmapconsortium.org> if help is required in generating this document. |
-  | raw/ | ✓ | Raw data files for the experiment. |
-  | raw/channel_layout.tsv$ |  | Table that includes a dictionary for channel to moiety, which may be a protein given in an OMAP panel or captured in the ASCT+B table. |
-  | raw/images/ | ✓ | Raw image files. Using this subdirectory allows for harmonization with other imaging assays. [This directory must include at least one raw file.] |
-  | raw/images/*.{xml,nd2,oir,lif,czi,tiff,qptiff}$ | ✓ | Raw microscope file for the experiment |
+  | extras/ | ✓ | Folder for general lab-specific files related to the dataset. |
+  | raw/ | ✓ | This is a directory containing raw data. |
+  | raw/mplex/ |  | All relevant raw files for MPLeX. |
   | lab_processed/ | ✓ | Experiment files that were processed by the lab generating the data. |
-  | lab_processed/images/ | ✓ | Processed image files |
-  | lab_processed/images/*.ome.tiff$ | ✓ | OME-TIFF files (multichannel, multi-layered) produced by the microscopy experiment. If compressed, must use loss-less compression algorithm. See the following link for the set of fields that are required in the OME TIFF file XML header. <https://docs.google.com/spreadsheets/d/1YnmdTAA0Z9MKN3OjR3Sca8pz-LNQll91wdQoRPSP6Q4/edit#gid=0> |
-  | lab_processed/images/*ome-tiff.channels.csv$ | ✓ | This file provides essential documentation pertaining to each channel of the accommpanying OME TIFF. The file should contain one row per OME TIFF channel. The required fields are detailed <https://docs.google.com/spreadsheets/d/1xEJSb0xn5C5fB3k62pj1CyHNybpt4-YtvUs5SUMS44o/edit#gid=0> |
-  | lab_processed/images/*.tissue-boundary.geojson$ |  | [QA/QC] If the boundaries of the tissue have been identified (e.g., by manual efforts), then the boundary geometry can be included as a GeoJSON file named “*.tissue-boundary.geojson”. |
-  | lab_processed/transformations/ |  | This directory contains transformation matrices that capture how each modality is aligned with the other and can be used to visualize overlays of multimodal data. This is needed to overlay images from the exact same tissue section (e.g., MALDI imaging mass spec, autofluorescence microscopy, MxIF, histological stains). In these cases data type may have different pixel sizes and slightly different orientations (i.e., one may be rotated relative to another). |
-  | lab_processed/transformations/*.txt$ |  | Transformation matrices used to overlay images from the exact same tissue section (e.g., MALDI imaging mass spec, autofluorescence microscopy, MxIF, histological stains). |
-  | qa_qc/ | ✓ | Directory containing QA and/or QC information. |
-  | qa_qc/resolution_report/ | ✓ | Directory containing the results of resolution tests and/or vendor preventative maintenance reports. |
-  | qa_qc/resolution_report/resolution.txt$ |  | This file summarizes the results of resolution tests or vendor reports from preventative maintenance visits. |
-  | qa_qc/resolution_report/*.pdf$ |  | This file is a pdf from a vendor preventative maintenance visit or resolution check tool demonstrating resolution. This file may include illumination test results. |
-  | qa_qc/illumination_report/ | ✓ | Directory containing the results of illumination tests and/or vendor preventative maintenance reports. |
-  | qa_qc/illumination_report/illumination.txt$ |  | This file summarizes the results of illumination tests or vendor reports from preventative maintenance visits. |
-  | qa_qc/illumination_report/*.pdf$ |  | This file is a pdf from a vendor preventative maintenance visit or illumination check tool demonstrating illumination intensity. |
-     
+  | lab_processed/mplex/ |  | Experiment files that were processed by the lab generating the data exclusive to MPLeX. |
+
 contributors: 
 |-
   | Name | Affiliation | Contact | ORCID |

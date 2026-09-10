@@ -1,17 +1,17 @@
 ---
 layout: doi-landing-page
-title: Metadata Reporting Standards - Cell DIVE
-spec_name: Cell DIVE
+title: Metadata Reporting Standards - GeoMx (NGS)
+spec_name: GeoMx Digital Spatial Profiler (DSP) with next-generation sequencing (NGS)
 version_label: Version 1
-doi: 10.35079/HBM629.BDQB.527
-download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/raw/refs/heads/main/docs/celldive/current/doi-object.zip"
-md5_hash: 2bd36229b86c7d61946c5cac5919a213
-published: August 25, 2026
+doi: 10.35079/HBM387.GWMM.369
+download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/raw/refs/heads/main/docs/geomx-ngs/current/doi-object.zip"
+md5_hash: b91eae77a350987e939d4b68aa33204f
+published: August 31, 2026
 subjects: 
-summary: A highly multiplexed fluorescence imaging assay that enables quantification of more than 60 protein biomarkers within a single, intact fixed tissue section. The workflow consists of iterative cycles of antibody staining, multi-channel fluorescence imaging, and chemical dye inactivation, with each cycle adding additional protein targets to the cumulative dataset. This approach provides high-dimensional, spatially resolved protein expression profiles at single-cell resolution without destroying the tissue.
-schema_doc_href: https://openview.metadatacenter.org/templates/https:%2F%2Frepo.metadatacenter.org%2Ftemplates%2F6f9eee7b-7ef1-4f32-a34e-706bbbbb09bf
+summary: A spatial biology platform that enables non-destructive, high-plex profiling of RNA and protein from user-selected regions of interest (ROIs) within intact tissue sections. For RNA, tiled in situ hybridization probe sets targeting the whole transcriptome are conjugated to photocleavable DNA indexing oligonucleotides; for protein, antibodies specific to 100s of protein targets are similarly conjugated to photocleavable oligo tags. Following ROI selection, UV illumination releases the oligo tags from the selected areas, which are collected and quantified by NGS, enabling whole-transcriptome-scale spatial profiling with higher target coverage and sensitivity than nCounter-based readout. This approach provides spatially resolved, multiplexed molecular profiles from defined tissue regions. <p class="multiAssay"><span class="requiredMark">*</span> This reporting standard requires the inclusion of <a href="https://dx.doi.org/10.35079/HBM674.XVGG.736"> RNAseq (with probes)</a> dataset metadata for completeness. </p>
+schema_doc_href: "https://openview.metadatacenter.org/templates/https:%2F%2Frepo.metadatacenter.org%2Ftemplates%2F11687c2e-1fbe-4405-a73c-e7ce3294042f"
 validator_href: "https://metadatavalidator.metadatacenter.org"
-datasets_href: "https://portal.hubmapconsortium.org/search/datasets?dataset_type=Cell+DIVE"
+datasets_href: "https://portal.hubmapconsortium.org/search/datasets?dataset_type=GeoMx+(NGS)"
 help_href: /doi-pages-help/
 datasets_text: The HuBMAP Data Portal is an open platform to discover, visualize, and download standardized healthy single-cell and spatial tissue data.
 citation_text: Fisher SA, Hardi J, Morgan R, Nordgren E, Kant PM, Honick B, Rosario J, O'Connor MJ, Turner ML, DCWG Members, Gehlenborg N, Blood PD, Silverstein JC, Musen MA. 2026. The HuBMAP Framework for Advancing Data FAIRness. submitted. https://doi.org/10.64898/2026.06.01.728946
@@ -21,27 +21,36 @@ contributors_note: For questions about this standard, email <a href="mailto:help
 
 example_tree: 
 |-
-  .
-  ├── extras/
-  │   ├── microscope_hardware.json
-  │   └── microscope_settings.json
-  ├── raw/
-  │   └── images/
-  │       ├── round_info_foobar.dat
-  │       └── round_info_foobar.xml
-  └── lab_processed/
-      ├── images/
-      │   └── region_foobar/
-      │       ├── foobar_region_01.ome.{tif,tiff}
-      │       └── foobar.ome-tiff.channels.csv
-      ├── annotations/
-      │   └── slide_list.txt
-      ├── transformations/
-      │   └── foobar.txt
-      └── virtual_histology/
-          ├── HandE_RGB_thumbnail.jpg
-          ├── HandE_RGB.tif
-          └── foobar_VHE_region_01.tif
+ .
+ ├── extras/
+ │   ├── microscope_hardware.json
+ │   └── microscope_settings.json
+ ├── raw/
+ │   ├── foobar_LabWorksheet.txt
+ │   ├── foobar_config.ini
+ │   ├── foobar_SeqCodeIndices.csv
+ │   ├── foobar_SampleSheet.csv
+ │   ├── foobar_whitelist.txt
+ │   ├── markers.csv
+ │   ├── foobar.pkc
+ │   ├── additional_panels_used.csv
+ │   ├── custom_probe_set.csv
+ │   ├── fastq/
+ │   │   └── oligo/
+ │   │       └── foobar.fastq.gz
+ │   └── images/
+ │       └── overlay.{jpeg,tiff}
+ └── lab_processed/
+     ├── Initial\s{1}Dataset.xlsx
+     ├── annotations.xlsx
+     ├── dcc/
+     │   └── foobar.dcc
+     ├── images/
+     │   ├── foobar.ome.tiff
+     │   ├── foobar.ome-tiff.channels.csv
+     │   └── foobar.tissue-boundary.geojson
+     └── primary_analysis/
+         └── foobar.xlsx
 
 schema_items: 
 |-
@@ -61,40 +70,62 @@ schema_items:
   | Time since acquisition instrument calibration unit | <i class="fa-solid fa-circle-nodes" title="Allowable Value" aria-label="Allowable Value"></i> | The unit of measurement used to specify the time since acquisition instrument calibration value. Example: month | ```month``` ```year``` ```day``` |
   | Contributors path <span class="requiredMark">*</span> | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | The name of the file containing the ORCID IDs for all contributors to this dataset. Example: ./contributors.csv |  |
   | Data path <span class="requiredMark">*</span> | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | The top-level directory containing the raw and/or processed data. For a single dataset upload, this might be represented as ".", whereas for a data upload containing multiple datasets, this would be the directory name for the respective dataset. For example, if the data is within a directory named "TEST001-RK", use the syntax "./TEST001-RK" for this field. If there are multiple directory levels, use the format "./TEST001-RK/Run1/Pass2", where "Pass2" is the subdirectory where the single dataset's data is stored. This is an internal metadata field used solely for data ingestion. Example: ./TEST001-RK |  |
-  | Antibodies path <span class="requiredMark">*</span> | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | The path to the antibodies.tsv file relative to the root directory of the upload structure. This path should start with "." and is typically formatted as "./extras/antibodies.tsv". Example: ./extras/antibodies.tsv |  |
-  | Number of antibodies <span class="requiredMark">*</span> | <i class="fa-solid fa-hashtag" title="Numeric" aria-label="Numeric"></i> | The number of antibodies used in the assay. If no antibodies were utilized, enter 0. Example: 5 |  |
-  | Number of channels <span class="requiredMark">*</span> | <i class="fa-solid fa-hashtag" title="Numeric" aria-label="Numeric"></i> | The number of fluorescent channels that are imaged during each cycle. Example: 3 |  |
-  | Number of biomarker imaging rounds <span class="requiredMark">*</span> | <i class="fa-solid fa-hashtag" title="Numeric" aria-label="Numeric"></i> | The number of imaging rounds required to capture the tagged biomarkers. For CODEX, a biomarker imaging round includes steps such as (1) oligo application, (2) fluor application, and (3) washes. For Cell DIVE, it involves (1) the staining of a biomarker via secondary detection or direct conjugate, followed by (2) dye inactivation. Example: 3 |  |
-  | Number of total imaging rounds <span class="requiredMark">*</span> | <i class="fa-solid fa-hashtag" title="Numeric" aria-label="Numeric"></i> | The total number of imaging rounds performed using a microscope to collect either autofluorescence/background or stained signals, such as those used in histological analysis. Example: 5 |  |
+  | Mapped area value <span class="requiredMark">*</span> | <i class="fa-solid fa-hashtag" title="Numeric" aria-label="Numeric"></i> | The mapped area value, which refers to the specific area covered or captured in various assays. For Visium, it is the area of spots covered by tissue within the captured area, excluding the total possible captured area. For GeoMx, it refers to the area of the AOI being captured. In HiFi, it is the summed area of the ROIs in a single flowcell lane. For CosMx and Resolve, it indicates the area of the FOV (also known as ROI) region being captured. For Xenium, it is the total area of the FOV regions (also known as ROI) being captured. For Stereo-Seq, this value represents the number of beads. Example: 42.25 |  |
+  | Mapped area unit <span class="requiredMark">*</span> | <i class="fa-solid fa-circle-nodes" title="Allowable Value" aria-label="Allowable Value"></i> | The unit of measurement for the mapped area value. If mapping area is not specified, this field may be left blank. Example: um^2 | ```mm^2``` ```um^2``` |
   | Slide ID <span class="requiredMark">*</span> | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | The unique identifier assigned to each slide, enabling users to determine which tissue sections were processed together on the same slide. It is recommended that data providers prefix the ID with the center name to prevent overlapping values across different centers. Example: VAN0071-PA-1-1_AF |  |
-  | Cell boundary marker or stain <span class="requiredMark">*</span> | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | The name of the marker or stain used to identify all cell boundaries in the tissue. This name must exactly match the antibody-targeted molecule marker or non-antibody targeted molecule stain as found in the imaging data. For example, in the case of using the PhenoCycler, ensure the name corresponds to the value in the XPD output file. If multiple markers or stains are employed, list them in a comma-separated format. Example: Pan-Cytokeratin, E-Cadherin |  |
-  | Nuclear marker or stain <span class="requiredMark">*</span> | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | The nuclear marker or stain used, which can be an antibody-targeted molecule present in or around the cell nucleus. For protein targets, use the protein or gene symbol that identifies the antibody target, ensuring it matches the antibody target from the panel used or custom panels. Preferably, if using a custom antibody marker, this symbol should be the HGNC symbol (https://www.genenames.org/). For non-protein targets, provide the stain name (e.g., DAPI) and, when applicable, include the associated staining kit and vendor. For the PhenoCycler, ensure the symbol matches the value found in the XPD output file. Example: DAPI |  |
+  | Number of fluorescent channels <span class="requiredMark">*</span> | <i class="fa-solid fa-hashtag" title="Numeric" aria-label="Numeric"></i> | The number of distinct fluorescent channels present in the image. Example: 3 |  |
+  | Target retrieval incubation temperature <span class="requiredMark">*</span> | <i class="fa-solid fa-hashtag" title="Numeric" aria-label="Numeric"></i> | The incubation temperature required for target retrieval, which is typically 100 degrees Celsius for RNA assays and 80 degrees Celsius for protein assays. Example: 100 |  |
+  | Target retrieval incubation time value <span class="requiredMark">*</span> | <i class="fa-solid fa-hashtag" title="Numeric" aria-label="Numeric"></i> | The duration for which a sample is exposed to a target retrieval solution. Example: 15 |  |
+  | Target retrieval incubation time unit <span class="requiredMark">*</span> | <i class="fa-solid fa-circle-nodes" title="Allowable Value" aria-label="Allowable Value"></i> | The unit of measurement for the target retrieval incubation time value. If no incubation time is specified, this field may be left blank. Example: minute | ```minute``` |
+  | ProteinaseK concentration | <i class="fa-solid fa-hashtag" title="Numeric" aria-label="Numeric"></i> | The concentration of the enzyme Proteinase K within a sample, measured in micrograms per milliliter (ug/ml). Example: 10 |  |
+  | ProteinaseK incubation time value | <i class="fa-solid fa-hashtag" title="Numeric" aria-label="Numeric"></i> | The duration for which a sample is incubated with Proteinase K. Example: 15 |  |
+  | ProteinaseK incubation time unit | <i class="fa-solid fa-circle-nodes" title="Allowable Value" aria-label="Allowable Value"></i> | The unit of measurement for the proteinaseK incubation time value. If no incubation time is specified, this field may be left blank. Example: minute | ```minute``` |
+  | ROI label <span class="requiredMark">*</span> | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | The label for the region of interest (ROI). For Resolve and CosMx, this corresponds to the field of view (FOV) label. In the case of Xenium, it refers to the ID of the region containing the analysis. For GeoMx, this information can be located in the "Initial Dataset" spreadsheet, which can be downloaded from within the Data Analysis Suite. Example: Decidua |  |
+  | Is ROI segmentation performed? <span class="requiredMark">*</span> | <i class="fa-solid fa-circle-dot" title="Radio" aria-label="Radio"></i> | Indicates whether ROI (Region of Interest) segmentation was performed on the image. For GeoMx, this refers to the use of segmentation to divide ROIs into AOIs (Areas of Interest). Answer with "Yes" or "No" value. Example: Yes | ```Yes``` ```No``` |
+  | ROI segmentation strategy | <i class="fa-solid fa-circle-nodes" title="Allowable Value" aria-label="Allowable Value"></i> | The segmentation strategy employed in a GeoMx assay. If an overlay was utilized, ensure that the overlay image is included in the dataset upload. Example: Automated segmentation | ```Manual segmentation``` ```Automated segmentation``` |
+  | Anatomical structure label | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | The label for the overarching anatomical structure. If the anatomical structure is not applicable or not specified, this field may be left blank. Example: Kidney |  |
+  | Anatomical structure ID | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | The ontology ID associated with the anatomical structure, typically represented by an UBERON ID. Example: UBERON:0002113 |  |
+  | Targeted entity label <span class="requiredMark">*</span> | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | The label for the targeted entity, indicating the specific cell type(s) or functional tissue unit that was targeted within this Region of Interest (ROI) or Area of Interest (AOI). Example: ROI-001 |  |
+  | Targeted entity ID | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | The ontology ID associated with the targeted entity. If no specific entity is targeted, this field may be left blank. Example: CL:0000540 |  |
+  | Segment ID <span class="requiredMark">*</span> | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | The unique identifier for the area of interest (AOI) within a GeoMx dataset. This ID can be found in the "Initial Dataset" spreadsheet, which can be downloaded from the Data Analysis Suite. Example: 9a828e39-43d8-4051-9bcc-581a520a85d4 |  |
+  | Is technical replicate? <span class="requiredMark">*</span> | <i class="fa-solid fa-circle-dot" title="Radio" aria-label="Radio"></i> | Indicates whether the sequencing reaction was run in replicate. If "Yes," the corresponding FASTQ files in the dataset should be merged for analysis. Example: Yes | ```Yes``` ```No``` |
+  | Non global files | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | Specifies a semicolon-separated list of non-global files that are to be included in the dataset. The file paths assume that the files are located in the "TOP/non-global/" directory. For instance, if the file is located at TOP/non-global/lab_processed/images/1-tissue-boundary.geojson, the value for this field would be "./lab_processed/images/1-tissue-boundary.geojson". Once ingested, these files will be copied to their appropriate locations within the respective dataset directory tree. This field is intended for internal HuBMAP processing. Examples for GeoMx and PhenoCycler are provided in the File Locations documentation: https://docs.google.com/document/d/1n2McSs9geA9Eli4QWQaB3c9R3wo5d5U1Xd57DWQfN5Q/edit#heading=h.1u82i4axggee Example: ./lab_processed/images/1-tissue-boundary.geojson |  |
   | Metadata schema ID <span class="requiredMark">*</span> | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | The unique string identifier for the metadata specification version, which is easily interpretable by computers for purposes of data validation and processing. Example: 22bc762a-5020-419d-b170-24253ed9e8d9 |  |
- 
+
 definitions: 
 |-
   | Pattern | Required? | Description |
   |--|--|--|
-  | extras/ | ✓ | Folder for general lab-specific files related to the dataset. [Exists in all assays] |
+  | extras/ | ✓ | Folder for general lab-specific files related to the dataset. |
   | extras/microscope_hardware.json$ | ✓ | [QA/QC] A file generated by the micro-meta app that contains a description of the hardware components of the microscope. Email HuBMAP Consortium Help Desk <help@hubmapconsortium.org> if help is required in generating this document. |
   | extras/microscope_settings.json$ |  | [QA/QC] A file generated by the micro-meta app that contains a description of the settings that were used to acquire the image data. Email HuBMAP Consortium Help Desk <help@hubmapconsortium.org> if help is required in generating this document. |
-  | raw/ | ✓ | This is a directory containing raw data. |
-  | raw/images/ | ✓ | Raw image files. Using this subdirectory allows for harmonization with other more complex assays, like Visium that includes both raw imaging and sequencing data. |
-  | raw/images/round_info_*.dat$ |  | Metadata file for the capture item-value tab separated format. This contains various instrument and acquisition details for each acquisition cycle. This is equivalent to the round_info_*.xml file that some systems generate. |
-  | raw/images/round_info_*.xml$ |  | Metadata file for the capture item-value tab separated format. This contains various instrument and acquisition details for each acquisition cycle. This is equivalent to the round_info_*.dat file that some systems generate. |
+  | raw/ | ✓ | All raw data files for the experiment. |
+  | raw/*_LabWorksheet.txt$ | ✓ | An Excel spreadsheet to refer to in setting up the library. This file documents all of the samples from a single collection plate. Generated by DSP run, prior to sequencing. |
+  | raw/*_config.ini$ | ✓ | Needed to generate the DCC file from the fastq file. Contains pipeline processing parameters.  Generated by DSP run, prior to sequencing. |
+  | raw/*_SeqCodeIndices.csv$ |  | A file with sample information needed by the Illumina software. Use the contents of the SeqCodeIndices.csv file to create a SampleSheet.csv for input to the Illumina sequencer. (NextSeq 1000/2000 users download a SampleSheet.csv and whitelist.txt instead of SeqCodeIndices.csv.)  Generated by DSP run. |
+  | raw/*_SampleSheet.csv$ |  | Used by NextSeq 1000/2000 users, along with whitelist.txt, in place of SeqCodeIndices.csv |
+  | raw/*_whitelist.txt$ |  | Used by NextSeq 1000/2000 users, along with SampleSheet.csv, in place of SeqCodeIndices.csv |
+  | raw/markers.csv$ |  | A csv file describing any morphology markers used to guide ROI and/or AOI selection [this should be similar in structure to the antibodies file] |
+  | raw/*.pkc$ | ✓ | The file listing probe barcode sequence and corresponding gene symbol and, if appropriate, proteins targeted by that probe. This should be consistent for the same probe panel. |
+  | raw/additional_panels_used.csv$ |  | If multiple commercial probe panels were used, then the primary probe panel should be selected in the "oligo_probe_panel" metadata field. The additional panels must be included in this file. Each panel record should include: manufacturer, model/name, product code. |
+  | raw/custom_probe_set.csv$ |  | This file should contain any custom probes used and must be included if the metadata field "is_custom_probes_used" is "Yes". The file should minimally include: target gene id, probe seq, probe id. The contents of this file are modeled after the 10x Genomics probe set file (see <https://support.10xgenomics.com/spatial-gene-expression-ffpe/probe-sets/probe-set-file-descriptions/probe-set-file-descriptions#probe_set_csv_file>). |
+  | raw/fastq/ | ✓ | Raw sequencing files for the experiment |
+  | raw/fastq/oligo/ | ✓ | Directory containing fastq files pertaining to oligo sequencing. |
+  | raw/fastq/oligo/*.fastq.gz$ | ✓ | This is a gzip version of the fastq file. This file contains the cell barcode and unique molecular identifier (technical). |
+  | raw/images/ |  | Directory containing raw image files. This directory should include at least one raw file. |
+  | raw/images/overlay.{jpeg,tiff}$ |  | State whether an overlay image was used to guide ROI selection. If an overlay is used, then the overlay details will be provided in the protocols.io protocol. If used, this needs to be uploaded. It is not included in the OME TIFF. This can be a JPEG or TIFF file |
   | lab_processed/ | ✓ | Experiment files that were processed by the lab generating the data. |
-  | lab_processed/images/ | ✓ | This is a directory containing processed image files |
-  | lab_processed/images/region_*/*_region_*.ome.{tif,tiff}$ | ✓ | OME TIFF Files for the corresponding region (e.g. region_001) by slide (e.g S20030077), organized into subdirectories based on their region. |
-  | lab_processed/images/region_*/*ome-tiff.channels.csv$ | ✓ | This file provides essential documentation pertaining to each channel of the accommpanying OME TIFF. The file should contain one row per OME TIFF channel. The required fields are detailed <https://docs.google.com/spreadsheets/d/1xEJSb0xn5C5fB3k62pj1CyHNybpt4-YtvUs5SUMS44o/edit#gid=0> |
-  | lab_processed/annotations/ | ✓ | This is a directory containing annotations. |
-  | lab_processed/annotations/slide_list.txt$ | ✓ | Information about the slides used by the experiment- each line corresponds to a slide name (begins with S - e.g. S20030077) - used in filenames. |
-  | lab_processed/transformations/ |  | This directory contains transformation matrices that capture how each modality is aligned with the other and can be used to visualize overlays of multimodal data. This is needed to overlay images from the exact same tissue section (e.g., MALDI imaging mass spec, autofluorescence microscopy, MxIF, histological stains). In these cases data type may have different pixel sizes and slightly different orientations (i.e., one may be rotated relative to another). |
-  | lab_processed/transformations/*.txt$ |  | Transformation matrices used to overlay images from the exact same tissue section (e.g., MALDI imaging mass spec, autofluorescence microscopy, MxIF, histological stains). |
-  | lab_processed/virtual_histology/ | ✓ | This is a directory containing annotations for virtual histology images |
-  | lab_processed/virtual_histology/HandE_RGB_thumbnail.jpg$ |  | Virtual H&E RGB thumbnail |
-  | lab_processed/virtual_histology/HandE_RGB.tif$ |  | Virtual H&E RGB image |
-  | lab_processed/virtual_histology/*_VHE_region_*.tif$ |  | Virtual H&E image |
-     
+  | lab_processed/Initial\s{1}Dataset.xlsx$ | ✓ | [QA/QC] An excel spreadsheet that is downloaded from the GeoMx DSP Data Analysis Suite containing QA/QC metrics based on raw, unprocessed target counts. This file contains one row per AOI/segment and no analyses span AOI. The AOIs included in this file can come from different GeoMx runs and hence span Globus uploads. So care must be taken to make sure the appropriate AOIs are included in the file. |
+  | lab_processed/annotations.xlsx$ |  | AOI specific annotations. This might include cell type and anatomical information. |
+  | lab_processed/dcc/ | ✓ | DCC files generated from fastq by the Nanostring GeoMx NGS Pipeline. |
+  | lab_processed/dcc/*.dcc$ | ✓ | DCC files containing target probe counts, generated from fastq by the Nanostring GeoMx NGS Pipeline. |
+  | lab_processed/images/ | ✓ | Processed image files |
+  | lab_processed/images/*.ome.tiff$ | ✓ | OME-TIFF files (multichannel, multi-layered) produced by the microscopy experiment. If compressed, must use loss-less compression algorithm. For Visium this stitched file should only include the single capture area relevant to the current dataset. For GeoMx there will be one OME TIFF file per slide, with each slide including multiple AOIs. See the following link for the set of fields that are required in the OME TIFF file XML header. <https://docs.google.com/spreadsheets/d/1YnmdTAA0Z9MKN3OjR3Sca8pz-LNQll91wdQoRPSP6Q4/edit#gid=0> |
+  | lab_processed/images/*ome-tiff.channels.csv$ | ✓ | This file provides essential documentation pertaining to each channel of the accommpanying OME TIFF. The file should contain one row per OME TIFF channel. The required fields are detailed <https://docs.google.com/spreadsheets/d/1xEJSb0xn5C5fB3k62pj1CyHNybpt4-YtvUs5SUMS44o/edit#gid=0> |
+  | lab_processed/images/*.tissue-boundary.geojson$ |  | [QA/QC] If the boundaries of the tissue have been identified (e.g., by manual efforts), then the boundary geometry can be included as a GeoJSON file named “*.tissue-boundary.geojson”. |
+  | lab_processed/primary_analysis/ | ✓ | Primary analysis results |
+  | lab_processed/primary_analysis/*.xlsx$ |  | [QA/QC] File containing results from initial processing by GeoMx DSP Data Analysis Suite including optional removal of segments and targets based on QC flags and LOQ and normalization using Q3 normalization. This file will not be available for sites that do not use the GeoMx DSP Data Analysis Suite. |
+
 contributors: 
 |-
   | Name | Affiliation | Contact | ORCID |

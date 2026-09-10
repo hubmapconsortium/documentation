@@ -1,17 +1,17 @@
 ---
 layout: doi-landing-page
-title: Metadata Reporting Standards - Cell DIVE
-spec_name: Cell DIVE
+title: Metadata Reporting Standards - Olink
+spec_name: Olink
 version_label: Version 1
-doi: 10.35079/HBM629.BDQB.527
-download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/raw/refs/heads/main/docs/celldive/current/doi-object.zip"
-md5_hash: 2bd36229b86c7d61946c5cac5919a213
-published: August 25, 2026
+doi: 10.35079/HBM443.ZFRL.298
+download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/raw/refs/heads/main/docs/olink/current/doi-object.zip"
+md5_hash: 6a5c928a86a1209b576c4264185b54bc
+published: September 2, 2026 
 subjects: 
-summary: A highly multiplexed fluorescence imaging assay that enables quantification of more than 60 protein biomarkers within a single, intact fixed tissue section. The workflow consists of iterative cycles of antibody staining, multi-channel fluorescence imaging, and chemical dye inactivation, with each cycle adding additional protein targets to the cumulative dataset. This approach provides high-dimensional, spatially resolved protein expression profiles at single-cell resolution without destroying the tissue.
-schema_doc_href: https://openview.metadatacenter.org/templates/https:%2F%2Frepo.metadatacenter.org%2Ftemplates%2F6f9eee7b-7ef1-4f32-a34e-706bbbbb09bf
+summary: A high-throughput protein biomarker discovery platform that uses Proximity Extension Assay (PEA) technology to simultaneously measure the concentration of thousands of human proteins from small sample volumes. Pairs of antibodies conjugated to complementary DNA oligonucleotides bind the same target protein; when both antibodies bind in close proximity, the DNA strands hybridize and are extended by a polymerase, generating a unique amplicon for each protein target that is quantified by NGS readout.  
+schema_doc_href: "https://openview.metadatacenter.org/templates/https:%2F%2Frepo.metadatacenter.org%2Ftemplates%2Fc78c882d-ff27-473e-b318-540dc6e8034d"
 validator_href: "https://metadatavalidator.metadatacenter.org"
-datasets_href: "https://portal.hubmapconsortium.org/search/datasets?dataset_type=Cell+DIVE"
+datasets_href: "https://portal.hubmapconsortium.org/search/datasets"
 help_href: /doi-pages-help/
 datasets_text: The HuBMAP Data Portal is an open platform to discover, visualize, and download standardized healthy single-cell and spatial tissue data.
 citation_text: Fisher SA, Hardi J, Morgan R, Nordgren E, Kant PM, Honick B, Rosario J, O'Connor MJ, Turner ML, DCWG Members, Gehlenborg N, Blood PD, Silverstein JC, Musen MA. 2026. The HuBMAP Framework for Advancing Data FAIRness. submitted. https://doi.org/10.64898/2026.06.01.728946
@@ -23,25 +23,10 @@ example_tree:
 |-
   .
   ├── extras/
-  │   ├── microscope_hardware.json
-  │   └── microscope_settings.json
   ├── raw/
-  │   └── images/
-  │       ├── round_info_foobar.dat
-  │       └── round_info_foobar.xml
+  │   └── olink/
   └── lab_processed/
-      ├── images/
-      │   └── region_foobar/
-      │       ├── foobar_region_01.ome.{tif,tiff}
-      │       └── foobar.ome-tiff.channels.csv
-      ├── annotations/
-      │   └── slide_list.txt
-      ├── transformations/
-      │   └── foobar.txt
-      └── virtual_histology/
-          ├── HandE_RGB_thumbnail.jpg
-          ├── HandE_RGB.tif
-          └── foobar_VHE_region_01.tif
+      └── olink/
 
 schema_items: 
 |-
@@ -61,40 +46,18 @@ schema_items:
   | Time since acquisition instrument calibration unit | <i class="fa-solid fa-circle-nodes" title="Allowable Value" aria-label="Allowable Value"></i> | The unit of measurement used to specify the time since acquisition instrument calibration value. Example: month | ```month``` ```year``` ```day``` |
   | Contributors path <span class="requiredMark">*</span> | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | The name of the file containing the ORCID IDs for all contributors to this dataset. Example: ./contributors.csv |  |
   | Data path <span class="requiredMark">*</span> | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | The top-level directory containing the raw and/or processed data. For a single dataset upload, this might be represented as ".", whereas for a data upload containing multiple datasets, this would be the directory name for the respective dataset. For example, if the data is within a directory named "TEST001-RK", use the syntax "./TEST001-RK" for this field. If there are multiple directory levels, use the format "./TEST001-RK/Run1/Pass2", where "Pass2" is the subdirectory where the single dataset's data is stored. This is an internal metadata field used solely for data ingestion. Example: ./TEST001-RK |  |
-  | Antibodies path <span class="requiredMark">*</span> | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | The path to the antibodies.tsv file relative to the root directory of the upload structure. This path should start with "." and is typically formatted as "./extras/antibodies.tsv". Example: ./extras/antibodies.tsv |  |
-  | Number of antibodies <span class="requiredMark">*</span> | <i class="fa-solid fa-hashtag" title="Numeric" aria-label="Numeric"></i> | The number of antibodies used in the assay. If no antibodies were utilized, enter 0. Example: 5 |  |
-  | Number of channels <span class="requiredMark">*</span> | <i class="fa-solid fa-hashtag" title="Numeric" aria-label="Numeric"></i> | The number of fluorescent channels that are imaged during each cycle. Example: 3 |  |
-  | Number of biomarker imaging rounds <span class="requiredMark">*</span> | <i class="fa-solid fa-hashtag" title="Numeric" aria-label="Numeric"></i> | The number of imaging rounds required to capture the tagged biomarkers. For CODEX, a biomarker imaging round includes steps such as (1) oligo application, (2) fluor application, and (3) washes. For Cell DIVE, it involves (1) the staining of a biomarker via secondary detection or direct conjugate, followed by (2) dye inactivation. Example: 3 |  |
-  | Number of total imaging rounds <span class="requiredMark">*</span> | <i class="fa-solid fa-hashtag" title="Numeric" aria-label="Numeric"></i> | The total number of imaging rounds performed using a microscope to collect either autofluorescence/background or stained signals, such as those used in histological analysis. Example: 5 |  |
-  | Slide ID <span class="requiredMark">*</span> | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | The unique identifier assigned to each slide, enabling users to determine which tissue sections were processed together on the same slide. It is recommended that data providers prefix the ID with the center name to prevent overlapping values across different centers. Example: VAN0071-PA-1-1_AF |  |
-  | Cell boundary marker or stain <span class="requiredMark">*</span> | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | The name of the marker or stain used to identify all cell boundaries in the tissue. This name must exactly match the antibody-targeted molecule marker or non-antibody targeted molecule stain as found in the imaging data. For example, in the case of using the PhenoCycler, ensure the name corresponds to the value in the XPD output file. If multiple markers or stains are employed, list them in a comma-separated format. Example: Pan-Cytokeratin, E-Cadherin |  |
-  | Nuclear marker or stain <span class="requiredMark">*</span> | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | The nuclear marker or stain used, which can be an antibody-targeted molecule present in or around the cell nucleus. For protein targets, use the protein or gene symbol that identifies the antibody target, ensuring it matches the antibody target from the panel used or custom panels. Preferably, if using a custom antibody marker, this symbol should be the HGNC symbol (https://www.genenames.org/). For non-protein targets, provide the stain name (e.g., DAPI) and, when applicable, include the associated staining kit and vendor. For the PhenoCycler, ensure the symbol matches the value found in the XPD output file. Example: DAPI |  |
   | Metadata schema ID <span class="requiredMark">*</span> | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | The unique string identifier for the metadata specification version, which is easily interpretable by computers for purposes of data validation and processing. Example: 22bc762a-5020-419d-b170-24253ed9e8d9 |  |
- 
+  
 definitions: 
 |-
   | Pattern | Required? | Description |
   |--|--|--|
-  | extras/ | ✓ | Folder for general lab-specific files related to the dataset. [Exists in all assays] |
-  | extras/microscope_hardware.json$ | ✓ | [QA/QC] A file generated by the micro-meta app that contains a description of the hardware components of the microscope. Email HuBMAP Consortium Help Desk <help@hubmapconsortium.org> if help is required in generating this document. |
-  | extras/microscope_settings.json$ |  | [QA/QC] A file generated by the micro-meta app that contains a description of the settings that were used to acquire the image data. Email HuBMAP Consortium Help Desk <help@hubmapconsortium.org> if help is required in generating this document. |
+  | extras/ | ✓ | Folder for general lab-specific files related to the dataset. |
   | raw/ | ✓ | This is a directory containing raw data. |
-  | raw/images/ | ✓ | Raw image files. Using this subdirectory allows for harmonization with other more complex assays, like Visium that includes both raw imaging and sequencing data. |
-  | raw/images/round_info_*.dat$ |  | Metadata file for the capture item-value tab separated format. This contains various instrument and acquisition details for each acquisition cycle. This is equivalent to the round_info_*.xml file that some systems generate. |
-  | raw/images/round_info_*.xml$ |  | Metadata file for the capture item-value tab separated format. This contains various instrument and acquisition details for each acquisition cycle. This is equivalent to the round_info_*.dat file that some systems generate. |
+  | raw/olink/ |  | All relevant raw files for Olink. |
   | lab_processed/ | ✓ | Experiment files that were processed by the lab generating the data. |
-  | lab_processed/images/ | ✓ | This is a directory containing processed image files |
-  | lab_processed/images/region_*/*_region_*.ome.{tif,tiff}$ | ✓ | OME TIFF Files for the corresponding region (e.g. region_001) by slide (e.g S20030077), organized into subdirectories based on their region. |
-  | lab_processed/images/region_*/*ome-tiff.channels.csv$ | ✓ | This file provides essential documentation pertaining to each channel of the accommpanying OME TIFF. The file should contain one row per OME TIFF channel. The required fields are detailed <https://docs.google.com/spreadsheets/d/1xEJSb0xn5C5fB3k62pj1CyHNybpt4-YtvUs5SUMS44o/edit#gid=0> |
-  | lab_processed/annotations/ | ✓ | This is a directory containing annotations. |
-  | lab_processed/annotations/slide_list.txt$ | ✓ | Information about the slides used by the experiment- each line corresponds to a slide name (begins with S - e.g. S20030077) - used in filenames. |
-  | lab_processed/transformations/ |  | This directory contains transformation matrices that capture how each modality is aligned with the other and can be used to visualize overlays of multimodal data. This is needed to overlay images from the exact same tissue section (e.g., MALDI imaging mass spec, autofluorescence microscopy, MxIF, histological stains). In these cases data type may have different pixel sizes and slightly different orientations (i.e., one may be rotated relative to another). |
-  | lab_processed/transformations/*.txt$ |  | Transformation matrices used to overlay images from the exact same tissue section (e.g., MALDI imaging mass spec, autofluorescence microscopy, MxIF, histological stains). |
-  | lab_processed/virtual_histology/ | ✓ | This is a directory containing annotations for virtual histology images |
-  | lab_processed/virtual_histology/HandE_RGB_thumbnail.jpg$ |  | Virtual H&E RGB thumbnail |
-  | lab_processed/virtual_histology/HandE_RGB.tif$ |  | Virtual H&E RGB image |
-  | lab_processed/virtual_histology/*_VHE_region_*.tif$ |  | Virtual H&E image |
-     
+  | lab_processed/olink/ |  | All relevant experiment files for Olink. |
+
 contributors: 
 |-
   | Name | Affiliation | Contact | ORCID |

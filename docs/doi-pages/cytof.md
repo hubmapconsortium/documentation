@@ -1,17 +1,17 @@
 ---
 layout: doi-landing-page
-title: Metadata Reporting Standards - Cell DIVE
-spec_name: Cell DIVE
+title: Metadata Reporting Standards - CyTOF
+spec_name: Cytometry by Time-Of-Flight (CyTOF)
 version_label: Version 1
-doi: 10.35079/HBM629.BDQB.527
-download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/raw/refs/heads/main/docs/celldive/current/doi-object.zip"
-md5_hash: 2bd36229b86c7d61946c5cac5919a213
-published: August 25, 2026
+doi: 10.35079/HBM353.CWQW.535
+download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/raw/refs/heads/main/docs/cytof/current/doi-object.zip"
+md5_hash: fae69298e623bfdc7297e886125dc25a
+published: August 28, 2026 
 subjects: 
-summary: A highly multiplexed fluorescence imaging assay that enables quantification of more than 60 protein biomarkers within a single, intact fixed tissue section. The workflow consists of iterative cycles of antibody staining, multi-channel fluorescence imaging, and chemical dye inactivation, with each cycle adding additional protein targets to the cumulative dataset. This approach provides high-dimensional, spatially resolved protein expression profiles at single-cell resolution without destroying the tissue.
-schema_doc_href: https://openview.metadatacenter.org/templates/https:%2F%2Frepo.metadatacenter.org%2Ftemplates%2F6f9eee7b-7ef1-4f32-a34e-706bbbbb09bf
+summary: CyTOF, also known as mass cytometry, simultaneously quantifies 40 or more protein markers on the surface and interior of individual cells using metal-isotope-labeled antibodies. Instead of fluorescent dyes, antibodies are conjugated to distinct heavy metal isotopes detected by time-of-flight mass spectrometry, eliminating spectral overlap.
+schema_doc_href: "https://openview.metadatacenter.org/templates/https:%2F%2Frepo.metadatacenter.org%2Ftemplates%2F4cb5ad9a-e5cc-4c3f-98cd-e685330165a9"
 validator_href: "https://metadatavalidator.metadatacenter.org"
-datasets_href: "https://portal.hubmapconsortium.org/search/datasets?dataset_type=Cell+DIVE"
+datasets_href: "https://portal.hubmapconsortium.org/search/datasets?dataset_type=CyTOF"
 help_href: /doi-pages-help/
 datasets_text: The HuBMAP Data Portal is an open platform to discover, visualize, and download standardized healthy single-cell and spatial tissue data.
 citation_text: Fisher SA, Hardi J, Morgan R, Nordgren E, Kant PM, Honick B, Rosario J, O'Connor MJ, Turner ML, DCWG Members, Gehlenborg N, Blood PD, Silverstein JC, Musen MA. 2026. The HuBMAP Framework for Advancing Data FAIRness. submitted. https://doi.org/10.64898/2026.06.01.728946
@@ -23,25 +23,12 @@ example_tree:
 |-
   .
   ├── extras/
-  │   ├── microscope_hardware.json
-  │   └── microscope_settings.json
   ├── raw/
-  │   └── images/
-  │       ├── round_info_foobar.dat
-  │       └── round_info_foobar.xml
+  │   ├── foobar.{xlsx,txt}
+  │   ├── foobar.imd
+  │   └── foobar.fcs
   └── lab_processed/
-      ├── images/
-      │   └── region_foobar/
-      │       ├── foobar_region_01.ome.{tif,tiff}
-      │       └── foobar.ome-tiff.channels.csv
-      ├── annotations/
-      │   └── slide_list.txt
-      ├── transformations/
-      │   └── foobar.txt
-      └── virtual_histology/
-          ├── HandE_RGB_thumbnail.jpg
-          ├── HandE_RGB.tif
-          └── foobar_VHE_region_01.tif
+      └── foobar.fcs
 
 schema_items: 
 |-
@@ -61,40 +48,32 @@ schema_items:
   | Time since acquisition instrument calibration unit | <i class="fa-solid fa-circle-nodes" title="Allowable Value" aria-label="Allowable Value"></i> | The unit of measurement used to specify the time since acquisition instrument calibration value. Example: month | ```month``` ```year``` ```day``` |
   | Contributors path <span class="requiredMark">*</span> | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | The name of the file containing the ORCID IDs for all contributors to this dataset. Example: ./contributors.csv |  |
   | Data path <span class="requiredMark">*</span> | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | The top-level directory containing the raw and/or processed data. For a single dataset upload, this might be represented as ".", whereas for a data upload containing multiple datasets, this would be the directory name for the respective dataset. For example, if the data is within a directory named "TEST001-RK", use the syntax "./TEST001-RK" for this field. If there are multiple directory levels, use the format "./TEST001-RK/Run1/Pass2", where "Pass2" is the subdirectory where the single dataset's data is stored. This is an internal metadata field used solely for data ingestion. Example: ./TEST001-RK |  |
-  | Antibodies path <span class="requiredMark">*</span> | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | The path to the antibodies.tsv file relative to the root directory of the upload structure. This path should start with "." and is typically formatted as "./extras/antibodies.tsv". Example: ./extras/antibodies.tsv |  |
-  | Number of antibodies <span class="requiredMark">*</span> | <i class="fa-solid fa-hashtag" title="Numeric" aria-label="Numeric"></i> | The number of antibodies used in the assay. If no antibodies were utilized, enter 0. Example: 5 |  |
-  | Number of channels <span class="requiredMark">*</span> | <i class="fa-solid fa-hashtag" title="Numeric" aria-label="Numeric"></i> | The number of fluorescent channels that are imaged during each cycle. Example: 3 |  |
-  | Number of biomarker imaging rounds <span class="requiredMark">*</span> | <i class="fa-solid fa-hashtag" title="Numeric" aria-label="Numeric"></i> | The number of imaging rounds required to capture the tagged biomarkers. For CODEX, a biomarker imaging round includes steps such as (1) oligo application, (2) fluor application, and (3) washes. For Cell DIVE, it involves (1) the staining of a biomarker via secondary detection or direct conjugate, followed by (2) dye inactivation. Example: 3 |  |
-  | Number of total imaging rounds <span class="requiredMark">*</span> | <i class="fa-solid fa-hashtag" title="Numeric" aria-label="Numeric"></i> | The total number of imaging rounds performed using a microscope to collect either autofluorescence/background or stained signals, such as those used in histological analysis. Example: 5 |  |
-  | Slide ID <span class="requiredMark">*</span> | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | The unique identifier assigned to each slide, enabling users to determine which tissue sections were processed together on the same slide. It is recommended that data providers prefix the ID with the center name to prevent overlapping values across different centers. Example: VAN0071-PA-1-1_AF |  |
-  | Cell boundary marker or stain <span class="requiredMark">*</span> | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | The name of the marker or stain used to identify all cell boundaries in the tissue. This name must exactly match the antibody-targeted molecule marker or non-antibody targeted molecule stain as found in the imaging data. For example, in the case of using the PhenoCycler, ensure the name corresponds to the value in the XPD output file. If multiple markers or stains are employed, list them in a comma-separated format. Example: Pan-Cytokeratin, E-Cadherin |  |
-  | Nuclear marker or stain <span class="requiredMark">*</span> | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | The nuclear marker or stain used, which can be an antibody-targeted molecule present in or around the cell nucleus. For protein targets, use the protein or gene symbol that identifies the antibody target, ensuring it matches the antibody target from the panel used or custom panels. Preferably, if using a custom antibody marker, this symbol should be the HGNC symbol (https://www.genenames.org/). For non-protein targets, provide the stain name (e.g., DAPI) and, when applicable, include the associated staining kit and vendor. For the PhenoCycler, ensure the symbol matches the value found in the XPD output file. Example: DAPI |  |
+  | Number of mass channels <span class="requiredMark">*</span> | <i class="fa-solid fa-hashtag" title="Numeric" aria-label="Numeric"></i> | The number of mass channels used to measure the expression of markers in single cells. Example: 45 |  |
+  | Is erythrocyte lysis performed? <span class="requiredMark">*</span> | <i class="fa-solid fa-circle-dot" title="Radio" aria-label="Radio"></i> | Indicates whether erythrocyte lysis is performed, a process in which red blood cells (RBCs) are broken down in the sample before analysis. This step allows researchers to focus primarily on white blood cells (WBCs) during the analysis. Answer with "Yes" or "No" value. Example: Yes | ```Yes``` ```No``` |
+  | Antibody reagent kit <span class="requiredMark">*</span> | <i class="fa-solid fa-circle-nodes" title="Allowable Value" aria-label="Allowable Value"></i> | The kit that contains antibodies pre-conjugated with different heavy metal isotopes, used to detect and quantify multiple protein markers on individual cells. These metal-labeled antibodies attach to specific cellular targets, serving as the key component for labeling cells with various markers. This may be necessary for analysis on the CyTOF machine. If custom antibody reagent kit is used then enter "Custom". Example: Standard BioTools; Maxpar Nuclear Antigen Staining Kit; PN 201603 | ```Standard BioTools; Maxpar Cytoplasmic/Secreted Antigen Staining Kit; PN 201602``` ```Standard BioTools; Maxpar Cell Surface Staining Kit; PN 201601``` ```Custom``` ```Standard BioTools; Maxpar Nuclear Antigen Staining Kit; PN 201603``` ```Standard BioTools; Maxpar Phosphoprotein Staining Kit; PN 201604``` |
+  | Viability reagent kit <span class="requiredMark">*</span> | <i class="fa-solid fa-circle-nodes" title="Allowable Value" aria-label="Allowable Value"></i> | The kit used to distinguish between live and dead cells in a sample by selectively staining dead cells with a detectable dye. This process enables researchers to exclude data from dead cells, ensuring accurate analysis of cell populations. If a custom reagent kit is utilized, enter "Custom". If reagent kit is not utilized, enter "None". Example: Standard BioTools; Cell-ID Cisplatin 100 uL; PN 201064 | ```Standard BioTools; Cell-ID Intercalator-103Rh 500 um; PN 201103A``` ```Standard BioTools; Cell-ID Cisplatin 100 uL; PN 201064``` ```Standard BioTools; Cell-ID Cisplatin-194Pt 100 uL; PN 201194``` ```Custom``` ```Sigma Aldrich; Cisplatin 25mg; PN P4394``` ```Standard BioTools; Cell-ID Cisplatin-196Pt 100 uL; PN 201196``` ```Standard BioTools; Cell-ID Intercalator-103Rh 2,000 um; PN 201103B``` ```None``` ```Standard BioTools; Cell-ID Cisplatin-198Pt 100 uL; PN 201198``` ```Standard BioTools; Cell-ID Cisplatin-195Pt 100 uL; PN 201195``` |
+  | Is cell activation performed? <span class="requiredMark">*</span> | <i class="fa-solid fa-circle-dot" title="Radio" aria-label="Radio"></i> | Indicates whether cell activation is performed, a process where a ligand binds to its receptors on a cell, enhancing the cell's ability to respond to various stimuli. Answer with "Yes" or "No" value. Example: Yes | ```Yes``` ```No``` |
+  | Activation stimulus | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | The specific type of stimulus used to provoke cell activation. This field is required if "Is cells activation performed?" is marked as "Yes". Example: PMA/ionomycin |  |
+  | Is FcR blocking applied? <span class="requiredMark">*</span> | <i class="fa-solid fa-circle-dot" title="Radio" aria-label="Radio"></i> | Indicates whether a reagent has been added to the staining procedure to block the binding of antibodies to Fc receptors (FcRs) on cells. This process prevents non-specific binding and ensures that antibodies detect only the intended target antigen, thereby minimizing false positive signals by preventing antibodies from attaching to the cell via their Fc region instead of the antigen-specific binding site. Answer with "Yes" or "No" value. Example: Yes | ```Yes``` ```No``` |
+  | Is heparin used? <span class="requiredMark">*</span> | <i class="fa-solid fa-circle-dot" title="Radio" aria-label="Radio"></i> | Indicates whether heparin was used during the staining process to prevent non-specific binding of metal-labeled antibodies to eosinophils, thereby reducing background noise. Answer with "Yes" or "No" value. Example: Yes | ```Yes``` ```No``` |
+  | Loaded cell concentration value | <i class="fa-solid fa-hashtag" title="Numeric" aria-label="Numeric"></i> | The number of cells within a given volume of liquid immediately prior to the experiment, essentially indicating how densely packed the cells are in the solution. Example: 500000 |  |
+  | Loaded cell concentration unit | <i class="fa-solid fa-circle-nodes" title="Allowable Value" aria-label="Allowable Value"></i> | The unit of measurement for the loaded cell concentration value. If no concentration is provided, this field may be left blank. Example: cells/mL | ```cells/mL``` |
+  | Instrument calibration bead kit <span class="requiredMark">*</span> | <i class="fa-solid fa-circle-nodes" title="Allowable Value" aria-label="Allowable Value"></i> | The calibration bead kit used with the instrument. These kits contain beads with known mass intensity used to adjust the settings of a flow cytometer to ensure accurate measurements. If custom bead kit was used, enter "Custom", otherwise if no bead kit was used, enter "None". Example: Standard BioTools; CyTOF Calibration Beads; PN 201073 | ```Standard BioTools; EQ Four Element Calibration Beads 100 mL; PN 201078``` ```Standard BioTools; EQ Six Element Calibration Beads 100 mL; PN 201245``` ```Custom``` ```Standard BioTools; CyTOF Calibration Beads; PN 201073``` ```None``` |
+  | Calibration kit lot number | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | The manufacturer's lot number for the calibration bead kit used in the experiment. If no calibration bead kit was used or the lot number is unknown, this field may be left blank. Example: EQ18 |  |
   | Metadata schema ID <span class="requiredMark">*</span> | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | The unique string identifier for the metadata specification version, which is easily interpretable by computers for purposes of data validation and processing. Example: 22bc762a-5020-419d-b170-24253ed9e8d9 |  |
- 
+  
 definitions: 
 |-
   | Pattern | Required? | Description |
   |--|--|--|
-  | extras/ | ✓ | Folder for general lab-specific files related to the dataset. [Exists in all assays] |
-  | extras/microscope_hardware.json$ | ✓ | [QA/QC] A file generated by the micro-meta app that contains a description of the hardware components of the microscope. Email HuBMAP Consortium Help Desk <help@hubmapconsortium.org> if help is required in generating this document. |
-  | extras/microscope_settings.json$ |  | [QA/QC] A file generated by the micro-meta app that contains a description of the settings that were used to acquire the image data. Email HuBMAP Consortium Help Desk <help@hubmapconsortium.org> if help is required in generating this document. |
+  | extras/ | ✓ | Folder for general lab-specific files related to the dataset. |
   | raw/ | ✓ | This is a directory containing raw data. |
-  | raw/images/ | ✓ | Raw image files. Using this subdirectory allows for harmonization with other more complex assays, like Visium that includes both raw imaging and sequencing data. |
-  | raw/images/round_info_*.dat$ |  | Metadata file for the capture item-value tab separated format. This contains various instrument and acquisition details for each acquisition cycle. This is equivalent to the round_info_*.xml file that some systems generate. |
-  | raw/images/round_info_*.xml$ |  | Metadata file for the capture item-value tab separated format. This contains various instrument and acquisition details for each acquisition cycle. This is equivalent to the round_info_*.dat file that some systems generate. |
+  | raw/*.{xlsx,txt}$ |  | Instrument calibration file |
+  | raw/*.imd$ |  | The Integrated Mass Data (IMD) file contains raw, unprocessed data from a CyTOF mass cytometer, including the intensity measurements of each metal ion channel for every cell detected during a sample run, essentially providing the raw signal for each cell across all measured markers in a single file. This data is later converted into a more standard FCS file for analysis. |
+  | raw/*.fcs$ |  | Contains the raw data from a mass cytometry experiment in a matrix where each row represents a single cell and each column represents a different metal-labeled antibody channel, with the values in each cell signifying the ion count detected for that specific metal on that cell, allowing for the analysis of multiple cell surface markers on individual cells. |
   | lab_processed/ | ✓ | Experiment files that were processed by the lab generating the data. |
-  | lab_processed/images/ | ✓ | This is a directory containing processed image files |
-  | lab_processed/images/region_*/*_region_*.ome.{tif,tiff}$ | ✓ | OME TIFF Files for the corresponding region (e.g. region_001) by slide (e.g S20030077), organized into subdirectories based on their region. |
-  | lab_processed/images/region_*/*ome-tiff.channels.csv$ | ✓ | This file provides essential documentation pertaining to each channel of the accommpanying OME TIFF. The file should contain one row per OME TIFF channel. The required fields are detailed <https://docs.google.com/spreadsheets/d/1xEJSb0xn5C5fB3k62pj1CyHNybpt4-YtvUs5SUMS44o/edit#gid=0> |
-  | lab_processed/annotations/ | ✓ | This is a directory containing annotations. |
-  | lab_processed/annotations/slide_list.txt$ | ✓ | Information about the slides used by the experiment- each line corresponds to a slide name (begins with S - e.g. S20030077) - used in filenames. |
-  | lab_processed/transformations/ |  | This directory contains transformation matrices that capture how each modality is aligned with the other and can be used to visualize overlays of multimodal data. This is needed to overlay images from the exact same tissue section (e.g., MALDI imaging mass spec, autofluorescence microscopy, MxIF, histological stains). In these cases data type may have different pixel sizes and slightly different orientations (i.e., one may be rotated relative to another). |
-  | lab_processed/transformations/*.txt$ |  | Transformation matrices used to overlay images from the exact same tissue section (e.g., MALDI imaging mass spec, autofluorescence microscopy, MxIF, histological stains). |
-  | lab_processed/virtual_histology/ | ✓ | This is a directory containing annotations for virtual histology images |
-  | lab_processed/virtual_histology/HandE_RGB_thumbnail.jpg$ |  | Virtual H&E RGB thumbnail |
-  | lab_processed/virtual_histology/HandE_RGB.tif$ |  | Virtual H&E RGB image |
-  | lab_processed/virtual_histology/*_VHE_region_*.tif$ |  | Virtual H&E image |
-     
+  | lab_processed/*.fcs$ | ✓ | [QA/QC] A lab normalized version of the raw FCS file described above. |
+
 contributors: 
 |-
   | Name | Affiliation | Contact | ORCID |

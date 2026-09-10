@@ -9,6 +9,7 @@ md5_hash: 6de650a1f626aad771da0ad40f71386f
 published: August 27, 2026 
 subjects: 
 summary: A highly multiplexed spatial imaging platform that enables simultaneous profiling of dozens of proteins within intact tissue sections. Antibodies conjugated to unique DNA barcodes are applied to the tissue, and iterative cycles of fluorescent reporter hybridization, imaging, and reporter removal are used to sequentially read out each protein target. The result is a high-dimensional, spatially resolved, protein expression profiles at single-cell resolution of the intact tissue.
+schema_doc_href: "https://openview.metadatacenter.org/templates/https:%2F%2Frepo.metadatacenter.org%2Ftemplates%2F47c6071a-2ec7-46c1-94d9-6b5e2d7ac982"
 validator_href: "https://metadatavalidator.metadatacenter.org"
 datasets_href: "https://portal.hubmapconsortium.org/search/datasets?dataset_type=CODEX"
 help_href: /doi-pages-help/

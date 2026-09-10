@@ -1,17 +1,17 @@
 ---
 layout: doi-landing-page
-title: Metadata Reporting Standards - Cell DIVE
-spec_name: Cell DIVE
+title: Metadata Reporting Standards - Raman Imaging
+spec_name: Raman Imaging
 version_label: Version 1
-doi: 10.35079/HBM629.BDQB.527
-download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/raw/refs/heads/main/docs/celldive/current/doi-object.zip"
-md5_hash: 2bd36229b86c7d61946c5cac5919a213
-published: August 25, 2026
+doi: 10.35079/HBM253.VXLN.367
+download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/raw/refs/heads/main/docs/raman-imaging/current/doi-object.zip"
+md5_hash: b1a2ab85c37d2485db6fa9c94da2fd1e
+published: September 2, 2026
 subjects: 
-summary: A highly multiplexed fluorescence imaging assay that enables quantification of more than 60 protein biomarkers within a single, intact fixed tissue section. The workflow consists of iterative cycles of antibody staining, multi-channel fluorescence imaging, and chemical dye inactivation, with each cycle adding additional protein targets to the cumulative dataset. This approach provides high-dimensional, spatially resolved protein expression profiles at single-cell resolution without destroying the tissue.
-schema_doc_href: https://openview.metadatacenter.org/templates/https:%2F%2Frepo.metadatacenter.org%2Ftemplates%2F6f9eee7b-7ef1-4f32-a34e-706bbbbb09bf
+summary: A non-invasive, label-free chemical imaging technique that maps the molecular composition of biological samples by detecting inelastic (Raman) scattering of light at each spatial pixel. As a laser scans the sample, each pixel generates a Raman spectrum reflecting the unique molecular vibrational fingerprint of that location, enabling detailed mapping of biomolecules such as proteins, lipids, nucleic acids, and water within cells or tissues. The resulting chemical maps provide quantitative, spatially resolved information about tissue composition and molecular organization without the need for staining or fluorescent labels.
+schema_doc_href: "https://openview.metadatacenter.org/templates/https:%2F%2Frepo.metadatacenter.org%2Ftemplates%2F986d6f9d-7649-485f-a265-10d6f9b2829d"
 validator_href: "https://metadatavalidator.metadatacenter.org"
-datasets_href: "https://portal.hubmapconsortium.org/search/datasets?dataset_type=Cell+DIVE"
+datasets_href: "https://portal.hubmapconsortium.org/search/datasets"
 help_href: /doi-pages-help/
 datasets_text: The HuBMAP Data Portal is an open platform to discover, visualize, and download standardized healthy single-cell and spatial tissue data.
 citation_text: Fisher SA, Hardi J, Morgan R, Nordgren E, Kant PM, Honick B, Rosario J, O'Connor MJ, Turner ML, DCWG Members, Gehlenborg N, Blood PD, Silverstein JC, Musen MA. 2026. The HuBMAP Framework for Advancing Data FAIRness. submitted. https://doi.org/10.64898/2026.06.01.728946
@@ -23,25 +23,10 @@ example_tree:
 |-
   .
   ├── extras/
-  │   ├── microscope_hardware.json
-  │   └── microscope_settings.json
   ├── raw/
-  │   └── images/
-  │       ├── round_info_foobar.dat
-  │       └── round_info_foobar.xml
+  │   └── raman_imaging/
   └── lab_processed/
-      ├── images/
-      │   └── region_foobar/
-      │       ├── foobar_region_01.ome.{tif,tiff}
-      │       └── foobar.ome-tiff.channels.csv
-      ├── annotations/
-      │   └── slide_list.txt
-      ├── transformations/
-      │   └── foobar.txt
-      └── virtual_histology/
-          ├── HandE_RGB_thumbnail.jpg
-          ├── HandE_RGB.tif
-          └── foobar_VHE_region_01.tif
+      └── raman_imaging/
 
 schema_items: 
 |-
@@ -50,7 +35,7 @@ schema_items:
   | Parent sample ID <span class="requiredMark">*</span> | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | The unique identifier from HuBMAP or SenNet for the sample (such as a block, section, or suspension) used to perform the assay. For instance, in an RNAseq assay, the parent sample would be the suspension, while in imaging assays, it would be the tissue section. If the assay is derived from multiple parent samples, this field should contain a comma-separated list of identifiers. Example: HBM386.ZGKG.235, HBM672.MKPK.442 |  |
   | Lab ID | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | A locally assigned identifier provided by the data provider for the dataset. It is used to reference an external metadata record that may be maintained independently, enabling traceability and supporting provenance tracking. Example: Visium_9OLC_A4_S1 |  |
   | Preparation protocol DOI <span class="requiredMark">*</span> | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | The DOI for the protocols.io page that details the assay or the procedures used for sample procurement and preparation. For example, in the case of an imaging assay, the protocol may start with tissue section staining and end with the generation of an OME-TIFF file. The documented protocol should also include any image processing steps involved in producing the final OME-TIFF. Example: https://dx.doi.org/10.17504/protocols.io.eq2lyno9qvx9/v1 |  |
-  | Dataset type <span class="requiredMark">*</span> | <i class="fa-solid fa-circle-nodes" title="Allowable Value" aria-label="Allowable Value"></i> | The specific type of dataset being produced. Example: RNAseq | ```HiFi-Slide``` ```SNARE-seq2``` ```COMET``` ```Visium (no probes)``` ```DESI``` ```Confocal``` ```Stereo-seq``` ```Visium (with probes)``` ```Molecular Cartography``` ```Virtual Histology``` ```DBiT-seq``` ```Seq-Scope``` ```CosMx Transcriptomics``` ```CyCIF``` ```Light Sheet``` ```seqFISH``` ```ATACseq``` ```CosMx Proteomics``` ```Singular Genomics G4X``` ```Visium HD``` ```MERFISH``` ```10X Multiome``` ```4i``` ```PhenoCycler``` ```Second Harmonic Generation (SHG)``` ```Thick section Multiphoton MxIF``` ```CyTOF``` ```Olink``` ```MIBI``` ```Auto-fluorescence``` ```FACS``` ```Xenium``` ```SIMS``` ```Cell DIVE``` ```CODEX``` ```GeoMx (NGS)``` ```MUSIC``` ```Pixel-seqV2``` ```MALDI``` ```2D Imaging Mass Cytometry``` ```Histology``` ```Enhanced Stimulated Raman Spectroscopy (SRS)``` ```DART-FISH``` ```Resolve``` ```RNAseq``` ```LC-MS``` ```nanoSPLITS``` ```GeoMx (nCounter)``` ```RNAseq (with probes)``` ```MS Lipidomics``` ```MPLEx``` |
+  | Dataset type <span class="requiredMark">*</span> | <i class="fa-solid fa-circle-nodes" title="Allowable Value" aria-label="Allowable Value"></i> | The specific type of dataset being produced. Example: RNAseq | ```HiFi-Slide``` ```SNARE-seq2``` ```COMET``` ```Visium (no probes)``` ```DESI``` ```Confocal``` ```Stereo-seq``` ```Visium (with probes)``` ```Molecular Cartography``` ```Virtual Histology``` ```DBiT-seq``` ```Seq-Scope``` ```CosMx Transcriptomics``` ```CyCIF``` ```Light Sheet``` ```seqFISH``` ```ATACseq``` ```CosMx Proteomics``` ```Singular Genomics G4X``` ```Visium HD``` ```MERFISH``` ```10X Multiome``` ```4i``` ```PhenoCycler``` ```Second Harmonic Generation (SHG)``` ```Thick section Multiphoton MxIF``` ```CyTOF``` ```Olink``` ```MIBI``` ```Auto-fluorescence``` ```FACS``` ```Xenium``` ```SIMS``` ```Cell DIVE``` ```CODEX``` ```GeoMx (NGS)``` ```MUSIC``` ```Pixel-seqV2``` ```MALDI``` ```2D Imaging Mass Cytometry``` ```Histology``` ```Enhanced Stimulated Raman Spectroscopy (SRS)``` ```DART-FISH``` ```Resolve``` ```RNAseq``` ```LC-MS``` ```nanoSPLITS``` ```GeoMx (nCounter)``` ```Raman Imaging``` ```RNAseq (with probes)``` ```MS Lipidomics``` ```STARmap``` ```MPLEx``` |
   | Analyte class <span class="requiredMark">*</span> | <i class="fa-solid fa-circle-nodes" title="Allowable Value" aria-label="Allowable Value"></i> | The analyte class which is the target molecule that the assay is measuring. Example: DNA | ```DNA + RNA``` ```Nucleic acid + protein``` ```Chromatin``` ```RNA + protein``` ```RNA``` ```Metabolite``` ```Unsaturated lipid``` ```Lipid + metabolite``` ```Saturated lipid``` ```Lipid``` ```Protein``` ```Fluorochrome``` ```Collagen``` ```DNA``` ```Peptide``` ```Polysaccharide``` ```Endogenous fluorophore``` |
   | Is targeted? <span class="requiredMark">*</span> | <i class="fa-solid fa-circle-dot" title="Radio" aria-label="Radio"></i> | Indicates whether a specific molecule or set of molecules is targeted for detection or measurement by the assay. Example: Yes | ```Yes``` ```No``` |
   | Acquisition instrument vendor <span class="requiredMark">*</span> | <i class="fa-solid fa-circle-nodes" title="Allowable Value" aria-label="Allowable Value"></i> | The company that manufactures or supplies the acquisition instrument. An acquisition instrument is a device equipped with signal detection hardware and signal processing software. It captures signals produced by assays, such as variations in light intensity or color, or signals corresponding to molecular mass. If the instrument was custom-built or developed internally, enter "In-House". Example: Illumina | ```BGI Genomics``` ```Cytiva``` ```Thermo Fisher Scientific``` ```Zeiss Microscopy``` ```Complete Genomics``` ```3DHISTECH``` ```GE Healthcare``` ```Leica Microsystems``` ```Akoya Biosciences``` ```NanoString``` ```Element Biosciences``` ```Andor``` ```Huron Digital Pathology``` ```Illumina``` ```Ionpath``` ```In-House``` ```Resolve Biosciences``` ```Singular Genomics``` ```Vizgen``` ```Standard BioTools (Fluidigm)``` ```Sciex``` ```Bruker``` ```Evident Scientific (Olympus)``` ```Keyence``` ```Leica Biosystems``` ```Cytek Biosciences``` ```10x Genomics``` ```Microscopes International``` ```Hamamatsu``` ```Motic``` |
@@ -61,40 +46,35 @@ schema_items:
   | Time since acquisition instrument calibration unit | <i class="fa-solid fa-circle-nodes" title="Allowable Value" aria-label="Allowable Value"></i> | The unit of measurement used to specify the time since acquisition instrument calibration value. Example: month | ```month``` ```year``` ```day``` |
   | Contributors path <span class="requiredMark">*</span> | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | The name of the file containing the ORCID IDs for all contributors to this dataset. Example: ./contributors.csv |  |
   | Data path <span class="requiredMark">*</span> | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | The top-level directory containing the raw and/or processed data. For a single dataset upload, this might be represented as ".", whereas for a data upload containing multiple datasets, this would be the directory name for the respective dataset. For example, if the data is within a directory named "TEST001-RK", use the syntax "./TEST001-RK" for this field. If there are multiple directory levels, use the format "./TEST001-RK/Run1/Pass2", where "Pass2" is the subdirectory where the single dataset's data is stored. This is an internal metadata field used solely for data ingestion. Example: ./TEST001-RK |  |
-  | Antibodies path <span class="requiredMark">*</span> | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | The path to the antibodies.tsv file relative to the root directory of the upload structure. This path should start with "." and is typically formatted as "./extras/antibodies.tsv". Example: ./extras/antibodies.tsv |  |
-  | Number of antibodies <span class="requiredMark">*</span> | <i class="fa-solid fa-hashtag" title="Numeric" aria-label="Numeric"></i> | The number of antibodies used in the assay. If no antibodies were utilized, enter 0. Example: 5 |  |
-  | Number of channels <span class="requiredMark">*</span> | <i class="fa-solid fa-hashtag" title="Numeric" aria-label="Numeric"></i> | The number of fluorescent channels that are imaged during each cycle. Example: 3 |  |
-  | Number of biomarker imaging rounds <span class="requiredMark">*</span> | <i class="fa-solid fa-hashtag" title="Numeric" aria-label="Numeric"></i> | The number of imaging rounds required to capture the tagged biomarkers. For CODEX, a biomarker imaging round includes steps such as (1) oligo application, (2) fluor application, and (3) washes. For Cell DIVE, it involves (1) the staining of a biomarker via secondary detection or direct conjugate, followed by (2) dye inactivation. Example: 3 |  |
-  | Number of total imaging rounds <span class="requiredMark">*</span> | <i class="fa-solid fa-hashtag" title="Numeric" aria-label="Numeric"></i> | The total number of imaging rounds performed using a microscope to collect either autofluorescence/background or stained signals, such as those used in histological analysis. Example: 5 |  |
-  | Slide ID <span class="requiredMark">*</span> | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | The unique identifier assigned to each slide, enabling users to determine which tissue sections were processed together on the same slide. It is recommended that data providers prefix the ID with the center name to prevent overlapping values across different centers. Example: VAN0071-PA-1-1_AF |  |
-  | Cell boundary marker or stain <span class="requiredMark">*</span> | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | The name of the marker or stain used to identify all cell boundaries in the tissue. This name must exactly match the antibody-targeted molecule marker or non-antibody targeted molecule stain as found in the imaging data. For example, in the case of using the PhenoCycler, ensure the name corresponds to the value in the XPD output file. If multiple markers or stains are employed, list them in a comma-separated format. Example: Pan-Cytokeratin, E-Cadherin |  |
-  | Nuclear marker or stain <span class="requiredMark">*</span> | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | The nuclear marker or stain used, which can be an antibody-targeted molecule present in or around the cell nucleus. For protein targets, use the protein or gene symbol that identifies the antibody target, ensuring it matches the antibody target from the panel used or custom panels. Preferably, if using a custom antibody marker, this symbol should be the HGNC symbol (https://www.genenames.org/). For non-protein targets, provide the stain name (e.g., DAPI) and, when applicable, include the associated staining kit and vendor. For the PhenoCycler, ensure the symbol matches the value found in the XPD output file. Example: DAPI |  |
+  | Is image preprocessing required? | <i class="fa-solid fa-circle-dot" title="Radio" aria-label="Radio"></i> | Indicates whether image preprocessing is necessary based on the type of acquisition instrument used, such as a microscope or slide scanner. This may involve steps like fusing image tiles to assemble the complete image. Example: Yes | ```Yes``` ```No``` |
+  | Slide ID | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | The unique identifier assigned to each slide, enabling users to determine which tissue sections were processed together on the same slide. It is recommended that data providers prefix the ID with the center name to prevent overlapping values across different centers. Example: VAN0071-PA-1-1_AF |  |
+  | Tile configuration | <i class="fa-solid fa-circle-nodes" title="Allowable Value" aria-label="Allowable Value"></i> | The configuration of tiles used for stitching in the assay process. If no tile configuration is applicable, enter "Not applicable". Example: Row-by-row | ```Not applicable``` ```Row-by-row``` ```Column-by-column``` ```Snake-by-rows``` ```Snake-by-columns``` |
+  | Scan direction | <i class="fa-solid fa-circle-nodes" title="Allowable Value" aria-label="Allowable Value"></i> | The direction of imaging, which is necessary for the stitching process. Example: Left-and-down | ```Left-and-up``` ```Right-and-up``` ```Not applicable``` ```Left-and-down``` ```Right-and-down``` |
+  | Tiled image columns | <i class="fa-solid fa-hashtag" title="Numeric" aria-label="Numeric"></i> | The number of columns used in the stitching process of a tiled image, often referred to as the grid size in the x-dimension. Example: 5 |  |
+  | Tiled image count | <i class="fa-solid fa-hashtag" title="Numeric" aria-label="Numeric"></i> | The total number of raw tiled images captured, which are intended to be stitched together. Example: 75 |  |
+  | Intended tile overlap percentage | <i class="fa-solid fa-hashtag" title="Numeric" aria-label="Numeric"></i> | The intended percentage of overlap between tiled images. This value serves as the set point, although slight variations may occur during image acquisition due to stage registration. Example: 5 |  |
+  | Number of pixels <span class="requiredMark">*</span> | <i class="fa-solid fa-hashtag" title="Numeric" aria-label="Numeric"></i> | The total number of spatial sampling points in an image; for example, in a Raman image, each pixel corresponds to one recorded Raman spectrum. Example: 40000 |  |
+  | Pixel physical size height value <span class="requiredMark">*</span> | <i class="fa-solid fa-hashtag" title="Numeric" aria-label="Numeric"></i> | The physical height of a single pixel in the image. Example: 1000 |  |
+  | Pixel physical size height unit <span class="requiredMark">*</span> | <i class="fa-solid fa-circle-nodes" title="Allowable Value" aria-label="Allowable Value"></i> | The unit of measurement for the pixel physical size height value. If the pixel height is not specified, this field may be left blank. Example: um | ```mm``` ```um``` ```nm``` |
+  | Pixel physical size width value <span class="requiredMark">*</span> | <i class="fa-solid fa-hashtag" title="Numeric" aria-label="Numeric"></i> | The physical width of a single pixel in the image. Example: 1000 |  |
+  | Pixel physical size width unit <span class="requiredMark">*</span> | <i class="fa-solid fa-circle-nodes" title="Allowable Value" aria-label="Allowable Value"></i> | Unit of the pixel width value. | ```mm``` ```um``` ```nm``` |
+  | Pixel physical size depth value <span class="requiredMark">*</span> | <i class="fa-solid fa-hashtag" title="Numeric" aria-label="Numeric"></i> | The physical depth of a single pixel in the image. Example: 10 |  |
+  | Pixel physical size depth unit <span class="requiredMark">*</span> | <i class="fa-solid fa-circle-nodes" title="Allowable Value" aria-label="Allowable Value"></i> | The unit of measurement for the pixel physical size depth value. If the pixel depth value is not specified, this field may be left blank. Example: um | ```mm``` ```um``` ```nm``` |
+  | Objective numerical aperture <span class="requiredMark">*</span> | <i class="fa-solid fa-hashtag" title="Numeric" aria-label="Numeric"></i> | Numerical aperture of the microscope objective used to focus the excitation laser on the sample and collect the resulting scattered signal, such as Raman-scattered light. Example: 0.5 |  |
+  | Laser power <span class="requiredMark">*</span> | <i class="fa-solid fa-hashtag" title="Numeric" aria-label="Numeric"></i> | Power of the excitation laser at the sample’s focal plane, measured after the objective and reported in milliwatts (mW). Example: 10 |  |
+  | Raman shift range <span class="requiredMark">*</span> | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | Range of Raman shifts acquired in the measurement, expressed in wavenumbers (cm⁻¹). Example: 400-3200 |  |
   | Metadata schema ID <span class="requiredMark">*</span> | <i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i> | The unique string identifier for the metadata specification version, which is easily interpretable by computers for purposes of data validation and processing. Example: 22bc762a-5020-419d-b170-24253ed9e8d9 |  |
- 
+  
 definitions: 
 |-
   | Pattern | Required? | Description |
   |--|--|--|
-  | extras/ | ✓ | Folder for general lab-specific files related to the dataset. [Exists in all assays] |
-  | extras/microscope_hardware.json$ | ✓ | [QA/QC] A file generated by the micro-meta app that contains a description of the hardware components of the microscope. Email HuBMAP Consortium Help Desk <help@hubmapconsortium.org> if help is required in generating this document. |
-  | extras/microscope_settings.json$ |  | [QA/QC] A file generated by the micro-meta app that contains a description of the settings that were used to acquire the image data. Email HuBMAP Consortium Help Desk <help@hubmapconsortium.org> if help is required in generating this document. |
+  | extras/ | ✓ | Folder for general lab-specific files related to the dataset. |
   | raw/ | ✓ | This is a directory containing raw data. |
-  | raw/images/ | ✓ | Raw image files. Using this subdirectory allows for harmonization with other more complex assays, like Visium that includes both raw imaging and sequencing data. |
-  | raw/images/round_info_*.dat$ |  | Metadata file for the capture item-value tab separated format. This contains various instrument and acquisition details for each acquisition cycle. This is equivalent to the round_info_*.xml file that some systems generate. |
-  | raw/images/round_info_*.xml$ |  | Metadata file for the capture item-value tab separated format. This contains various instrument and acquisition details for each acquisition cycle. This is equivalent to the round_info_*.dat file that some systems generate. |
+  | raw/raman_imaging/ |  | All relevant raw files for Raman Imaging. |
   | lab_processed/ | ✓ | Experiment files that were processed by the lab generating the data. |
-  | lab_processed/images/ | ✓ | This is a directory containing processed image files |
-  | lab_processed/images/region_*/*_region_*.ome.{tif,tiff}$ | ✓ | OME TIFF Files for the corresponding region (e.g. region_001) by slide (e.g S20030077), organized into subdirectories based on their region. |
-  | lab_processed/images/region_*/*ome-tiff.channels.csv$ | ✓ | This file provides essential documentation pertaining to each channel of the accommpanying OME TIFF. The file should contain one row per OME TIFF channel. The required fields are detailed <https://docs.google.com/spreadsheets/d/1xEJSb0xn5C5fB3k62pj1CyHNybpt4-YtvUs5SUMS44o/edit#gid=0> |
-  | lab_processed/annotations/ | ✓ | This is a directory containing annotations. |
-  | lab_processed/annotations/slide_list.txt$ | ✓ | Information about the slides used by the experiment- each line corresponds to a slide name (begins with S - e.g. S20030077) - used in filenames. |
-  | lab_processed/transformations/ |  | This directory contains transformation matrices that capture how each modality is aligned with the other and can be used to visualize overlays of multimodal data. This is needed to overlay images from the exact same tissue section (e.g., MALDI imaging mass spec, autofluorescence microscopy, MxIF, histological stains). In these cases data type may have different pixel sizes and slightly different orientations (i.e., one may be rotated relative to another). |
-  | lab_processed/transformations/*.txt$ |  | Transformation matrices used to overlay images from the exact same tissue section (e.g., MALDI imaging mass spec, autofluorescence microscopy, MxIF, histological stains). |
-  | lab_processed/virtual_histology/ | ✓ | This is a directory containing annotations for virtual histology images |
-  | lab_processed/virtual_histology/HandE_RGB_thumbnail.jpg$ |  | Virtual H&E RGB thumbnail |
-  | lab_processed/virtual_histology/HandE_RGB.tif$ |  | Virtual H&E RGB image |
-  | lab_processed/virtual_histology/*_VHE_region_*.tif$ |  | Virtual H&E image |
-     
+  | lab_processed/raman_imaging/ |  | All relevant experiment files for Raman Imaging. |
+
 contributors: 
 |-
   | Name | Affiliation | Contact | ORCID |
