@@ -4,11 +4,11 @@ title: Metadata Reporting Standards - Histology
 spec_name: Histology
 version_options: 
 |-
-  <option value="histology.html" selected>v1</option> 
-  <option value="histology-v2.html">v2</option>
+  <option value="histology.html">v1</option> 
+  <option value="histology-v2.html" selected>v2</option>
 doi: 10.35079/HBM678.SJXK.375
 download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/raw/refs/heads/main/docs/histology/current/doi-object.zip"
-md5_hash: 02f137a986fe53263587ed4b8101cd2b
+md5_hash: 
 published: August 25, 2026
 subjects: "AB-PAS, H&E, H-DAB, LFB, PAS, SBB, Trichrome"
 summary: The microscopic study of tissue composition and structure, often referred to as microscopic anatomy. It involves examining tissue samples, typically after they've been sectioned, stained, and placed under a microscope.
