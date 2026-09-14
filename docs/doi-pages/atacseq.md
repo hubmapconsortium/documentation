@@ -28,7 +28,6 @@ example_tree:
   │       └── ATAC/
   │           └── foobar_R.fastq.gz
   └── lab_processed/
-      └── images/
          
 schema_items: 
 |-
