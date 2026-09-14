@@ -47,8 +47,8 @@ example_tree:
   └── lab_processed/
       └── images/
           ├── Histology_13_95.ome.tiff
-          ├── Histology_13_95.channels.csv
-          └── tissue-boundary.geojson
+          ├── Histology_13_95.ome-tiff.channels.csv
+          └── Histology_13_95.tissue-boundary.geojson
           
 schema_items: 
 |-

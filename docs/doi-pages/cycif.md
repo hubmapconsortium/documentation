@@ -31,7 +31,7 @@ example_tree:
   │       └── foobar.vsi
   └── lab_processed/
       ├── images/
-      │   ├── foobar.ome.{tif,tiff}
+      │   ├── foobar.ome.tiff
       │   └── region_01/
       │       └── foobar.ome-tiff.channels.csv
       └── transformations/
@@ -77,7 +77,7 @@ definitions:
   | lab_processed/ | ✓ | Experiment files that were processed by the lab generating the data. |
   | lab_processed/images/ | ✓ | This is a directory containing processed image files |
   | lab_processed/images/*.ome.{tif,tiff}$ | ✓ | OME-TIFF file (multichannel, multi-layered) produced by the experiment. If compressed, must use loss-less compression algorithm. See the following link for the set of fields that are required in the OME TIFF file XML header. <https://docs.google.com/spreadsheets/d/1YnmdTAA0Z9MKN3OjR3Sca8pz-LNQll91wdQoRPSP6Q4/edit#gid=0> It is recommended that you confirm you're using the latest version of Bio-Formats, when generating the OME TIFF, as newer versions have improved XML handling. |
-  | lab_processed/images/region_*/*ome-tiff.channels.csv$ | ✓ | This file provides essential documentation pertaining to each channel of the accommpanying OME TIFF. The file should contain one row per OME TIFF channel. The required fields are detailed <https://docs.google.com/spreadsheets/d/1xEJSb0xn5C5fB3k62pj1CyHNybpt4-YtvUs5SUMS44o/edit#gid=0> |
+  | lab_processed/images/region_\*/*ome-tiff.channels.csv$ | ✓ | This file provides essential documentation pertaining to each channel of the accommpanying OME TIFF. The file should contain one row per OME TIFF channel. The required fields are detailed <https://docs.google.com/spreadsheets/d/1xEJSb0xn5C5fB3k62pj1CyHNybpt4-YtvUs5SUMS44o/edit#gid=0> |
   | lab_processed/transformations/ |  | This directory contains transformation matrices that capture how each modality is aligned with the other and can be used to visualize overlays of multimodal data. This is needed to overlay images from the exact same tissue section (e.g., MALDI imaging mass spec, autofluorescence microscopy, MxIF, histological stains). In these cases data type may have different pixel sizes and slightly different orientations (i.e., one may be rotated relative to another). |
   | lab_processed/transformations/*.txt$ |  | Transformation matrices used to overlay images from the exact same tissue section (e.g., MALDI imaging mass spec, autofluorescence microscopy, MxIF, histological stains). |
 
