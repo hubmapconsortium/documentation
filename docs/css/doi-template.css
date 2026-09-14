@@ -213,6 +213,7 @@ p span.requiredMark {
 .primary-btn.download {
   height:28px;
   font-size: 14px;
+  color:white!important;
 }
 
 .primary-btn.download:visited {
