@@ -16,17 +16,8 @@
   </div>
 
   <div class="actions">
-	<select class="version-select" id="version-select" aria-label="Select version">
-	  {{ page.version_options}}
-	</select>
-	<script>
-	  document.getElementById('version-select').addEventListener('change', function () {
-		  window.location.href = this.value;
-	  });
-	</script>
-
     <a class="primary-btn download" href="{{ page.download_href | default: '#' }}">Download (ZIP)</a>
-    <p class="checksum">MD5 hash: {{ page.md5_hash | default: '' }}</p>
+    <p class="checksum">MD5 hash: {{ page.md5_hash | default: '7531483d85468575da1e0d2437695b46' }}</p>
     <div class="icon-row">
       {% if page.help_href %}
         <a class="icon-btn help" href="{{ page.help_href | relative_url }}" title="Help" aria-label="Help">?</a>

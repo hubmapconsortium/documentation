@@ -2,10 +2,7 @@
 layout: doi-landing-page
 title: Metadata Reporting Standards - Histology
 spec_name: Histology
-version_options: 
-|-
-  <option value="histology.html" selected>v1</option> 
-  <option value="histology-v2.html">v2</option>
+version_label: Version 1
 doi: 10.35079/HBM678.SJXK.375
 download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/raw/refs/heads/main/docs/histology/current/doi-object.zip"
 md5_hash: 02f137a986fe53263587ed4b8101cd2b
