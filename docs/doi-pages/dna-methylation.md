@@ -2,7 +2,8 @@
 layout: doi-landing-page
 title: Metadata Reporting Standards - DNA Methylation 
 spec_name: DNA Methylation
-version_label: Version 1
+descriptive_version: 2.0
+structural_version: 2.0
 doi: 10.35079/HBM646.WTZK.555
 download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/raw/refs/heads/main/docs/dna-methylation/current/doi-object.zip"
 md5_hash: 6c3813954ef03204d874f08fe7311f23
