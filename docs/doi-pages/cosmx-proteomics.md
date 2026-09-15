@@ -2,7 +2,8 @@
 layout: doi-landing-page
 title: Metadata Reporting Standards - CosMx Proteomics
 spec_name: CosMx Proteomics
-version_label: Version 1
+descriptive_version: 2.0
+structural_version: 2.2
 doi: 10.35079/HBM957.HKNH.796
 download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/raw/refs/heads/main/docs/cosmx-proteomics/current/doi-object.zip"
 md5_hash: 7a4c322cf7b87b6db55fb213640fb285
