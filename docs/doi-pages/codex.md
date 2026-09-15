@@ -2,7 +2,8 @@
 layout: doi-landing-page
 title: Metadata Reporting Standards - Co-Detection by Indexing (CODEX) 
 spec_name: CODEX
-version_label: Version 1
+descriptive_version: 2.0
+structural_version: 2.6
 doi: 10.35079/HBM676.GTXH.329
 download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/raw/refs/heads/main/docs/codex/current/doi-object.zip"
 md5_hash: 6de650a1f626aad771da0ad40f71386f
