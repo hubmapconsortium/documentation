@@ -39,9 +39,9 @@ example_tree:
  │   │   └── oligo/
  │   │       └── foobar.fastq.gz
  │   └── images/
- │       └── overlay.{jpeg,tiff}
+ │       └── overlay.jpeg
  └── lab_processed/
-     ├── Initial\s{1}Dataset.xlsx
+     ├── Initial Dataset.xlsx
      ├── annotations.xlsx
      ├── dcc/
      │   └── foobar.dcc
