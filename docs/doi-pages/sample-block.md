@@ -12,7 +12,7 @@ subjects:
 summary: A block is a piece of tissue typically sized to fit into a tissue cassette or freezer mold, prepared for long-term storage or downstream sectioning. Tissue blocking is generally performed by hand with a scalpel, producing a relatively thick specimen with a typical Z-plane depth of 0.5–1 cm; organ pieces and biopsies are both classified as blocks. A block serves as the starting material from which thinner sections are cut for downstream assays.
 schema_doc_href: "https://openview.metadatacenter.org/templates/https:%2F%2Frepo.metadatacenter.org%2Ftemplates%2F3e98cee6-d3fb-467b-8d4e-9ba7ee49eeff"
 validator_href: "https://metadatavalidator.metadatacenter.org"
-datasets_href: "https://portal.hubmapconsortium.org/search/datasets"
+datasets_href: "https://portal.hubmapconsortium.org/search/samples"
 help_href: /doi-pages-help/
 datasets_text: The HuBMAP Data Portal is an open platform to discover, visualize, and download standardized healthy single-cell and spatial tissue data.
 citation_text: Fisher SA, Hardi J, Morgan R, Nordgren E, Kant PM, Honick B, Rosario J, O'Connor MJ, Turner ML, DCWG Members, Gehlenborg N, Blood PD, Silverstein JC, Musen MA. 2026. The HuBMAP Framework for Advancing Data FAIRness. submitted. https://doi.org/10.64898/2026.06.01.728946
