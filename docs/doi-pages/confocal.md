@@ -2,7 +2,8 @@
 layout: doi-landing-page
 title: Metadata Reporting Standards - Confocal
 spec_name: Confocal
-version_label: Version 1
+descriptive_version: 2.1
+structural_version: 2.3
 doi: 10.35079/HBM656.ZKVH.979
 download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/raw/refs/heads/main/docs/confocal/current/doi-object.zip"
 md5_hash: 15ee81e5db1ff67ae78da67f29de4b83

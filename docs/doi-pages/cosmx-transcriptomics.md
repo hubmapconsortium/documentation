@@ -2,7 +2,8 @@
 layout: doi-landing-page
 title: Metadata Reporting Standards - CosMx Transcriptomics
 spec_name: CosMx Transcriptomics
-version_label: Version 1
+descriptive_version: 3.0
+structural_version: 2.9
 doi: 10.35079/HBM639.WWMD.883
 download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/raw/refs/heads/main/docs/cosmx-transcriptomics/current/doi-object.zip"
 md5_hash: 83fce1c032474f58b633462491fba9d5

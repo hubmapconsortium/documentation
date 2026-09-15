@@ -2,7 +2,8 @@
 layout: doi-landing-page
 title: Metadata Reporting Standards - AF
 spec_name: Auto-fluorescence (AF)
-version_label: Version 1
+descriptive_version: 2.1
+structural_version: 2.5
 doi: 10.35079/HBM663.DHKQ.865
 download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/raw/refs/heads/main/docs/af/current/doi-object.zip"
 md5_hash: 4d79df8204375c0d9ce321e5b2fcfb80

@@ -2,7 +2,8 @@
 layout: doi-landing-page
 title: Metadata Reporting Standards - 10X Multiome
 spec_name: 10X Multiome
-version_label: Version 1
+descriptive_version: 2.0
+structural_version: 2.2
 doi: 10.35079/HBM528.GWLG.472
 download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/raw/refs/heads/main/docs/10x-multiome/current/doi-object.zip"
 md5_hash: e0dafa46bc69fde627665402988d4c49

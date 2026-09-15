@@ -2,7 +2,8 @@
 layout: doi-landing-page
 title: Metadata Reporting Standards - ATACseq
 spec_name: Assay for Transposase-Accessible Chromatin using Sequencing (ATAC-seq) 
-version_label: Version 1
+descriptive_version: 3.0
+structural_version: 2.2
 doi: 10.35079/HBM846.LZCV.363
 download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/raw/refs/heads/main/docs/atacseq/current/doi-object.zip"
 md5_hash: aed7c453b82e7099a495ec56ddf4b7fe

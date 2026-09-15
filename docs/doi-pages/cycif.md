@@ -2,7 +2,8 @@
 layout: doi-landing-page
 title: Metadata Reporting Standards - CyCIF
 spec_name: Cyclic Immunofluorescence (CyCIF) 
-version_label: Version 1
+descriptive_version: 2.1
+structural_version: 2.2
 doi: 10.35079/HBM683.KXSC.925
 download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/raw/refs/heads/main/docs/cycif/current/doi-object.zip"
 md5_hash: a37a3d4e8739bced8a0f94a10270e4a2

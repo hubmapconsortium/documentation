@@ -2,7 +2,8 @@
 layout: doi-landing-page
 title: Metadata Reporting Standards - COMET
 spec_name: COMET
-version_label: Version 1
+descriptive_version: 2.0
+structural_version: 2.1
 doi: 10.35079/HBM653.SJPF.374
 download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/raw/refs/heads/main/docs/comet/current/doi-object.zip"
 md5_hash: 83a2ae09c721e2cab5499eb64e82e250
