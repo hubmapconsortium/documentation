@@ -27,7 +27,7 @@ example_tree:
   ├── raw/
   │   └── fastq/
   |       └── RNA/
-  |           └── foobar_R_rnaseq.fastq.gz
+  |           └── foobar_R01.fastq.gz
   └── lab_processed/
   
 schema_items: 
@@ -91,7 +91,7 @@ definitions:
   | raw/ | ✓ | All raw data files for the experiment. |
   | raw/fastq/ | ✓ | Raw sequencing files for the experiment. |
   | raw/fastq/RNA/ | ✓ | Directory containing fastq files pertaining to RNAseq sequencing. |
-  | raw/fastq/RNA/*_R*.fastq.gz$ | ✓ | This is a GZip'd version of the forward and reverse fastq files from RNAseq sequencing (R1 and R2). |
+  | raw/fastq/RNA/\*_R*.fastq.gz$ | ✓ | This is a GZip'd version of the forward and reverse fastq files from RNAseq sequencing (R1 and R2). |
   | lab_processed/ |  | Experiment files that were processed by the lab generating the data. |
 
 contributors: 
