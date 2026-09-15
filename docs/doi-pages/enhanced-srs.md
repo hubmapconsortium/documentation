@@ -2,7 +2,8 @@
 layout: doi-landing-page
 title: Metadata Reporting Standards - Enhanced SRS
 spec_name:  Enhanced Stimulated Raman Scattering (SRS) 
-version_label: Version 1
+descriptive_version: 2.1
+structural_version: 2.3
 doi: 10.35079/HBM284.KHZR.923
 download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/raw/refs/heads/main/docs/enhanced-srs/current/doi-object.zip"
 md5_hash: 70d5a4151e03704b25ed549832b8552c

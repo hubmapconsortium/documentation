@@ -2,7 +2,8 @@
 layout: doi-landing-page
 title: Metadata Reporting Standards - FACS
 spec_name: Fluorescence-Activated Cell Sorting (FACS)  
-version_label: Version 1
+descriptive_version: 2.0
+structural_version: 2.0
 doi: 10.35079/HBM999.RGNX.353
 download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/raw/refs/heads/main/docs/facs/current/doi-object.zip"
 md5_hash: 279655205140b844b7705187e25e5644
