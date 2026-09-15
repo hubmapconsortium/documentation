@@ -2,7 +2,8 @@
 layout: doi-landing-page
 title: Metadata Reporting Standards - Cell DIVE
 spec_name: Cell DIVE
-version_label: Version 1
+descriptive_version: 2.2
+structural_version: 2.6
 doi: 10.35079/HBM629.BDQB.527
 download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/raw/refs/heads/main/docs/celldive/current/doi-object.zip"
 md5_hash: 2bd36229b86c7d61946c5cac5919a213
