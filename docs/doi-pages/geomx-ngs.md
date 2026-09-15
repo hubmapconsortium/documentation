@@ -2,7 +2,8 @@
 layout: doi-landing-page
 title: Metadata Reporting Standards - GeoMx (NGS)
 spec_name: GeoMx Digital Spatial Profiler (DSP) with next-generation sequencing (NGS)
-version_label: Version 1
+descriptive_version: 2.1
+structural_version: 2.11
 doi: 10.35079/HBM387.GWMM.369
 download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/raw/refs/heads/main/docs/geomx-ngs/current/doi-object.zip"
 md5_hash: b91eae77a350987e939d4b68aa33204f
