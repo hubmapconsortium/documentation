@@ -2,7 +2,8 @@
 layout: doi-landing-page
 title: Metadata Reporting Standards - DESI
 spec_name:  Desorption Electrospray Ionization (DESI) 
-version_label: Version 1
+descriptive_version: 2.0
+structural_version: 2.3
 doi: 10.35079/HBM722.FWCH.887
 download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/raw/refs/heads/main/docs/desi/current/doi-object.zip"
 md5_hash: b593185a1c5b40f08fe6991c3b250b8d
