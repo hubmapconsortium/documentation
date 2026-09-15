@@ -2,7 +2,8 @@
 layout: doi-landing-page
 title: Metadata Reporting Standards - Histology
 spec_name: Histology
-version_label: Version 1
+descriptive_version: 2.2
+structural_version: 2.4
 doi: 10.35079/HBM678.SJXK.375
 download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/raw/refs/heads/main/docs/histology/current/doi-object.zip"
 md5_hash: 02f137a986fe53263587ed4b8101cd2b
@@ -15,7 +16,6 @@ datasets_href: "https://portal.hubmapconsortium.org/search/datasets?dataset_type
 help_href: /doi-pages-help/
 datasets_text: The HuBMAP Data Portal is an open platform to discover, visualize, and download standardized healthy single-cell and spatial tissue data.
 citation_text: Fisher SA, Hardi J, Morgan R, Nordgren E, Kant PM, Honick B, Rosario J, O'Connor MJ, Turner ML, DCWG Members, Gehlenborg N, Blood PD, Silverstein JC, Musen MA. 2026. The HuBMAP Framework for Advancing Data FAIRness. submitted. https://doi.org/10.64898/2026.06.01.728946
-reuse_text: This standard may be reused, expanded, or referenced by external repositories.
 contributors_intro: Below is the information for the individuals who contributed to the HuBMAP and SenNet metadata reporting standards.
 contributors_note: For questions about this standard, email <a href="mailto:help@hubmapconsortium.org">HuBMAP Helpdesk</a>. You can alternatively reach out to the individuals listed below, either via the email address listed in the table or via contact information provided on their ORCID profile page.
 
@@ -47,8 +47,8 @@ example_tree:
   └── lab_processed/
       └── images/
           ├── Histology_13_95.ome.tiff
-          ├── Histology_13_95.channels.csv
-          └── tissue-boundary.geojson
+          ├── Histology_13_95.ome-tiff.channels.csv
+          └── Histology_13_95.tissue-boundary.geojson
           
 schema_items: 
 |-

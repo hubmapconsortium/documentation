@@ -24,17 +24,17 @@ example_tree:
   .
   ├── extras/
   │   ├── microscope_hardware.json
-  │   ├── microscope_settings.json
+  │   └── microscope_settings.json
   ├── raw/
   │   ├── foobar.fcs
   │   ├── foobar.pdf
   │   ├── foobar.expt
   │   ├── foobar.ust
   │   ├── foobar.wtml
-  │   ├── foobar\_bead_compensate.wsp
+  │   ├── foobar_bead_compensate.wsp
   │   └── foobar.csv
   └── lab_processed/
-    └── foobar.wsp
+      └── foobar.wsp
 
 schema_items: 
 |-

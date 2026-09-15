@@ -1,0 +1,10 @@
+<section>
+  <h2>Reuse</h2>
+  {% if page.structural_version %}
+  <p>This standard may be reused, expanded, or referenced by external repositories. It incorporates version {{ page.descriptive_version }} of the descriptive metadata schema and version {{ page.structural_version }} of the structural metadata schema. The latest versions of both the descriptive and structural metadata schemas are available at the link below.</p>
+  <br /><a class="secondary-btn" href="https://docs.hubmapconsortium.org/metadata.html">Latest Versions</a>
+  {% else %}
+  <p>This standard may be reused, expanded, or referenced by external repositories. It incorporates the descriptive metadata schema version {{ page.descriptive_version }}. The latest version of the descriptive metadata schema is available at the link below.</p>
+  <br /><a class="secondary-btn" href="https://docs.hubmapconsortium.org/metadata.html">Latest Version</a>
+  {% endif %}
+</section>

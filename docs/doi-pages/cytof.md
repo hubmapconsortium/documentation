@@ -24,7 +24,7 @@ example_tree:
   .
   ├── extras/
   ├── raw/
-  │   ├── foobar.{xlsx,txt}
+  │   ├── foobar.xlsx
   │   ├── foobar.imd
   │   └── foobar.fcs
   └── lab_processed/

@@ -40,13 +40,13 @@ example_tree:
  │   ├── custom_gene_list.csv
  │   ├── probes.csv
  │   └── images/
- │       ├── FOV\d+/
+ │       ├── FOV01/
  │       │   ├── foobar_complete_code_cell_target_call_coord.csv
- │       │   ├── (CellLabels)01_F\d+.{tif,tiff}
+ │       │   ├── foobar_F01.tiff
  │       │   ├── overlay.jpeg
- │       │   ├── overlay.{tif,tiff}
- │       │   ├── CellOverlay_FOV\d+.jpg
- │       │   └── CellLabels_F\d+.{tif,tiff}
+ │       │   ├── overlay.tiff
+ │       │   ├── CellOverlay_FOV01.jpg
+ │       │   └── CellLabels_F01.tiff
  │       └── preview_scan.png
  └── lab_processed/
      └── images/
@@ -111,13 +111,13 @@ definitions:
   | raw/transcript_locations.csv$ |  | Contains decription of the location of all decoded transcripts. The origin of the coordinate is 0,0 at the top left corner of the image. The file should include: gene name, x, y, z (optional), quality score (optional). It is expected that the first row in the file contains the column header. |
   | raw/custom_gene_list.csv$ |  | This describes the target genes profiled by the assay. For advanced design, this can be probes sequences for splicing or other analysis for any target of interest. The format should minimally contain: gene name, ensemble ID |
   | raw/probes.csv$ |  | A CSV file describing the probe panel used. This is typically what's used to specifiy the probe set when ordering a probe panel for a Xenium run. |
-  | raw/images/FOV\d+/ | ✓ | Directory containing imaging tiles with one appropriately-named subdirectory per FOV (e.g., FOV0004). |
-  | raw/images/FOV\d+/*_complete_code_cell_target_call_coord.csv$ | ✓ | Target coordinates and counts per cell. |
-  | raw/images/FOV\d+/(?!CellLabels)*_F\d+.{tif,tiff}$ | ✓ | The morphology marker multi-channel TIFF file. |
-  | raw/images/FOV\d+/overlay.jpeg$ |  | State whether an overlay image was used to guide ROI selection. If an overlay is used, then the overlay details will be provided in the protocols.io protocol. NOTE: If used, this needs to be uploaded. It is not included in the OME TIFF. This can be a JPEG, TIF, or TIFF file. |
-  | raw/images/FOV\d+/overlay.{tif,tiff}$ |  | State whether an overlay image was used to guide ROI selection. If an overlay is used, then the overlay details will be provided in the protocols.io protocol. NOTE: If used, this needs to be uploaded. It is not included in the OME TIFF. This can be a JPEG, TIF, or TIFF file. |
-  | raw/images/FOV\d+/CellOverlay_FOV\d+.jpg$ |  | File depicting a visual overlay of key spatial transcriptomics data for the specific field of view (FOV). These images combine cellular morphology with transcript information to provide context for the gene expression data. |
-  | raw/images/FOV\d+/CellLabels_F\d+.{tif,tiff}$ | ✓ | A TIFF or TIF image containing the results of cell segmentation. It provides a visual map of the identified cells, with each cell in a field of view (FOV) assigned a unique numerical label. |
+  | raw/images/FOV\\d+/ | ✓ | Directory containing imaging tiles with one appropriately-named subdirectory per FOV (e.g., FOV0004). |
+  | raw/images/FOV\\d+/*_complete_code_cell_target_call_coord.csv$ | ✓ | Target coordinates and counts per cell. |
+  | raw/images/FOV\\d+/(?!CellLabels)*_F\\d+.{tif,tiff}$ | ✓ | The morphology marker multi-channel TIFF file. |
+  | raw/images/FOV\\d+/overlay.jpeg$ |  | State whether an overlay image was used to guide ROI selection. If an overlay is used, then the overlay details will be provided in the protocols.io protocol. NOTE: If used, this needs to be uploaded. It is not included in the OME TIFF. This can be a JPEG, TIF, or TIFF file. |
+  | raw/images/FOV\\d+/overlay.{tif,tiff}$ |  | State whether an overlay image was used to guide ROI selection. If an overlay is used, then the overlay details will be provided in the protocols.io protocol. NOTE: If used, this needs to be uploaded. It is not included in the OME TIFF. This can be a JPEG, TIF, or TIFF file. |
+  | raw/images/FOV\\d+/CellOverlay_FOV\\d+.jpg$ |  | File depicting a visual overlay of key spatial transcriptomics data for the specific field of view (FOV). These images combine cellular morphology with transcript information to provide context for the gene expression data. |
+  | raw/images/FOV\\d+/CellLabels_F\\d+.{tif,tiff}$ | ✓ | A TIFF or TIF image containing the results of cell segmentation. It provides a visual map of the identified cells, with each cell in a field of view (FOV) assigned a unique numerical label. |
   | raw/images/preview_scan.png$ | ✓ | Assists in selection of regions of FOVs using the grid FOV placement tool. This is typically downloaded from the AtoMx server. A screen shot during the FOV selection process would also suffice. |
   | lab_processed/ | ✓ | Experiment files that were processed by the lab generating the data. |
   | lab_processed/images/ |  | Processed image files |

@@ -27,12 +27,12 @@ example_tree:
   │   └── microscope_settings.json
   ├── raw/
   │   └── images/
-  │       ├── round_info_foobar.dat
-  │       └── round_info_foobar.xml
+  │       ├── round_info_01.dat
+  │       └── round_info_01.xml
   └── lab_processed/
       ├── images/
-      │   └── region_foobar/
-      │       ├── foobar_region_01.ome.{tif,tiff}
+      │   └── region_001/
+      │       ├── foobar_region_01.ome.tif
       │       └── foobar.ome-tiff.channels.csv
       ├── annotations/
       │   └── slide_list.txt
@@ -84,8 +84,8 @@ definitions:
   | raw/images/round_info_*.xml$ |  | Metadata file for the capture item-value tab separated format. This contains various instrument and acquisition details for each acquisition cycle. This is equivalent to the round_info_*.dat file that some systems generate. |
   | lab_processed/ | ✓ | Experiment files that were processed by the lab generating the data. |
   | lab_processed/images/ | ✓ | This is a directory containing processed image files |
-  | lab_processed/images/region_*/*_region_*.ome.{tif,tiff}$ | ✓ | OME TIFF Files for the corresponding region (e.g. region_001) by slide (e.g S20030077), organized into subdirectories based on their region. |
-  | lab_processed/images/region_*/*ome-tiff.channels.csv$ | ✓ | This file provides essential documentation pertaining to each channel of the accommpanying OME TIFF. The file should contain one row per OME TIFF channel. The required fields are detailed <https://docs.google.com/spreadsheets/d/1xEJSb0xn5C5fB3k62pj1CyHNybpt4-YtvUs5SUMS44o/edit#gid=0> |
+  | lab_processed/images/region_\*/\*\_region\_\*.ome.{tif,tiff}$ | ✓ | OME TIFF Files for the corresponding region (e.g. region_001) by slide (e.g S20030077), organized into subdirectories based on their region. |
+  | lab_processed/images/region_\*/\*ome-tiff.channels.csv$ | ✓ | This file provides essential documentation pertaining to each channel of the accommpanying OME TIFF. The file should contain one row per OME TIFF channel. The required fields are detailed <https://docs.google.com/spreadsheets/d/1xEJSb0xn5C5fB3k62pj1CyHNybpt4-YtvUs5SUMS44o/edit#gid=0> |
   | lab_processed/annotations/ | ✓ | This is a directory containing annotations. |
   | lab_processed/annotations/slide_list.txt$ | ✓ | Information about the slides used by the experiment- each line corresponds to a slide name (begins with S - e.g. S20030077) - used in filenames. |
   | lab_processed/transformations/ |  | This directory contains transformation matrices that capture how each modality is aligned with the other and can be used to visualize overlays of multimodal data. This is needed to overlay images from the exact same tissue section (e.g., MALDI imaging mass spec, autofluorescence microscopy, MxIF, histological stains). In these cases data type may have different pixel sizes and slightly different orientations (i.e., one may be rotated relative to another). |
@@ -93,7 +93,7 @@ definitions:
   | lab_processed/virtual_histology/ | ✓ | This is a directory containing annotations for virtual histology images |
   | lab_processed/virtual_histology/HandE_RGB_thumbnail.jpg$ |  | Virtual H&E RGB thumbnail |
   | lab_processed/virtual_histology/HandE_RGB.tif$ |  | Virtual H&E RGB image |
-  | lab_processed/virtual_histology/*_VHE_region_*.tif$ |  | Virtual H&E image |
+  | lab_processed/virtual_histology/\*\_VHE_region\_\*.tif$ |  | Virtual H&E image |
      
 contributors: 
 |-

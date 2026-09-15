@@ -84,7 +84,7 @@ definitions:
   | raw/ | ✓ | All raw data files for the experiment. |
   | raw/fastq/ | ✓ | Raw sequencing files for the experiment |
   | raw/fastq/RNA/ | ✓ | Directory containing fastq files pertaining to RNAseq sequencing. |
-  | raw/fastq/RNA/*_R*.fastq.gz$ | ✓ | This is a GZip'd version of the forward and reverse fastq files from RNAseq sequencing (R1 and R2). |
+  | raw/fastq/RNA/\*_R*.fastq.gz$ | ✓ | This is a GZip'd version of the forward and reverse fastq files from RNAseq sequencing (R1 and R2). |
   | raw/Spatial_barcodes/ | ✓ | Files containing spatial barcodes and coordinates. |
   | raw/Spatial_barcodes/*.gene$ | ✓ | Information about each gene. |
   | raw/Spatial_barcodes/*.mtx$ | ✓ | The raw count matrix (reads per spot that map to each gene:spot x gene). |

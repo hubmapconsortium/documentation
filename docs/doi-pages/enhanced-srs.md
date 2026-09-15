@@ -26,11 +26,11 @@ example_tree:
   │   ├── microscope_hardware.json
   │   └── microscope_settings.json
   ├── raw/
-  │   ├── channel_layout.tsv$
+  │   ├── channel_layout.tsv
   │   ├── lightpath_configuration.tsv
   │   ├── fingerprint_layout.tsv
   │   └── images/
-  │       └── foobar.{xml,nd2,oir,lif,czi,tiff}
+  │       └── foobar.czi
   ├── lab_processed/
   │   ├── images/
   │   │   ├── foobar.ome.tiff
