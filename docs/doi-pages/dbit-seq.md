@@ -2,7 +2,8 @@
 layout: doi-landing-page
 title: Metadata Reporting Standards - DBiT-seq
 spec_name:  Deterministic Barcoding in Tissue for spatial omics sequencing (DBiT-seq)
-version_label: Version 1
+descriptive_version: 2.0
+structural_version: 2.0
 doi: 10.35079/HBM425.GDQX.743
 download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/raw/refs/heads/main/docs/dbit-seq/current/doi-object.zip"
 md5_hash: 52afb1aa5caabc5c2080b3b0ac10ec91
