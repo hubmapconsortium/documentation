@@ -2,7 +2,7 @@
 layout: doi-landing-page
 title: Metadata Reporting Standards - Antibodies
 spec_name: Antibodies
-descriptive_version: 2.2
+descriptive_version: 3.0
 structural_version: 
 doi: 10.35079/HBM965.PTTW.982
 download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/raw/refs/heads/main/docs/antibodies/current/doi-object.zip"
