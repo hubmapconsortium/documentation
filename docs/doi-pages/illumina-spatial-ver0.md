@@ -25,7 +25,7 @@ example_tree:
   ├── extras/
   │   ├── microscope_hardware.json
   │   └── microscope_settings.json
-  └── raw/
+  ├── raw/
   └── lab_processed/
       ├── alignment.json
       ├── images/
@@ -33,16 +33,16 @@ example_tree:
       │   └── foobar.ome-tiff.channels.csv
       └── dragen/
           ├── pipeline-manifest.json
-          ├── foobar.X.cell_contour.01.csv
-          ├── foobar.X.nuclei_contour.01.csv
-          ├── foobar.X_cell_binned_normalized.h5ad
-          ├── foobar.X_cell_binned_pca.h5ad
-          ├── foobar.X_cell_binned_umap.h5ad
-          ├── foobar.X_cell_binned.h5ad
-          ├── foobar.X_grid_binned_normalized.h5ad
-          ├── foobar.X_grid_binned_pca.h5ad
-          ├── foobar.X_grid_binned_umap.h5ad
-          └── foobar.X_grid_binned.h5ad
+          ├── cell_contour.01.csv
+          ├── nuclei_contour.01.csv
+          ├── foobar_cell_binned_normalized.h5ad
+          ├── foobar_cell_binned_pca.h5ad
+          ├── foobar_cell_binned_umap.h5ad
+          ├── foobar_cell_binned.h5ad
+          ├── foobar_grid_binned_normalized.h5ad
+          ├── foobar_grid_binned_pca.h5ad
+          ├── foobar_grid_binned_umap.h5ad
+          └── foobar_grid_binned.h5ad
 
 schema_items: 
 |-
@@ -92,16 +92,16 @@ definitions:
   | lab_processed/images/*ome-tiff.channels.csv$ | ✓ | This file provides essential documentation pertaining to each channel of the accommpanying OME TIFF. The file should contain one row per OME TIFF channel. The required fields are detailed <https://docs.google.com/spreadsheets/d/1xEJSb0xn5C5fB3k62pj1CyHNybpt4-YtvUs5SUMS44o/edit#gid=0> |
   | lab_processed/dragen/ | ✓ | Output from the Illumina Spatial Transcriptome pipeline. |
   | lab_processed/dragen/pipeline-manifest.json$ | ✓ | The pipeline execution parameter file |
-  | lab_processed/dragen/.*cell_contour.*.csv$ | ✓ | The coordinate matrices containing the machine-learning-derived cell boundaries. |
-  | lab_processed/dragen/.*nuclei_contour.*.csv$ | ✓ | The coordinate matrices containing the machine-learning-derived nuclei boundaries. |
-  | lab_processed/dragen/.*_cell_binned_normalized.h5ad$ | ✓ | Normalized Dragen AnnData object containing cell-binned spatial gene expression and cell metadata. |
-  | lab_processed/dragen/.*_cell_binned_pca.h5ad$ | ✓ | AnnData object containing cell-binned spatial gene expression, cell metadata and PCA embeddings. |
-  | lab_processed/dragen/.*_cell_binned_umap.h5ad$ | ✓ | AnnData object containing cell-binned spatial gene expression, cell metadata and PCA UMAP. |
-  | lab_processed/dragen/.*_cell_binned.h5ad$ | ✓ | AnnData object containing cell-binned spatial gene expression and cell metadata. |
-  | lab_processed/dragen/.*_grid_binned_normalized.h5ad$ | ✓ | Normalized AnnData object containing grid-binned spatial gene expression and cell metadata. |
-  | lab_processed/dragen/.*_grid_binned_pca.h5ad$ | ✓ | AnnData object containing grid-binned spatial gene expression, cell metadata and PCA embeddings. |
-  | lab_processed/dragen/.*_grid_binned_umap.h5ad$ | ✓ | AnnData object containing grid-binned spatial gene expression, cell metadata and PCA UMAP. |
-  | lab_processed/dragen/.*_grid_binned.h5ad$ | ✓ | AnnData object containing grid-binned spatial gene expression and cell metadata. |
+  | lab_processed/dragen/\*cell_contour.*.csv$ | ✓ | The coordinate matrices containing the machine-learning-derived cell boundaries. |
+  | lab_processed/dragen/\*nuclei_contour.*.csv$ | ✓ | The coordinate matrices containing the machine-learning-derived nuclei boundaries. |
+  | lab_processed/dragen/*_cell_binned_normalized.h5ad$ | ✓ | Normalized Dragen AnnData object containing cell-binned spatial gene expression and cell metadata. |
+  | lab_processed/dragen/*_cell_binned_pca.h5ad$ | ✓ | AnnData object containing cell-binned spatial gene expression, cell metadata and PCA embeddings. |
+  | lab_processed/dragen/*_cell_binned_umap.h5ad$ | ✓ | AnnData object containing cell-binned spatial gene expression, cell metadata and PCA UMAP. |
+  | lab_processed/dragen/*_cell_binned.h5ad$ | ✓ | AnnData object containing cell-binned spatial gene expression and cell metadata. |
+  | lab_processed/dragen/*_grid_binned_normalized.h5ad$ | ✓ | Normalized AnnData object containing grid-binned spatial gene expression and cell metadata. |
+  | lab_processed/dragen/*_grid_binned_pca.h5ad$ | ✓ | AnnData object containing grid-binned spatial gene expression, cell metadata and PCA embeddings. |
+  | lab_processed/dragen/*_grid_binned_umap.h5ad$ | ✓ | AnnData object containing grid-binned spatial gene expression, cell metadata and PCA UMAP. |
+  | lab_processed/dragen/*_grid_binned.h5ad$ | ✓ | AnnData object containing grid-binned spatial gene expression and cell metadata. |
 
 contributors: 
 |-

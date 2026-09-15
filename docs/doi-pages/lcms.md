@@ -23,11 +23,11 @@ example_tree:
 |-
   .
   ├── extras/
-  │   └── mass-spec_environment.{json,tsv}
+  │   └── mass-spec_environment.json
   ├── raw/
-  │   ├── foobar.{raw,mzML}
+  │   ├── foobar.mzML
   │   ├── analysis.tdf
-  │   └── analysis.{tsf_bin,tsf,tdf_bin}
+  │   └── analysis.tdf_bin
   └── lab_processed/
       ├── ID_search_results/
       │   └── foobar.csv
