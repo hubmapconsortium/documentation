@@ -4,7 +4,6 @@ title: Metadata Reporting Standards - Histology
 spec_name: Histology
 descriptive_version: 2.2
 structural_version: 2.4
-current_href: https://hubmapconsortium.github.io/ingest-validation-tools/histology/current/
 doi: 10.35079/HBM678.SJXK.375
 download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/raw/refs/heads/main/docs/histology/current/doi-object.zip"
 md5_hash: 02f137a986fe53263587ed4b8101cd2b
