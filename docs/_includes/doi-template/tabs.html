@@ -37,6 +37,11 @@
 </section>
 
 <section class="panel" id="panel-files" role="tabpanel" aria-labelledby="tab-files" hidden>
+  {% if page.definitions %}
   {% include doi-template/definitions.html %}
   {% include doi-template/example-tree.html %}
+  {% else %}
+  <p style="margin-top: 50px; margin-bottom: 50px;">This standard does not include structural metadata.</p>
+  {% endif %}
+  
 </section>
