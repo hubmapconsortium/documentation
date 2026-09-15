@@ -29,7 +29,7 @@ example_tree:
   │   ├── lightpath_configuration.tsv
   │   ├── fingerprint_layout.tsv
   │   └── images/
-  │       └── foobar.{xml,nd2,oir,lif,czi,tiff}
+  │       └── foobar.czi
   ├── lab_processed/
   │   ├── images/
   │   │   ├── foobar.ome.tiff

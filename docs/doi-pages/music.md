@@ -91,7 +91,7 @@ definitions:
   | extras/ | ✓ | Folder for general lab-specific files related to the dataset. |
   | raw/ | ✓ | All raw data files for the experiment. |
   | raw/fastq/ | ✓ | Raw sequencing files for the experiment. |
-  | raw/fastq/*_R*.fastq.gz$ | ✓ | The raw un-multiplexed fastq files. |
+  | raw/fastq/\*_R*.fastq.gz$ | ✓ | The raw un-multiplexed fastq files. |
   | lab_processed/ | ✓ | Experiment files that were processed by the lab generating the data. |
   | lab_processed/fastq/DNA/ | ✓ | Directory containing fastq files pertaining to whole genome sequencing. |
   | lab_processed/fastq/DNA/*.fastq.gz$ | ✓ | This is a GZip'd version of the fastq files from whole genome sequencing. |

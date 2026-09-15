@@ -23,7 +23,7 @@ example_tree:
 |-
   .
   ├── extras/
-  │   └── mass-spec_environment.{json,tsv}
+  │   └── mass-spec_environment.json
   ├── raw/
   │   └── imzML/
   │       ├── foobar.ibd

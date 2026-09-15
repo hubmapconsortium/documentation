@@ -26,18 +26,18 @@ example_tree:
   │   ├── microscope_hardware.json
   │   └── microscope_settings.json
   ├── raw/
-  |   ├── foobar.{gpr,vlf}
+  |   ├── foobar.gpr
   │   ├── additional_panels_used.csv
   │   ├── custom_probe_set.csv
   │   ├── fastq/
   │   │   └── oligo/
   │   │       └── foobar_R01.fastq.gz
   │   └── images/
-  │       ├── foobar_tissue.{tif,tiff}
-  │       ├── foobar_fiducial.{tif,tiff}
+  │       ├── foobar_tissue.tiff
+  │       ├── foobar_fiducial.tiff
   │       └── foobar.ndpi
   └── lab_processed/
-      ├── alignment.json$
+      ├── alignment.json
       ├── images/
       │   ├── foobar.ome.tiff
       │   ├── foobar.ome-tiff.channels.csv
@@ -57,7 +57,7 @@ example_tree:
           └── binned_outputs/
               └── square_foobar/
                   ├── filtered_feature_bc_matrix.h5
-                  ├── raw_feature_bc_matrix.h5$
+                  ├── raw_feature_bc_matrix.h5
                   └── spatial/
                       ├── aligned_fiducials.jpg
                       ├── aligned_tissue_image.jpg
@@ -102,7 +102,7 @@ definitions:
   | raw/custom_probe_set.csv$ |  | This file should contain any custom probes used and must be included if the metadata field "is_custom_probes_used" is "Yes". The file should minimally include:target gene id, probe seq, probe id. The contents of this file are modeled after the 10x Genomics probe set file (see <https://support.10xgenomics.com/spatial-gene-expression-ffpe/probe-sets/probe-set-file-descriptions/probe-set-file-descriptions#probe_set_csv_file>). |
   | raw/fastq/ | ✓ | Raw sequencing files for the experiment |
   | raw/fastq/oligo/ | ✓ | Directory containing fastq files pertaining to oligo sequencing. |
-  | raw/fastq/oligo/*_R*.fastq.gz$ | ✓ | This is a gzip version of the fastq file. This file contains the cell barcode and unique molecular identifier (technical). |
+  | raw/fastq/oligo/\*_R*.fastq.gz$ | ✓ | This is a gzip version of the fastq file. This file contains the cell barcode and unique molecular identifier (technical). |
   | raw/images/ | ✓ | Directory containing raw image files. This directory should include at least one raw file. |
   | raw/images/*_tissue.{tif,tiff}$ |  | Raw microscope file for the experiment. For 10X Visium CytAssist, this would be the high resolution image produced. |
   | raw/images/*_fiducial.{tif,tiff}$ | ✓ | This is the low resolution image from the 10X CytAssist instrument that includes the fiduciary markings. |

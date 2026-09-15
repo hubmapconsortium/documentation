@@ -28,9 +28,9 @@ example_tree:
   ├── raw/
   │   ├── channel_layout.tsv
   │   ├── lightpath_configuration.tsv
-  │   ├── fingerprint_layout.tsv  
+  │   ├── fingerprint_layout.tsv
   │   └── images/
-  │       └── foobar.{xml,nd2,oir,lif,czi,tiff}
+  │       └── foobar.tiff
   ├── lab_processed/
   │   ├── images/
   │   │   ├── foobar.ome.tiff

@@ -26,9 +26,9 @@ example_tree:
   ├── raw/
   │   └── fastq/
   │       ├── RNA/
-  │       │   └── foobar_snareseq2_R.fastq.gz
+  │       │   └── foobar_R01.fastq.gz
   │       └── ATAC/
-  │           └── foobar_snareseq2_R.fastq.gz
+  │           └── foobar_R01.fastq.gz
   └── lab_processed/
 
 schema_items: |-

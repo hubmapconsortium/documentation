@@ -29,7 +29,7 @@ example_tree:
   │   ├── additional_panels_used.csv
   │   └── fastq/
   │       └── oligo/
-  │           └── foobar_R_rnaseq.fastq.gz
+  │           └── foobar_R01.fastq.gz
   └── lab_processed/
       └── cellranger/
           ├── analysis.tar.gz
@@ -118,7 +118,7 @@ definitions:
    raw/additional_panels_used.csv$ |  | If multiple commercial probe panels were used, then the primary probe panel should be selected in the "oligo_probe_panel" metadata field. The additional panels must be included in this file. Each panel record should include:manufacturer, model/name, product code. |
   | raw/fastq/ | ✓ | Raw sequencing files for the experiment. |
   | raw/fastq/oligo/ | ✓ | Directory containing fastq files pertaining to oligo sequencing. |
-  | raw/fastq/oligo/*_R*.fastq.gz$ | ✓ | This is a gzip version of the fastq file. This file contains the cell barcode and unique molecular identifier (technical). |
+  | raw/fastq/oligo/\*_R*.fastq.gz$ | ✓ | This is a gzip version of the fastq file. This file contains the cell barcode and unique molecular identifier (technical). |
   | lab_processed/ |  | Experiment files that were processed by the lab generating the data. |
   | lab_processed/cellranger/ |  | Directory containing Cell Ranger files. |
   | lab_processed/cellranger/analysis.tar.gz$ |  | Compressed archive containing output files or data generated from a 10x Genomics Flex analysis pipeline |

@@ -36,7 +36,7 @@ example_tree:
   │   ├── gene_panel.json
   │   ├── protein_panel.json
   │   └── images/
-  │       └── overlay.{jpeg,tif,tiff}
+  │       └── overlay.jpeg
   └── lab_processed/
       ├── images/
       │   ├── foobar_xenium.ome.tiff
