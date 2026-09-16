@@ -2,7 +2,8 @@
 layout: doi-landing-page
 title: Metadata Reporting Standards - Second Harmonic Generation
 spec_name: Second Harmonic Generation (SHG) 
-version_label: Version 1
+descriptive_version: 2.1
+structural_version: 2.3
 doi: 10.35079/HBM749.SCVF.253
 download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/raw/refs/heads/main/docs/second-harmonic-generation/current/doi-object.zip"
 md5_hash: 8e8e94e1ff57cb04b663c08bf5fb4609
