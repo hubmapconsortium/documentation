@@ -2,7 +2,8 @@
 layout: doi-landing-page
 title: Metadata Reporting Standards - MUSIC
 spec_name: Multi-omic Single-nucleus Interaction by Co-labeling (MUSIC) 
-version_label: Version 1
+descriptive_version: 2.0
+structural_version: 2.2
 doi: 10.35079/HBM698.RZDG.587
 download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/raw/refs/heads/main/docs/music/current/doi-object.zip"
 md5_hash: a506d082bbc66fa94dd154a5fc97641d
