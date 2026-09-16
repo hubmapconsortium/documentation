@@ -2,7 +2,8 @@
 layout: doi-landing-page
 title: Metadata Reporting Standards - SNARE-seq2
 spec_name: Single-Nucleus chromatin Accessibility and mRNA Expression sequencing, version 2 (SNARE-seq2) 
-version_label: Version 1
+descriptive_version: 2.0
+structural_version: 2.2
 doi: 10.35079/HBM346.DFPP.785
 download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/raw/refs/heads/main/docs/snareseq2/current/doi-object.zip"
 md5_hash: edd039c25ed01c4e4697501a6cf16dc6
