@@ -2,7 +2,8 @@
 layout: doi-landing-page
 title: Metadata Reporting Standards - RNAseq (with probes)
 spec_name: Probe-based RNA Sequencing (RNAseq) 
-version_label: Version 1
+descriptive_version: 5.0
+structural_version: 2.3
 doi: 10.35079/HBM674.XVGG.736
 download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/raw/refs/heads/main/docs/rnaseq-with-probes/current/doi-object.zip"
 md5_hash: 5e8f9151940a6b1e45e623ad4ad8e647
