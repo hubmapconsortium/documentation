@@ -2,7 +2,8 @@
 layout: doi-landing-page
 title: Metadata Reporting Standards - Olink
 spec_name: Olink
-version_label: Version 1
+descriptive_version: 2.0
+structural_version: 2.0
 doi: 10.35079/HBM443.ZFRL.298
 download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/raw/refs/heads/main/docs/olink/current/doi-object.zip"
 md5_hash: 6a5c928a86a1209b576c4264185b54bc
