@@ -2,7 +2,8 @@
 layout: doi-landing-page
 title: Metadata Reporting Standards - MERFISH
 spec_name: Multiplexed Error-Robust Fluorescence In Situ Hybridization (MERFISH) 
-version_label: Version 1
+descriptive_version: 2.0
+structural_version: 2.9
 doi: 10.35079/HBM638.XQKL.755
 download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/raw/refs/heads/main/docs/merfish/current/doi-object.zip"
 md5_hash: 87cb32f05d9cf4969d99c5a8e337d717
