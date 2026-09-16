@@ -2,7 +2,8 @@
 layout: doi-landing-page
 title: Metadata Reporting Standards - STARmap
 spec_name: Spatially-resolved Transcript Amplicon Readout Mapping (STARmap)
-version_label: Version 1
+descriptive_version: 2.0
+structural_version: 2.0
 doi: 10.35079/HBM646.NHKK.829
 download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/raw/refs/heads/main/docs/starmap/current/doi-object.zip"
 md5_hash: a2d8e8e50d8b05ce73df1b2bdf95a7ad
