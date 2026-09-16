@@ -2,7 +2,8 @@
 layout: doi-landing-page
 title: Metadata Reporting Standards - MPLeX
 spec_name: Multi-Phase Liquid Extraction (MPLeX)
-version_label: Version 1
+descriptive_version: 2.0
+structural_version: 2.0
 doi: 10.35079/HBM765.TCFP.373
 download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/raw/refs/heads/main/docs/mplex/current/doi-object.zip"
 md5_hash: c60316e366093b12bbc26795105753a1
