@@ -2,7 +2,8 @@
 layout: doi-landing-page
 title: Metadata Reporting Standards - Visium HD
 spec_name: Visium HD
-version_label: Version 1
+descriptive_version: 3.0
+structural_version: 3.6
 doi: 10.35079/HBM442.NPRG.337
 download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/raw/refs/heads/main/docs/visium-hd/current/doi-object.zip"
 md5_hash: 8a0a5fd03ebaec1ec71404158f29d8b5
