@@ -2,7 +2,8 @@
 layout: doi-landing-page
 title: Metadata Reporting Standards - Light Sheet
 spec_name: Light Sheet Fluorescence Microscopy (LSFM)
-version_label: Version 1
+descriptive_version: 3.1
+structural_version: 2.3
 doi: 10.35079/HBM226.CSDM.832
 download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/raw/refs/heads/main/docs/lightsheet/current/doi-object.zip"
 md5_hash: 077a267eb87df61dd9f3bfc53772f2b0
