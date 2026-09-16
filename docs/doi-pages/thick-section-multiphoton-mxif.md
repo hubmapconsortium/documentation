@@ -2,6 +2,8 @@
 layout: doi-landing-page
 title: Metadata Reporting Standards - Thick Section Multiphoton MxIF
 spec_name: Thick Section Multiphoton Multiplexed Fluorescence Imaging (MxIF)
+descriptive_version: 2.1
+structural_version: 2.3
 doi: 10.35079/HBM449.BMVS.455
 download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/raw/refs/heads/main/docs/thick-section-multiphoton-mxif/current/doi-object.zip"
 md5_hash: c162c3c982d14920d465284884209ab7
