@@ -2,7 +2,8 @@
 layout: doi-landing-page
 title: Metadata Reporting Standards - HiFi-Slide
 spec_name: High-Fidelity Spatial Transcriptomics Slide (HiFi-Slide) sequencing
-version_label: Version 1
+descriptive_version: 2.0
+structural_version: 2.1
 doi: 10.35079/HBM283.JWPZ.657
 download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/raw/refs/heads/main/docs/hifi-slide/current/doi-object.zip"
 md5_hash: 48a45e17675690ae73e91fbaf1b5225a
