@@ -2,7 +2,8 @@
 layout: doi-landing-page
 title: Metadata Reporting Standards - PhenoCycler
 spec_name: PhenoCycler
-version_label: Version 1
+descriptive_version: 2.2
+structural_version: 2.4
 doi: 10.35079/HBM858.WBVC.362
 download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/raw/refs/heads/main/docs/phenocycler/current/doi-object.zip"
 md5_hash: 53c66757c895e083690d904be26d25d9
