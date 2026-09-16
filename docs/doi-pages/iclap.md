@@ -2,7 +2,8 @@
 layout: doi-landing-page
 title: Metadata Reporting Standards - iCLAP
 spec_name: Individual-nucleotide resolution UV-Crosslinking and Affinity Purification (iCLAP)
-version_label: Version 1
+descriptive_version: 2.0
+structural_version: 2.0
 doi: 10.35079/HBM523.FTSL.294
 download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/raw/refs/heads/main/docs/iclap/current/doi-object.zip"
 md5_hash: e8a995925d00a2471c4da70da303ce0c
