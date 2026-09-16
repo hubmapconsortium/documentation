@@ -2,7 +2,8 @@
 layout: doi-landing-page
 title: Metadata Reporting Standards - MIBI
 spec_name: Multiplexed Ion Beam Imaging (MIBI)
-version_label: Version 1
+descriptive_version: 2.0
+structural_version: 2.4
 doi: 10.35079/HBM428.HCDN.258
 download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/raw/refs/heads/main/docs/mibi/current/doi-object.zip"
 md5_hash: 10ed787a45ef5fb8a61e9d114ba56b6a
