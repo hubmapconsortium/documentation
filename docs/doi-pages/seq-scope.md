@@ -2,7 +2,8 @@
 layout: doi-landing-page
 title: Metadata Reporting Standards - Seq-Scope
 spec_name: Seq-Scope
-version_label: Version 1
+descriptive_version: 2.0
+structural_version: 2.0
 doi: 10.35079/HBM425.QWWF.933
 download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/raw/refs/heads/main/docs/seq-scope/current/doi-object.zip"
 md5_hash: 2755129018c44c0cfb76a8bd4dd414a9
