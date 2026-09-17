@@ -4,9 +4,8 @@ layout: page-triary
 
 # DBiT-seq Metadata Attributes
 
-These metadata fields have been collected for DBiT-seq data.<br />
-These fields are available from the [HuBMAP Search and Entity APIs](/apis) at ```Dataset.metadata.<attribute>```.<br />
-See the latest version of the [DBiT-seq Ingest Metadata Specifications](https://hubmapconsortium.github.io/ingest-validation-tools/dbit-seq/current/) for the schema and directory structure needed when uploading data.
+The attributes shown here have been colleced for DBiT-seq data, available from the [HuBMAP Search and Entity APIs](/apis) at ```Dataset.metadata.<attribute>```.<br />
+These attributes are harmonized across all versions of the DBiT-seq metadata specifications. See the latest version of the [DBiT-seq Metadata Specifications](https://hubmapconsortium.github.io/ingest-validation-tools/dbit-seq/current/) for the schema and directory structure needed when ingesting Segmentation Mask metadata.
 &nbsp;
 
 <span style="color:red" title="Required">*</span><span class="requiredNote"> indicates a required field</span>

@@ -1,9 +1,18 @@
 ---
 layout: page
 ---
-## HuBMAP Metadata by Dataset Type
+# HuBMAP Metadata
+The metadata specifications provided here are harmonized across all versions of each specification. When uploading and ingesting data and metadata please refer to the [HuBMAP Data Upload Guidelines](https://hubmapconsortium.github.io/ingest-validation-tools/) for the latest assay metadata options and specifications and the [Data Submission Guide](https://docs.hubmapconsortium.org/data-submission/) for detailed directions on the data registraion and ingest process.  See section 10 of the Guide for details on transferring metadata to the HIVE.
 
-A list of available dataset types (data types from multiple supported assays), with a link [<img src="info3.png" width="14">](enhancedsrs "Click for assay description") to the valid metadata attributes for each dataset type. The linked assay metadata pages list all attributes, as they have occurred, across any versions of the metadata specification for the given dataset type with the most current, valid set of attributes listed first on the page. The directory schema for each dataset type is also linked in the description column.
+## Donor and Sample Metadata
+ - [Donor](/donor)
+ - **Sample Type Metadata**  There are three types of tissue samples, Block, Secition and Suspension. For more details of Sample metadata please review this [document](https://docs.google.com/document/d/1KEo-34Rjf6gS3ZM3DEenIejtb35txPLsbpdjBmbKauo/).
+   - [Block](sample-block)
+   - [Section](sample-section)
+   - [Suspension](sample-suspension)
+
+## Dataset Metadata
+The linked assay metadata pages list all attributes, as they have occurred, across any versions of the metadata specification for the given dataset type with the most current, valid set of attributes listed first on the page. The directory schema for each dataset type is also linked in the description column via the <img src="dir-icon3.png" width="14"> icon.
 
 | Dataset Type | Description |
 |--------------|-------------|
@@ -59,6 +68,18 @@ A list of available dataset types (data types from multiple supported assays), w
 | [Xenium](xenium) [<img src="dir-icon3.png" width="14">](https://hubmapconsortium.github.io/ingest-validation-tools/xenium/current/#directory-schemas "Click for directory schema") | Xenium is a high-resolution, imaging-based spatial transcriptomics and spatial biology platform used to map, visualize, and quantify hundreds to thousands of RNA targets (and proteins) directly within intact tissue sections at single-cell and subcellular resolution without needing next-generation sequencing. |
 {: .assay-metadata-index }
 
+## Other Metadata
+
+| Specification | Description |
+|--------------|-------------|
+| [Antibodies](antibodies) | Specifics about antibodies that are used as affinity reagents in various assays. |
+| [Contributors](contributors) | A list of the people who contributed to the creation of a dataset. All data submitted must include a list of contributors. |
+| [Object x Analyte](object-x-analyte) [<img src="dir-icon3.png" width="14">](https://hubmapconsortium.github.io/ingest-validation-tools/object-x-analyte/current/#directory-schemas "Click for directory schema") | Standardized data matrices that represents measured analyte levels across a specific set of biological objects from associated primary data. These are Externally Processed Integrated Collections ([EPICs](https://docs.hubmapconsortium.org/EPICs/)) that have been created and submitted separately from the primary datasets |
+| [Publication](https://hubmapconsortium.github.io/ingest-validation-tools/publication/) [<img src="dir-icon3.png" width="14">](https://hubmapconsortium.github.io/ingest-validation-tools/publication/#directory-schemas "Click for directory schema") | A pubication page registered against the data (Datasets) that were used for the publication. See the [Publication Page Submission](https://docs.hubmapconsortium.org/Publications/) section in the Data Submission Guide for more information on registering a publication |
+| [Segmentation Mask](segmentation-mask) [<img src="dir-icon3.png" width="14">](https://hubmapconsortium.github.io/ingest-validation-tools/segmentation-mask/current/#directory-schemas "Click for directory schema") | A digital overlay that labels and isolates specific biological structures within images submitted as part of primary datasets. These are Externally Processed Integrated Collections ([EPICs](https://docs.hubmapconsortium.org/EPICs/)) submitted separately from the primary datasets. |
+{: .assay-metadata-index }
+
 <!--
 #### Commentary:
 Fellow **Documentation Team** members, this page is now the replacement of the prior HuBMAP Metadata by Dataset page which has since been removed-->
+

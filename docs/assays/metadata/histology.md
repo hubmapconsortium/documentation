@@ -4,9 +4,8 @@ layout: page-triary
 
 # Histology Metadata Attributes
 
-These metadata fields have been collected for Histology data.<br />
-These fields are available from the [HuBMAP Search and Entity APIs](/apis) at ```Dataset.metadata.<attribute>```.<br />
-See the latest version of the [Histology Ingest Metadata Specifications](https://hubmapconsortium.github.io/ingest-validation-tools/histology/current/) for the schema and directory structure needed when uploading data.
+The attributes shown here have been colleced for Histology data, available from the [HuBMAP Search and Entity APIs](/apis) at ```Dataset.metadata.<attribute>```.<br />
+These attributes are harmonized across all versions of the Histology metadata specifications. See the latest version of the [Histology Metadata Specifications](https://hubmapconsortium.github.io/ingest-validation-tools/histology/current/) for the schema and directory structure needed when ingesting Segmentation Mask metadata.
 &nbsp;
 
 <span style="color:red" title="Required">*</span><span class="requiredNote"> indicates a required field</span>

@@ -4,9 +4,8 @@ layout: page-triary
 
 # Xenium Metadata Attributes
 
-These metadata fields have been collected for Xenium data.<br />
-These fields are available from the [HuBMAP Search and Entity APIs](/apis) at ```Dataset.metadata.<attribute>```.<br />
-See the latest version of the [Xenium Ingest Metadata Specifications](https://hubmapconsortium.github.io/ingest-validation-tools/xenium/current/) for the schema and directory structure needed when uploading data.
+The attributes shown here have been colleced for Xenium data, available from the [HuBMAP Search and Entity APIs](/apis) at ```Dataset.metadata.<attribute>```.<br />
+These attributes are harmonized across all versions of the Xenium metadata specifications. See the latest version of the [Xenium Metadata Specifications](https://hubmapconsortium.github.io/ingest-validation-tools/xenium/current/) for the schema and directory structure needed when ingesting Segmentation Mask metadata.
 &nbsp;
 
 <span style="color:red" title="Required">*</span><span class="requiredNote"> indicates a required field</span>

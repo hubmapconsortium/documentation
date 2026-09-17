@@ -4,9 +4,8 @@ layout: page-triary
 
 # COMET Metadata Attributes
 
-These metadata fields have been collected for COMET data.<br />
-These fields are available from the [HuBMAP Search and Entity APIs](/apis) at ```Dataset.metadata.<attribute>```.<br />
-See the latest version of the [COMET Ingest Metadata Specifications](https://hubmapconsortium.github.io/ingest-validation-tools/comet/current/) for the schema and directory structure needed when uploading data.
+The attributes shown here have been colleced for COMET data, available from the [HuBMAP Search and Entity APIs](/apis) at ```Dataset.metadata.<attribute>```.<br />
+These attributes are harmonized across all versions of the COMET metadata specifications. See the latest version of the [COMET Metadata Specifications](https://hubmapconsortium.github.io/ingest-validation-tools/comet/current/) for the schema and directory structure needed when ingesting Segmentation Mask metadata.
 &nbsp;
 
 <span style="color:red" title="Required">*</span><span class="requiredNote"> indicates a required field</span>

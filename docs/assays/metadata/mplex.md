@@ -4,9 +4,8 @@ layout: page-triary
 
 # MPLeX Metadata Attributes
 
-These metadata fields have been collected for MPLeX data.<br />
-These fields are available from the [HuBMAP Search and Entity APIs](/apis) at ```Dataset.metadata.<attribute>```.<br />
-See the latest version of the [MPLeX Ingest Metadata Specifications](https://hubmapconsortium.github.io/ingest-validation-tools/mplex/current/) for the schema and directory structure needed when uploading data.
+The attributes shown here have been colleced for MPLeX data, available from the [HuBMAP Search and Entity APIs](/apis) at ```Dataset.metadata.<attribute>```.<br />
+These attributes are harmonized across all versions of the MPLeX metadata specifications. See the latest version of the [MPLeX Metadata Specifications](https://hubmapconsortium.github.io/ingest-validation-tools/mplex/current/) for the schema and directory structure needed when ingesting Segmentation Mask metadata.
 &nbsp;
 
 <span style="color:red" title="Required">*</span><span class="requiredNote"> indicates a required field</span>

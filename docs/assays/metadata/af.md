@@ -4,9 +4,8 @@ layout: page-triary
 
 # Auto-fluorescence Metadata Attributes
 
-These metadata fields have been collected for Auto-fluorescence data.<br />
-These fields are available from the [HuBMAP Search and Entity APIs](/apis) at ```Dataset.metadata.<attribute>```.<br />
-See the latest version of the [Auto-fluorescence Ingest Metadata Specifications](https://hubmapconsortium.github.io/ingest-validation-tools/af/current/) for the schema and directory structure needed when uploading data. 
+The attributes shown here have been colleced for Auto-fluorescence data, available from the [HuBMAP Search and Entity APIs](/apis) at ```Dataset.metadata.<attribute>```.<br />
+These attributes are harmonized across all versions of the Auto-fluorescence metadata specifications. See the latest version of the [Auto-fluorescence Metadata Specifications](https://hubmapconsortium.github.io/ingest-validation-tools/af/current/) for the schema and directory structure needed when ingesting Segmentation Mask metadata.
 &nbsp;
 
 <span style="color:red" title="Required">*</span><span class="requiredNote"> indicates a required field</span>

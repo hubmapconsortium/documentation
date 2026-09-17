@@ -4,9 +4,8 @@ layout: page-triary
 
 # Raman Imaging Metadata Attributes
 
-These metadata fields have been collected for Raman Imaging data.<br />
-These fields are available from the [HuBMAP Search and Entity APIs](/apis) at ```Dataset.metadata.<attribute>```.<br />
-See the latest version of the [Raman Imaging Ingest Metadata Specifications](https://hubmapconsortium.github.io/ingest-validation-tools/raman-imaging/current/) for the schema and directory structure needed when uploading data.
+The attributes shown here have been colleced for Raman Imaging data, available from the [HuBMAP Search and Entity APIs](/apis) at ```Dataset.metadata.<attribute>```.<br />
+These attributes are harmonized across all versions of the Raman Imaging metadata specifications. See the latest version of the [Raman Imaging Metadata Specifications](https://hubmapconsortium.github.io/ingest-validation-tools/raman-imaging/current/) for the schema and directory structure needed when ingesting Segmentation Mask metadata.
 &nbsp;
 
 <span style="color:red" title="Required">*</span><span class="requiredNote"> indicates a required field</span>

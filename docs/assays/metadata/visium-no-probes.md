@@ -4,9 +4,8 @@ layout: page-triary
 
 # Visium (no probes) Metadata Attributes
 
-These metadata fields have been collected for Visium (no probes) data.<br />
-These fields are available from the [HuBMAP Search and Entity APIs](/apis) at ```Dataset.metadata.<attribute>```.<br />
-See the latest version of the [Visium (no probes) Ingest Metadata Specifications](https://hubmapconsortium.github.io/ingest-validation-tools/visium-no-probes/current/) for the schema and directory structure needed when uploading data.
+The attributes shown here have been colleced for Visium (no probes) data, available from the [HuBMAP Search and Entity APIs](/apis) at ```Dataset.metadata.<attribute>```.<br />
+These attributes are harmonized across all versions of the Visium (no probes) metadata specifications. See the latest version of the [Visium (no probes) Metadata Specifications](https://hubmapconsortium.github.io/ingest-validation-tools/visium-no-probes/current/) for the schema and directory structure needed when ingesting Segmentation Mask metadata.
 &nbsp;
 
 <span style="color:red" title="Required">*</span><span class="requiredNote"> indicates a required field</span>

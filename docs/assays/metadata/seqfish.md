@@ -4,8 +4,10 @@ layout: page-triary
 
 # seqFISH Metadata Attributes
 
-These metadata fields have been collected for seqFISH data.<br />
+The attributes shown here have been colleced for seqFISH data, available from the [HuBMAP Search and Entity APIs](/apis) at ```Dataset.metadata.<attribute>```.<br />
 These fields are available from the [HuBMAP Search and Entity APIs](/apis) at ```Dataset.metadata.<attribute>```.<br />
+&nbsp;
+
 &nbsp;
 
 <span style="color:red" title="Required">*</span><span class="requiredNote"> indicates a required field</span>

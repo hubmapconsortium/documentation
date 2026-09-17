@@ -4,8 +4,7 @@ layout: page-triary
 
 # Cell DIVE Metadata Attributes
 
-These metadata fields have been collected for Cell DIVE data.<br />
-These fields are available from the [HuBMAP Search and Entity APIs](/apis) at ```Dataset.metadata.<attribute>```.<br />
+The attributes shown here have been colleced for Cell DIVE data, available from the [HuBMAP Search and Entity APIs](/apis) at ```Dataset.metadata.<attribute>```.<br />
 &nbsp;
 
 <span style="color:red" title="Required">*</span><span class="requiredNote"> indicates a required field</span>

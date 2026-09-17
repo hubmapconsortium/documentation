@@ -4,9 +4,8 @@ layout: page-triary
 
 # MALDI Metadata Attributes
 
-These metadata fields have been collected for MALDI data.<br />
-These fields are available from the [HuBMAP Search and Entity APIs](/apis) at ```Dataset.metadata.<attribute>```.<br />
-See the latest version of the [MALDI Ingest Metadata Specifications](https://hubmapconsortium.github.io/ingest-validation-tools/maldi/current/) for the schema and directory structure needed when uploading data.
+The attributes shown here have been colleced for MALDI data, available from the [HuBMAP Search and Entity APIs](/apis) at ```Dataset.metadata.<attribute>```.<br />
+These attributes are harmonized across all versions of the MALDI metadata specifications. See the latest version of the [MALDI Metadata Specifications](https://hubmapconsortium.github.io/ingest-validation-tools/maldi/current/) for the schema and directory structure needed when ingesting Segmentation Mask metadata.
 &nbsp;
 
 <span style="color:red" title="Required">*</span><span class="requiredNote"> indicates a required field</span>

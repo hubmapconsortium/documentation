@@ -4,9 +4,8 @@ layout: page-triary
 
 # G4X Metadata Attributes
 
-These metadata fields have been collected for G4X data.<br />
-These fields are available from the [HuBMAP Search and Entity APIs](/apis) at ```Dataset.metadata.<attribute>```.<br />
-See the latest version of the [G4X Ingest Metadata Specifications](https://hubmapconsortium.github.io/ingest-validation-tools/singular-genomics-g4x/current/) for the schema and directory structure needed when uploading data.
+The attributes shown here have been colleced for G4X data, available from the [HuBMAP Search and Entity APIs](/apis) at ```Dataset.metadata.<attribute>```.<br />
+These attributes are harmonized across all versions of the G4X metadata specifications. See the latest version of the [G4X Metadata Specifications](https://hubmapconsortium.github.io/ingest-validation-tools/singular-genomics-g4x/current/) for the schema and directory structure needed when ingesting Segmentation Mask metadata.
 &nbsp;
 
 <span style="color:red" title="Required">*</span><span class="requiredNote"> indicates a required field</span>
