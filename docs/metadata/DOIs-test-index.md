@@ -6,10 +6,10 @@ The metadata specifications provided here are harmonized across all versions of 
 
 ## Donor and Sample Metadata
  - [Donor](/donor)
- - **Sample Type Metadata**  There are three types of tissue samples, Block, Secition and Suspension. For more details of Sample metadata please review this [document](https://docs.google.com/document/d/1KEo-34Rjf6gS3ZM3DEenIejtb35txPLsbpdjBmbKauo/).  A DOI representing an instance of the specific metadata is available via the <img src="doi2.png" width="14"> icon.
+ - **Sample Type Metadata**  There are three types of tissue samples, Block, Secition and Suspension. For more details of Sample metadata please review this [document](https://docs.google.com/document/d/1KEo-34Rjf6gS3ZM3DEenIejtb35txPLsbpdjBmbKauo/).  A DOI representing an instance of the specific metadata is available via the <img src="doi-logo-bw.png" width="14"> icon.
    - [Block](sample/sample-block) [<img src="doi-logo-bw.png" width="14">](https://docs.hubmapconsortium.org/doi-pages/sample-block "click to go to DOI landing page") 
-   - [Section](sample/sample-section) [<img src="doi2.png" width="16">](https://docs.hubmapconsortium.org/doi-pages/sample-section "click to go to DOI landing page") 
-   - [Suspension](sample/sample-suspension) [<img src="doi-logo-bw.png" width="18">](https://docs.hubmapconsortium.org/doi-pages/sample-suspension "click to go to DOI landing page") 
+   - [Section](sample/sample-section) [<img src="doi-logo-bw.png" width="14">](https://docs.hubmapconsortium.org/doi-pages/sample-section "click to go to DOI landing page") 
+   - [Suspension](sample/sample-suspension) [<img src="doi-logo-bw.png" width="14">](https://docs.hubmapconsortium.org/doi-pages/sample-suspension "click to go to DOI landing page") 
 
 ## Dataset Metadata
 The linked assay metadata pages list all attributes, as they have occurred, across any versions of the metadata specification for the given dataset type with the most current, valid set of attributes listed first on the page. The directory schema for each dataset type is also linked in the description column via the <img src="dir-icon3.png" width="14"> icon. A DOI representing an instance of the specific metadata is available via the <img src="doi-logo-bw.png" width="14"> icon.
