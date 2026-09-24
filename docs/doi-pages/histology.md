@@ -10,6 +10,8 @@ md5_hash: 02f137a986fe53263587ed4b8101cd2b
 published: August 25, 2026
 subjects: "AB-PAS, H&E, H-DAB, LFB, PAS, SBB, Trichrome"
 summary: The microscopic study of tissue composition and structure, often referred to as microscopic anatomy. It involves examining tissue samples, typically after they've been sectioned, stained, and placed under a microscope.
+latest_href: "https://hubmapconsortium.github.io/ingest-validation-tools/histology/current"
+harmonized_href: "https://docs.hubmapconsortium.org/metadata/assay/histology"
 schema_doc_href: "https://openview.metadatacenter.org/templates/https:%2F%2Frepo.metadatacenter.org%2Ftemplates%2F907d89c7-6cf4-4ec6-9edd-63cf0441d689"
 validator_href: "https://metadatavalidator.metadatacenter.org"
 datasets_href: "https://portal.hubmapconsortium.org/search/datasets?dataset_type=Histology"

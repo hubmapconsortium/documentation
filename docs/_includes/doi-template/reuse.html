@@ -1,10 +1,18 @@
 <section>
   <h2>Reuse</h2>
   {% if page.structural_version %}
-  <p>This standard may be reused, expanded, or referenced by external repositories. It incorporates version {{ page.descriptive_version }} of the descriptive metadata schema and version {{ page.structural_version }} of the structural metadata schema. The latest versions of both the descriptive and structural metadata schemas are available at the link below.</p>
-  <br /><a class="secondary-btn" href="https://docs.hubmapconsortium.org/metadata.html">Latest Versions</a>
+
+  <p>This standard may be reused, expanded, or referenced by external repositories. It represents version {{ page.descriptive_version }} of the metadata schema and version {{ page.structural_version }} of the file directory structure. If you are uploading data, the latest versions of both are available at the "Latest Versions" link below. If you are querying or using HuBMAP or SenNet metadata, a harmonized view of the metadata specification is available at the "Harmonized Version" link below.</p>
+
+  <br /><a class="secondary-btn" href="{{ page.latest_href }}">Latest Versions</a>&nbsp;&nbsp;&nbsp;
+  <a class="secondary-btn" href="{{ page.harmonized_href }}">Harmonized Version</a>
+
   {% else %}
-  <p>This standard may be reused, expanded, or referenced by external repositories. It incorporates the descriptive metadata schema version {{ page.descriptive_version }}. The latest version of the descriptive metadata schema is available at the link below.</p>
-  <br /><a class="secondary-btn" href="https://docs.hubmapconsortium.org/metadata.html">Latest Version</a>
+
+  <p>This standard may be reused, expanded, or referenced by external repositories. It represents version {{ page.descriptive_version }} of the metadata schema. If you are uploading data, the latest version is available at the "Latest Version" link below. If you are querying or using HuBMAP or SenNet metadata, a harmonized view of the metadata specification is available at the "Harmonized Version" link below.</p>
+
+  <br /><a class="secondary-btn" href="{{ page.latest_href }}">Latest Version</a>&nbsp;&nbsp;&nbsp;
+  <a class="secondary-btn" href="{{ page.harmonized_href }}">Harmonized Version</a>
+
   {% endif %}
 </section>
