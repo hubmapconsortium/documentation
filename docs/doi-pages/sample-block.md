@@ -10,6 +10,8 @@ md5_hash: 8448e5e15ae0d12747bd3c2b5fb469d1
 published: September 15, 2026
 subjects: 
 summary: A block is a piece of tissue typically sized to fit into a tissue cassette or freezer mold, prepared for long-term storage or downstream sectioning. Tissue blocking is generally performed by hand with a scalpel, producing a relatively thick specimen with a typical Z-plane depth of 0.5–1 cm; organ pieces and biopsies are both classified as blocks. A block serves as the starting material from which thinner sections are cut for downstream assays.
+latest_href: "https://hubmapconsortium.github.io/ingest-validation-tools/sample-block/current"
+harmonized_href: "https://docs.hubmapconsortium.org/metadata/sample/sample-block"
 schema_doc_href: "https://openview.metadatacenter.org/templates/https:%2F%2Frepo.metadatacenter.org%2Ftemplates%2F3e98cee6-d3fb-467b-8d4e-9ba7ee49eeff"
 validator_href: "https://metadatavalidator.metadatacenter.org"
 datasets_href: "https://portal.hubmapconsortium.org/search/samples"
