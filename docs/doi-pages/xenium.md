@@ -2,7 +2,8 @@
 layout: doi-landing-page
 title: Metadata Reporting Standards - Xenium
 spec_name: Xenium
-version_label: Version 1
+descriptive_version: 2.0
+structural_version: 4.0
 doi: 10.35079/HBM769.WSLR.852
 download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/raw/refs/heads/main/docs/xenium/current/doi-object.zip"
 md5_hash: 5384da47ba794a297773bc320063455f

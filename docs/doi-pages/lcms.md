@@ -2,7 +2,8 @@
 layout: doi-landing-page
 title: Metadata Reporting Standards - LC-MS
 spec_name: Liquid Chromatography–Mass Spectrometry (LC-MS)
-version_label: Version 1
+descriptive_version: 4.0
+structural_version: 2.4
 doi: 10.35079/HBM646.LHSJ.765
 download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/raw/refs/heads/main/docs/lcms/current/doi-object.zip"
 md5_hash: 9fc80beabab73640d726f1d798cbd33d

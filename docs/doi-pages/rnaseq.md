@@ -2,7 +2,8 @@
 layout: doi-landing-page
 title: Metadata Reporting Standards - RNA-seq
 spec_name: RNA Sequencing (RNA-seq) 
-version_label: Version 1
+descriptive_version: 5.0
+structural_version: 2.1
 doi: 10.35079/HBM556.VHXG.898
 download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/raw/refs/heads/main/docs/rnaseq/current/doi-object.zip"
 md5_hash: b1a2ab85c37d2485db6fa9c94da2fd1e

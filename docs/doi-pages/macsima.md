@@ -2,7 +2,8 @@
 layout: doi-landing-page
 title: Metadata Reporting Standards - MACSima
 spec_name: MACSima 
-version_label: Version 1
+descriptive_version: 2.0
+structural_version: 2.0
 doi: 10.35079/HBM673.QFPX.636
 download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/raw/refs/heads/main/docs/macsima/current/doi-object.zip"
 md5_hash: 6f1e05b9cc15bc6f8c1c0e89f57669a1

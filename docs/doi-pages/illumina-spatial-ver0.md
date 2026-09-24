@@ -2,7 +2,8 @@
 layout: doi-landing-page
 title: Metadata Reporting Standards - Illumina Spatial ver0
 spec_name: Illumina Spatial Transcriptomics (ver0)
-version_label: Version 1
+descriptive_version: 2.0
+structural_version: 2.1
 doi: 10.35079/HBM744.HXCC.628
 download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/raw/refs/heads/main/docs/illumina-spatial-ver0/current/doi-object.zip"
 md5_hash: 8da4229ca442d48e46a89b64a31d32d6

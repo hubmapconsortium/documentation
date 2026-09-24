@@ -2,7 +2,8 @@
 layout: doi-landing-page
 title: Metadata Reporting Standards - Visium (with probes)
 spec_name: Visium with probes (via 10x Genomics Visium CytAssist)
-version_label: Version 1
+descriptive_version: 3.0
+structural_version: 3.9
 doi: 10.35079/HBM589.XHFM.629
 download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/raw/refs/heads/main/docs/visium-with-probes/current/doi-object.zip"
 md5_hash: 61cd15878ec74866619918f4e79e2002

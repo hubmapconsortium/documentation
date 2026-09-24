@@ -2,7 +2,8 @@
 layout: doi-landing-page
 title: Metadata Reporting Standards - Visium (no probes)
 spec_name: Visium (no probes) 
-version_label: Version 1
+descriptive_version: 3.0
+structural_version: 3.6
 doi: 10.35079/HBM244.DLVB.376
 download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/raw/refs/heads/main/docs/visium-no-probes/current/doi-object.zip"
 md5_hash: 4021dff7b465b290e756ba14e8ad33f7

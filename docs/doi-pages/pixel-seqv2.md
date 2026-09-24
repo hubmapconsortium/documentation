@@ -2,7 +2,8 @@
 layout: doi-landing-page
 title: Metadata Reporting Standards - Pixel-seqV2
 spec_name: Pixel-seqV2
-version_label: Version 1
+descriptive_version: 2.0
+structural_version: 2.0
 doi: 10.35079/HBM298.LDDB.387
 download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/raw/refs/heads/main/docs/pixel-seqv2/current/doi-object.zip"
 md5_hash: 3eeb21e87b60738a98b4cc0d8c79567a
