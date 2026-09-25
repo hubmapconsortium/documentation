@@ -10,6 +10,8 @@ md5_hash: 7a4c322cf7b87b6db55fb213640fb285
 published: August 28, 2026
 subjects: 
 summary: A highly multiplexed in situ spatial imaging platform that enables simultaneous profiling of up to 100 proteins within intact FFPE or fresh-frozen tissue sections. Antibodies specific to protein targets are labeled and applied to the tissue, and iterative cycles of fluorescence imaging on the CosMx Spatial Molecular Imager (SMI) are used to detect, quantify, and remove signals in sequence. This cyclic readout yields high-dimensional, spatially resolved protein expression profiles at single-cell resolution of the intact tissue.
+latest_href: "https://hubmapconsortium.github.io/ingest-validation-tools/cosmx-proteomics/current"
+harmonized_href: "https://docs.hubmapconsortium.org/metadata/assay/cosmx-proteomics"
 schema_doc_href: "https://openview.metadatacenter.org/templates/https:%2F%2Frepo.metadatacenter.org%2Ftemplates%2F971357a5-6491-4149-aa6e-d6f14bc9a048"
 validator_href: "https://metadatavalidator.metadatacenter.org"
 datasets_href: "https://portal.hubmapconsortium.org/search/datasets"
