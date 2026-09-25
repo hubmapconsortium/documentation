@@ -10,6 +10,8 @@ md5_hash: 6512636812230a5146bb3a7e98954985
 published: September 15, 2026
 subjects: 
 summary: Contributors are the individuals who contributed work toward executing the assay and generating the dataset. 
+latest_href: "https://hubmapconsortium.github.io/ingest-validation-tools/contributors/current"
+harmonized_href: "https://docs.hubmapconsortium.org/metadata/other/contributors"
 schema_doc_href: "https://openview.metadatacenter.org/templates/https:%2F%2Frepo.metadatacenter.org%2Ftemplates%2F94dae6f8-0756-4ab0-a47b-138e446a9501"
 validator_href: "https://metadatavalidator.metadatacenter.org"
 datasets_href: "https://portal.hubmapconsortium.org/search/datasets"
