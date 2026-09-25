@@ -10,6 +10,8 @@ md5_hash: e8a995925d00a2471c4da70da303ce0c
 published: August 31, 2026 
 subjects: 
 summary: A high-stringency molecular technique that maps the RNA-binding sites of RNA-binding proteins (RBPs) at single-nucleotide resolution. RNA–protein complexes are covalently crosslinked by UV irradiation, followed by stringent affinity purification of the target RBP and sequencing of the co-purified RNA fragments. The resulting data reveals the positions where an RBP contacts its RNA targets.
+latest_href: "https://hubmapconsortium.github.io/ingest-validation-tools/iclap/current"
+harmonized_href: "https://docs.hubmapconsortium.org/metadata/assay/iclap"
 schema_doc_href: "https://openview.metadatacenter.org/templates/https:%2F%2Frepo.metadatacenter.org%2Ftemplates%2Fa90ac004-dc16-44bf-b1a7-87bca55b3a6c"
 validator_href: "https://metadatavalidator.metadatacenter.org"
 datasets_href: "https://portal.hubmapconsortium.org/search/datasets"
