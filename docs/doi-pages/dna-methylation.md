@@ -9,7 +9,9 @@ download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/raw/
 md5_hash: 6c3813954ef03204d874f08fe7311f23
 published: August 28, 2026 
 subjects: 
-summary: DNA methylation profiling assays detect and quantify the addition of methyl groups to cytosine bases—typically at CpG dinucleotides—across the genome as an epigenetic mark that regulates gene expression. Common methods include bisulfite conversion followed by array hybridization or sequencing, enabling base-resolution maps of methylation status across the genome. 
+summary: DNA methylation profiling assays detect and quantify the addition of methyl groups to cytosine bases—typically at CpG dinucleotides—across the genome as an epigenetic mark that regulates gene expression. Common methods include bisulfite conversion followed by array hybridization or sequencing, enabling base-resolution maps of methylation status across the genome.
+latest_href: "https://hubmapconsortium.github.io/ingest-validation-tools/dna-methylation/current"
+harmonized_href: "https://docs.hubmapconsortium.org/metadata/assay/dna-methylation"
 schema_doc_href: "https://openview.metadatacenter.org/templates/https:%2F%2Frepo.metadatacenter.org%2Ftemplates%2Fd70bfe24-e82a-46cb-9369-28ae03660d97"
 validator_href: "https://metadatavalidator.metadatacenter.org"
 datasets_href: "https://portal.hubmapconsortium.org/search/datasets"
