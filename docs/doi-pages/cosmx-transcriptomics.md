@@ -10,6 +10,8 @@ md5_hash: 83fce1c032474f58b633462491fba9d5
 published: August 27, 2026
 subjects: 
 summary: A high‑plex in situ RNA imaging technology that maps gene expression within intact FFPE or fresh‑frozen tissue at single-cell and subcellular resolution using single‑molecule detection and cyclic fluorescence readout. Tissue sections are hybridized with target-specific probe sets and imaged on the CosMx Spatial Molecular Imager (SMI) through iterative cycles that encode and decode thousands of RNA targets while preserving each transcript’s spatial coordinates. The resulting data maps transcript abundance across intact tissue at single-molecule resolution.
+latest_href: "https://hubmapconsortium.github.io/ingest-validation-tools/cosmx-transcriptomics/current"
+harmonized_href: "https://docs.hubmapconsortium.org/metadata/assay/cosmx-transcriptomics"
 schema_doc_href: "https://openview.metadatacenter.org/templates/https:%2F%2Frepo.metadatacenter.org%2Ftemplates%2F30f0de6d-4c5c-46f7-87ce-fae3752dfa9e"
 validator_href: "https://metadatavalidator.metadatacenter.org"
 datasets_href: "https://portal.hubmapconsortium.org/search/datasets?dataset_type=CosMx+Transcriptomics"
