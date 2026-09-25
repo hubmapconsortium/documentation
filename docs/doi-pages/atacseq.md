@@ -10,6 +10,8 @@ md5_hash: aed7c453b82e7099a495ec56ddf4b7fe
 published: August 25, 2026
 subjects: 
 summary: ATACseq maps open, regulatory regions of the genome in cells or bulk tissue by exploiting the preference of a hyperactive Tn5 transposase for nucleosome-free chromatin. The Tn5 enzyme inserts sequencing adapters directly into accessible chromatin regions, and the resulting DNA fragments are sequenced to generate a genome-wide map of open chromatin. The data reveals the landscape of active regulatory elements—such as promoters and enhancers—providing insight into gene regulation and cell identity.
+latest_href: "https://hubmapconsortium.github.io/ingest-validation-tools/atacseq/current"
+harmonized_href: "https://docs.hubmapconsortium.org/metadata/assay/atacseq"
 schema_doc_href: "https://openview.metadatacenter.org/templates/https:%2F%2Frepo.metadatacenter.org%2Ftemplates%2Fdd5e8653-81cf-470b-b71b-15cab421bb84"
 validator_href: "https://metadatavalidator.metadatacenter.org"
 datasets_href: "https://portal.hubmapconsortium.org/search/datasets?dataset_type=ATACseq"
