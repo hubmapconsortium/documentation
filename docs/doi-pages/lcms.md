@@ -10,6 +10,8 @@ md5_hash: 9fc80beabab73640d726f1d798cbd33d
 published: August 31, 2026
 subjects: 
 summary: LC-MS is an analytical technique that couples the separation power of liquid chromatography with the detection sensitivity and molecular specificity of mass spectrometry. Complex biological mixtures—proteins, peptides, lipids, or metabolites—are first separated chromatographically by retention time, then ionized and measured by mass-to-charge ratio, enabling identification and quantification of thousands of molecules in a single run.
+latest_href: "https://hubmapconsortium.github.io/ingest-validation-tools/lcms/current"
+harmonized_href: "https://docs.hubmapconsortium.org/metadata/assay/lcms"
 schema_doc_href: "https://openview.metadatacenter.org/templates/https:%2F%2Frepo.metadatacenter.org%2Ftemplates%2Fef090376-4e19-43cb-92c1-91a1d758ee6e"
 validator_href: "https://metadatavalidator.metadatacenter.org"
 datasets_href: "https://portal.hubmapconsortium.org/search/datasets?dataset_type=LC-MS"
