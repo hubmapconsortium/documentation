@@ -10,6 +10,8 @@ md5_hash: 83a2ae09c721e2cab5499eb64e82e250
 published: August 28, 2026 
 subjects: 
 summary: Single-cell gel electrophoresis (COMET) is a technique that measures DNA strand breaks and damage within individual cells. Cells are embedded in agarose gel, lysed, and subjected to electrophoresis; damaged DNA fragments migrate out of the nucleus to form a 'comet tail,' whose length and intensity reflect the degree of DNA damage, while intact DNA remains in the nucleus as the 'head.' This assay is widely used in genotoxicology and environmental health research to detect DNA damage induced by radiation, chemicals, and oxidative stress.
+latest_href: "https://hubmapconsortium.github.io/ingest-validation-tools/comet/current"
+harmonized_href: "https://docs.hubmapconsortium.org/metadata/assay/comet"
 schema_doc_href: "https://openview.metadatacenter.org/templates/https:%2F%2Frepo.metadatacenter.org%2Ftemplates%2F8ee12e9d-6c34-467b-8b15-fc18a971d142"
 validator_href: "https://metadatavalidator.metadatacenter.org"
 datasets_href: "https://portal.hubmapconsortium.org/search/datasets"
