@@ -9,7 +9,9 @@ download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/raw/
 md5_hash: 279655205140b844b7705187e25e5644
 published: August 31, 2026 
 subjects: 
-summary: A flow cytometry-based technique that simultaneously analyzes and physically isolates individual cells from heterogeneous populations based on their fluorescence, size, and granularity. Cells labeled with fluorescent antibodies or dyes targeting specific surface or intracellular proteins are passed single-file through laser beams; multi-parameter fluorescence measurements enable high-speed sorting of defined cell subpopulations into separate collection vessels. 
+summary: A flow cytometry-based technique that simultaneously analyzes and physically isolates individual cells from heterogeneous populations based on their fluorescence, size, and granularity. Cells labeled with fluorescent antibodies or dyes targeting specific surface or intracellular proteins are passed single-file through laser beams; multi-parameter fluorescence measurements enable high-speed sorting of defined cell subpopulations into separate collection vessels.
+latest_href: "https://hubmapconsortium.github.io/ingest-validation-tools/facs/current"
+harmonized_href: "https://docs.hubmapconsortium.org/metadata/assay/facs"
 schema_doc_href: "https://openview.metadatacenter.org/templates/https:%2F%2Frepo.metadatacenter.org%2Ftemplates%2Fdf335a89-b470-4c2c-a4c9-e8db7f166d59"
 validator_href: "https://metadatavalidator.metadatacenter.org"
 datasets_href: "https://portal.hubmapconsortium.org/search/datasets"
