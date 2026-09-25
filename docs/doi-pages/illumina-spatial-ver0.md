@@ -10,6 +10,8 @@ md5_hash: 8da4229ca442d48e46a89b64a31d32d6
 published: August 31, 2026 
 subjects: 
 summary: A sequencing-based spatial transcriptomics platform that maps whole-transcriptome gene expression within intact tissue sections at capture-spot resolution, ranging from multi-cellular to near single-cell depending on array configuration. Tissue sections are placed on spatially barcoded capture arrays; RNA transcripts bind to capture probes and are sequenced together with their spatial barcodes to reconstruct a spatially resolved gene expression map. This approach preserves spatial context while enabling unbiased, genome-wide profiling of gene expression across tissue regions.
+latest_href: "https://hubmapconsortium.github.io/ingest-validation-tools/illumina-spatial-ver0/current"
+harmonized_href: "https://docs.hubmapconsortium.org/metadata/assay/illumina-spatial-ver0"
 schema_doc_href: "https://openview.metadatacenter.org/templates/https:%2F%2Frepo.metadatacenter.org%2Ftemplates%2F7b1b5d38-5233-4d87-a371-39dfafc943c9"
 validator_href: "https://metadatavalidator.metadatacenter.org"
 datasets_href: "https://portal.hubmapconsortium.org/search/datasets"
