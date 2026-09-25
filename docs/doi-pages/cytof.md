@@ -10,6 +10,8 @@ md5_hash: fae69298e623bfdc7297e886125dc25a
 published: August 28, 2026 
 subjects: 
 summary: CyTOF, also known as mass cytometry, simultaneously quantifies 40 or more protein markers on the surface and interior of individual cells using metal-isotope-labeled antibodies. Instead of fluorescent dyes, antibodies are conjugated to distinct heavy metal isotopes detected by time-of-flight mass spectrometry, eliminating spectral overlap.
+latest_href: "https://hubmapconsortium.github.io/ingest-validation-tools/cytof/current"
+harmonized_href: "https://docs.hubmapconsortium.org/metadata/assay/cytof"
 schema_doc_href: "https://openview.metadatacenter.org/templates/https:%2F%2Frepo.metadatacenter.org%2Ftemplates%2F4cb5ad9a-e5cc-4c3f-98cd-e685330165a9"
 validator_href: "https://metadatavalidator.metadatacenter.org"
 datasets_href: "https://portal.hubmapconsortium.org/search/datasets?dataset_type=CyTOF"
