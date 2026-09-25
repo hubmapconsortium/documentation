@@ -10,6 +10,8 @@ md5_hash: 70d5a4151e03704b25ed549832b8552c
 published: August 28, 2026 
 subjects: 
 summary: Enhanced SRS microscopy is an advanced, label-free chemical imaging technique that selectively amplifies Raman signals from specific molecular bonds (e.g., C–H, C=C) using pulsed laser excitation. Improvements to standard SRS—such as lock-in detection, signal amplification, or optimized laser configurations—increase sensitivity and spatial resolution, enabling detection of low-abundance biomolecules. This technique provides non-destructive, quantitative maps of lipids, proteins, nucleic acids, and other chemical species at subcellular resolution.
+latest_href: "https://hubmapconsortium.github.io/ingest-validation-tools/enhanced-srs/current"
+harmonized_href: "https://docs.hubmapconsortium.org/metadata/assay/enhanced-srs"
 schema_doc_href: "https://openview.metadatacenter.org/templates/https:%2F%2Frepo.metadatacenter.org%2Ftemplates%2F609c3adb-e65d-4124-bb1b-dd937f231850"
 validator_href: "https://metadatavalidator.metadatacenter.org"
 datasets_href: "https://portal.hubmapconsortium.org/search/datasets"
