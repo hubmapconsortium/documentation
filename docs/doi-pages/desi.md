@@ -10,6 +10,8 @@ md5_hash: b593185a1c5b40f08fe6991c3b250b8d
 published: August 28, 2026 
 subjects: 
 summary: An ambient ionization technique coupled to mass spectrometry (MS) that enables direct chemical analysis of tissue surfaces under atmospheric conditions without extensive sample preparation. A charged solvent spray is directed at the tissue surface, desorbing and ionizing analytes—such as lipids, metabolites, and drugs—which are detected by MS to generate spatially resolved molecular maps. DESI imaging mass spectrometry is applied in metabolomics, lipidomics, and pharmacokinetics research on intact tissue sections.
+latest_href: "https://hubmapconsortium.github.io/ingest-validation-tools/desi/current"
+harmonized_href: "https://docs.hubmapconsortium.org/metadata/assay/desi"
 schema_doc_href: "https://openview.metadatacenter.org/templates/https:%2F%2Frepo.metadatacenter.org%2Ftemplates%2F01d909d8-84a8-4362-9e42-782bc4da0eec"
 validator_href: "https://metadatavalidator.metadatacenter.org"
 datasets_href: "https://portal.hubmapconsortium.org/search/datasets?dataset_type=DESI"
