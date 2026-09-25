@@ -10,6 +10,8 @@ md5_hash: 48a45e17675690ae73e91fbaf1b5225a
 published: August 31, 2026 
 subjects: 
 summary: A super-resolution spatial transcriptomics technology that maps genome-wide RNA expression in fresh-frozen tissue at submicron resolution. RNA molecules are captured in situ on a barcoded slide surface using spatially indexed poly(d)T oligonucleotides spaced ~0.5 µm apart, then sequenced to reconstruct high-resolution transcriptomic maps. This technology achieves spatial resolution approaching that of a light microscope, enabling near-single-cell or subcellular-level gene expression profiling across intact tissue sections.
+latest_href: "https://hubmapconsortium.github.io/ingest-validation-tools/hifi-slide/current"
+harmonized_href: "https://docs.hubmapconsortium.org/metadata/assay/hifi-slide"
 schema_doc_href: "https://openview.metadatacenter.org/templates/https:%2F%2Frepo.metadatacenter.org%2Ftemplates%2F0310a026-4aed-49a5-a806-e3a281351d8a"
 validator_href: "https://metadatavalidator.metadatacenter.org"
 datasets_href: "https://portal.hubmapconsortium.org/search/datasets"
