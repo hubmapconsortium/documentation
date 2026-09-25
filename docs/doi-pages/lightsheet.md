@@ -9,7 +9,9 @@ download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/raw/
 md5_hash: 077a267eb87df61dd9f3bfc53772f2b0
 published: September 1, 2026
 subjects: 
-summary: A volumetric imaging technique that illuminates a sample with a thin plane of laser light perpendicular to the detection axis, enabling rapid, high-resolution 3D imaging with minimal photobleaching and phototoxicity. By exciting only the in-focus plane, light sheet microscopy reduces out-of-focus light and photo-damage compared to point-scanning methods, making it ideal for imaging large, thick, or live specimens over extended time periods. 
+summary: A volumetric imaging technique that illuminates a sample with a thin plane of laser light perpendicular to the detection axis, enabling rapid, high-resolution 3D imaging with minimal photobleaching and phototoxicity. By exciting only the in-focus plane, light sheet microscopy reduces out-of-focus light and photo-damage compared to point-scanning methods, making it ideal for imaging large, thick, or live specimens over extended time periods.
+latest_href: "https://hubmapconsortium.github.io/ingest-validation-tools/lightsheet/current"
+harmonized_href: "https://docs.hubmapconsortium.org/metadata/assay/lightsheet"
 schema_doc_href: "https://openview.metadatacenter.org/templates/https:%2F%2Frepo.metadatacenter.org%2Ftemplates%2Fa4ff738c-a7e9-40c1-966e-22cf9c885fad"
 validator_href: "https://metadatavalidator.metadatacenter.org"
 datasets_href: "https://portal.hubmapconsortium.org/search/datasets?dataset_type=Light+Sheet"
