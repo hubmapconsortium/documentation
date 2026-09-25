@@ -10,6 +10,8 @@ md5_hash: a37a3d4e8739bced8a0f94a10270e4a2
 published: August 28, 2026 
 subjects: 
 summary: An iterative, multiplexed tissue imaging technique that visualizes dozens of protein markers within a single tissue section using standard fluorescence microscopes. In each cycle, tissues are stained with fluorescent antibodies, imaged across multiple channels, and then chemically inactivated before the next round of staining, accumulating data across many cycles. CyCIF produces high-dimensional, spatially resolved protein maps at single-cell resolution.
+latest_href: "https://hubmapconsortium.github.io/ingest-validation-tools/cycif/current"
+harmonized_href: "https://docs.hubmapconsortium.org/metadata/assay/cycif"
 schema_doc_href: "https://openview.metadatacenter.org/templates/https:%2F%2Frepo.metadatacenter.org%2Ftemplates%2F20f1b25a-49dd-419e-a15d-ec02d396b7f7"
 validator_href: "https://metadatavalidator.metadatacenter.org"
 datasets_href: "https://portal.hubmapconsortium.org/search/datasets"
