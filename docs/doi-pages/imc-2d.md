@@ -10,6 +10,8 @@ md5_hash: 45e73ba6fbcf5f84a134ad36ac17f172
 published: August 31, 2026
 subjects: 
 summary: IMC 2D combines immunohistochemistry with CyTOF mass spectrometry to enable highly multiplexed spatial profiling of up to 40 proteins within a single intact tissue section. Metal-isotope-conjugated antibodies are applied to the tissue; a pulsed laser ablates the tissue spot by spot, and the released metal ions are detected by a time-of-flight mass spectrometer to generate pixel-by-pixel protein abundance maps. This approach delivers single-cell resolution spatial protein data without spectral overlap.
+latest_href: "https://hubmapconsortium.github.io/ingest-validation-tools/imc-2d/current"
+harmonized_href: "https://docs.hubmapconsortium.org/metadata/assay/imc-2d"
 schema_doc_href: "https://openview.metadatacenter.org/templates/https:%2F%2Frepo.metadatacenter.org%2Ftemplates%2Fce5524be-dab6-4668-97c1-8a5a09325e5f"
 validator_href: "https://metadatavalidator.metadatacenter.org"
 datasets_href: "https://portal.hubmapconsortium.org/search/datasets?dataset_type=2D+Imaging+Mass+Cytometry"
