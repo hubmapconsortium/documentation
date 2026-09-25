@@ -9,7 +9,9 @@ download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/raw/
 md5_hash: 15ee81e5db1ff67ae78da67f29de4b83
 published: August 28, 2026 
 subjects: 
-summary: Confocal microscopy is a fluorescence imaging technique that uses a pinhole aperture to reject out-of-focus light, producing high-contrast, high-resolution optical cross-sections of biological specimens. A focused laser spot scans the sample point by point, collecting emitted fluorescence only from the focal plane, which enables optical sectioning and 3D reconstruction of cells and tissues. 
+summary: Confocal microscopy is a fluorescence imaging technique that uses a pinhole aperture to reject out-of-focus light, producing high-contrast, high-resolution optical cross-sections of biological specimens. A focused laser spot scans the sample point by point, collecting emitted fluorescence only from the focal plane, which enables optical sectioning and 3D reconstruction of cells and tissues.
+latest_href: "https://hubmapconsortium.github.io/ingest-validation-tools/confocal/current"
+harmonized_href: "https://docs.hubmapconsortium.org/metadata/assay/confocal"
 schema_doc_href: "https://openview.metadatacenter.org/templates/https:%2F%2Frepo.metadatacenter.org%2Ftemplates%2F3829a2c4-e29b-4dca-91f2-af3d427ed57b"
 validator_href: "https://metadatavalidator.metadatacenter.org"
 datasets_href: "https://portal.hubmapconsortium.org/search/datasets"
