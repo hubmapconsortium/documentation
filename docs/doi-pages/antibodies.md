@@ -10,6 +10,8 @@ md5_hash: e7be64f328125453021e6194f07b5a0c
 published: September 15, 2026
 subjects: 
 summary: An antibody test detects and measures the presence of specific antibodies (immunoglobulins) in a bodily fluid sample, typically blood or serum. Antibodies are proteins produced by the immune system in response to exposure to a specific antigen, and their presence or concentration indicates prior exposure, active immune response, or autoimmune activity.
+latest_href: "https://hubmapconsortium.github.io/ingest-validation-tools/antibodies/current"
+harmonized_href: "https://docs.hubmapconsortium.org/metadata/other/antibodies"
 schema_doc_href: "https://openview.metadatacenter.org/templates/https:%2F%2Frepo.metadatacenter.org%2Ftemplates%2F312f7be0-9aec-4cae-b942-a8864c0aa1ce"
 validator_href: "https://metadatavalidator.metadatacenter.org"
 datasets_href: "https://portal.hubmapconsortium.org/search/datasets"
