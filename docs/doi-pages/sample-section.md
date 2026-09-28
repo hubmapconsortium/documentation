@@ -10,6 +10,8 @@ md5_hash: 8623948e93abd74632d28884b6478dd8
 published: September 15, 2026
 subjects: 
 summary: A section is a thin slice cut from a tissue block, typically mounted on slides, placed in culture vessels, or pulverized for nuclei isolation. Sections range from 1–60 µm in thickness for standard histology and molecular assays, and up to approximately 1 mm for 3D imaging or short-term culture applications. Sections represent the final form of the assayed sample and are not reduced in thickness further prior to imaging, extraction, dissociation, or culture.
+latest_href: "https://hubmapconsortium.github.io/ingest-validation-tools/sample-section/current"
+harmonized_href: "https://docs.hubmapconsortium.org/metadata/sample/sample-section"
 schema_doc_href: "https://openview.metadatacenter.org/templates/https:%2F%2Frepo.metadatacenter.org%2Ftemplates%2F01e9bc58-bdf2-49f4-9cf9-dd34f3cc62d7"
 validator_href: "https://metadatavalidator.metadatacenter.org"
 datasets_href: "https://portal.hubmapconsortium.org/search/samples"
