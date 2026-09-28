@@ -10,6 +10,8 @@ md5_hash: 3eeb21e87b60738a98b4cc0d8c79567a
 published: September 2, 2026 
 subjects: 
 summary: A spatial transcriptomics and multiomics method that uses polony gel arrays—micron-scale DNA cluster arrays each carrying unique spatial barcodes—to capture and sequence RNA, proteins, or other molecules directly from tissue sections. Molecules from the overlaid tissue are captured by the barcoded clusters and spatially indexed according to each cluster's coordinates, enabling high-resolution reconstruction of molecular spatial organization after sequencing.
+latest_href: "https://hubmapconsortium.github.io/ingest-validation-tools/pixel-seqv2/current"
+harmonized_href: "https://docs.hubmapconsortium.org/metadata/assay/pixel-seqv2"
 schema_doc_href: "https://openview.metadatacenter.org/templates/https:%2F%2Frepo.metadatacenter.org%2Ftemplates%2F13220dec-6e9b-4b00-9cc3-a6348f709bfe"
 validator_href: "https://metadatavalidator.metadatacenter.org"
 datasets_href: "https://portal.hubmapconsortium.org/search/datasets"
