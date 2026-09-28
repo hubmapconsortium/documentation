@@ -10,6 +10,8 @@ md5_hash: 5f39ed6fff95b011c24dc613e75bcf14
 published: September 3, 2026 
 subjects: 
 summary: Stereo-seq is a spatial transcriptomics platform that captures RNA expression across tissue sections at single-cell to subcellular resolution over a wide field of view. RNA molecules are captured in situ on a patterned chip containing spatially indexed DNA nanoballs (DNBs)—each assigned a unique Coordinate ID (CID)—enabling precise spatial mapping of transcripts from fresh-frozen tissue. The resulting data supports multi-scale analysis of tissue biology, from tissue-level organization to single-cell gene expression and subcellular transcript localization.
+latest_href: "https://hubmapconsortium.github.io/ingest-validation-tools/stereo-seq/current"
+harmonized_href: "https://docs.hubmapconsortium.org/metadata/assay/stereo-seq"
 schema_doc_href: "https://openview.metadatacenter.org/templates/https:%2F%2Frepo.metadatacenter.org%2Ftemplates%2Fead450b1-9229-4bf9-bbfc-8508f78069a8"
 validator_href: "https://metadatavalidator.metadatacenter.org"
 datasets_href: "https://portal.hubmapconsortium.org/search/datasets"
