@@ -10,6 +10,8 @@ md5_hash: 6f1e05b9cc15bc6f8c1c0e89f57669a1
 published: September 1, 2026
 subjects: 
 summary: A cyclic, automated immunofluorescence imaging platform that enables spatial profiling of hundreds of protein targets at subcellular resolution across a single tissue section. In each imaging cycle, up to three fluorochrome-conjugated antibodies are applied, the specimen is imaged across multiple fields, and the fluorescent signals are chemically erased before the next cycle begins. By repeating this stain–image–erase workflow, MACSima builds a high-dimensional protein map of intact tissue without requiring spectral unmixing.
+latest_href: "https://hubmapconsortium.github.io/ingest-validation-tools/macsima/current"
+harmonized_href: "https://docs.hubmapconsortium.org/metadata/assay/macsima"
 schema_doc_href: "https://openview.metadatacenter.org/templates/https:%2F%2Frepo.metadatacenter.org%2Ftemplates%2Ffd724119-7d18-4c48-ad36-0b902090925b"
 validator_href: "https://metadatavalidator.metadatacenter.org"
 datasets_href: "https://portal.hubmapconsortium.org/search/datasets"
