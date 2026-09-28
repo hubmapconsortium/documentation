@@ -10,6 +10,8 @@ md5_hash: c162c3c982d14920d465284884209ab7
 published: September 4, 2026
 subjects: 
 summary: Thick Section Multiphoton MxIF is an imaging platform that applies multiplexed fluorescence microscopy to thick tissue sections using multiphoton excitation, enabling simultaneous or sequential visualization of a large number of cellular and histological protein markers in 3D. Multiphoton excitation allows imaging deep into intact thick sections with reduced phototoxicity and superior optical sectioning compared to single-photon methods.
+latest_href: "https://hubmapconsortium.github.io/ingest-validation-tools/thick-section-multiphoton-mxif/current"
+harmonized_href: "https://docs.hubmapconsortium.org/metadata/assay/thick-section-multiphoton-mxif"
 schema_doc_href: https://openview.metadatacenter.org/templates/https:%2F%2Frepo.metadatacenter.org%2Ftemplates%2F80320147-a111-45da-9611-0eab83f594b3
 validator_href: "https://metadatavalidator.metadatacenter.org"
 datasets_href: "https://portal.hubmapconsortium.org/search/datasets"
