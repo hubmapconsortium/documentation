@@ -10,6 +10,8 @@ md5_hash: b1a2ab85c37d2485db6fa9c94da2fd1e
 published: September 2, 2026
 subjects: 
 summary: RNA-seq is a high-throughput sequencing-based assay that quantifies the abundance of RNA transcripts within a biological sample to characterize gene expression. In bulk RNA-seq, the average gene expression profile of a heterogeneous cell population is measured; in single-cell RNA-seq (scRNA-seq), unique molecular identifiers (UMIs) and per-cell barcodes are applied during library preparation to resolve gene expression at single-cell resolution. RNA-seq enables comprehensive, untargeted profiling of the transcriptome.
+latest_href: "https://hubmapconsortium.github.io/ingest-validation-tools/rnaseq/current"
+harmonized_href: "https://docs.hubmapconsortium.org/metadata/assay/rnaseq"
 schema_doc_href: "https://openview.metadatacenter.org/templates/https:%2F%2Frepo.metadatacenter.org%2Ftemplates%2F944e5fa0-f68b-4bdd-8664-74a3909429a9"
 validator_href: "https://metadatavalidator.metadatacenter.org"
 datasets_href: "https://portal.hubmapconsortium.org/search/datasets?dataset_type=RNAseq"
