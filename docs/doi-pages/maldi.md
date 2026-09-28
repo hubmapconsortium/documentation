@@ -10,6 +10,8 @@ md5_hash: bb20011eec9837d3330233d0656fc42d
 published: September 1, 2026
 subjects: 
 summary: A label-free technique that generates spatially resolved molecular maps of lipids, metabolites, peptides, and proteins directly from intact tissue sections. A UV-absorbing matrix is applied to the tissue surface; a pulsed laser co-desorbs and ionizes analyte molecules with the matrix at each raster point, and the resulting ions are analyzed by a mass spectrometer to build pixel-by-pixel chemical images. MALDI-IMS combines the molecular specificity of mass spectrometry with the spatial fidelity of classical microscopy, enabling untargeted molecular discovery directly on tissue.
+latest_href: "https://hubmapconsortium.github.io/ingest-validation-tools/maldi/current"
+harmonized_href: "https://docs.hubmapconsortium.org/metadata/assay/maldi"
 schema_doc_href: "https://openview.metadatacenter.org/templates/https:%2F%2Frepo.metadatacenter.org%2Ftemplates%2F2e35434f-e6ed-4e01-a54a-189ec0706a3d"
 validator_href: "https://metadatavalidator.metadatacenter.org"
 datasets_href: "https://portal.hubmapconsortium.org/search/datasets?dataset_type=MALDI"
