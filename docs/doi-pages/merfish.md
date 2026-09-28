@@ -9,7 +9,9 @@ download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/raw/
 md5_hash: 87cb32f05d9cf4969d99c5a8e337d717
 published: September 2, 2026
 subjects: 
-summary: A spatial transcriptomics technology that simultaneously images hundreds to thousands of RNA targets within intact single cells using combinatorial fluorescence barcoding. Sequential rounds of hybridization with fluorescent probes assign each RNA target a unique binary barcode read across imaging cycles, enabling highly multiplexed in situ transcriptomic profiling at single-molecule resolution. This approach captures both the abundance and subcellular spatial distribution of target transcripts, preserving the native tissue context. 
+summary: A spatial transcriptomics technology that simultaneously images hundreds to thousands of RNA targets within intact single cells using combinatorial fluorescence barcoding. Sequential rounds of hybridization with fluorescent probes assign each RNA target a unique binary barcode read across imaging cycles, enabling highly multiplexed in situ transcriptomic profiling at single-molecule resolution. This approach captures both the abundance and subcellular spatial distribution of target transcripts, preserving the native tissue context.
+latest_href: "https://hubmapconsortium.github.io/ingest-validation-tools/merfish/current"
+harmonized_href: "https://docs.hubmapconsortium.org/metadata/assay/merfish"
 schema_doc_href: "https://openview.metadatacenter.org/templates/https:%2F%2Frepo.metadatacenter.org%2Ftemplates%2Ff1ef260f-d4a3-43db-a739-49b394aeee20"
 validator_href: "https://metadatavalidator.metadatacenter.org"
 datasets_href: "https://portal.hubmapconsortium.org/search/datasets"
