@@ -10,6 +10,8 @@ md5_hash: 8e8e94e1ff57cb04b663c08bf5fb4609
 published: September 3, 2026
 subjects: 
 summary: SHG microscopy is a nonlinear optical imaging technique that produces label-free, highly specific contrast from non-centrosymmetric biological structures—most notably fibrillar collagen. When pulsed laser light interacts with ordered molecular assemblies such as collagen fibrils, photons at exactly half the excitation wavelength are coherently emitted, providing structural specificity without the use of exogenous labels or stains. SHG microscopy enables high-resolution, label-free imaging of extracellular matrix architecture and collagen fiber organization in biological tissues.
+latest_href: "https://hubmapconsortium.github.io/ingest-validation-tools/second-harmonic-generation/current"
+harmonized_href: "https://docs.hubmapconsortium.org/metadata/assay/second-harmonic-generation"
 schema_doc_href: https://openview.metadatacenter.org/templates/https:%2F%2Frepo.metadatacenter.org%2Ftemplates%2Fe75faf85-125a-403e-80ee-21d4e7d80edc
 validator_href: "https://metadatavalidator.metadatacenter.org"
 datasets_href: "https://portal.hubmapconsortium.org/search/datasets"
