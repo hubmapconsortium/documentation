@@ -10,6 +10,8 @@ md5_hash: 5384da47ba794a297773bc320063455f
 published: August 25, 2026
 subjects: 
 summary: Xenium (10x Genomics) is a high-resolution, imaging-based in situ spatial transcriptomics platform that maps the expression of targeted RNA panels within intact tissue sections at single-cell and subcellular resolution. This assay can identify the location of target transcripts within the tissue, providing a single cell resolution map of expression patterns of all genes that are included in the selected probe panel and generating a single-cell-resolution expression map of all profiled genes.
+latest_href: "https://hubmapconsortium.github.io/ingest-validation-tools/xenium/current"
+harmonized_href: "https://docs.hubmapconsortium.org/metadata/assay/xenium"
 schema_doc_href: "https://openview.metadatacenter.org/templates/https:%2F%2Frepo.metadatacenter.org%2Ftemplates%2Fc83b9743-ea76-4eb3-97f1-7325331936ea"
 validator_href: "https://metadatavalidator.metadatacenter.org"
 datasets_href: "https://portal.hubmapconsortium.org/search/datasets?dataset_type=Xenium"
