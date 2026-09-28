@@ -10,6 +10,8 @@ md5_hash: 73ab7ff0559410c7a51db7611c2d6b58
 published: September 16, 2026
 subjects: 
 summary: Suspension is a sample preparation format in which cells, organelles, or other biological particles are dispersed as individual units within a liquid medium. Suspension-based assays are commonly used in flow cytometry, single-cell sequencing, and multiplexed molecular screening where dissociation of tissue into single-cell suspensions is required prior to analysis. This format enables high-throughput, per-cell measurements but does not preserve the spatial context of the original tissue.
+latest_href: "https://hubmapconsortium.github.io/ingest-validation-tools/sample-suspension/current"
+harmonized_href: "https://docs.hubmapconsortium.org/metadata/sample/sample-suspension"
 schema_doc_href: "https://openview.metadatacenter.org/templates/https:%2F%2Frepo.metadatacenter.org%2Ftemplates%2Fea4fb93c-508e-4ec4-8a4b-89492ba68088"
 validator_href: "https://metadatavalidator.metadatacenter.org"
 datasets_href: "https://portal.hubmapconsortium.org/search/samples"
