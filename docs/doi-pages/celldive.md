@@ -13,6 +13,7 @@ summary: A highly multiplexed fluorescence imaging assay that enables quantifica
 latest_href: "https://hubmapconsortium.github.io/ingest-validation-tools/celldive/current"
 harmonized_href: 
 schema_doc_href: "https://openview.metadatacenter.org/templates/https:%2F%2Frepo.metadatacenter.org%2Ftemplates%2F6f9eee7b-7ef1-4f32-a34e-706bbbbb09bf"
+schema_doc_href: https://openview.metadatacenter.org/templates/https:%2F%2Frepo.metadatacenter.org%2Ftemplates%2F6f9eee7b-7ef1-4f32-a34e-706bbbbb09bf
 validator_href: "https://metadatavalidator.metadatacenter.org"
 datasets_href: "https://portal.hubmapconsortium.org/search/datasets?dataset_type=Cell+DIVE"
 help_href: /doi-pages-help/
