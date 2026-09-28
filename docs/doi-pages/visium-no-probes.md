@@ -10,6 +10,8 @@ md5_hash: 4021dff7b465b290e756ba14e8ad33f7
 published: September 4, 2026
 subjects: 
 summary: Visium without probes is a capture-based spatial transcriptomics approach in which RNA transcripts from a fresh-frozen tissue section are captured directly by poly(d)T oligonucleotides on the spatially barcoded Visium slide. This in situ capture method preserves the spatial coordinates of transcripts within the tissue, enabling untargeted, whole-transcriptome gene expression mapping without the need for target-specific hybridization probes. <p class="multiAssay"><span class="requiredMark">*</span> This reporting standard requires the inclusion of <a href="https://dx.doi.org/10.35079/HBM556.VHXG.898">RNAseq</a> and <a href="https://dx.doi.org/10.35079/HBM678.SJXK.375">Histology</a> dataset metadata for completeness.</p>
+latest_href: "https://hubmapconsortium.github.io/ingest-validation-tools/visium-no-probes/current"
+harmonized_href: "https://docs.hubmapconsortium.org/metadata/assay/visium-no-probes"
 schema_doc_href: "https://openview.metadatacenter.org/templates/https:%2F%2Frepo.metadatacenter.org%2Ftemplates%2Fbabf1e69-f0eb-479a-bdc5-b70199669675"
 validator_href: "https://metadatavalidator.metadatacenter.org"
 datasets_href: "https://portal.hubmapconsortium.org/search/datasets?dataset_type=Visium+(no+probes)"
