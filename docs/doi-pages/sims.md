@@ -10,6 +10,8 @@ md5_hash: f91fc9f1cec857f95595c495c937f03d
 published: September 3, 2026
 subjects: 
 summary: SIMS is an analytical surface technique that characterizes the elemental and molecular composition of solid surfaces and thin films by bombarding the specimen with a focused primary ion beam, causing secondary ions to be sputtered from the surface and detected by a mass spectrometer. By rastering the primary beam across the sample, SIMS generates spatially resolved chemical maps of isotope distributions, elements, and molecular species at high sensitivity and depth resolution. In biological research, SIMS is used for imaging stable isotope tracers, lipid distributions, and subcellular elemental composition within tissue sections.
+latest_href: "https://hubmapconsortium.github.io/ingest-validation-tools/sims/current"
+harmonized_href: "https://docs.hubmapconsortium.org/metadata/assay/sims"
 schema_doc_href: "https://openview.metadatacenter.org/templates/https:%2F%2Frepo.metadatacenter.org%2Ftemplates%2F2c32e88f-f8b5-42dc-85dd-1298e851da9d"
 validator_href: "https://metadatavalidator.metadatacenter.org"
 datasets_href: "https://portal.hubmapconsortium.org/search/datasets"
