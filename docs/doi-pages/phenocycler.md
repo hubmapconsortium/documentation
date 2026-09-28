@@ -10,6 +10,8 @@ md5_hash: 53c66757c895e083690d904be26d25d9
 published: September 2, 2026
 subjects: 
 summary: PhenoCycler (formerly CODEX) is a highly multiplexed single-cell spatial imaging platform that maps the expression of dozens to hundreds of protein targets within intact fresh-frozen or FFPE tissue sections. Antibodies conjugated to unique DNA oligonucleotide barcodes are applied to the tissue; the PhenoCycler instrument automates iterative cycles of fluorescent reporter hybridization, imaging, and reporter removal until all targets have been visualized. The result is a high-dimensional, spatially resolved, protein expression profiles at single-cell resolution of the intact tissue.
+latest_href: "https://hubmapconsortium.github.io/ingest-validation-tools/phenocycler/current"
+harmonized_href: 
 schema_doc_href: https://openview.metadatacenter.org/templates/https:%2F%2Frepo.metadatacenter.org%2Ftemplates%2F62af6829-743d-423e-a701-204710e56beb
 validator_href: "https://metadatavalidator.metadatacenter.org"
 datasets_href: "https://portal.hubmapconsortium.org/search/datasets?dataset_type=PhenoCycler"
