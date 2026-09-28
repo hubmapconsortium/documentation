@@ -9,7 +9,9 @@ download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/raw/
 md5_hash: 10ed787a45ef5fb8a61e9d114ba56b6a
 published: September 1, 2026
 subjects: 
-summary: A spatial proteomics technique that uses a primary oxygen ion beam to raster the surface of tissue sections, ejecting and ionizing metal isotope-tagged antibody reporters for detection by a mass analyzer. Tissues are incubated with antibodies conjugated to unique stable isotopes; the ion beam ablates the surface spot by spot, and the released isotopic signals are measured to generate pixel-by-pixel protein abundance maps at subcellular resolution. MIBI enables simultaneous spatial mapping of up to 40 protein targets without spectral overlap. 
+summary: A spatial proteomics technique that uses a primary oxygen ion beam to raster the surface of tissue sections, ejecting and ionizing metal isotope-tagged antibody reporters for detection by a mass analyzer. Tissues are incubated with antibodies conjugated to unique stable isotopes; the ion beam ablates the surface spot by spot, and the released isotopic signals are measured to generate pixel-by-pixel protein abundance maps at subcellular resolution. MIBI enables simultaneous spatial mapping of up to 40 protein targets without spectral overlap.
+latest_href: "https://hubmapconsortium.github.io/ingest-validation-tools/mibi/current"
+harmonized_href: "https://docs.hubmapconsortium.org/metadata/assay/mibi"
 schema_doc_href: "https://openview.metadatacenter.org/templates/https:%2F%2Frepo.metadatacenter.org%2Ftemplates%2F784cfaa7-4a73-4173-b639-b24e0ed76155"
 validator_href: "https://metadatavalidator.metadatacenter.org"
 datasets_href: "https://portal.hubmapconsortium.org/search/datasets?dataset_type=MIBI"
