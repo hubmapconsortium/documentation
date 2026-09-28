@@ -9,7 +9,9 @@ download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/raw/
 md5_hash: c60316e366093b12bbc26795105753a1
 published: September 2, 2026 
 subjects: 
-summary: MPLEx is a simple, rapid, and robust sample preparation protocol for integrated multi-omics analysis from diverse biological sample types, including environmental, in vitro, and clinical specimens. Based on a modified Bligh-Dyer solvent extraction, MPLEx simultaneously partitions lipids, metabolites, and proteins into distinct phases in a single step, enabling individual downstream analysis of each fraction by mass spectrometry-based lipidomics, metabolomics, and proteomics. 
+summary: MPLEx is a simple, rapid, and robust sample preparation protocol for integrated multi-omics analysis from diverse biological sample types, including environmental, in vitro, and clinical specimens. Based on a modified Bligh-Dyer solvent extraction, MPLEx simultaneously partitions lipids, metabolites, and proteins into distinct phases in a single step, enabling individual downstream analysis of each fraction by mass spectrometry-based lipidomics, metabolomics, and proteomics.
+latest_href: "https://hubmapconsortium.github.io/ingest-validation-tools/mplex/current"
+harmonized_href: "https://docs.hubmapconsortium.org/metadata/assay/mplex"
 schema_doc_href: "https://openview.metadatacenter.org/templates/https:%2F%2Frepo.metadatacenter.org%2Ftemplates%2F2015a1c3-fcf8-458c-8572-0f65e89f2405"
 validator_href: "https://metadatavalidator.metadatacenter.org"
 datasets_href: "https://portal.hubmapconsortium.org/search/datasets"
