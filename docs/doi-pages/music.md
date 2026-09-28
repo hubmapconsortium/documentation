@@ -9,7 +9,9 @@ download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/raw/
 md5_hash: a506d082bbc66fa94dd154a5fc97641d
 published: September 1, 2026
 subjects: 
-summary: A single-nucleus multiomics assay that simultaneously profiles gene expression (RNA), co-complexed DNA sequences, and RNA–chromatin interactions from the same individual nucleus. Both RNA and fragmented genomic DNA within each nucleus are labeled with a unique cell barcode during library preparation, enabling matched RNA-seq and chromatin data to be linked to the same cell of origin after sequencing. This approach enables joint analysis of transcriptional activity and chromatin organization at single-cell resolution. 
+summary: A single-nucleus multiomics assay that simultaneously profiles gene expression (RNA), co-complexed DNA sequences, and RNA–chromatin interactions from the same individual nucleus. Both RNA and fragmented genomic DNA within each nucleus are labeled with a unique cell barcode during library preparation, enabling matched RNA-seq and chromatin data to be linked to the same cell of origin after sequencing. This approach enables joint analysis of transcriptional activity and chromatin organization at single-cell resolution.
+latest_href: "https://hubmapconsortium.github.io/ingest-validation-tools/music/current"
+harmonized_href: "https://docs.hubmapconsortium.org/metadata/assay/music"
 schema_doc_href: "https://openview.metadatacenter.org/templates/https:%2F%2Frepo.metadatacenter.org%2Ftemplates%2F5efe0d51-828c-457a-9b94-2ac8090fe14f"
 validator_href: "https://metadatavalidator.metadatacenter.org"
 datasets_href: "https://portal.hubmapconsortium.org/search/datasets?dataset_type=MUSIC"
