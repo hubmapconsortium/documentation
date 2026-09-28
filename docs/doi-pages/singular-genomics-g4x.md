@@ -11,7 +11,7 @@ published: September 3, 2026
 subjects: 
 summary: A high-throughput, benchtop spatial multiomics platform that simultaneously profiles RNA expression, protein abundance, and tissue morphology (via fluorescence H&E staining) at subcellular resolution directly from FFPE tissue sections. Using sequencing-based readout, the platform co-detects RNA transcripts and protein targets in situ, enabling co-registered molecular and morphological characterization of intact tissue without requiring tissue dissociation. The G4X is designed to provide high-plex, spatially resolved multiomics data from standard clinical tissue specimens.
 latest_href: "https://hubmapconsortium.github.io/ingest-validation-tools/singular-genomics-g4x/current"
-harmonized_href:
+harmonized_href: "https://docs.hubmapconsortium.org/metadata/assay/singular-genomics-g4x"
 schema_doc_href: "https://openview.metadatacenter.org/templates/https:%2F%2Frepo.metadatacenter.org%2Ftemplates%2F6c729815-18c7-4d9d-913e-fe08e2e2da76"
 validator_href: "https://metadatavalidator.metadatacenter.org"
 datasets_href: "https://portal.hubmapconsortium.org/search/datasets"
