@@ -10,6 +10,8 @@ md5_hash: 8a0a5fd03ebaec1ec71404158f29d8b5
 published: September 8, 2026
 subjects: 
 summary: A high-definition spatial transcriptomics platform from 10x Genomics that enables whole-transcriptome gene expression profiling at single-cell-scale resolution (~2 µm bin size) across intact tissue sections. Unlike standard Visium, Visium HD uses a continuous, high-density array of capture oligonucleotides rather than discrete spots, allowing computational binning of transcript data at near-cellular resolution. <p class="multiAssay"><span class="requiredMark">*</span> This reporting standard requires the inclusion of <a href="https://dx.doi.org/10.35079/HBM674.XVGG.736">RNAseq (with probes)</a> and <a href="https://dx.doi.org/10.35079/HBM678.SJXK.375">Histology</a> dataset metadata for completeness.</p>
+latest_href: "https://hubmapconsortium.github.io/ingest-validation-tools/visium-hd/current"
+harmonized_href: "https://docs.hubmapconsortium.org/metadata/assay/visium-hd"
 schema_doc_href: "https://openview.metadatacenter.org/templates/https:%2F%2Frepo.metadatacenter.org%2Ftemplates%2F3b72281f-6ed7-417d-806c-4ef781825d77"
 validator_href: "https://metadatavalidator.metadatacenter.org"
 datasets_href: "https://portal.hubmapconsortium.org/search/datasets"
