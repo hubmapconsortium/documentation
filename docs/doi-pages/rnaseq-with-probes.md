@@ -9,7 +9,9 @@ download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/raw/
 md5_hash: 5e8f9151940a6b1e45e623ad4ad8e647
 published: September 2, 2026
 subjects: 
-summary: Probe-based RNAseq uses targeted hybridization probes to selectively capture and enrich specific RNA transcripts from a biological sample prior to sequencing. Unlike whole-transcriptome RNA-seq, this approach concentrates sequencing depth on a predefined set of genes or regions, enabling sensitive detection and quantification of low-abundance transcripts or curated gene panels. 
+summary: Probe-based RNAseq uses targeted hybridization probes to selectively capture and enrich specific RNA transcripts from a biological sample prior to sequencing. Unlike whole-transcriptome RNA-seq, this approach concentrates sequencing depth on a predefined set of genes or regions, enabling sensitive detection and quantification of low-abundance transcripts or curated gene panels.
+latest_href: "https://hubmapconsortium.github.io/ingest-validation-tools/rnaseq-with-probes/current"
+harmonized_href: "https://docs.hubmapconsortium.org/metadata/assay/rnaseq-with-probes"
 schema_doc_href: "https://openview.metadatacenter.org/templates/https:%2F%2Frepo.metadatacenter.org%2Ftemplates%2Fe4df583f-95df-4113-92dc-6e9b90124d9f"
 validator_href: "https://metadatavalidator.metadatacenter.org"
 datasets_href: "https://portal.hubmapconsortium.org/search/datasets?dataset_type=RNAseq+(with+probes)"
