@@ -9,7 +9,9 @@ download_href: "https://github.com/hubmapconsortium/ingest-validation-tools/raw/
 md5_hash: a2d8e8e50d8b05ce73df1b2bdf95a7ad
 published: September 3, 2026 
 subjects: 
-summary: STARmap is a 3D spatial transcriptomics technology that maps gene expression within intact tissue volumes at single-cell resolution using in situ DNA sequencing. Tissue is embedded in a hydrogel that preserves its 3D structure and cellular positions; RNA transcripts are detected by in situ sequencing of amplified DNA probes, with each cell's spatial coordinates retained throughout the process. STARmap enables simultaneous profiling of hundreds of genes across 3D tissue volumes, providing a spatially resolved atlas of gene expression within the native tissue architecture.  
+summary: STARmap is a 3D spatial transcriptomics technology that maps gene expression within intact tissue volumes at single-cell resolution using in situ DNA sequencing. Tissue is embedded in a hydrogel that preserves its 3D structure and cellular positions; RNA transcripts are detected by in situ sequencing of amplified DNA probes, with each cell's spatial coordinates retained throughout the process. STARmap enables simultaneous profiling of hundreds of genes across 3D tissue volumes, providing a spatially resolved atlas of gene expression within the native tissue architecture.
+latest_href: "https://hubmapconsortium.github.io/ingest-validation-tools/starmap/current"
+harmonized_href: "https://docs.hubmapconsortium.org/metadata/assay/starmap"
 schema_doc_href: "https://openview.metadatacenter.org/templates/https:%2F%2Frepo.metadatacenter.org%2Ftemplates%2F1945fc9c-bc2d-43df-b954-efec087024cf"
 validator_href: "https://metadatavalidator.metadatacenter.org"
 datasets_href: "https://portal.hubmapconsortium.org/search/datasets"
