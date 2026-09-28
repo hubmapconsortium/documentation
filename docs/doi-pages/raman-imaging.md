@@ -10,6 +10,8 @@ md5_hash: b1a2ab85c37d2485db6fa9c94da2fd1e
 published: September 2, 2026
 subjects: 
 summary: A non-invasive, label-free chemical imaging technique that maps the molecular composition of biological samples by detecting inelastic (Raman) scattering of light at each spatial pixel. As a laser scans the sample, each pixel generates a Raman spectrum reflecting the unique molecular vibrational fingerprint of that location, enabling detailed mapping of biomolecules such as proteins, lipids, nucleic acids, and water within cells or tissues. The resulting chemical maps provide quantitative, spatially resolved information about tissue composition and molecular organization without the need for staining or fluorescent labels.
+latest_href: "https://hubmapconsortium.github.io/ingest-validation-tools/raman-imaging/current"
+harmonized_href: "https://docs.hubmapconsortium.org/metadata/assay/raman-imaging"
 schema_doc_href: "https://openview.metadatacenter.org/templates/https:%2F%2Frepo.metadatacenter.org%2Ftemplates%2F986d6f9d-7649-485f-a265-10d6f9b2829d"
 validator_href: "https://metadatavalidator.metadatacenter.org"
 datasets_href: "https://portal.hubmapconsortium.org/search/datasets"
