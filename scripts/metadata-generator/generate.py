@@ -40,8 +40,8 @@ HRAVS_GRAPH = "https://purl.humanatlas.io/vocab/hravs"
 HRAVS_CONCEPT_PATTERN = re.compile(
     r"https://purl\.humanatlas\.io/vocab/hravs#[A-Za-z0-9_]+"
 )
-METADATA_DIR = Path("docs/assays/metadata")
-INDEX_PATH = METADATA_DIR / "index.md"
+METADATA_DIR = Path("docs/metadata/assay")
+INDEX_PATH = Path("docs/metadata/index.md")
 
 TEXT_ICON = '<i class="fa-solid fa-font" title="Textfield" aria-label="Textfield"></i>'
 RADIO_ICON = '<i class="fa-solid fa-circle-dot" title="Radio" aria-label="Radio"></i>'
@@ -553,7 +553,7 @@ def report_results(
 ) -> None:
     for issue, assay, schema_link, fields in prepared:
         print(
-            f"{prefix} docs/assays/metadata/{assay.slug}.md from "
+            f"{prefix} docs/metadata/assay/{assay.slug}.md from "
             f"{issue.repo}#{issue.number} "
             f"({schema_link.version}, {len(fields)} fields, "
             f"{sum(field.required for field in fields)} required, "
