@@ -479,7 +479,7 @@ def index_row(assay: Assay) -> str:
     description = clean_cell(assay.description)
     return (
         f'| [{name}]({assay.slug}) '
-        f'[<img src="dir-icon3.png" width="14">]({assay.schema_index_url}#directory-schemas "Click for directory schema")'
+        f'[<img src="dir-icon3.png" width="14" class="ic">]({assay.schema_index_url}#directory-schemas "Click for directory schema")'
         f" | {description} |\n"
     )
 
@@ -803,9 +803,9 @@ def run_self_tests() -> bool:
             index = """before
 | Dataset Type | Description |
 |--------------|-------------|
-| Alpha [<img src="info3.png" width="14">](alpha "Attribute description") | Alpha |
-| Old DNA [<img src="info3.png" width="14">](dna-methylation "Attribute description") | Old |
-| Zebra [<img src="info3.png" width="14">](zebra "Attribute description") | Zebra |
+| Alpha [<img src="info3.png" width="14" class="ic">](alpha "Attribute description") | Alpha |
+| Old DNA [<img src="info3.png" width="14" class="ic">](dna-methylation "Attribute description") | Old |
+| Zebra [<img src="info3.png" width="14" class="ic">](zebra "Attribute description") | Zebra |
 {: .assay-metadata-index }
 after
 """
