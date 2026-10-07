@@ -11,7 +11,7 @@ published: September 2, 2026
 subjects: 
 summary: A high-throughput protein biomarker discovery platform that uses Proximity Extension Assay (PEA) technology to simultaneously measure the concentration of thousands of human proteins from small sample volumes. Pairs of antibodies conjugated to complementary DNA oligonucleotides bind the same target protein; when both antibodies bind in close proximity, the DNA strands hybridize and are extended by a polymerase, generating a unique amplicon for each protein target that is quantified by NGS readout.
 latest_href: "https://hubmapconsortium.github.io/ingest-validation-tools/olink/current"
-harmonized_href: 
+harmonized_href: "https://docs.hubmapconsortium.org/metadata/assay/olink"
 schema_doc_href: "https://openview.metadatacenter.org/templates/https:%2F%2Frepo.metadatacenter.org%2Ftemplates%2Fc78c882d-ff27-473e-b318-540dc6e8034d"
 validator_href: "https://metadatavalidator.metadatacenter.org"
 datasets_href: "https://portal.hubmapconsortium.org/search/datasets"
