@@ -11,7 +11,7 @@ published: September 3, 2026
 subjects: 
 summary: A high-resolution spatial transcriptomics technology that uses solid-phase amplification of randomly barcoded single-molecule oligonucleotides on an Illumina sequencing platform to create a dense array of spatially indexed RNA-capture clusters. Tissue sections are placed directly on the sequencing flow cell surface, where RNA molecules are captured by barcoded clusters and sequenced together with their spatial coordinates. With pixels spaced approximately 0.5–0.8 µm apart, Seq-Scope achieves spatial resolution approaching that of individual cells and subcellular compartments.
 latest_href: "https://hubmapconsortium.github.io/ingest-validation-tools/seq-scope/current"
-harmonized_href:
+harmonized_href: "https://docs.hubmapconsortium.org/metadata/assay/seq-scope"
 schema_doc_href: "https://openview.metadatacenter.org/templates/https:%2F%2Frepo.metadatacenter.org%2Ftemplates%2F24378678-d237-45ac-91c0-40e41d1e8a3e"
 validator_href: "https://metadatavalidator.metadatacenter.org"
 datasets_href: "https://portal.hubmapconsortium.org/search/datasets"
