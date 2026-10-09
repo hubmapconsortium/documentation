@@ -7,4 +7,4 @@
   <script src="{{ '/js/av-popover.js' | relative_url }}" defer></script>
   <script src="{{ '/js/doi-tabs.js' | relative_url }}" defer></script>
 {% endcapture %}
-{% include customizable.html page_header="headers/standard.html" page_sidebar="empty.html" bodyClassName="doiStyle" containerClassName="--doi" documentationClassName=" page doi-template" headEnd=headerTags bodyEnd=bodyScripts %}
+{% include page.html page_header="headers/standard.html" page_sidebar="empty.html" bodyClassName="doiStyle" containerClassName="--doi" excludeHmCodeCss=true documentationClassName=" page doi-template" headEnd=headerTags bodyEnd=bodyScripts %}
