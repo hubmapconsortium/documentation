@@ -24,11 +24,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" href="/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="/css/main.css"/>
-    <link rel="stylesheet" href="/css/hm.css"/>
-    <link rel="stylesheet" href="/css/hm-code.css"/>
+    <link rel="stylesheet" href="/css/hm.css"/>{% unless include.excludeHmCodeCss %}
+    <link rel="stylesheet" href="/css/hm-code.css"/>{% endunless %}
     <link rel="stylesheet" href="/css/bootstrap.min.css"/>
     <script src="/js/popper.min.js" crossorigin="anonymous"></script>
-    <script src="/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script src="/js/bootstrap.min.js" crossorigin="anonymous"> </script>{{ include.headEnd }}
   </head>
   <body>
     <header class="c-header navbar navbar-expand-lg" role="navigation">
@@ -46,7 +46,7 @@
         </div>
       </div>
     </header>
-    <div class="c-container" role="main">
+    <div class="c-container{{ include.containerClassName }}" role="main">
       <h1>Not Found</h1>
       <p>The requested page could not be found.</p>
     </div>
