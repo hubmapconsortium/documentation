@@ -10,10 +10,13 @@ mixin head(seo)
         link(rel='stylesheet', href='/css/font-awesome.min.css')
         link(rel='stylesheet', href='/css/main.css')
         link(rel='stylesheet', href='/css/hm.css')
+        | {% unless include.excludeHmCodeCss %}
         link(rel='stylesheet', href='/css/hm-code.css')
+        | {% endunless %}
         link(rel='stylesheet', href='/css/bootstrap.min.css')
         script(src="/js/popper.min.js"  crossorigin="anonymous")
-        script(src="/js/bootstrap.min.js"  crossorigin="anonymous")
+        script(src="/js/bootstrap.min.js"  crossorigin="anonymous") 
+        | {{ include.headEnd }}
         if seo
             |
             | {% seo %}

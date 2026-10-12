@@ -6,6 +6,6 @@ include ../../mixins/container
     | {% if include.page_breadcrumbs %}
     include ../../breadcrumbs
     | {% endif %}
-    .c-documentation
+    div(class="c-documentation {{ include.documentationClassName }}")
         | {{ content }}
 include ../footer

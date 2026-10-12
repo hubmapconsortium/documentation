@@ -135,9 +135,9 @@ function createIndex(path, statsSync) {
             if (path.indexOf('.md') > -1) {
                 htmlString = marked.parse(data)
             }
-        
             const parser = new DOMParser();
             const doc = parser.parseFromString(htmlString, 'text/html');
+            if (!doc) return;
             
             const headerTags = ['h1', 'h2', 'h3', 'h4']
             for (let tag of headerTags) {
@@ -146,8 +146,8 @@ function createIndex(path, statsSync) {
                 if (headers.length) {
                     let content = ''
                     for (let h of headers) {
-                        let title = h.textContent.replaceAll('"', "'").trim()
-                        if (h.textContent != 'Table of Contents' && !searchDict[title+urlPath]) {
+                        let title = h.textContent.replaceAll('"', "'").replace(/(\r?\n|\vert{}\r)/g, ' ').trim()
+                        if (h.textContent != 'Table of Contents' && !searchDict[title+urlPath] && !title.includes('layout: ')) {
                             content += `{
                                 "title": "${title}",
                                 "mod": "${statsSync.trim()}",
