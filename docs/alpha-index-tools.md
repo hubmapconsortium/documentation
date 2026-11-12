@@ -2,12 +2,18 @@
 
 | Linked Resource | Description                   |
 | --------------- | ----------------------------- |
+| [3DCODEX](https://github.com/hubmapconsortium/SectionAligner) | Toolset for processing, analyzing, and aligning tissue images from OME-TIFF files. |
+| [3DTM](https://github.com/hms-dbmi/tissue-map-tools) | Data standards for 3D Tissue Maps. |
 | [ASTC+B Reporter](https://humanatlas.io/asctb-reporter) | Explore and compare Anatomical Structures, Cell Types, and Biomarkers. |
 | [Antibody Validation Reports](https://avr.hubmapconsortium.org/)| Information about individual antibodies for multiplexed antibody imaging assays. |
 | [Azimuth Web App](https://azimuth.hubmapconsortium.org/) | Automates the processing and analysis of sequenced data using an annotated reference set. | 
+| [Cell Distance Explorer](https://apps.humanatlas.io/cde/) | Web deployed tool for visualizing cells in 2D & 3D and analyzing cell-to-cell distances. |
 | [CellTypist](https://www.celltypist.org) | An automated cell type annotation tool for scRNA-seq datasets. |
 | [DeepCell](https://deepcell.org/about) | ML resources collection that facilitates development of new deep learning methods to biology.|
-| [FUSION](https://fusion.hubmapconsortium.org/) | Functional Unit State Identification in Whole Slide Images (WSIs). |
+| [DeepCell Types, van Valen Tools](https://github.com/vanvalenlab/deepcell-types) | A novel approach to cell phenotyping for spatial proteomics. |
+| [DeepCell Types Annotation, van Valen Tools](https://github.com/hubmapconsortium/deepcelltypes-hubmap) | CWL CommandLineTool for integration with existing HuBMAP workflows. |
+| [FTU Segmenter](https://cns-iu.github.io/ccf-research-kaggle-2021/) | FTU segmentation tool. |
+| [FUSION](https://cmilab.nephrology.medicine.ufl.edu/software/fusion/) | Web-based platform for visualizing and alayzing spatial-omics data with high resolution histology. |
 | [HRA 2D References](https://humanatlas.io/2d-ftu-illustrations) | Human Reference Atlas (HRA)'s Open-source 2D reference illustrations of FTUs. |
 | [HRA 3D References](https://humanatlas.io/3d-reference-library) | HRA's Open-source 3D organs crosswalked to ASCT+B tables. |
 | [HRA API](https://humanatlas.io/api/) | Query and interact with the HRA using Python, JavaScript, SPARQL, REST, and more. |
