@@ -10,30 +10,28 @@
 | [Cell Distance Explorer](https://apps.humanatlas.io/cde/) | Web deployed tool for visualizing cells in 2D & 3D and analyzing cell-to-cell distances. |
 | [CellTypist](https://www.celltypist.org) | An automated cell type annotation tool for scRNA-seq datasets. |
 | [DeepCell](https://deepcell.org/about) | ML resources collection that facilitates development of new deep learning methods to biology.|
-| [DeepCell Types, van Valen Tools](https://github.com/vanvalenlab/deepcell-types) | A novel approach to cell phenotyping for spatial proteomics. |
-| [DeepCell Types Annotation, van Valen Tools](https://github.com/hubmapconsortium/deepcelltypes-hubmap) | CWL CommandLineTool for integration with existing HuBMAP workflows. |
 | [FTU Segmenter](https://cns-iu.github.io/ccf-research-kaggle-2021/) | FTU segmentation tool. |
 | [FUSION](https://cmilab.nephrology.medicine.ufl.edu/software/fusion/) | Web-based platform for visualizing and alayzing spatial-omics data with high resolution histology. |
-| [HRA 2D References](https://humanatlas.io/2d-ftu-illustrations) | Human Reference Atlas (HRA)'s Open-source 2D reference illustrations of FTUs. |
-| [HRA 3D References](https://humanatlas.io/3d-reference-library) | HRA's Open-source 3D organs crosswalked to ASCT+B tables. |
-| [HRA API](https://humanatlas.io/api/) | Query and interact with the HRA using Python, JavaScript, SPARQL, REST, and more. |
-| [HRA ASTC+B Tables](https://humanatlas.io/asctb-tables) | Data tables for anatomical structures, cell types, and biomarkers from the Cell Ontology |
-| [HRA Dashboards](https://hubmapconsortium.github.io/hra-data-dashboard) | CCF-HRA Data Dashboards |
-| [HRA EUI](https://apps.humanatlas.io/eui) | HRA's Exploration User Interface |
-| [HRA FTU Explorer](https://apps.humanatlas.io/ftu-explorer) | HRA's Interactive Functional Tissue Unit Explorer |
-| [HRA Knowledge Graph](https://lod.humanatlas.io/) | HRA Knowledge Graph (KG)|
-| [HRA KG on GitHub](https://github.com/hubmapconsortium/hra-kg) | HRA Knowledge Graph on GitHub |
-| [HRA OMAPs](https://humanatlas.io/omap/) | HRA Organ Mapping Antibody Panels |
-| [HRA Organ Gallery](https://github.com/cns-iu/hra-organ-gallery-in-vr) | HRA Organ Gallery in VR on GitHub. |
-| [HRA RUI](https://apps.humanatlas.io/rui) | HRA's Registration User Interface |
-| [HRA SOPs](https://zenodo.org/communities/hra) | 20 Standard Operating Procedures (SOPs) for the HRA |
-| [HRA VCCF](https://humanatlas.io/vccf) | HRA's Vascular Common Coordinate Framework | 
-| [HuBMAP Consortium Website](https://hubmapconsortium.org/) | Homepage of the HuBMAP Consortium |
-| [HuBMAP HRA Portal](https://humanatlas.io/) | HuBMAP's Human Reference Atlas Portal |
-| [HuBMAP Technical Resources](https://docs.hubmapconsortium.org/technical) | Documentation for HuBMAP's Technical Resources |
-| [HuBMAP VH MOOC](https://expand.iu.edu/browse/sice/cns/courses/hubmap-visible-human-mooc) | HuBMAP Visible Human Massive Open Online Course (VHMOOC)|
-| [HuBMAP Workspaces](https://portal.hubmapconsortium.org/workspaces) | Lets researchers easily access HuBMAP data and analysis directly within the portal.|
-| [Metadata Spreadsheet Validator](https://metadatavalidator.metadatacenter.org) | Use this tool to validate your metadata spreadsheet (template). |
+|  HRA Tools | | 
+|  &nbsp;[HRA API](https://humanatlas.io/api/) | Query and interact with the HRA using Python, JavaScript, SPARQL, REST, and more. |
+|  &nbsp;[ASTC+B Tables](https://humanatlas.io/asctb-tables) | Data tables for anatomical structures, cell types, and biomarkers from the Cell Ontology |
+|  &nbsp;[Dashboards](https://hubmapconsortium.github.io/hra-data-dashboard) | CCF-HRA Data Dashboards |
+|  &nbsp;[EUI](https://apps.humanatlas.io/eui) | HRA's Exploration User Interface |
+|  &nbsp;[FTU Explorer](https://apps.humanatlas.io/ftu-explorer) | HRA's Interactive Functional Tissue Unit Explorer |
+|  &nbsp;[Knowledge Graph](https://lod.humanatlas.io/) | HRA Knowledge Graph (KG)|
+|  &nbsp;[KG on GitHub](https://github.com/hubmapconsortium/hra-kg) | HRA Knowledge Graph on GitHub |
+|  &nbsp;[OMAPs](https://humanatlas.io/omap/) | HRA Organ Mapping Antibody Panels |
+|  &nbsp;[Organ Gallery](https://github.com/cns-iu/hra-organ-gallery-in-vr) | HRA Organ Gallery in VR on GitHub. |
+|  &nbsp;[RUI](https://apps.humanatlas.io/rui) | HRA's Registration User Interface |
+|  &nbsp;[SOPs](https://zenodo.org/communities/hra) | 20 Standard Operating Procedures (SOPs) for the HRA |
+|  &nbsp;[VCCF](https://humanatlas.io/vccf) | HRA's Vascular Common Coordinate Framework | 
+|  HuBMAP Tools | |
+| &nbsp;[Consortium Website](https://hubmapconsortium.org/) | Homepage of the HuBMAP Consortium |
+| &nbsp;[HRA Portal](https://humanatlas.io/) | HuBMAP's Human Reference Atlas Portal |
+| &nbsp;[Technical Resources](https://docs.hubmapconsortium.org/technical) | Documentation for HuBMAP's Technical Resources |
+| &nbsp;[VH MOOC](https://expand.iu.edu/browse/sice/cns/courses/hubmap-visible-human-mooc) | HuBMAP Visible Human Massive Open Online Course (VHMOOC)|
+| &nbsp;[Workspaces](https://portal.hubmapconsortium.org/workspaces) | Lets researchers easily access HuBMAP data and analysis directly within the portal.|
+| [Metadata Validator](https://metadatavalidator.metadatacenter.org) | Use this tool to validate your metadata spreadsheet (template). |
 | [Microscope Metadata](https://docs.hubmapconsortium.org/microscopy-metadata-links) | Microscope Metadata, collected to date; JSON files for specific instruments. |
 | [Pop V from YosefLab](https://github.com/YosefLab/PopV) | Cell-type transfer tools for classifying query dataset cell-types based on a test dataset. |
 | [RIBCA - GitHub repo](https://github.com/sun-huangqingbo/multiplexed-image-annotator) | Robust Image-Based Cell Annotator. |
@@ -41,6 +39,9 @@
 | [STELLAR](https://snap.stanford.edu/stellar/) | A geometric deep learning method for cell type identification in single-cell spatial datasets. |
 | [UBKG](https://ubkg.docs.xconsortia.org) |Unified Biomedical Knowledge Graph|
 | [UBKG API](https://smart-api.info/ui/96e5b5c0b0efeef5b93ea98ac2794837) |Unified Biomedical Knowledge Graph at SmartAPI|
+| Van Valen Tools | |
+| &nbsp;[DeepCell Types](https://github.com/vanvalenlab/deepcell-types) | A novel approach to cell phenotyping for spatial proteomics. |
+| &nbsp;[DeepCell Types Annotation](https://github.com/hubmapconsortium/deepcelltypes-hubmap) | CWL CommandLineTool for integration with existing HuBMAP workflows. |
 | [Vitessce](https://vitessce.io/) | Visual integration tool for exploration of spatial single cell experiment |
 
 ## Data and Code Availability
