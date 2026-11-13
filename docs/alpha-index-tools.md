@@ -12,7 +12,7 @@
 | [DeepCell](https://deepcell.org/about) | ML resources collection that facilitates development of new deep learning methods to biology.|
 | [FTU Segmenter](https://cns-iu.github.io/ccf-research-kaggle-2021/) | FTU segmentation tool. |
 | [FUSION](https://cmilab.nephrology.medicine.ufl.edu/software/fusion/) | Web-based platform for visualizing and alayzing spatial-omics data with high resolution histology. |
-|  HRA Tools | | 
+|  <b>HRA Tools</b> | | 
 |  &nbsp;[HRA API](https://humanatlas.io/api/) | Query and interact with the HRA using Python, JavaScript, SPARQL, REST, and more. |
 |  &nbsp;[ASTC+B Tables](https://humanatlas.io/asctb-tables) | Data tables for anatomical structures, cell types, and biomarkers from the Cell Ontology |
 |  &nbsp;[Dashboards](https://hubmapconsortium.github.io/hra-data-dashboard) | CCF-HRA Data Dashboards |
@@ -25,7 +25,7 @@
 |  &nbsp;[RUI](https://apps.humanatlas.io/rui) | HRA's Registration User Interface |
 |  &nbsp;[SOPs](https://zenodo.org/communities/hra) | 20 Standard Operating Procedures (SOPs) for the HRA |
 |  &nbsp;[VCCF](https://humanatlas.io/vccf) | HRA's Vascular Common Coordinate Framework | 
-|  HuBMAP Tools | |
+|  <b>HuBMAP Tools</b>| |
 | &nbsp;[Consortium Website](https://hubmapconsortium.org/) | Homepage of the HuBMAP Consortium |
 | &nbsp;[HRA Portal](https://humanatlas.io/) | HuBMAP's Human Reference Atlas Portal |
 | &nbsp;[Technical Resources](https://docs.hubmapconsortium.org/technical) | Documentation for HuBMAP's Technical Resources |
@@ -39,7 +39,7 @@
 | [STELLAR](https://snap.stanford.edu/stellar/) | A geometric deep learning method for cell type identification in single-cell spatial datasets. |
 | [UBKG](https://ubkg.docs.xconsortia.org) |Unified Biomedical Knowledge Graph|
 | [UBKG API](https://smart-api.info/ui/96e5b5c0b0efeef5b93ea98ac2794837) |Unified Biomedical Knowledge Graph at SmartAPI|
-| Van Valen Tools | |
+| <b>Van Valen Tools</b> | |
 | &nbsp;[DeepCell Types](https://github.com/vanvalenlab/deepcell-types) | A novel approach to cell phenotyping for spatial proteomics. |
 | &nbsp;[DeepCell Types Annotation](https://github.com/hubmapconsortium/deepcelltypes-hubmap) | CWL CommandLineTool for integration with existing HuBMAP workflows. |
 | [Vitessce](https://vitessce.io/) | Visual integration tool for exploration of spatial single cell experiment |
