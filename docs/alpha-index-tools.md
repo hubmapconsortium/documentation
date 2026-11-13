@@ -19,9 +19,11 @@
 |  &nbsp;[EUI](https://apps.humanatlas.io/eui) | HRA's Exploration User Interface |
 |  &nbsp;[FTU Explorer](https://apps.humanatlas.io/ftu-explorer) | HRA's Interactive Functional Tissue Unit Explorer |
 |  &nbsp;[Knowledge Graph](https://lod.humanatlas.io/) | HRA Knowledge Graph (KG)|
+|  &nbsp;[Knowledge Graph Explorer](https://apps.humanatlas.io/kg-explorer/) | Enables sematic exploration of HRA Digital Objects (ASCT+B tables, 3D reference organs, OMAPs) |
 |  &nbsp;[KG on GitHub](https://github.com/hubmapconsortium/hra-kg) | HRA Knowledge Graph on GitHub |
 |  &nbsp;[OMAPs](https://humanatlas.io/omap/) | HRA Organ Mapping Antibody Panels |
 |  &nbsp;[Organ Gallery](https://github.com/cns-iu/hra-organ-gallery-in-vr) | HRA Organ Gallery in VR on GitHub. |
+|  &nbsp;[Pop Visualizer](https://apps.humanatlas.io/hra-pop-visualizer) | Visualizes HRApop as stacked bar graphs by anatomical structure, extraction sites, datasets |
 |  &nbsp;[RUI](https://apps.humanatlas.io/rui) | HRA's Registration User Interface |
 |  &nbsp;[SOPs](https://zenodo.org/communities/hra) | 20 Standard Operating Procedures (SOPs) for the HRA |
 |  &nbsp;[VCCF](https://humanatlas.io/vccf) | HRA's Vascular Common Coordinate Framework | 
@@ -31,6 +33,12 @@
 | &nbsp;[Technical Resources](https://docs.hubmapconsortium.org/technical) | Documentation for HuBMAP's Technical Resources |
 | &nbsp;[VH MOOC](https://expand.iu.edu/browse/sice/cns/courses/hubmap-visible-human-mooc) | HuBMAP Visible Human Massive Open Online Course (VHMOOC)|
 | &nbsp;[Workspaces](https://portal.hubmapconsortium.org/workspaces) | Lets researchers easily access HuBMAP data and analysis directly within the portal.|
+| [Image2Image](https://github.com/vandeplaslab/image2image) | Tools enabling image visualization, registration of whole-slide images & imaging mass spectrometry data. |
+| [MATRICS-A](https://github.com/hubmapconsortium/MATRICS-A) | Automatic Segmentation, Classification and 3D Reconstruction toolkit |
+| <em>Matrinet Shinyapps Tools</em> | |
+| &nbsp;[MatriCom](https://matrinet.shinyapps.io/matricom/) | Mines scRNA-Seq datasets & infers comms between ECM components, cell populations, & the ECM. |
+| &nbsp;[Matrisome AnalyzeR](https://matrinet.shinyapps.io/MatrisomeAnalyzer/) | Identifies matrisome molecules (e.g., genes, transcripts, proteins) in -omic datasets. |
+| &nbsp;[MatriSpace](https://matrinet.shinyapps.io/matrispace/) | Elucidate cell types expressing matrisome genes and functional ECM gene signatures with spatial context. |
 | [Metadata Validator](https://metadatavalidator.metadatacenter.org) | Use this tool to validate your metadata spreadsheet (template). |
 | [Microscope Metadata](https://docs.hubmapconsortium.org/microscopy-metadata-links) | Microscope Metadata, collected to date; JSON files for specific instruments. |
 | [Pop V from YosefLab](https://github.com/YosefLab/PopV) | Cell-type transfer tools for classifying query dataset cell-types based on a test dataset. |
