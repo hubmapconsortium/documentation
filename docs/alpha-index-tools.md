@@ -1,7 +1,7 @@
 # Alphabetical Index of HuBMAP Tools
 
 | Linked Resource | Description                   |
-| --------------- | ----------------------------- |
+| :------- | :--------- |
 | [3DCODEX](https://github.com/hubmapconsortium/SectionAligner) | Toolset for processing, analyzing, and aligning tissue images from OME-TIFF files. |
 | [3DTM](https://github.com/hms-dbmi/tissue-map-tools) | Data standards for 3D Tissue Maps. |
 | [ASTC+B Reporter](https://humanatlas.io/asctb-reporter) | Explore and compare Anatomical Structures, Cell Types, and Biomarkers. |
@@ -33,12 +33,14 @@
 | &nbsp;[Technical Resources](https://docs.hubmapconsortium.org/technical) | Documentation for HuBMAP's Technical Resources |
 | &nbsp;[VH MOOC](https://expand.iu.edu/browse/sice/cns/courses/hubmap-visible-human-mooc) | HuBMAP Visible Human Massive Open Online Course (VHMOOC)|
 | &nbsp;[Workspaces](https://portal.hubmapconsortium.org/workspaces) | Lets researchers easily access HuBMAP data and analysis directly within the portal.|
+| |
 | [Image2Image](https://github.com/vandeplaslab/image2image) | Tools enabling image visualization, registration of whole-slide images & imaging mass spectrometry data. |
 | [MATRICS-A](https://github.com/hubmapconsortium/MATRICS-A) | Automatic Segmentation, Classification and 3D Reconstruction toolkit |
 | <em>Matrinet Shinyapps Tools</em> | |
 | &nbsp;[MatriCom](https://matrinet.shinyapps.io/matricom/) | Mines scRNA-Seq datasets & infers comms between ECM components, cell populations, & the ECM. |
 | &nbsp;[Matrisome AnalyzeR](https://matrinet.shinyapps.io/MatrisomeAnalyzer/) | Identifies matrisome molecules (e.g., genes, transcripts, proteins) in -omic datasets. |
 | &nbsp;[MatriSpace](https://matrinet.shinyapps.io/matrispace/) | Elucidate cell types expressing matrisome genes and functional ECM gene signatures with spatial context. |
+| |
 | [Metadata Validator](https://metadatavalidator.metadatacenter.org) | Use this tool to validate your metadata spreadsheet (template). |
 | [Microscope Metadata](https://docs.hubmapconsortium.org/microscopy-metadata-links) | Microscope Metadata, collected to date; JSON files for specific instruments. |
 | [MINGL](https://github.com/HickeyLab/Mingl) | Converts discrete spatial organization/neighborhood annotations into continuous membership probabilities. |
@@ -60,6 +62,7 @@
 | <em>Van Valen Tools</em> | |
 | &nbsp;[DeepCell Types](https://github.com/vanvalenlab/deepcell-types) | A novel approach to cell phenotyping for spatial proteomics. |
 | &nbsp;[DeepCell Types Annotation](https://github.com/hubmapconsortium/deepcelltypes-hubmap) | CWL CommandLineTool for integration with existing HuBMAP workflows. |
+| |
 | [Vitessce](https://vitessce.io/) | Visual integration tool for exploration of spatial single cell experiment |
 | [Vitessce Link](https://github.com/vitessce/) | 3D Mixed Reality Tissue Viewer |
 | [vSPACE](https://vspace.cse.uconn.edu/) | Emulates spatial transcriptomics virtually to represent scRNAseq human articular cartilage data. |
