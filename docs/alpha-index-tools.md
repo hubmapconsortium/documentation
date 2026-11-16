@@ -44,16 +44,27 @@
 | [MINGL](https://github.com/HickeyLab/Mingl) | Converts discrete spatial organization/neighborhood annotations into continuous membership probabilities. |
 | [MORPHE](https://github.com/HickeyLab/MORPHE) | AI/diffusion framework that bridges spatial-omics cell maps to image generation. |
 | [NetTracer3D](https://github.com/mclaughlinliam3/NetTracer3D/releases) | Software to analyze 2D and 3D networks, communities in broad dataset types (MRA, CODEX, SRS). |
+| [pipeFISH](https://github.com/hubmapconsortium/spatial-transcriptomics-pipeline) | Pipeline that performs transcript annotation for (FISH)-based spatial transcriptomics. |
 | [Pop V from YosefLab](https://github.com/YosefLab/PopV) | Cell-type transfer tools for classifying query dataset cell-types based on a test dataset. |
 | [RIBCA - GitHub repo](https://github.com/sun-huangqingbo/multiplexed-image-annotator) | Robust Image-Based Cell Annotator. |
+| [RomicsProcessor](https://devapp.lungmap.net/app/romics-visualizer) | FAIR multimodal R analysis tool enables prote-, lipid-, & metabolomics, MALDI-MSI, codex, etc. |
+| [scellop](https://thomcsmits.github.io/scellop-docs/) | Cell population viewer |
 | [scFind - GitHub repo](https://github.com/ShaokunAn/tmp-scfind_py) | Fast searches of large collections of single cell data. |
+| [SPACEc](https://github.com/nolanlab/SPACEc) | Software to analyze 2D CODEX datasets (images to annotated anndata and associated publishing figures). |
+| [SPACE-MAP](https://a12910.github.io/space-map/) | Aligns images to make a 3D map. |
+| [SpatialQuery](https://github.com/ShaokunAn/Spatial-Query) | Interactive exploration of motifs in spatial transcriptomics and proteomics data. |
 | [STELLAR](https://snap.stanford.edu/stellar/) | A geometric deep learning method for cell type identification in single-cell spatial datasets. |
+| [Tissue Data Explorer](https://github.com/TACC/tissue-data-explorer) | Python code repository that deploys a website to display 2D & 3D biomolecular datasets collected from tissue samples across organs. |
 | [UBKG](https://ubkg.docs.xconsortia.org) |Unified Biomedical Knowledge Graph|
 | [UBKG API](https://smart-api.info/ui/96e5b5c0b0efeef5b93ea98ac2794837) |Unified Biomedical Knowledge Graph at SmartAPI|
 | <em>Van Valen Tools</em> | |
 | &nbsp;[DeepCell Types](https://github.com/vanvalenlab/deepcell-types) | A novel approach to cell phenotyping for spatial proteomics. |
 | &nbsp;[DeepCell Types Annotation](https://github.com/hubmapconsortium/deepcelltypes-hubmap) | CWL CommandLineTool for integration with existing HuBMAP workflows. |
 | [Vitessce](https://vitessce.io/) | Visual integration tool for exploration of spatial single cell experiment |
+| [Vitessce Link](https://github.com/vitessce/) | 3D Mixed Reality Tissue Viewer |
+| [vSPACE](https://vspace.cse.uconn.edu/) | Emulates spatial transcriptomics virtually to represent scRNAseq human articular cartilage data. |
+| [VTEA](https://vtea.wiki/) | Spatial molecular feature extraction, cell annotation, and interactive exploration. |
+| [Zipcode](https://apps.humanatlas.io/cde/) | Shiny App endothelial cells. |
 
 ## Data and Code Availability
 - All HuBMAP data is available via the [HuBMAP Data Portal](https://portal.hubmapconsortium.org/)
