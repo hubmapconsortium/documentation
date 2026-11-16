@@ -41,6 +41,9 @@
 | &nbsp;[MatriSpace](https://matrinet.shinyapps.io/matrispace/) | Elucidate cell types expressing matrisome genes and functional ECM gene signatures with spatial context. |
 | [Metadata Validator](https://metadatavalidator.metadatacenter.org) | Use this tool to validate your metadata spreadsheet (template). |
 | [Microscope Metadata](https://docs.hubmapconsortium.org/microscopy-metadata-links) | Microscope Metadata, collected to date; JSON files for specific instruments. |
+| [MINGL](https://github.com/HickeyLab/Mingl) | Converts discrete spatial organization/neighborhood annotations into continuous membership probabilities. |
+| [MORPHE](https://github.com/HickeyLab/MORPHE) | AI/diffusion framework that bridges spatial-omics cell maps to image generation. |
+| [NetTracer3D](https://github.com/mclaughlinliam3/NetTracer3D/releases) | Software to analyze 2D and 3D networks, communities in broad dataset types (MRA, CODEX, SRS). |
 | [Pop V from YosefLab](https://github.com/YosefLab/PopV) | Cell-type transfer tools for classifying query dataset cell-types based on a test dataset. |
 | [RIBCA - GitHub repo](https://github.com/sun-huangqingbo/multiplexed-image-annotator) | Robust Image-Based Cell Annotator. |
 | [scFind - GitHub repo](https://github.com/ShaokunAn/tmp-scfind_py) | Fast searches of large collections of single cell data. |
